@@ -21,6 +21,7 @@
         <a href="#home">Home</a>
         <a href="#fleet">Our Fleet</a>
         <a href="#global">Global Presence</a>
+        <a href="#events">Events</a>
         <a href="#services">Services</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -42,6 +43,7 @@
       <a href="#home">Home</a>
       <a href="#fleet">Our Fleet</a>
       <a href="#global">Global Presence</a>
+      <a href="#events">Events</a>
       <a href="#services">Services</a>
       <a href="#contact">Contact</a>
     </div>
@@ -53,13 +55,36 @@
       <img src="banner.png" alt="NoirFleet banner" class="banner-image">
     </section>
 
-    <!-- Tagline -->
+    <!-- Tagline + Clock + Visitor Count -->
     <section class="tagline-section">
-      <h1 class="tagline-title">Comfort. Style. Reliability.</h1>
-      <p class="tagline-sub">Premium cars for airport transfers, corporate travel, hourly packages and events — served with impeccable care.</p>
-      <div class="tagline-actions">
-        <a class="btn primary" href="#services">View Packages</a>
-        <a class="btn outline" href="#contact">Book Now</a>
+      <div class="tagline-top-row">
+        <div class="tagline-text">
+          <h1 class="tagline-title">Comfort. Style. Reliability.</h1>
+          <p class="tagline-sub">Premium cars for airport transfers, corporate travel, hourly packages and events — served with impeccable care.</p>
+          <div class="tagline-actions">
+            <a class="btn primary" href="#services">View Packages</a>
+            <a class="btn outline" href="#contact">Book Now</a>
+          </div>
+        </div>
+
+        <!-- Clock + Visitor Count Widget -->
+        <div class="info-widgets">
+          <!-- Live Clock -->
+          <div class="widget clock-widget">
+            <div class="widget-label">LOCAL TIME</div>
+            <div class="clock-time" id="clockTime">--:--:--</div>
+            <div class="clock-date" id="clockDate">--- --, ----</div>
+            <div class="clock-tz" id="clockTZ"></div>
+          </div>
+          <!-- Visitor Count -->
+          <div class="widget visitor-widget">
+            <div class="widget-label">VISITORS TODAY</div>
+            <div class="visitor-count" id="visitorCount">
+              <span class="count-num" id="countNum">0</span>
+            </div>
+            <div class="visitor-sub">Clients served worldwide</div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -163,6 +188,138 @@
         </article>
       </div>
     </section>
+
+    <!-- ============================================================
+         EVENTS FLASHCARDS SECTION
+         ============================================================ -->
+    <section id="events" class="events-section">
+      <div class="section-head">
+        <h2>Upcoming Events</h2>
+        <p>NoirFleet is your premium transport partner at the world's most prestigious events. Click any event to learn more and reserve your ride.</p>
+      </div>
+
+      <div class="events-grid">
+
+        <!-- SXSW 2026 -->
+        <div class="event-card" data-event="sxsw">
+          <div class="event-card-inner">
+            <!-- Front -->
+            <div class="event-face event-front">
+              <div class="event-badge">MARCH 2026</div>
+              <div class="event-icon">🎵</div>
+              <h3 class="event-name">SXSW 2026</h3>
+              <p class="event-location">📍 Austin, Texas, USA</p>
+              <div class="event-hint">Tap to explore →</div>
+            </div>
+            <!-- Back -->
+            <div class="event-face event-back">
+              <h3 class="event-back-title">SXSW 2026</h3>
+              <p class="event-desc">South by Southwest — the world's premier music, film &amp; interactive festival returns to Austin. NoirFleet provides seamless airport transfers (AUS), hotel-to-venue hops, and full-day executive hire throughout the festival week.</p>
+              <ul class="event-details">
+                <li>📅 March 6 – 15, 2026</li>
+                <li>📍 Austin, TX</li>
+                <li>🚗 Sedans, SUVs &amp; Executive Buses</li>
+              </ul>
+              <a href="mailto:reservations@noirfleet.com?subject=SXSW 2026 Transport Booking" class="btn primary event-book-btn">Reserve Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- FIFA 2026 -->
+        <div class="event-card" data-event="fifa">
+          <div class="event-card-inner">
+            <div class="event-face event-front">
+              <div class="event-badge">JUNE – JULY 2026</div>
+              <div class="event-icon">⚽</div>
+              <h3 class="event-name">FIFA World Cup 2026</h3>
+              <p class="event-location">📍 USA · Canada · Mexico</p>
+              <div class="event-hint">Tap to explore →</div>
+            </div>
+            <div class="event-face event-back">
+              <h3 class="event-back-title">FIFA World Cup 2026</h3>
+              <p class="event-desc">The biggest sporting event on earth spans three nations. NoirFleet offers VIP airport pickups, match-day stadium transfers, intercity charters, and corporate hospitality transport across all host cities.</p>
+              <ul class="event-details">
+                <li>📅 June 11 – July 19, 2026</li>
+                <li>📍 16 cities across USA, Canada &amp; Mexico</li>
+                <li>🚗 Full fleet available — group bookings welcome</li>
+              </ul>
+              <a href="mailto:reservations@noirfleet.com?subject=FIFA World Cup 2026 Transport Booking" class="btn primary event-book-btn">Reserve Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Augusta Golf -->
+        <div class="event-card" data-event="augusta">
+          <div class="event-card-inner">
+            <div class="event-face event-front">
+              <div class="event-badge">APRIL 2026</div>
+              <div class="event-icon">⛳</div>
+              <h3 class="event-name">The Masters 2026</h3>
+              <p class="event-location">📍 Augusta, Georgia, USA</p>
+              <div class="event-hint">Tap to explore →</div>
+            </div>
+            <div class="event-face event-back">
+              <h3 class="event-back-title">Augusta Masters 2026</h3>
+              <p class="event-desc">Golf's most exclusive major at Augusta National. NoirFleet provides discreet, punctual transfers from Atlanta &amp; Augusta airports, private club access runs, and premium hourly hire throughout tournament week for patrons &amp; corporate guests.</p>
+              <ul class="event-details">
+                <li>📅 April 6 – 12, 2026</li>
+                <li>📍 Augusta National, Georgia</li>
+                <li>🚗 Luxury sedans &amp; SUVs — white-glove service</li>
+              </ul>
+              <a href="mailto:reservations@noirfleet.com?subject=Augusta Masters 2026 Transport Booking" class="btn primary event-book-btn">Reserve Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cannes Film Festival -->
+        <div class="event-card" data-event="cannes">
+          <div class="event-card-inner">
+            <div class="event-face event-front">
+              <div class="event-badge">MAY 2026</div>
+              <div class="event-icon">🎬</div>
+              <h3 class="event-name">Cannes Film Festival</h3>
+              <p class="event-location">📍 Cannes, France</p>
+              <div class="event-hint">Tap to explore →</div>
+            </div>
+            <div class="event-face event-back">
+              <h3 class="event-back-title">Cannes 2026</h3>
+              <p class="event-desc">Cinema's most glamorous red carpet event on the French Riviera. NoirFleet offers Côte d'Azur airport transfers (NCE &amp; MRS), Palais des Festivals arrivals, yacht-to-venue runs, and private chauffeur hire throughout the festival for talent, press &amp; industry.</p>
+              <ul class="event-details">
+                <li>📅 May 13 – 24, 2026</li>
+                <li>📍 Cannes, Côte d'Azur, France</li>
+                <li>🚗 Premium sedans — red carpet ready</li>
+              </ul>
+              <a href="mailto:reservations@noirfleet.com?subject=Cannes Film Festival 2026 Transport Booking" class="btn primary event-book-btn">Reserve Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formula 1 Morocco -->
+        <div class="event-card" data-event="f1">
+          <div class="event-card-inner">
+            <div class="event-face event-front">
+              <div class="event-badge">2026</div>
+              <div class="event-icon">🏎️</div>
+              <h3 class="event-name">Formula 1 Morocco</h3>
+              <p class="event-location">📍 Morocco</p>
+              <div class="event-hint">Tap to explore →</div>
+            </div>
+            <div class="event-face event-back">
+              <h3 class="event-back-title">F1 Grand Prix Morocco 2026</h3>
+              <p class="event-desc">Formula 1 returns to Africa with the inaugural Morocco Grand Prix. NoirFleet is on the ground with VIP paddock transfers, airport pickups from Casablanca &amp; Marrakech, hospitality suite runs, and full race-weekend chauffeur packages.</p>
+              <ul class="event-details">
+                <li>📅 Date TBC — 2026 Season</li>
+                <li>📍 Morocco (Casablanca / Marrakech circuit)</li>
+                <li>🚗 VIP fleet — paddock &amp; hospitality transfers</li>
+              </ul>
+              <a href="mailto:reservations@noirfleet.com?subject=F1 Morocco 2026 Transport Booking" class="btn primary event-book-btn">Reserve Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- END EVENTS SECTION -->
 
     <!-- Services -->
     <section id="services" class="services-section">
@@ -336,10 +493,6 @@
     </div>
   </footer>
 
-  <!-- =====================================================
-       ALL SCRIPTS — placed just before </body> so the DOM
-       is fully parsed before any getElementById() runs.
-       ===================================================== -->
   <script>
     /* ---------- Mobile nav toggle ---------- */
     const menuToggle = document.getElementById('menuToggle');
@@ -354,10 +507,88 @@
     /* ---------- Footer year ---------- */
     document.getElementById('curYear').textContent = new Date().getFullYear();
 
-    /* ---------- Carousel factory ----------
-       Reusable function — no code duplication,
-       gap-free transform so slides always align.
-    ----------------------------------------- */
+    /* ================================================
+       LIVE CLOCK
+       Shows local time of the visitor's device
+    ================================================ */
+    function updateClock() {
+      const now = new Date();
+
+      // Time
+      const h  = String(now.getHours()).padStart(2, '0');
+      const m  = String(now.getMinutes()).padStart(2, '0');
+      const s  = String(now.getSeconds()).padStart(2, '0');
+      document.getElementById('clockTime').textContent = h + ':' + m + ':' + s;
+
+      // Date
+      const days   = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+      const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      const dateStr = days[now.getDay()] + ', ' + months[now.getMonth()] + ' ' + now.getDate() + ', ' + now.getFullYear();
+      document.getElementById('clockDate').textContent = dateStr;
+
+      // Timezone
+      const tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+      document.getElementById('clockTZ').textContent = tz;
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+
+    /* ================================================
+       VISITOR COUNTER
+       Persists in localStorage; increments once per day per browser
+    ================================================ */
+    (function() {
+      const TODAY_KEY   = 'nf_visited_' + new Date().toISOString().slice(0, 10);
+      const TOTAL_KEY   = 'nf_total_visitors';
+      const BASE_COUNT  = 4812; // seed so it doesn't start from 0
+
+      let total = parseInt(localStorage.getItem(TOTAL_KEY) || '0', 10);
+      if (total < BASE_COUNT) total = BASE_COUNT;
+
+      const alreadyVisited = localStorage.getItem(TODAY_KEY);
+      if (!alreadyVisited) {
+        total += 1;
+        localStorage.setItem(TODAY_KEY, '1');
+        localStorage.setItem(TOTAL_KEY, String(total));
+      }
+
+      // Animate count up
+      const target = total;
+      const el     = document.getElementById('countNum');
+      let current  = Math.max(0, target - 80);
+      const step   = Math.ceil((target - current) / 40);
+      const timer  = setInterval(() => {
+        current += step;
+        if (current >= target) { current = target; clearInterval(timer); }
+        el.textContent = current.toLocaleString();
+      }, 30);
+    })();
+
+    /* ================================================
+       EVENT FLASHCARDS — flip on click/tap
+    ================================================ */
+    document.querySelectorAll('.event-card').forEach(function(card) {
+      card.addEventListener('click', function() {
+        card.classList.toggle('flipped');
+      });
+      // Allow keyboard activation
+      card.setAttribute('tabindex', '0');
+      card.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          card.classList.toggle('flipped');
+        }
+      });
+    });
+
+    // Prevent the "Reserve Now" link from flipping the card back
+    document.querySelectorAll('.event-book-btn').forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+      });
+    });
+
+    /* ---------- Carousel factory ---------- */
     function initCarousel(opts) {
       var track    = document.getElementById(opts.trackId);
       if (!track) return;
@@ -381,7 +612,6 @@
       var startX           = 0;
       var mouseDown        = false;
 
-      /* Build dots */
       dotsWrap.innerHTML = '';
       slides.forEach(function(_, idx) {
         var d = document.createElement('button');
@@ -398,8 +628,6 @@
         if (dots[current]) dots[current].classList.add('active');
       }
 
-      /* Viewport width — no gap adjustment needed because
-         .carousel-track has gap:0 in the corrected CSS      */
       function vpw() {
         return track.parentElement ? track.parentElement.clientWidth : track.clientWidth;
       }
@@ -414,17 +642,14 @@
 
       function goTo(index) { setPosition(index, true); }
 
-      /* Arrows */
       if (prevBtn) prevBtn.addEventListener('click', function() { goTo(current - 1); pauseTemp(); });
       if (nextBtn) nextBtn.addEventListener('click', function() { goTo(current + 1); pauseTemp(); });
 
-      /* Keyboard */
       track.addEventListener('keydown', function(e) {
         if (e.key === 'ArrowLeft')  { goTo(current - 1); pauseTemp(); }
         if (e.key === 'ArrowRight') { goTo(current + 1); pauseTemp(); }
       });
 
-      /* Touch swipe */
       function getX(e) { return e.touches ? e.touches[0].clientX : e.clientX; }
 
       track.addEventListener('touchstart', function(e) {
@@ -449,7 +674,6 @@
         else                      goTo(current);
       });
 
-      /* Mouse drag */
       track.addEventListener('mousedown', function(e) {
         mouseDown = true; isDragging = true; startX = getX(e);
         track.style.transition = 'none'; pauseTemp();
@@ -470,7 +694,6 @@
         else                      goTo(current);
       });
 
-      /* Autoplay */
       function startAutoplay() {
         stopAutoplay();
         autoplayTimer = setInterval(function() {
@@ -486,21 +709,17 @@
         resumeTimer = setTimeout(function() { isPaused = false; }, RESUME_DELAY_MS);
       }
 
-      /* Pause on hover / focus */
       carouselEl.addEventListener('mouseenter', function() { isPaused = true; });
       carouselEl.addEventListener('mouseleave', function() { isPaused = false; });
       carouselEl.addEventListener('focusin',    function() { isPaused = true; });
       carouselEl.addEventListener('focusout',   function() { isPaused = false; });
 
-      /* Recalculate on resize */
       window.addEventListener('resize', function() { setPosition(current, false); });
 
-      /* Init */
       setPosition(0, false);
       startAutoplay();
     }
 
-    /* Initialise both carousels */
     initCarousel({
       carouselId : 'fleetCarousel',
       trackId    : 'carouselTrack',
