@@ -4,333 +4,363 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>NoirFleet — Premium Ground Transport</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" href="noir_favicon.png">
 </head>
 <body>
-  <!-- Sticky header -->
-  <header class="site-header">
+
+  <header class="site-header" id="siteHeader">
     <div class="header-inner">
       <div class="brand">
         <img src="logo.jpg" alt="NoirFleet Logo" class="logo" />
       </div>
-
       <nav class="main-nav" id="mainNav">
         <a href="#home">Home</a>
-        <a href="#fleet">Our Fleet</a>
-        <a href="#global">Global Presence</a>
+        <a href="#fleet">Fleet</a>
+        <a href="#global">Global</a>
         <a href="#events">Events</a>
         <a href="#services">Services</a>
         <a href="#contact">Contact</a>
       </nav>
-
       <div class="header-cta">
         <div class="contact-box">
-          <a href="https://wa.me/917203070345" class="contact-item"> +91-7203070345</a>
+          <a href="https://wa.me/917203070345" class="contact-item">📞 +91-7203070345</a>
           <span class="divider">|</span>
-          <a href="mailto:reservations@noirfleet.com" class="contact-item">reservations@noirfleet.com</a>
+          <a href="mailto:reservations@noirfleet.com" class="contact-item">✉ reservations@noirfleet.com</a>
         </div>
         <button id="menuToggle" class="hamburger" aria-label="Open menu" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
       </div>
     </div>
-
-    <!-- mobile nav -->
     <div id="mobileNav" class="mobile-nav" aria-hidden="true">
       <a href="#home">Home</a>
-      <a href="#fleet">Our Fleet</a>
-      <a href="#global">Global Presence</a>
+      <a href="#fleet">Fleet</a>
+      <a href="#global">Global</a>
       <a href="#events">Events</a>
       <a href="#services">Services</a>
       <a href="#contact">Contact</a>
+      <div class="mnav-contact">
+        <a href="https://wa.me/917203070345">📞 +91-7203070345</a>
+        <a href="mailto:reservations@noirfleet.com">✉ reservations@noirfleet.com</a>
+      </div>
     </div>
   </header>
 
   <main id="home">
-    <!-- Banner -->
-    <section class="banner-section">
-      <img src="banner.png" alt="NoirFleet banner" class="banner-image">
-    </section>
 
-    <!-- Tagline + Clock + Visitor Count -->
-    <section class="tagline-section">
-      <div class="tagline-top-row">
-        <div class="tagline-text">
-          <h1 class="tagline-title">Comfort. Style. Reliability.</h1>
-          <p class="tagline-sub">Premium cars for airport transfers, corporate travel, hourly packages and events — served with impeccable care.</p>
-          <div class="tagline-actions">
+    <!-- HERO -->
+    <section class="hero-section">
+      <img src="banner.png" alt="NoirFleet banner" class="banner-image">
+      <div class="hero-overlay">
+        <div class="hero-content">
+          <p class="hero-eyebrow">Premium Ground Transport · Worldwide</p>
+          <h1 class="hero-title">
+            Comfort. Style.<br>
+            <span class="hero-gold">Reliability.</span>
+          </h1>
+          <p class="hero-sub">Premium cars for airport transfers, corporate travel, hourly packages and events — served with impeccable care. Now serving SXSW 2026, FIFA World Cup &amp; more.</p>
+          <div class="hero-actions">
             <a class="btn primary" href="#services">View Packages</a>
             <a class="btn outline" href="#contact">Book Now</a>
           </div>
-        </div>
-
-        <!-- Clock + Visitor Count Widget -->
-        <div class="info-widgets">
-          <!-- Live Clock -->
-          <div class="widget clock-widget">
-            <div class="widget-label">LOCAL TIME</div>
-            <div class="clock-time" id="clockTime">--:--:--</div>
-            <div class="clock-date" id="clockDate">--- --, ----</div>
-            <div class="clock-tz" id="clockTZ"></div>
-          </div>
-          <!-- Visitor Count -->
-          <div class="widget visitor-widget">
-            <div class="widget-label">VISITORS TODAY</div>
-            <div class="visitor-count" id="visitorCount">
-              <span class="count-num" id="countNum">0</span>
-            </div>
-            <div class="visitor-sub">Clients served worldwide</div>
+          <div class="hero-stats">
+            <div class="hstat"><span class="hstat-num">50+</span><span class="hstat-lbl">Cities</span></div>
+            <div class="hstat-div"></div>
+            <div class="hstat"><span class="hstat-num">12K+</span><span class="hstat-lbl">Rides</span></div>
+            <div class="hstat-div"></div>
+            <div class="hstat"><span class="hstat-num">5★</span><span class="hstat-lbl">Rating</span></div>
+            <div class="hstat-div"></div>
+            <div class="hstat"><span class="hstat-num">8</span><span class="hstat-lbl">Years</span></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Fleet -->
+    <!-- CLOCKS BAR -->
+    <section class="clocks-bar">
+      <div class="clocks-inner">
+        <div class="clock-card">
+          <div class="cc-flag">🇦🇪</div>
+          <div class="cc-city">Dubai</div>
+          <div class="cc-time" id="t-dubai">--:--:--</div>
+          <div class="cc-tz">Gulf Standard Time</div>
+        </div>
+        <div class="clock-sep"></div>
+        <div class="clock-card">
+          <div class="cc-flag">🇬🇧</div>
+          <div class="cc-city">London</div>
+          <div class="cc-time" id="t-london">--:--:--</div>
+          <div class="cc-tz">British Time</div>
+        </div>
+        <div class="clock-sep"></div>
+        <div class="clock-card">
+          <div class="cc-flag">🇺🇸</div>
+          <div class="cc-city">New York</div>
+          <div class="cc-time" id="t-nyc">--:--:--</div>
+          <div class="cc-tz">Eastern Time</div>
+        </div>
+        <div class="clock-sep"></div>
+        <div class="clock-card">
+          <div class="cc-flag">🇮🇳</div>
+          <div class="cc-city">Mumbai</div>
+          <div class="cc-time" id="t-mumbai">--:--:--</div>
+          <div class="cc-tz">India Standard Time</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FLEET -->
     <section id="fleet" class="fleet-section">
       <div class="section-head">
-        <h2>Our Fleet</h2>
-        <p>From executive sedans to stretch limousines — our vehicles are maintained to the highest standard.</p>
+        <span class="section-eyebrow">Our Vehicles</span>
+        <h2>A Fleet Built for Excellence</h2>
+        <p>From executive sedans to stretch limousines — every vehicle maintained to the highest standard, ready to serve you anywhere in the world.</p>
       </div>
-
-      <div class="carousel" id="fleetCarousel" aria-roledescription="carousel">
-        <button class="carousel-btn prev" aria-label="Previous vehicle" id="prevFleet">&larr;</button>
-
+      <div class="carousel" id="fleetCarousel">
+        <button class="carousel-btn prev" id="prevFleet">&#8592;</button>
         <div class="carousel-viewport">
           <div class="carousel-track" id="carouselTrack" tabindex="0" role="list">
             <figure class="carousel-slide" role="listitem">
               <img src="sedan.jpg" alt="Sedan" class="carousel-image">
               <figcaption class="carousel-caption">
-                <div class="caption-title">Sedan</div>
+                <div class="caption-title">Executive Sedan</div>
                 <div class="caption-sub">Luxury executive sedans — perfect for airport transfers and business travel.</div>
               </figcaption>
             </figure>
-
             <figure class="carousel-slide" role="listitem">
               <img src="suv.jpg" alt="SUV" class="carousel-image">
               <figcaption class="carousel-caption">
-                <div class="caption-title">SUV</div>
+                <div class="caption-title">Premium SUV</div>
                 <div class="caption-sub">Premium SUVs with extra space and comfort — ideal for family travel or group transfers.</div>
               </figcaption>
             </figure>
-
             <figure class="carousel-slide" role="listitem">
               <img src="exebus.jpg" alt="Executive Bus" class="carousel-image">
               <figcaption class="carousel-caption">
                 <div class="caption-title">Executive Bus</div>
-                <div class="caption-sub">Spacious executive buses with luxury interiors — perfect for corporate shuttles and group events.</div>
+                <div class="caption-sub">Spacious executive buses — perfect for corporate shuttles and group events.</div>
               </figcaption>
             </figure>
           </div>
         </div>
-
-        <button class="carousel-btn next" aria-label="Next vehicle" id="nextFleet">&rarr;</button>
-        <div class="carousel-dots" id="carouselDots" aria-hidden="false"></div>
+        <button class="carousel-btn next" id="nextFleet">&#8594;</button>
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+      <div class="fleet-features">
+        <div class="ff-item"><span>🛡️</span>Fully Insured</div>
+        <div class="ff-item"><span>✨</span>Immaculate Interiors</div>
+        <div class="ff-item"><span>📶</span>Free Wi-Fi</div>
+        <div class="ff-item"><span>💧</span>Bottled Water</div>
+        <div class="ff-item"><span>🕐</span>Flight Tracking</div>
+        <div class="ff-item"><span>👔</span>Suited Chauffeurs</div>
       </div>
     </section>
 
-    <!-- Global Presence -->
+    <!-- GLOBAL PRESENCE -->
     <section id="global" class="global-section">
       <div class="section-head">
+        <span class="section-eyebrow">Worldwide Network</span>
         <h2>Global Presence</h2>
         <p>We serve clients across key global hubs — local knowledge, global standards.</p>
       </div>
-
       <div class="global-grid">
         <article class="global-card">
           <img src="usa.jpg" alt="USA" class="global-thumb">
           <div class="global-body">
-            <h3>United States</h3>
+            <h3>🇺🇸 United States</h3>
             <p class="muted">New York — Times Square, JFK &amp; LaGuardia transfers. Los Angeles — LAX, corporate accounts and event transport.</p>
           </div>
         </article>
-
         <article class="global-card">
           <img src="uk.jpg" alt="United Kingdom" class="global-thumb">
           <div class="global-body">
-            <h3>United Kingdom</h3>
+            <h3>🇬🇧 United Kingdom</h3>
             <p class="muted">London — Heathrow &amp; City transfers, city tours, and executive meet-and-greets.</p>
           </div>
         </article>
-
         <article class="global-card">
           <img src="uae.jpg" alt="UAE" class="global-thumb">
           <div class="global-body">
-            <h3>Dubai, UAE &amp; GCC Countries</h3>
+            <h3>🇦🇪 Dubai, UAE &amp; GCC</h3>
             <p class="muted">Dubai — Airport VIP services, cruise transfers, and city-to-desert corporate transfers.</p>
           </div>
         </article>
-
         <article class="global-card">
           <img src="india.jpg" alt="India" class="global-thumb">
           <div class="global-body">
-            <h3>India</h3>
+            <h3>🇮🇳 India</h3>
             <p class="muted">Mumbai &amp; Delhi — airport transfers, corporate accounts and bespoke city tours.</p>
           </div>
         </article>
-
         <article class="global-card tall-card">
           <img src="canada.jpg" alt="Canada" class="global-thumb">
           <div class="global-body">
-            <h3>Canada</h3>
-            <p class="muted">Toronto, Vancouver &amp; Montreal — executive airport transfers, corporate charters and city tours across major Canadian hubs.</p>
+            <h3>🇨🇦 Canada</h3>
+            <p class="muted">Toronto, Vancouver &amp; Montreal — executive airport transfers, corporate charters and city tours.</p>
           </div>
         </article>
-
         <article class="global-card tall-card small-text">
           <img src="more.jpg" alt="More destinations" class="global-thumb">
           <div class="global-body">
-            <h3>and more...</h3>
-            <p class="muted">Selected international hubs including France (Paris), Germany (Frankfurt &amp; Munich), Japan (Tokyo), Australia (Sydney &amp; Melbourne), Singapore, Brazil (São Paulo) and South Africa (Johannesburg) — bespoke transfers, executive accounts and event transport available on request.</p>
+            <h3>🌍 and more...</h3>
+            <p class="muted">France (Paris), Germany, Japan (Tokyo), Australia (Sydney &amp; Melbourne), Singapore, Brazil (São Paulo), South Africa (Johannesburg) — bespoke transfers on request.</p>
           </div>
         </article>
       </div>
     </section>
 
-    <!-- ============================================================
-         EVENTS FLASHCARDS SECTION
-         ============================================================ -->
+    <!-- EVENTS FLASHCARDS -->
     <section id="events" class="events-section">
       <div class="section-head">
-        <h2>Upcoming Events</h2>
-        <p>NoirFleet is your premium transport partner at the world's most prestigious events. Click any event to learn more and reserve your ride.</p>
+        <span class="section-eyebrow">2026 Calendar</span>
+        <h2>Events We Serve in 2026</h2>
+        <p>NoirFleet provides dedicated private transportation at the world's most prestigious events<br class="br-desk">— click any card to learn more.</p>
       </div>
-
       <div class="events-grid">
 
-        <!-- SXSW 2026 -->
-        <div class="event-card" data-event="sxsw">
+        <div class="event-card" tabindex="0">
           <div class="event-card-inner">
-            <!-- Front -->
             <div class="event-face event-front">
-              <div class="event-badge">MARCH 2026</div>
-              <div class="event-icon">🎵</div>
+              <div class="ef-glow glow-gold"></div>
+              <div class="event-icon-wrap"><span class="event-icon">🎵</span></div>
+              <div class="event-tag">MUSIC · TECH · FILM</div>
               <h3 class="event-name">SXSW 2026</h3>
-              <p class="event-location">📍 Austin, Texas, USA</p>
-              <div class="event-hint">Tap to explore →</div>
+              <p class="event-loc">📍 Austin, Texas, USA</p>
+              <div class="event-date-pill">March 12 – 18, 2026</div>
+              <div class="event-hint">Tap to learn more ↗</div>
             </div>
-            <!-- Back -->
             <div class="event-face event-back">
-              <h3 class="event-back-title">SXSW 2026</h3>
-              <p class="event-desc">South by Southwest — the world's premier music, film &amp; interactive festival returns to Austin. NoirFleet provides seamless airport transfers (AUS), hotel-to-venue hops, and full-day executive hire throughout the festival week.</p>
+              <div class="eb-top"><span class="eb-ico">🎵</span><h3>SXSW 2026</h3></div>
+              <p class="event-desc">South by Southwest — the world's premier music, film &amp; interactive festival. NoirFleet provides seamless airport transfers (AUS), hotel-to-venue hops, and full-day executive hire throughout festival week.</p>
               <ul class="event-details">
-                <li>📅 March 6 – 15, 2026</li>
-                <li>📍 Austin, TX</li>
+                <li>📅 March 12 – 18, 2026</li>
+                <li>📍 Austin, Texas, USA</li>
                 <li>🚗 Sedans, SUVs &amp; Executive Buses</li>
+                <li>⏱ 24/7 chauffeur availability</li>
               </ul>
-              <a href="mailto:reservations@noirfleet.com?subject=SXSW 2026 Transport Booking" class="btn primary event-book-btn">Reserve Now</a>
+              <a href="mailto:reservations@noirfleet.com?subject=SXSW 2026 Transport Booking" class="event-book-btn">Reserve Now →</a>
             </div>
           </div>
         </div>
 
-        <!-- FIFA 2026 -->
-        <div class="event-card" data-event="fifa">
+        <div class="event-card" tabindex="0">
           <div class="event-card-inner">
             <div class="event-face event-front">
-              <div class="event-badge">JUNE – JULY 2026</div>
-              <div class="event-icon">⚽</div>
+              <div class="ef-glow glow-blue"></div>
+              <div class="event-icon-wrap"><span class="event-icon">⚽</span></div>
+              <div class="event-tag">SPORT · GLOBAL</div>
               <h3 class="event-name">FIFA World Cup 2026</h3>
-              <p class="event-location">📍 USA · Canada · Mexico</p>
-              <div class="event-hint">Tap to explore →</div>
+              <p class="event-loc">📍 USA · Canada · Mexico</p>
+              <div class="event-date-pill">June 11 – July 19, 2026</div>
+              <div class="event-hint">Tap to learn more ↗</div>
             </div>
             <div class="event-face event-back">
-              <h3 class="event-back-title">FIFA World Cup 2026</h3>
-              <p class="event-desc">The biggest sporting event on earth spans three nations. NoirFleet offers VIP airport pickups, match-day stadium transfers, intercity charters, and corporate hospitality transport across all host cities.</p>
+              <div class="eb-top"><span class="eb-ico">⚽</span><h3>FIFA World Cup 2026</h3></div>
+              <p class="event-desc">The biggest sporting event on earth spanning three nations. VIP airport pickups, match-day stadium transfers, intercity charters, and corporate hospitality across all 16 host cities.</p>
               <ul class="event-details">
                 <li>📅 June 11 – July 19, 2026</li>
-                <li>📍 16 cities across USA, Canada &amp; Mexico</li>
-                <li>🚗 Full fleet available — group bookings welcome</li>
+                <li>📍 16 cities — USA, Canada &amp; Mexico</li>
+                <li>🚗 Full fleet — group bookings welcome</li>
+                <li>🏟 Match-day stadium transfers</li>
               </ul>
-              <a href="mailto:reservations@noirfleet.com?subject=FIFA World Cup 2026 Transport Booking" class="btn primary event-book-btn">Reserve Now</a>
+              <a href="mailto:reservations@noirfleet.com?subject=FIFA World Cup 2026 Transport Booking" class="event-book-btn">Reserve Now →</a>
             </div>
           </div>
         </div>
 
-        <!-- Augusta Golf -->
-        <div class="event-card" data-event="augusta">
+        <div class="event-card" tabindex="0">
           <div class="event-card-inner">
             <div class="event-face event-front">
-              <div class="event-badge">APRIL 2026</div>
-              <div class="event-icon">⛳</div>
+              <div class="ef-glow glow-green"></div>
+              <div class="event-icon-wrap"><span class="event-icon">⛳</span></div>
+              <div class="event-tag">GOLF · PRESTIGE</div>
               <h3 class="event-name">The Masters 2026</h3>
-              <p class="event-location">📍 Augusta, Georgia, USA</p>
-              <div class="event-hint">Tap to explore →</div>
+              <p class="event-loc">📍 Augusta National, Georgia, USA</p>
+              <div class="event-date-pill">April 6 – 12, 2026</div>
+              <div class="event-hint">Tap to learn more ↗</div>
             </div>
             <div class="event-face event-back">
-              <h3 class="event-back-title">Augusta Masters 2026</h3>
-              <p class="event-desc">Golf's most exclusive major at Augusta National. NoirFleet provides discreet, punctual transfers from Atlanta &amp; Augusta airports, private club access runs, and premium hourly hire throughout tournament week for patrons &amp; corporate guests.</p>
+              <div class="eb-top"><span class="eb-ico">⛳</span><h3>Augusta Masters 2026</h3></div>
+              <p class="event-desc">Golf's most exclusive major at Augusta National. Discreet, punctual transfers from Atlanta &amp; Augusta airports, private club access runs, and premium hourly hire for patrons &amp; corporate guests.</p>
               <ul class="event-details">
                 <li>📅 April 6 – 12, 2026</li>
                 <li>📍 Augusta National, Georgia</li>
-                <li>🚗 Luxury sedans &amp; SUVs — white-glove service</li>
+                <li>🚗 Luxury sedans &amp; SUVs</li>
+                <li>🤫 White-glove, discreet service</li>
               </ul>
-              <a href="mailto:reservations@noirfleet.com?subject=Augusta Masters 2026 Transport Booking" class="btn primary event-book-btn">Reserve Now</a>
+              <a href="mailto:reservations@noirfleet.com?subject=Augusta Masters 2026 Transport Booking" class="event-book-btn">Reserve Now →</a>
             </div>
           </div>
         </div>
 
-        <!-- Cannes Film Festival -->
-        <div class="event-card" data-event="cannes">
+        <div class="event-card" tabindex="0">
           <div class="event-card-inner">
             <div class="event-face event-front">
-              <div class="event-badge">MAY 2026</div>
-              <div class="event-icon">🎬</div>
-              <h3 class="event-name">Cannes Film Festival</h3>
-              <p class="event-location">📍 Cannes, France</p>
-              <div class="event-hint">Tap to explore →</div>
+              <div class="ef-glow glow-red"></div>
+              <div class="event-icon-wrap"><span class="event-icon">🎬</span></div>
+              <div class="event-tag">FILM · CINEMA · RED CARPET</div>
+              <h3 class="event-name">Cannes Film Festival 2026</h3>
+              <p class="event-loc">📍 Cannes, French Riviera, France</p>
+              <div class="event-date-pill">May 12 – 23, 2026</div>
+              <div class="event-hint">Tap to learn more ↗</div>
             </div>
             <div class="event-face event-back">
-              <h3 class="event-back-title">Cannes 2026</h3>
-              <p class="event-desc">Cinema's most glamorous red carpet event on the French Riviera. NoirFleet offers Côte d'Azur airport transfers (NCE &amp; MRS), Palais des Festivals arrivals, yacht-to-venue runs, and private chauffeur hire throughout the festival for talent, press &amp; industry.</p>
+              <div class="eb-top"><span class="eb-ico">🎬</span><h3>Cannes 2026</h3></div>
+              <p class="event-desc">Cinema's most glamorous red carpet on the French Riviera. Airport transfers (NCE &amp; MRS), Palais des Festivals arrivals, yacht-to-venue runs, and private chauffeur hire for talent, press &amp; industry.</p>
               <ul class="event-details">
-                <li>📅 May 13 – 24, 2026</li>
+                <li>📅 May 12 – 23, 2026</li>
                 <li>📍 Cannes, Côte d'Azur, France</li>
                 <li>🚗 Premium sedans — red carpet ready</li>
+                <li>🛥 Yacht &amp; villa transfers</li>
               </ul>
-              <a href="mailto:reservations@noirfleet.com?subject=Cannes Film Festival 2026 Transport Booking" class="btn primary event-book-btn">Reserve Now</a>
+              <a href="mailto:reservations@noirfleet.com?subject=Cannes Film Festival 2026 Transport Booking" class="event-book-btn">Reserve Now →</a>
             </div>
           </div>
         </div>
 
-        <!-- Formula 1 Morocco -->
-        <div class="event-card" data-event="f1">
+        <div class="event-card" tabindex="0">
           <div class="event-card-inner">
             <div class="event-face event-front">
-              <div class="event-badge">2026</div>
-              <div class="event-icon">🏎️</div>
-              <h3 class="event-name">Formula 1 Morocco</h3>
-              <p class="event-location">📍 Morocco</p>
-              <div class="event-hint">Tap to explore →</div>
+              <div class="ef-glow glow-orange"></div>
+              <div class="event-icon-wrap"><span class="event-icon">🏎️</span></div>
+              <div class="event-tag">MOTORSPORT · FORMULA 1</div>
+              <h3 class="event-name">F1 Grand Prix — Morocco</h3>
+              <p class="event-loc">📍 Tangier / Marrakech, Morocco</p>
+              <div class="event-date-pill">Upcoming — 2026 &amp; Beyond</div>
+              <div class="event-hint">Tap to learn more ↗</div>
             </div>
             <div class="event-face event-back">
-              <h3 class="event-back-title">F1 Grand Prix Morocco 2026</h3>
-              <p class="event-desc">Formula 1 returns to Africa with the inaugural Morocco Grand Prix. NoirFleet is on the ground with VIP paddock transfers, airport pickups from Casablanca &amp; Marrakech, hospitality suite runs, and full race-weekend chauffeur packages.</p>
+              <div class="eb-top"><span class="eb-ico">🏎️</span><h3>F1 Morocco 2026</h3></div>
+              <p class="event-desc">Formula 1 returns to Africa with the inaugural Morocco Grand Prix. VIP paddock transfers, airport pickups from Casablanca &amp; Marrakech, hospitality suite runs, and full race-weekend chauffeur packages.</p>
               <ul class="event-details">
                 <li>📅 Date TBC — 2026 Season</li>
-                <li>📍 Morocco (Casablanca / Marrakech circuit)</li>
-                <li>🚗 VIP fleet — paddock &amp; hospitality transfers</li>
+                <li>📍 Tangier / Marrakech, Morocco</li>
+                <li>🚗 VIP fleet — paddock transfers</li>
+                <li>🏁 Full race-weekend packages</li>
               </ul>
-              <a href="mailto:reservations@noirfleet.com?subject=F1 Morocco 2026 Transport Booking" class="btn primary event-book-btn">Reserve Now</a>
+              <a href="mailto:reservations@noirfleet.com?subject=F1 Morocco 2026 Transport Booking" class="event-book-btn">Reserve Now →</a>
             </div>
           </div>
         </div>
 
       </div>
+      <div class="events-cta">
+        <p>Attending another major event in 2026? We'll be there.</p>
+        <a href="mailto:reservations@noirfleet.com?subject=Custom Event Transport Enquiry" class="btn primary">Enquire for Your Event</a>
+      </div>
     </section>
-    <!-- END EVENTS SECTION -->
 
-    <!-- Services -->
+    <!-- SERVICES -->
     <section id="services" class="services-section">
       <div class="section-head">
+        <span class="section-eyebrow">What We Offer</span>
         <h2>Services</h2>
         <p>Comprehensive chauffeur services tailored to every need.</p>
       </div>
-
-      <div class="carousel" id="servicesCarousel" aria-roledescription="carousel">
-        <button class="carousel-btn prev" aria-label="Previous service" id="prevServices">&larr;</button>
-
+      <div class="carousel" id="servicesCarousel">
+        <button class="carousel-btn prev" id="prevServices">&#8592;</button>
         <div class="carousel-viewport">
           <div class="carousel-track" id="servicesTrack" tabindex="0" role="list">
             <figure class="carousel-slide" role="listitem">
@@ -340,7 +370,6 @@
                 <div class="caption-sub">Elite fleet. Exclusive service. Luxury on demand. Anytime. Anywhere.</div>
               </figcaption>
             </figure>
-
             <figure class="carousel-slide" role="listitem">
               <img src="wedding.jpg" alt="Weddings" class="carousel-image">
               <figcaption class="carousel-caption">
@@ -348,7 +377,6 @@
                 <div class="caption-sub">Your grand entrance, exquisitely planned. Elegance for your unforgettable day.</div>
               </figcaption>
             </figure>
-
             <figure class="carousel-slide" role="listitem">
               <img src="event.jpg" alt="Event" class="carousel-image">
               <figcaption class="carousel-caption">
@@ -356,7 +384,6 @@
                 <div class="caption-sub">The Grand Entrance is Always Yours.</div>
               </figcaption>
             </figure>
-
             <figure class="carousel-slide" role="listitem">
               <img src="red_carpet.jpg" alt="Red Carpet" class="carousel-image">
               <figcaption class="carousel-caption">
@@ -366,375 +393,345 @@
             </figure>
           </div>
         </div>
-
-        <button class="carousel-btn next" aria-label="Next service" id="nextServices">&rarr;</button>
-        <div class="carousel-dots" id="servicesDots" aria-hidden="false"></div>
+        <button class="carousel-btn next" id="nextServices">&#8594;</button>
+        <div class="carousel-dots" id="servicesDots"></div>
       </div>
 
       <div class="pricing-grid">
         <article class="pricing-card">
-          <div class="pricing-media">
-            <img src="airport_rides.jpg" alt="Airport Rides" class="pricing-image">
-          </div>
+          <div class="pricing-media"><img src="airport_rides.jpg" alt="Airport Rides" class="pricing-image"></div>
           <div class="pricing-body">
+            <div class="pricing-tag">✈ Most Popular</div>
             <h3>Airport Rides</h3>
-            <p class="muted">Door-to-door transfers with real-time flight monitoring, meet-and-greet, luggage assistance and complimentary bottled water. Ideal for executives and families arriving or departing by air.</p>
+            <p class="muted">Door-to-door transfers with real-time flight monitoring, meet-and-greet, luggage assistance and complimentary bottled water.</p>
           </div>
         </article>
-
         <article class="pricing-card">
-          <div class="pricing-media">
-            <img src="hourly_package.jpg" alt="Hourly Package" class="pricing-image">
-          </div>
+          <div class="pricing-media"><img src="hourly_package.jpg" alt="Hourly Package" class="pricing-image"></div>
           <div class="pricing-body">
             <h3>Hourly Package</h3>
-            <p class="muted">Book by the hour for flexible pickups, multi-stop errands, or on-demand chauffeur service. Includes wait time, door service, and route flexibility for meetings or events.</p>
+            <p class="muted">Book by the hour for flexible pickups, multi-stop errands, or on-demand chauffeur service with full route flexibility.</p>
           </div>
         </article>
-
         <article class="pricing-card">
-          <div class="pricing-media">
-            <img src="city_tours.jpg" alt="City Tours" class="pricing-image">
-          </div>
+          <div class="pricing-media"><img src="city_tours.jpg" alt="City Tours" class="pricing-image"></div>
           <div class="pricing-body">
             <h3>City Tours</h3>
-            <p class="muted">Guided sightseeing with professional drivers, curated routes and local insights. Perfect for VIP guests or travelers wanting a comfortable, private tour experience.</p>
+            <p class="muted">Guided sightseeing with professional drivers, curated routes and local insights for VIP guests and travelers.</p>
           </div>
         </article>
-
         <article class="pricing-card">
-          <div class="pricing-media">
-            <img src="corporate.jpg" alt="Corporate Travel" class="pricing-image">
-          </div>
+          <div class="pricing-media"><img src="corporate.jpg" alt="Corporate Travel" class="pricing-image"></div>
           <div class="pricing-body">
+            <div class="pricing-tag pricing-corp">💼 Corporate</div>
             <h3>Corporate Travel</h3>
-            <p class="muted">Dedicated accounts, priority dispatch, monthly invoicing and SLA-backed services for businesses. Scalable for teams, events, and executive travel programs.</p>
+            <p class="muted">Dedicated accounts, priority dispatch, monthly invoicing and SLA-backed services for businesses of all sizes.</p>
           </div>
         </article>
       </div>
 
       <div class="services-grid">
-        <div class="service-card">
-          <h4>Airport Transfers</h4>
-          <p class="muted">Flight tracking, meet-and-greet, assistance with luggage and fast exits to your waiting vehicle.</p>
-        </div>
-        <div class="service-card">
-          <h4>Corporate Travel</h4>
-          <p class="muted">Account management, invoicing, and priority bookings tailored for corporate clients and travel teams.</p>
-        </div>
-        <div class="service-card">
-          <h4>Hourly Hire</h4>
-          <p class="muted">Flexible hourly bookings for errands, multi-stop meetings or chauffeuring throughout the day.</p>
-        </div>
-        <div class="service-card">
-          <h4>City Tours</h4>
-          <p class="muted">Curated private sightseeing with local drivers providing insider knowledge and comfort.</p>
-        </div>
-        <div class="service-card">
-          <h4>Luxury Weddings</h4>
-          <p class="muted">Special-event car hires including wedding packages, red-carpet service and multiple-vehicle coordination.</p>
-        </div>
-        <div class="service-card">
-          <h4>VIP &amp; Diplomatic Transfers</h4>
-          <p class="muted">Discreet, high-security transfers for VIPs, diplomats and executive delegations.</p>
-        </div>
-        <div class="service-card">
-          <h4>Group &amp; Shuttle</h4>
-          <p class="muted">Shuttle services for groups, airport shuttles, and event transfers with large-capacity vehicles.</p>
-        </div>
-        <div class="service-card">
-          <h4>Intercity Transfers</h4>
-          <p class="muted">Comfortable long-distance transfers with planned stops and driver rest cycles for safety.</p>
-        </div>
+        <div class="service-card"><div class="sc-ico">✈️</div><h4>Airport Transfers</h4><p class="muted">Flight tracking, meet-and-greet, luggage help and fast exits to your waiting vehicle.</p></div>
+        <div class="service-card"><div class="sc-ico">💼</div><h4>Corporate Travel</h4><p class="muted">Account management, invoicing, and priority bookings for corporate clients.</p></div>
+        <div class="service-card"><div class="sc-ico">⏱</div><h4>Hourly Hire</h4><p class="muted">Flexible hourly bookings for errands, multi-stop meetings or chauffeuring throughout the day.</p></div>
+        <div class="service-card"><div class="sc-ico">🗺️</div><h4>City Tours</h4><p class="muted">Curated private sightseeing with local drivers and insider knowledge.</p></div>
+        <div class="service-card"><div class="sc-ico">💍</div><h4>Luxury Weddings</h4><p class="muted">Wedding packages, red-carpet service and multiple-vehicle coordination.</p></div>
+        <div class="service-card"><div class="sc-ico">🛡️</div><h4>VIP &amp; Diplomatic</h4><p class="muted">Discreet, high-security transfers for VIPs, diplomats and delegations.</p></div>
+        <div class="service-card"><div class="sc-ico">🚌</div><h4>Group &amp; Shuttle</h4><p class="muted">Shuttle services for groups, airport shuttles, and event transfers.</p></div>
+        <div class="service-card"><div class="sc-ico">🛣️</div><h4>Intercity Transfers</h4><p class="muted">Comfortable long-distance transfers with planned stops for safety.</p></div>
       </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="contact-section">
+    <!-- WHY NOIRFLEET -->
+    <section class="why-section">
       <div class="section-head">
-        <h2>Contact</h2>
-        <p>Questions or Bookings / Quotes — reach out to our support team.</p>
-        <p class="muted">
-          Email: <a href="mailto:reservations@noirfleet.com" class="email-link">reservations@noirfleet.com</a>
-        </p>
+        <span class="section-eyebrow">Why Choose Us</span>
+        <h2>The NoirFleet Standard</h2>
       </div>
-
-      <form class="contact-form" action="https://formspree.io/f/mvgwbgpj" method="POST" aria-label="Contact form">
-        <div class="form-row">
-          <input type="text" name="name" placeholder="Your name" required>
-          <input type="tel" name="phone" placeholder="Phone number" required>
-        </div>
-        <div class="form-row">
-          <input type="email" name="email" placeholder="Email">
-          <input type="text" name="pickup" placeholder="Pickup location" required>
-        </div>
-        <div class="form-row">
-          <input type="text" name="dropoff" placeholder="Dropoff location" required>
-          <input type="number" name="passengers" min="1" max="50" placeholder="Number of passengers" required>
-        </div>
-        <textarea name="message" placeholder="Message / details" rows="4"></textarea>
-        <div class="form-actions">
-          <button class="btn primary" type="submit">Send</button>
-          <button class="btn outline" type="reset">Clear</button>
-        </div>
-      </form>
+      <div class="why-grid">
+        <div class="why-card"><div class="why-num">01</div><h4>Always On Time</h4><p>Real-time flight tracking. If your flight changes, your driver adjusts — at no extra charge.</p></div>
+        <div class="why-card"><div class="why-num">02</div><h4>Professional Chauffeurs</h4><p>Every driver is vetted, uniformed, and trained in hospitality and discretion to the highest standard.</p></div>
+        <div class="why-card"><div class="why-num">03</div><h4>Transparent Pricing</h4><p>No hidden fees. No surge pricing. A confirmed quote before you book — always.</p></div>
+        <div class="why-card"><div class="why-num">04</div><h4>24/7 Support</h4><p>Our team is available round the clock via WhatsApp, email, or phone — wherever you are.</p></div>
+      </div>
     </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+      <div class="contact-inner">
+        <div class="contact-left">
+          <span class="section-eyebrow">Get In Touch</span>
+          <h2>Book Your Ride</h2>
+          <p class="muted">Questions or bookings — reach out and we'll respond within the hour.</p>
+          <div class="contact-details">
+            <a href="https://wa.me/917203070345" class="cd-item">
+              <span class="cd-icon">📞</span>
+              <div><strong>WhatsApp / Call</strong><span>+91-7203070345</span></div>
+            </a>
+            <a href="mailto:reservations@noirfleet.com" class="cd-item">
+              <span class="cd-icon">✉️</span>
+              <div><strong>Email</strong><span>reservations@noirfleet.com</span></div>
+            </a>
+            <div class="cd-item cd-static">
+              <span class="cd-icon">⏰</span>
+              <div><strong>Availability</strong><span>24 hours · 7 days a week</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form class="contact-form" action="https://formspree.io/f/mvgwbgpj" method="POST">
+            <div class="form-row">
+              <div class="form-group"><label>Your Name *</label><input type="text" name="name" placeholder="John Smith" required></div>
+              <div class="form-group"><label>Phone Number *</label><input type="tel" name="phone" placeholder="+1 234 567 8900" required></div>
+            </div>
+            <div class="form-row">
+              <div class="form-group"><label>Email</label><input type="email" name="email" placeholder="john@company.com"></div>
+              <div class="form-group"><label>Passengers *</label><input type="number" name="passengers" min="1" max="50" placeholder="1" required></div>
+            </div>
+            <div class="form-row">
+              <div class="form-group"><label>Pickup Location *</label><input type="text" name="pickup" placeholder="JFK Airport, New York" required></div>
+              <div class="form-group"><label>Dropoff Location *</label><input type="text" name="dropoff" placeholder="Times Square, New York" required></div>
+            </div>
+            <div class="form-group">
+              <label>Message / Details</label>
+              <textarea name="message" placeholder="Flight number, special requests, preferred vehicle..." rows="4"></textarea>
+            </div>
+            <div class="form-actions">
+              <button class="btn primary" type="submit">Send Enquiry</button>
+              <button class="btn outline" type="reset">Clear</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
   </main>
 
+  <!-- FOOTER WITH VISITOR COUNTER -->
   <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="footer-left">
-        <strong>NoirFleet</strong>
-        <p class="muted">Premium Ground Transport</p>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <strong class="footer-name">NoirFleet</strong>
+        <p class="muted">Premium Ground Transport — Worldwide</p>
+        <div class="footer-links-inline">
+          <a href="https://wa.me/917203070345">WhatsApp</a>
+          <a href="mailto:reservations@noirfleet.com">Email Us</a>
+        </div>
       </div>
-      <div class="footer-right">
-        <p class="muted">© <span id="curYear"></span> NoirFleet. All rights reserved.</p>
+      <div class="footer-nav-cols">
+        <div class="fn-col">
+          <strong>Navigate</strong>
+          <a href="#home">Home</a>
+          <a href="#fleet">Our Fleet</a>
+          <a href="#global">Global Presence</a>
+          <a href="#events">Events 2026</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="fn-col">
+          <strong>Services</strong>
+          <a href="#contact">Airport Transfers</a>
+          <a href="#contact">Corporate Travel</a>
+          <a href="#contact">Weddings &amp; Events</a>
+          <a href="#contact">Hourly Hire</a>
+          <a href="#contact">VIP &amp; Diplomatic</a>
+          <a href="#contact">Intercity Transfers</a>
+        </div>
+        <div class="fn-col">
+          <strong>Contact</strong>
+          <a href="https://wa.me/917203070345">+91-7203070345</a>
+          <a href="mailto:reservations@noirfleet.com">reservations@noirfleet.com</a>
+          <span class="muted">Available 24/7</span>
+        </div>
       </div>
+    </div>
+
+    <!-- VISITOR COUNTER -->
+    <div class="visitor-bar">
+      <div class="vb-inner">
+        <div class="vb-item">
+          <span class="vb-icon">👁</span>
+          <div class="vb-text">
+            <span class="vb-num" id="countNum">0</span>
+            <span class="vb-lbl">Total Visitors</span>
+          </div>
+        </div>
+        <div class="vb-sep"></div>
+        <div class="vb-item">
+          <span class="vb-icon">🟢</span>
+          <div class="vb-text">
+            <span class="vb-num" id="onlineNum">1</span>
+            <span class="vb-lbl">Online Now</span>
+          </div>
+        </div>
+        <div class="vb-sep"></div>
+        <div class="vb-item">
+          <span class="vb-icon">📅</span>
+          <div class="vb-text">
+            <span class="vb-num" id="todayNum">0</span>
+            <span class="vb-lbl">Visits Today</span>
+          </div>
+        </div>
+        <div class="vb-sep"></div>
+        <div class="vb-item">
+          <span class="vb-icon">🌍</span>
+          <div class="vb-text">
+            <span class="vb-num">50+</span>
+            <span class="vb-lbl">Countries Served</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="curYear"></span> NoirFleet. All rights reserved.</p>
+      <p class="muted">Serving the world's most prestigious events since 2018</p>
     </div>
   </footer>
 
+  <button class="scroll-top" id="scrollTop" aria-label="Back to top">↑</button>
+
   <script>
-    /* ---------- Mobile nav toggle ---------- */
-    const menuToggle = document.getElementById('menuToggle');
-    const mobileNav  = document.getElementById('mobileNav');
-    menuToggle.addEventListener('click', () => {
-      const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
-      menuToggle.setAttribute('aria-expanded', String(!expanded));
-      mobileNav.setAttribute('aria-hidden', String(expanded));
-      mobileNav.classList.toggle('open');
+  /* MOBILE NAV */
+  const menuToggle = document.getElementById('menuToggle');
+  const mobileNav  = document.getElementById('mobileNav');
+  menuToggle.addEventListener('click', () => {
+    const exp = menuToggle.getAttribute('aria-expanded') === 'true';
+    menuToggle.setAttribute('aria-expanded', String(!exp));
+    mobileNav.setAttribute('aria-hidden', String(exp));
+    mobileNav.classList.toggle('open');
+    menuToggle.classList.toggle('is-active');
+  });
+  mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    mobileNav.classList.remove('open');
+    menuToggle.setAttribute('aria-expanded','false');
+    menuToggle.classList.remove('is-active');
+  }));
+
+  /* HEADER SHRINK */
+  window.addEventListener('scroll', () => {
+    document.getElementById('siteHeader').classList.toggle('scrolled', window.scrollY > 60);
+  });
+
+  /* FOOTER YEAR */
+  document.getElementById('curYear').textContent = new Date().getFullYear();
+
+  /* MULTI-TIMEZONE CLOCKS */
+  function fmtTime(tz) {
+    return new Date().toLocaleTimeString('en-GB', {
+      timeZone: tz, hour:'2-digit', minute:'2-digit', second:'2-digit', hour12: false
     });
+  }
+  function tickClocks() {
+    document.getElementById('t-dubai').textContent  = fmtTime('Asia/Dubai');
+    document.getElementById('t-london').textContent = fmtTime('Europe/London');
+    document.getElementById('t-nyc').textContent    = fmtTime('America/New_York');
+    document.getElementById('t-mumbai').textContent = fmtTime('Asia/Kolkata');
+  }
+  tickClocks();
+  setInterval(tickClocks, 1000);
 
-    /* ---------- Footer year ---------- */
-    document.getElementById('curYear').textContent = new Date().getFullYear();
+  /* VISITOR COUNTER */
+  (function() {
+    const BASE    = 14812;
+    const TOT_KEY = 'nf_total';
+    const DAY_K   = 'nf_day_' + new Date().toISOString().slice(0,10);
+    const DC_K    = 'nf_daycount_' + new Date().toISOString().slice(0,10);
 
-    /* ================================================
-       LIVE CLOCK
-       Shows local time of the visitor's device
-    ================================================ */
-    function updateClock() {
-      const now = new Date();
+    let total = parseInt(localStorage.getItem(TOT_KEY)||'0', 10);
+    if (total < BASE) total = BASE;
+    let dayCount = parseInt(localStorage.getItem(DC_K)||'0', 10);
 
-      // Time
-      const h  = String(now.getHours()).padStart(2, '0');
-      const m  = String(now.getMinutes()).padStart(2, '0');
-      const s  = String(now.getSeconds()).padStart(2, '0');
-      document.getElementById('clockTime').textContent = h + ':' + m + ':' + s;
-
-      // Date
-      const days   = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-      const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-      const dateStr = days[now.getDay()] + ', ' + months[now.getMonth()] + ' ' + now.getDate() + ', ' + now.getFullYear();
-      document.getElementById('clockDate').textContent = dateStr;
-
-      // Timezone
-      const tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
-      document.getElementById('clockTZ').textContent = tz;
-    }
-    updateClock();
-    setInterval(updateClock, 1000);
-
-    /* ================================================
-       VISITOR COUNTER
-       Persists in localStorage; increments once per day per browser
-    ================================================ */
-    (function() {
-      const TODAY_KEY   = 'nf_visited_' + new Date().toISOString().slice(0, 10);
-      const TOTAL_KEY   = 'nf_total_visitors';
-      const BASE_COUNT  = 4812; // seed so it doesn't start from 0
-
-      let total = parseInt(localStorage.getItem(TOTAL_KEY) || '0', 10);
-      if (total < BASE_COUNT) total = BASE_COUNT;
-
-      const alreadyVisited = localStorage.getItem(TODAY_KEY);
-      if (!alreadyVisited) {
-        total += 1;
-        localStorage.setItem(TODAY_KEY, '1');
-        localStorage.setItem(TOTAL_KEY, String(total));
-      }
-
-      // Animate count up
-      const target = total;
-      const el     = document.getElementById('countNum');
-      let current  = Math.max(0, target - 80);
-      const step   = Math.ceil((target - current) / 40);
-      const timer  = setInterval(() => {
-        current += step;
-        if (current >= target) { current = target; clearInterval(timer); }
-        el.textContent = current.toLocaleString();
-      }, 30);
-    })();
-
-    /* ================================================
-       EVENT FLASHCARDS — flip on click/tap
-    ================================================ */
-    document.querySelectorAll('.event-card').forEach(function(card) {
-      card.addEventListener('click', function() {
-        card.classList.toggle('flipped');
-      });
-      // Allow keyboard activation
-      card.setAttribute('tabindex', '0');
-      card.addEventListener('keydown', function(e) {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          card.classList.toggle('flipped');
-        }
-      });
-    });
-
-    // Prevent the "Reserve Now" link from flipping the card back
-    document.querySelectorAll('.event-book-btn').forEach(function(btn) {
-      btn.addEventListener('click', function(e) {
-        e.stopPropagation();
-      });
-    });
-
-    /* ---------- Carousel factory ---------- */
-    function initCarousel(opts) {
-      var track    = document.getElementById(opts.trackId);
-      if (!track) return;
-
-      var prevBtn    = document.getElementById(opts.prevId);
-      var nextBtn    = document.getElementById(opts.nextId);
-      var dotsWrap   = document.getElementById(opts.dotsId);
-      var carouselEl = document.getElementById(opts.carouselId);
-
-      var slides     = Array.from(track.querySelectorAll('.carousel-slide'));
-      var slideCount = slides.length;
-      if (slideCount === 0) return;
-
-      var current          = 0;
-      var AUTOPLAY_MS      = 4000;
-      var RESUME_DELAY_MS  = 3000;
-      var autoplayTimer    = null;
-      var resumeTimer      = null;
-      var isPaused         = false;
-      var isDragging       = false;
-      var startX           = 0;
-      var mouseDown        = false;
-
-      dotsWrap.innerHTML = '';
-      slides.forEach(function(_, idx) {
-        var d = document.createElement('button');
-        d.className = 'dot';
-        d.type = 'button';
-        d.setAttribute('aria-label', 'Go to slide ' + (idx + 1));
-        d.addEventListener('click', function() { goTo(idx); pauseTemp(); });
-        dotsWrap.appendChild(d);
-      });
-      var dots = Array.from(dotsWrap.children);
-
-      function updateDots() {
-        dots.forEach(function(d) { d.classList.remove('active'); });
-        if (dots[current]) dots[current].classList.add('active');
-      }
-
-      function vpw() {
-        return track.parentElement ? track.parentElement.clientWidth : track.clientWidth;
-      }
-
-      function setPosition(index, animate) {
-        var idx = ((index % slideCount) + slideCount) % slideCount;
-        track.style.transition = animate ? 'transform .45s cubic-bezier(.2,.9,.2,1)' : 'none';
-        track.style.transform  = 'translateX(' + (-idx * vpw()) + 'px)';
-        current = idx;
-        updateDots();
-      }
-
-      function goTo(index) { setPosition(index, true); }
-
-      if (prevBtn) prevBtn.addEventListener('click', function() { goTo(current - 1); pauseTemp(); });
-      if (nextBtn) nextBtn.addEventListener('click', function() { goTo(current + 1); pauseTemp(); });
-
-      track.addEventListener('keydown', function(e) {
-        if (e.key === 'ArrowLeft')  { goTo(current - 1); pauseTemp(); }
-        if (e.key === 'ArrowRight') { goTo(current + 1); pauseTemp(); }
-      });
-
-      function getX(e) { return e.touches ? e.touches[0].clientX : e.clientX; }
-
-      track.addEventListener('touchstart', function(e) {
-        isDragging = true; startX = getX(e);
-        track.style.transition = 'none'; pauseTemp();
-      }, { passive: true });
-
-      track.addEventListener('touchmove', function(e) {
-        if (!isDragging) return;
-        var dx = getX(e) - startX;
-        track.style.transform = 'translateX(' + (-current * vpw() + dx) + 'px)';
-      }, { passive: true });
-
-      track.addEventListener('touchend', function(e) {
-        if (!isDragging) return;
-        isDragging = false;
-        var dx = (e.changedTouches && e.changedTouches[0])
-                  ? (e.changedTouches[0].clientX - startX) : 0;
-        var threshold = vpw() * 0.16;
-        if      (dx >  threshold) goTo(current - 1);
-        else if (dx < -threshold) goTo(current + 1);
-        else                      goTo(current);
-      });
-
-      track.addEventListener('mousedown', function(e) {
-        mouseDown = true; isDragging = true; startX = getX(e);
-        track.style.transition = 'none'; pauseTemp();
-        if (e.target && e.target.tagName === 'IMG') e.preventDefault();
-      });
-      window.addEventListener('mousemove', function(e) {
-        if (!mouseDown) return;
-        var dx = getX(e) - startX;
-        track.style.transform = 'translateX(' + (-current * vpw() + dx) + 'px)';
-      });
-      window.addEventListener('mouseup', function(e) {
-        if (!mouseDown) return;
-        mouseDown = false; isDragging = false;
-        var dx = getX(e) - startX;
-        var threshold = vpw() * 0.16;
-        if      (dx >  threshold) goTo(current - 1);
-        else if (dx < -threshold) goTo(current + 1);
-        else                      goTo(current);
-      });
-
-      function startAutoplay() {
-        stopAutoplay();
-        autoplayTimer = setInterval(function() {
-          if (!isPaused && !isDragging) goTo(current + 1);
-        }, AUTOPLAY_MS);
-      }
-      function stopAutoplay() {
-        if (autoplayTimer) { clearInterval(autoplayTimer); autoplayTimer = null; }
-      }
-      function pauseTemp() {
-        isPaused = true;
-        if (resumeTimer) clearTimeout(resumeTimer);
-        resumeTimer = setTimeout(function() { isPaused = false; }, RESUME_DELAY_MS);
-      }
-
-      carouselEl.addEventListener('mouseenter', function() { isPaused = true; });
-      carouselEl.addEventListener('mouseleave', function() { isPaused = false; });
-      carouselEl.addEventListener('focusin',    function() { isPaused = true; });
-      carouselEl.addEventListener('focusout',   function() { isPaused = false; });
-
-      window.addEventListener('resize', function() { setPosition(current, false); });
-
-      setPosition(0, false);
-      startAutoplay();
+    if (!localStorage.getItem(DAY_K)) {
+      total++; dayCount++;
+      localStorage.setItem(DAY_K,'1');
+      localStorage.setItem(TOT_KEY, String(total));
+      localStorage.setItem(DC_K, String(dayCount));
     }
 
-    initCarousel({
-      carouselId : 'fleetCarousel',
-      trackId    : 'carouselTrack',
-      prevId     : 'prevFleet',
-      nextId     : 'nextFleet',
-      dotsId     : 'carouselDots'
-    });
+    document.getElementById('onlineNum').textContent = Math.floor(Math.random()*12)+1;
+    document.getElementById('todayNum').textContent  = dayCount.toLocaleString();
 
-    initCarousel({
-      carouselId : 'servicesCarousel',
-      trackId    : 'servicesTrack',
-      prevId     : 'prevServices',
-      nextId     : 'nextServices',
-      dotsId     : 'servicesDots'
+    const el = document.getElementById('countNum');
+    let cur  = Math.max(0, total - 300);
+    const step = Math.ceil((total - cur) / 60);
+    const t = setInterval(() => {
+      cur += step;
+      if (cur >= total) { cur = total; clearInterval(t); }
+      el.textContent = cur.toLocaleString();
+    }, 18);
+  })();
+
+  /* EVENT FLASHCARDS */
+  document.querySelectorAll('.event-card').forEach(card => {
+    const flip = () => card.classList.toggle('flipped');
+    card.addEventListener('click', flip);
+    card.addEventListener('keydown', e => { if(e.key==='Enter'||e.key===' '){ e.preventDefault(); flip(); }});
+  });
+  document.querySelectorAll('.event-book-btn').forEach(btn => btn.addEventListener('click', e => e.stopPropagation()));
+
+  /* SCROLL TO TOP */
+  const stBtn = document.getElementById('scrollTop');
+  window.addEventListener('scroll', () => stBtn.classList.toggle('visible', window.scrollY > 400));
+  stBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+  /* SCROLL REVEAL */
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('revealed'); obs.unobserve(e.target); }});
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.event-card,.global-card,.service-card,.why-card,.pricing-card,.clock-card,.ff-item').forEach(el => {
+    el.classList.add('reveal-el');
+    obs.observe(el);
+  });
+
+  /* CAROUSEL FACTORY */
+  function initCarousel(opts) {
+    var track = document.getElementById(opts.trackId); if (!track) return;
+    var prev=document.getElementById(opts.prevId), next=document.getElementById(opts.nextId);
+    var dots=document.getElementById(opts.dotsId), wrap=document.getElementById(opts.carouselId);
+    var slides=Array.from(track.querySelectorAll('.carousel-slide')), n=slides.length;
+    if(!n) return;
+    var cur=0, AT=4500, RD=3000, atimer=null, rtimer=null, paused=false, drag=false, sx=0, md=false;
+
+    dots.innerHTML='';
+    slides.forEach((_,i)=>{
+      var d=document.createElement('button');
+      d.className='dot'; d.type='button';
+      d.addEventListener('click',()=>{ go(i); pt(); });
+      dots.appendChild(d);
     });
+    var dArr=Array.from(dots.children);
+    function ud(){ dArr.forEach(d=>d.classList.remove('active')); if(dArr[cur]) dArr[cur].classList.add('active'); }
+    function vw(){ return track.parentElement?track.parentElement.clientWidth:track.clientWidth; }
+    function sp(i,a){
+      var idx=((i%n)+n)%n;
+      track.style.transition=a?'transform .5s cubic-bezier(.2,.9,.2,1)':'none';
+      track.style.transform='translateX('+(-idx*vw())+'px)';
+      cur=idx; ud();
+    }
+    function go(i){ sp(i,true); }
+    function gx(e){ return e.touches?e.touches[0].clientX:e.clientX; }
+    function pt(){ paused=true; if(rtimer) clearTimeout(rtimer); rtimer=setTimeout(()=>paused=false,RD); }
+
+    if(prev) prev.addEventListener('click',()=>{ go(cur-1); pt(); });
+    if(next) next.addEventListener('click',()=>{ go(cur+1); pt(); });
+    track.addEventListener('keydown',e=>{ if(e.key==='ArrowLeft'){go(cur-1);pt();} if(e.key==='ArrowRight'){go(cur+1);pt();} });
+    track.addEventListener('touchstart',e=>{ drag=true; sx=gx(e); track.style.transition='none'; pt(); },{passive:true});
+    track.addEventListener('touchmove',e=>{ if(!drag)return; track.style.transform='translateX('+(-(cur*vw())+(gx(e)-sx))+'px)'; },{passive:true});
+    track.addEventListener('touchend',e=>{ if(!drag)return; drag=false; var dx=(e.changedTouches?.[0]?.clientX||sx)-sx; var th=vw()*.16; dx>th?go(cur-1):dx<-th?go(cur+1):go(cur); });
+    track.addEventListener('mousedown',e=>{ md=true; drag=true; sx=gx(e); track.style.transition='none'; pt(); if(e.target.tagName==='IMG') e.preventDefault(); });
+    window.addEventListener('mousemove',e=>{ if(!md)return; track.style.transform='translateX('+(-(cur*vw())+(gx(e)-sx))+'px)'; });
+    window.addEventListener('mouseup',e=>{ if(!md)return; md=false; drag=false; var dx=gx(e)-sx,th=vw()*.16; dx>th?go(cur-1):dx<-th?go(cur+1):go(cur); });
+
+    function sa(){ ca(); atimer=setInterval(()=>{ if(!paused&&!drag) go(cur+1); },AT); }
+    function ca(){ if(atimer){ clearInterval(atimer); atimer=null; } }
+    if(wrap){ wrap.addEventListener('mouseenter',()=>paused=true); wrap.addEventListener('mouseleave',()=>paused=false); }
+    window.addEventListener('resize',()=>sp(cur,false));
+    sp(0,false); sa();
+  }
+
+  initCarousel({ carouselId:'fleetCarousel',    trackId:'carouselTrack', prevId:'prevFleet',    nextId:'nextFleet',    dotsId:'carouselDots' });
+  initCarousel({ carouselId:'servicesCarousel', trackId:'servicesTrack', prevId:'prevServices', nextId:'nextServices', dotsId:'servicesDots' });
   </script>
 </body>
 </html>
