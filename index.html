@@ -462,7 +462,7 @@
     </section>
 
     <!-- ══════════════════════════════════════
-         REVIEWS SECTION
+         REVIEWS SECTION — FLIP CARD MARQUEE
     ══════════════════════════════════════ -->
     <section id="reviews" class="reviews-section">
       <div class="reviews-inner">
@@ -470,7 +470,7 @@
           <div class="section-head" style="margin-bottom:0">
             <span class="section-eyebrow">Client Testimonials</span>
             <h2>What Our Clients Say</h2>
-            <p style="color:var(--muted)">Real feedback from real clients — across continents and occasions.</p>
+            <p style="color:var(--muted)">Real feedback from real clients — across continents and occasions. Click any card to read the review.</p>
           </div>
           <div class="reviews-aggregate">
             <span class="agg-score">4.9</span>
@@ -481,354 +481,356 @@
           </div>
         </div>
 
-        <!-- ROW 1 — scrolls left -->
+        <!-- ROW 1 — scrolls left to right -->
         <div class="reviews-marquee-wrap" style="margin-bottom:20px">
-          <div class="reviews-track" id="reviewsRow1">
+          <div class="reviews-track">
 
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">Absolutely seamless experience from JFK to Midtown. The chauffeur was waiting at arrivals with a name board, helped with luggage, and had chilled water ready. Will only use NoirFleet in New York.</p>
-              <div class="review-author">
-                <div class="review-avatar">JM</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">James Mitchel</span>
-                  <span class="review-author-meta">New York, USA · March 2025</span>
+            <!-- Card 1 -->
+            <div class="review-card" tabindex="0">
+              <div class="review-card-inner">
+                <div class="review-face review-front">
+                  <div class="review-front-glow"></div>
+                  <div class="review-avatar">JM</div>
+                  <div class="review-front-stars">⭐⭐⭐⭐⭐</div>
+                  <div class="review-front-name">James Mitchel</div>
+                  <div class="review-front-meta">New York, USA · March 2025</div>
+                  <span class="review-service-badge">✈ Airport Transfer</span>
+                  <div class="review-front-hint">Click to read →</div>
                 </div>
-                <span class="review-service-badge">✈ Airport</span>
+                <div class="review-face review-back">
+                  <div class="rb-top">
+                    <div class="review-avatar">JM</div>
+                    <div class="rb-top-info">
+                      <div class="rb-name">James Mitchel</div>
+                      <div class="rb-meta">New York, USA</div>
+                    </div>
+                    <div class="review-back-stars">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <p class="review-back-text">Absolutely seamless experience from JFK to Midtown. The chauffeur was waiting at arrivals with a name board, helped with luggage, and had chilled water ready. Will only use NoirFleet in New York.</p>
+                  <span class="review-back-badge">✈ Airport Transfer</span>
+                </div>
               </div>
             </div>
 
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">We booked NoirFleet for our entire corporate delegation at Cannes. Eight vehicles, multiple pickups daily — not a single hiccup. Professionalism at its absolute finest.</p>
-              <div class="review-author">
-                <div class="review-avatar">SL</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Sophie Laurent</span>
-                  <span class="review-author-meta">Paris, France · May 2025</span>
+            <!-- Card 2 -->
+            <div class="review-card" tabindex="0">
+              <div class="review-card-inner">
+                <div class="review-face review-front">
+                  <div class="review-front-glow" style="background:#4a9eff"></div>
+                  <div class="review-avatar">SL</div>
+                  <div class="review-front-stars">⭐⭐⭐⭐⭐</div>
+                  <div class="review-front-name">Sophie Laurent</div>
+                  <div class="review-front-meta">Paris, France · May 2025</div>
+                  <span class="review-service-badge">🎬 Cannes Event</span>
+                  <div class="review-front-hint">Click to read →</div>
                 </div>
-                <span class="review-service-badge">🎬 Cannes</span>
+                <div class="review-face review-back">
+                  <div class="rb-top">
+                    <div class="review-avatar">SL</div>
+                    <div class="rb-top-info">
+                      <div class="rb-name">Sophie Laurent</div>
+                      <div class="rb-meta">Paris, France</div>
+                    </div>
+                    <div class="review-back-stars">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <p class="review-back-text">We booked NoirFleet for our entire corporate delegation at Cannes. Eight vehicles, multiple pickups daily — not a single hiccup. Professionalism at its absolute finest.</p>
+                  <span class="review-back-badge">🎬 Cannes Event</span>
+                </div>
               </div>
             </div>
 
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">The driver tracked my delayed flight without me even asking, was there when I landed, and the Mercedes was spotless. This is what luxury transport should feel like. Exceptional.</p>
-              <div class="review-author">
-                <div class="review-avatar">RA</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Ravi Agarwal</span>
-                  <span class="review-author-meta">Mumbai, India · Jan 2025</span>
+            <!-- Card 3 -->
+            <div class="review-card" tabindex="0">
+              <div class="review-card-inner">
+                <div class="review-face review-front">
+                  <div class="review-front-glow" style="background:#5ccb7a"></div>
+                  <div class="review-avatar">RA</div>
+                  <div class="review-front-stars">⭐⭐⭐⭐⭐</div>
+                  <div class="review-front-name">Ravi Agarwal</div>
+                  <div class="review-front-meta">Mumbai, India · Jan 2025</div>
+                  <span class="review-service-badge">✈ Airport Transfer</span>
+                  <div class="review-front-hint">Click to read →</div>
                 </div>
-                <span class="review-service-badge">✈ Airport</span>
+                <div class="review-face review-back">
+                  <div class="rb-top">
+                    <div class="review-avatar">RA</div>
+                    <div class="rb-top-info">
+                      <div class="rb-name">Ravi Agarwal</div>
+                      <div class="rb-meta">Mumbai, India</div>
+                    </div>
+                    <div class="review-back-stars">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <p class="review-back-text">The driver tracked my delayed flight without me even asking, was there when I landed, and the Mercedes was spotless. This is what luxury transport should feel like. Exceptional.</p>
+                  <span class="review-back-badge">✈ Airport Transfer</span>
+                </div>
               </div>
             </div>
 
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">Used NoirFleet for our wedding — three Bentleys coordinated perfectly. The team was in constant communication, the cars were gorgeous, and everything ran on time. Our guests were blown away.</p>
-              <div class="review-author">
-                <div class="review-avatar">PK</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Priya Kapoor</span>
-                  <span class="review-author-meta">Dubai, UAE · February 2025</span>
+            <!-- Card 4 -->
+            <div class="review-card" tabindex="0">
+              <div class="review-card-inner">
+                <div class="review-face review-front">
+                  <div class="review-front-glow" style="background:#ff6b9d"></div>
+                  <div class="review-avatar">PK</div>
+                  <div class="review-front-stars">⭐⭐⭐⭐⭐</div>
+                  <div class="review-front-name">Priya Kapoor</div>
+                  <div class="review-front-meta">Dubai, UAE · February 2025</div>
+                  <span class="review-service-badge">💍 Wedding</span>
+                  <div class="review-front-hint">Click to read →</div>
                 </div>
-                <span class="review-service-badge">💍 Wedding</span>
+                <div class="review-face review-back">
+                  <div class="rb-top">
+                    <div class="review-avatar">PK</div>
+                    <div class="rb-top-info">
+                      <div class="rb-name">Priya Kapoor</div>
+                      <div class="rb-meta">Dubai, UAE</div>
+                    </div>
+                    <div class="review-back-stars">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <p class="review-back-text">Used NoirFleet for our wedding — three Bentleys coordinated perfectly. The team was in constant communication, the cars were gorgeous, and everything ran on time. Our guests were blown away.</p>
+                  <span class="review-back-badge">💍 Wedding</span>
+                </div>
               </div>
             </div>
 
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">Monthly corporate account for our London office — reliable, professional, and every invoice is accurate. Our execs trust NoirFleet implicitly. Best decision we made for ground transport.</p>
-              <div class="review-author">
-                <div class="review-avatar">TH</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Thomas Hartley</span>
-                  <span class="review-author-meta">London, UK · Ongoing</span>
+            <!-- Card 5 -->
+            <div class="review-card" tabindex="0">
+              <div class="review-card-inner">
+                <div class="review-face review-front">
+                  <div class="review-front-glow" style="background:#8ab4f8"></div>
+                  <div class="review-avatar">TH</div>
+                  <div class="review-front-stars">⭐⭐⭐⭐⭐</div>
+                  <div class="review-front-name">Thomas Hartley</div>
+                  <div class="review-front-meta">London, UK · Ongoing</div>
+                  <span class="review-service-badge">💼 Corporate</span>
+                  <div class="review-front-hint">Click to read →</div>
                 </div>
-                <span class="review-service-badge">💼 Corporate</span>
+                <div class="review-face review-back">
+                  <div class="rb-top">
+                    <div class="review-avatar">TH</div>
+                    <div class="rb-top-info">
+                      <div class="rb-name">Thomas Hartley</div>
+                      <div class="rb-meta">London, UK</div>
+                    </div>
+                    <div class="review-back-stars">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <p class="review-back-text">Monthly corporate account for our London office — reliable, professional, and every invoice is accurate. Our execs trust NoirFleet implicitly. Best decision we made for ground transport.</p>
+                  <span class="review-back-badge">💼 Corporate</span>
+                </div>
               </div>
             </div>
 
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">First time visiting Dubai and I was nervous about getting around. The team arranged a full-day city tour and the driver was a fantastic guide. Absolutely made my trip unforgettable.</p>
-              <div class="review-author">
-                <div class="review-avatar">MO</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Maria Oliveira</span>
-                  <span class="review-author-meta">São Paulo, Brazil · Dec 2024</span>
+            <!-- Card 6 -->
+            <div class="review-card" tabindex="0">
+              <div class="review-card-inner">
+                <div class="review-face review-front">
+                  <div class="review-front-glow" style="background:#ff9f43"></div>
+                  <div class="review-avatar">MO</div>
+                  <div class="review-front-stars">⭐⭐⭐⭐⭐</div>
+                  <div class="review-front-name">Maria Oliveira</div>
+                  <div class="review-front-meta">São Paulo, Brazil · Dec 2024</div>
+                  <span class="review-service-badge">🗺 City Tour</span>
+                  <div class="review-front-hint">Click to read →</div>
                 </div>
-                <span class="review-service-badge">🗺 City Tour</span>
+                <div class="review-face review-back">
+                  <div class="rb-top">
+                    <div class="review-avatar">MO</div>
+                    <div class="rb-top-info">
+                      <div class="rb-name">Maria Oliveira</div>
+                      <div class="rb-meta">São Paulo, Brazil</div>
+                    </div>
+                    <div class="review-back-stars">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <p class="review-back-text">First time visiting Dubai and I was nervous about getting around. The team arranged a full-day city tour and the driver was a fantastic guide. Absolutely made my trip unforgettable.</p>
+                  <span class="review-back-badge">🗺 City Tour</span>
+                </div>
               </div>
             </div>
 
-            <!-- Duplicate set for seamless loop -->
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">Absolutely seamless experience from JFK to Midtown. The chauffeur was waiting at arrivals with a name board, helped with luggage, and had chilled water ready. Will only use NoirFleet in New York.</p>
-              <div class="review-author">
-                <div class="review-avatar">JM</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">James Mitchel</span>
-                  <span class="review-author-meta">New York, USA · March 2025</span>
-                </div>
-                <span class="review-service-badge">✈ Airport</span>
-              </div>
-            </div>
-
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">We booked NoirFleet for our entire corporate delegation at Cannes. Eight vehicles, multiple pickups daily — not a single hiccup. Professionalism at its absolute finest.</p>
-              <div class="review-author">
-                <div class="review-avatar">SL</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Sophie Laurent</span>
-                  <span class="review-author-meta">Paris, France · May 2025</span>
-                </div>
-                <span class="review-service-badge">🎬 Cannes</span>
-              </div>
-            </div>
-
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">The driver tracked my delayed flight without me even asking, was there when I landed, and the Mercedes was spotless. This is what luxury transport should feel like. Exceptional.</p>
-              <div class="review-author">
-                <div class="review-avatar">RA</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Ravi Agarwal</span>
-                  <span class="review-author-meta">Mumbai, India · Jan 2025</span>
-                </div>
-                <span class="review-service-badge">✈ Airport</span>
-              </div>
-            </div>
-
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">Used NoirFleet for our wedding — three Bentleys coordinated perfectly. The team was in constant communication, the cars were gorgeous, and everything ran on time. Our guests were blown away.</p>
-              <div class="review-author">
-                <div class="review-avatar">PK</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Priya Kapoor</span>
-                  <span class="review-author-meta">Dubai, UAE · February 2025</span>
-                </div>
-                <span class="review-service-badge">💍 Wedding</span>
-              </div>
-            </div>
-
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">Monthly corporate account for our London office — reliable, professional, and every invoice is accurate. Our execs trust NoirFleet implicitly. Best decision we made for ground transport.</p>
-              <div class="review-author">
-                <div class="review-avatar">TH</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Thomas Hartley</span>
-                  <span class="review-author-meta">London, UK · Ongoing</span>
-                </div>
-                <span class="review-service-badge">💼 Corporate</span>
-              </div>
-            </div>
-
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">First time visiting Dubai and I was nervous about getting around. The team arranged a full-day city tour and the driver was a fantastic guide. Absolutely made my trip unforgettable.</p>
-              <div class="review-author">
-                <div class="review-avatar">MO</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Maria Oliveira</span>
-                  <span class="review-author-meta">São Paulo, Brazil · Dec 2024</span>
-                </div>
-                <span class="review-service-badge">🗺 City Tour</span>
-              </div>
-            </div>
+            <!-- Duplicate 1-6 for seamless loop -->
+            <div class="review-card" tabindex="0"><div class="review-card-inner"><div class="review-face review-front"><div class="review-front-glow"></div><div class="review-avatar">JM</div><div class="review-front-stars">⭐⭐⭐⭐⭐</div><div class="review-front-name">James Mitchel</div><div class="review-front-meta">New York, USA · March 2025</div><span class="review-service-badge">✈ Airport Transfer</span><div class="review-front-hint">Click to read →</div></div><div class="review-face review-back"><div class="rb-top"><div class="review-avatar">JM</div><div class="rb-top-info"><div class="rb-name">James Mitchel</div><div class="rb-meta">New York, USA</div></div><div class="review-back-stars">⭐⭐⭐⭐⭐</div></div><p class="review-back-text">Absolutely seamless experience from JFK to Midtown. The chauffeur was waiting at arrivals with a name board, helped with luggage, and had chilled water ready. Will only use NoirFleet in New York.</p><span class="review-back-badge">✈ Airport Transfer</span></div></div></div>
+            <div class="review-card" tabindex="0"><div class="review-card-inner"><div class="review-face review-front"><div class="review-front-glow" style="background:#4a9eff"></div><div class="review-avatar">SL</div><div class="review-front-stars">⭐⭐⭐⭐⭐</div><div class="review-front-name">Sophie Laurent</div><div class="review-front-meta">Paris, France · May 2025</div><span class="review-service-badge">🎬 Cannes Event</span><div class="review-front-hint">Click to read →</div></div><div class="review-face review-back"><div class="rb-top"><div class="review-avatar">SL</div><div class="rb-top-info"><div class="rb-name">Sophie Laurent</div><div class="rb-meta">Paris, France</div></div><div class="review-back-stars">⭐⭐⭐⭐⭐</div></div><p class="review-back-text">We booked NoirFleet for our entire corporate delegation at Cannes. Eight vehicles, multiple pickups daily — not a single hiccup. Professionalism at its absolute finest.</p><span class="review-back-badge">🎬 Cannes Event</span></div></div></div>
+            <div class="review-card" tabindex="0"><div class="review-card-inner"><div class="review-face review-front"><div class="review-front-glow" style="background:#5ccb7a"></div><div class="review-avatar">RA</div><div class="review-front-stars">⭐⭐⭐⭐⭐</div><div class="review-front-name">Ravi Agarwal</div><div class="review-front-meta">Mumbai, India · Jan 2025</div><span class="review-service-badge">✈ Airport Transfer</span><div class="review-front-hint">Click to read →</div></div><div class="review-face review-back"><div class="rb-top"><div class="review-avatar">RA</div><div class="rb-top-info"><div class="rb-name">Ravi Agarwal</div><div class="rb-meta">Mumbai, India</div></div><div class="review-back-stars">⭐⭐⭐⭐⭐</div></div><p class="review-back-text">The driver tracked my delayed flight without me even asking, was there when I landed, and the Mercedes was spotless. This is what luxury transport should feel like. Exceptional.</p><span class="review-back-badge">✈ Airport Transfer</span></div></div></div>
+            <div class="review-card" tabindex="0"><div class="review-card-inner"><div class="review-face review-front"><div class="review-front-glow" style="background:#ff6b9d"></div><div class="review-avatar">PK</div><div class="review-front-stars">⭐⭐⭐⭐⭐</div><div class="review-front-name">Priya Kapoor</div><div class="review-front-meta">Dubai, UAE · February 2025</div><span class="review-service-badge">💍 Wedding</span><div class="review-front-hint">Click to read →</div></div><div class="review-face review-back"><div class="rb-top"><div class="review-avatar">PK</div><div class="rb-top-info"><div class="rb-name">Priya Kapoor</div><div class="rb-meta">Dubai, UAE</div></div><div class="review-back-stars">⭐⭐⭐⭐⭐</div></div><p class="review-back-text">Used NoirFleet for our wedding — three Bentleys coordinated perfectly. The team was in constant communication, the cars were gorgeous, and everything ran on time. Our guests were blown away.</p><span class="review-back-badge">💍 Wedding</span></div></div></div>
+            <div class="review-card" tabindex="0"><div class="review-card-inner"><div class="review-face review-front"><div class="review-front-glow" style="background:#8ab4f8"></div><div class="review-avatar">TH</div><div class="review-front-stars">⭐⭐⭐⭐⭐</div><div class="review-front-name">Thomas Hartley</div><div class="review-front-meta">London, UK · Ongoing</div><span class="review-service-badge">💼 Corporate</span><div class="review-front-hint">Click to read →</div></div><div class="review-face review-back"><div class="rb-top"><div class="review-avatar">TH</div><div class="rb-top-info"><div class="rb-name">Thomas Hartley</div><div class="rb-meta">London, UK</div></div><div class="review-back-stars">⭐⭐⭐⭐⭐</div></div><p class="review-back-text">Monthly corporate account for our London office — reliable, professional, and every invoice is accurate. Our execs trust NoirFleet implicitly. Best decision we made for ground transport.</p><span class="review-back-badge">💼 Corporate</span></div></div></div>
+            <div class="review-card" tabindex="0"><div class="review-card-inner"><div class="review-face review-front"><div class="review-front-glow" style="background:#ff9f43"></div><div class="review-avatar">MO</div><div class="review-front-stars">⭐⭐⭐⭐⭐</div><div class="review-front-name">Maria Oliveira</div><div class="review-front-meta">São Paulo, Brazil · Dec 2024</div><span class="review-service-badge">🗺 City Tour</span><div class="review-front-hint">Click to read →</div></div><div class="review-face review-back"><div class="rb-top"><div class="review-avatar">MO</div><div class="rb-top-info"><div class="rb-name">Maria Oliveira</div><div class="rb-meta">São Paulo, Brazil</div></div><div class="review-back-stars">⭐⭐⭐⭐⭐</div></div><p class="review-back-text">First time visiting Dubai and I was nervous about getting around. The team arranged a full-day city tour and the driver was a fantastic guide. Absolutely made my trip unforgettable.</p><span class="review-back-badge">🗺 City Tour</span></div></div></div>
 
           </div>
         </div>
 
-        <!-- ROW 2 — scrolls right (reverse) -->
+        <!-- ROW 2 — scrolls in reverse -->
         <div class="reviews-marquee-wrap">
-          <div class="reviews-track reverse" id="reviewsRow2">
+          <div class="reviews-track reverse">
 
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">Hired NoirFleet for the Masters weekend in Augusta. Driver knew every back road to avoid the traffic. We made every tee time comfortably. Already booked for next year.</p>
-              <div class="review-author">
-                <div class="review-avatar">DW</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">David Whitfield</span>
-                  <span class="review-author-meta">Atlanta, USA · April 2025</span>
+            <!-- Card 7 -->
+            <div class="review-card" tabindex="0">
+              <div class="review-card-inner">
+                <div class="review-face review-front">
+                  <div class="review-front-glow" style="background:#5ccb7a"></div>
+                  <div class="review-avatar">DW</div>
+                  <div class="review-front-stars">⭐⭐⭐⭐⭐</div>
+                  <div class="review-front-name">David Whitfield</div>
+                  <div class="review-front-meta">Atlanta, USA · April 2025</div>
+                  <span class="review-service-badge">⛳ Golf · Masters</span>
+                  <div class="review-front-hint">Click to read →</div>
                 </div>
-                <span class="review-service-badge">⛳ Golf</span>
+                <div class="review-face review-back">
+                  <div class="rb-top">
+                    <div class="review-avatar">DW</div>
+                    <div class="rb-top-info">
+                      <div class="rb-name">David Whitfield</div>
+                      <div class="rb-meta">Atlanta, USA</div>
+                    </div>
+                    <div class="review-back-stars">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <p class="review-back-text">Hired NoirFleet for the Masters weekend in Augusta. Driver knew every back road to avoid the traffic. We made every tee time comfortably. Already booked for next year.</p>
+                  <span class="review-back-badge">⛳ Golf · Masters</span>
+                </div>
               </div>
             </div>
 
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">As a frequent flyer between Mumbai and Dubai, I've tried every car service out there. NoirFleet is in a league of its own — consistent, elegant, and always on time. Nothing else comes close.</p>
-              <div class="review-author">
-                <div class="review-avatar">AS</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Ananya Shah</span>
-                  <span class="review-author-meta">Mumbai / Dubai · Ongoing</span>
+            <!-- Card 8 -->
+            <div class="review-card" tabindex="0">
+              <div class="review-card-inner">
+                <div class="review-face review-front">
+                  <div class="review-front-glow"></div>
+                  <div class="review-avatar">AS</div>
+                  <div class="review-front-stars">⭐⭐⭐⭐⭐</div>
+                  <div class="review-front-name">Ananya Shah</div>
+                  <div class="review-front-meta">Mumbai / Dubai · Ongoing</div>
+                  <span class="review-service-badge">✈ Airport Transfer</span>
+                  <div class="review-front-hint">Click to read →</div>
                 </div>
-                <span class="review-service-badge">✈ Airport</span>
+                <div class="review-face review-back">
+                  <div class="rb-top">
+                    <div class="review-avatar">AS</div>
+                    <div class="rb-top-info">
+                      <div class="rb-name">Ananya Shah</div>
+                      <div class="rb-meta">Mumbai / Dubai</div>
+                    </div>
+                    <div class="review-back-stars">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <p class="review-back-text">As a frequent flyer between Mumbai and Dubai, I've tried every car service out there. NoirFleet is in a league of its own — consistent, elegant, and always on time. Nothing else comes close.</p>
+                  <span class="review-back-badge">✈ Airport Transfer</span>
+                </div>
               </div>
             </div>
 
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">We needed group transport for 45 guests from Heathrow to a venue in Surrey. NoirFleet coordinated three coaches and two SUVs flawlessly. Impeccable service from start to finish.</p>
-              <div class="review-author">
-                <div class="review-avatar">EF</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Eleanor Foster</span>
-                  <span class="review-author-meta">London, UK · June 2025</span>
+            <!-- Card 9 -->
+            <div class="review-card" tabindex="0">
+              <div class="review-card-inner">
+                <div class="review-face review-front">
+                  <div class="review-front-glow" style="background:#4a9eff"></div>
+                  <div class="review-avatar">EF</div>
+                  <div class="review-front-stars">⭐⭐⭐⭐⭐</div>
+                  <div class="review-front-name">Eleanor Foster</div>
+                  <div class="review-front-meta">London, UK · June 2025</div>
+                  <span class="review-service-badge">🚌 Group Transfer</span>
+                  <div class="review-front-hint">Click to read →</div>
                 </div>
-                <span class="review-service-badge">🚌 Group</span>
+                <div class="review-face review-back">
+                  <div class="rb-top">
+                    <div class="review-avatar">EF</div>
+                    <div class="rb-top-info">
+                      <div class="rb-name">Eleanor Foster</div>
+                      <div class="rb-meta">London, UK</div>
+                    </div>
+                    <div class="review-back-stars">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <p class="review-back-text">We needed group transport for 45 guests from Heathrow to a venue in Surrey. NoirFleet coordinated three coaches and two SUVs flawlessly. Impeccable service from start to finish.</p>
+                  <span class="review-back-badge">🚌 Group Transfer</span>
+                </div>
               </div>
             </div>
 
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">The intercity transfer from Delhi to Agra was spectacular — comfortable SUV, a knowledgeable driver, and we stopped at the perfect time to see the Taj at sunrise. Truly premium service.</p>
-              <div class="review-author">
-                <div class="review-avatar">KN</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Kenji Nakamura</span>
-                  <span class="review-author-meta">Tokyo, Japan · Nov 2024</span>
+            <!-- Card 10 -->
+            <div class="review-card" tabindex="0">
+              <div class="review-card-inner">
+                <div class="review-face review-front">
+                  <div class="review-front-glow" style="background:#ff9f43"></div>
+                  <div class="review-avatar">KN</div>
+                  <div class="review-front-stars">⭐⭐⭐⭐⭐</div>
+                  <div class="review-front-name">Kenji Nakamura</div>
+                  <div class="review-front-meta">Tokyo, Japan · Nov 2024</div>
+                  <span class="review-service-badge">🛣 Intercity</span>
+                  <div class="review-front-hint">Click to read →</div>
                 </div>
-                <span class="review-service-badge">🛣 Intercity</span>
+                <div class="review-face review-back">
+                  <div class="rb-top">
+                    <div class="review-avatar">KN</div>
+                    <div class="rb-top-info">
+                      <div class="rb-name">Kenji Nakamura</div>
+                      <div class="rb-meta">Tokyo, Japan</div>
+                    </div>
+                    <div class="review-back-stars">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <p class="review-back-text">The intercity transfer from Delhi to Agra was spectacular — comfortable SUV, a knowledgeable driver, and we stopped at the perfect time to see the Taj at sunrise. Truly premium service.</p>
+                  <span class="review-back-badge">🛣 Intercity</span>
+                </div>
               </div>
             </div>
 
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">Our diplomat required discreet, security-conscious transport in London for three days. NoirFleet handled everything with the utmost professionalism. We will absolutely use them again.</p>
-              <div class="review-author">
-                <div class="review-avatar">CB</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Claire Beaumont</span>
-                  <span class="review-author-meta">Brussels, Belgium · Sept 2024</span>
+            <!-- Card 11 -->
+            <div class="review-card" tabindex="0">
+              <div class="review-card-inner">
+                <div class="review-face review-front">
+                  <div class="review-front-glow" style="background:#ff6b6b"></div>
+                  <div class="review-avatar">CB</div>
+                  <div class="review-front-stars">⭐⭐⭐⭐⭐</div>
+                  <div class="review-front-name">Claire Beaumont</div>
+                  <div class="review-front-meta">Brussels, Belgium · Sept 2024</div>
+                  <span class="review-service-badge">🛡 VIP Transfer</span>
+                  <div class="review-front-hint">Click to read →</div>
                 </div>
-                <span class="review-service-badge">🛡 VIP</span>
+                <div class="review-face review-back">
+                  <div class="rb-top">
+                    <div class="review-avatar">CB</div>
+                    <div class="rb-top-info">
+                      <div class="rb-name">Claire Beaumont</div>
+                      <div class="rb-meta">Brussels, Belgium</div>
+                    </div>
+                    <div class="review-back-stars">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <p class="review-back-text">Our diplomat required discreet, security-conscious transport in London for three days. NoirFleet handled everything with the utmost professionalism. We will absolutely use them again.</p>
+                  <span class="review-back-badge">🛡 VIP Transfer</span>
+                </div>
               </div>
             </div>
 
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">Booking was instant via WhatsApp, driver was 10 minutes early, car was immaculate, and the fare was exactly as quoted. This is the gold standard for executive car services globally.</p>
-              <div class="review-author">
-                <div class="review-avatar">NK</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Nils Karlsson</span>
-                  <span class="review-author-meta">Stockholm, Sweden · Aug 2025</span>
+            <!-- Card 12 -->
+            <div class="review-card" tabindex="0">
+              <div class="review-card-inner">
+                <div class="review-face review-front">
+                  <div class="review-front-glow" style="background:#8ab4f8"></div>
+                  <div class="review-avatar">NK</div>
+                  <div class="review-front-stars">⭐⭐⭐⭐⭐</div>
+                  <div class="review-front-name">Nils Karlsson</div>
+                  <div class="review-front-meta">Stockholm, Sweden · Aug 2025</div>
+                  <span class="review-service-badge">⏱ Hourly Hire</span>
+                  <div class="review-front-hint">Click to read →</div>
                 </div>
-                <span class="review-service-badge">⏱ Hourly</span>
+                <div class="review-face review-back">
+                  <div class="rb-top">
+                    <div class="review-avatar">NK</div>
+                    <div class="rb-top-info">
+                      <div class="rb-name">Nils Karlsson</div>
+                      <div class="rb-meta">Stockholm, Sweden</div>
+                    </div>
+                    <div class="review-back-stars">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <p class="review-back-text">Booking was instant via WhatsApp, driver was 10 minutes early, car was immaculate, and the fare was exactly as quoted. This is the gold standard for executive car services globally.</p>
+                  <span class="review-back-badge">⏱ Hourly Hire</span>
+                </div>
               </div>
             </div>
 
-            <!-- Duplicate for seamless loop -->
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">Hired NoirFleet for the Masters weekend in Augusta. Driver knew every back road to avoid the traffic. We made every tee time comfortably. Already booked for next year.</p>
-              <div class="review-author">
-                <div class="review-avatar">DW</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">David Whitfield</span>
-                  <span class="review-author-meta">Atlanta, USA · April 2025</span>
-                </div>
-                <span class="review-service-badge">⛳ Golf</span>
-              </div>
-            </div>
-
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">As a frequent flyer between Mumbai and Dubai, I've tried every car service out there. NoirFleet is in a league of its own — consistent, elegant, and always on time. Nothing else comes close.</p>
-              <div class="review-author">
-                <div class="review-avatar">AS</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Ananya Shah</span>
-                  <span class="review-author-meta">Mumbai / Dubai · Ongoing</span>
-                </div>
-                <span class="review-service-badge">✈ Airport</span>
-              </div>
-            </div>
-
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">We needed group transport for 45 guests from Heathrow to a venue in Surrey. NoirFleet coordinated three coaches and two SUVs flawlessly. Impeccable service from start to finish.</p>
-              <div class="review-author">
-                <div class="review-avatar">EF</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Eleanor Foster</span>
-                  <span class="review-author-meta">London, UK · June 2025</span>
-                </div>
-                <span class="review-service-badge">🚌 Group</span>
-              </div>
-            </div>
-
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">The intercity transfer from Delhi to Agra was spectacular — comfortable SUV, a knowledgeable driver, and we stopped at the perfect time to see the Taj at sunrise. Truly premium service.</p>
-              <div class="review-author">
-                <div class="review-avatar">KN</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Kenji Nakamura</span>
-                  <span class="review-author-meta">Tokyo, Japan · Nov 2024</span>
-                </div>
-                <span class="review-service-badge">🛣 Intercity</span>
-              </div>
-            </div>
-
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">Our diplomat required discreet, security-conscious transport in London for three days. NoirFleet handled everything with the utmost professionalism. We will absolutely use them again.</p>
-              <div class="review-author">
-                <div class="review-avatar">CB</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Claire Beaumont</span>
-                  <span class="review-author-meta">Brussels, Belgium · Sept 2024</span>
-                </div>
-                <span class="review-service-badge">🛡 VIP</span>
-              </div>
-            </div>
-
-            <div class="review-card">
-              <div class="review-quote-icon">"</div>
-              <div class="review-stars">⭐⭐⭐⭐⭐</div>
-              <p class="review-text">Booking was instant via WhatsApp, driver was 10 minutes early, car was immaculate, and the fare was exactly as quoted. This is the gold standard for executive car services globally.</p>
-              <div class="review-author">
-                <div class="review-avatar">NK</div>
-                <div class="review-author-info">
-                  <span class="review-author-name">Nils Karlsson</span>
-                  <span class="review-author-meta">Stockholm, Sweden · Aug 2025</span>
-                </div>
-                <span class="review-service-badge">⏱ Hourly</span>
-              </div>
-            </div>
+            <!-- Duplicate 7-12 for seamless loop -->
+            <div class="review-card" tabindex="0"><div class="review-card-inner"><div class="review-face review-front"><div class="review-front-glow" style="background:#5ccb7a"></div><div class="review-avatar">DW</div><div class="review-front-stars">⭐⭐⭐⭐⭐</div><div class="review-front-name">David Whitfield</div><div class="review-front-meta">Atlanta, USA · April 2025</div><span class="review-service-badge">⛳ Golf · Masters</span><div class="review-front-hint">Click to read →</div></div><div class="review-face review-back"><div class="rb-top"><div class="review-avatar">DW</div><div class="rb-top-info"><div class="rb-name">David Whitfield</div><div class="rb-meta">Atlanta, USA</div></div><div class="review-back-stars">⭐⭐⭐⭐⭐</div></div><p class="review-back-text">Hired NoirFleet for the Masters weekend in Augusta. Driver knew every back road to avoid the traffic. We made every tee time comfortably. Already booked for next year.</p><span class="review-back-badge">⛳ Golf · Masters</span></div></div></div>
+            <div class="review-card" tabindex="0"><div class="review-card-inner"><div class="review-face review-front"><div class="review-front-glow"></div><div class="review-avatar">AS</div><div class="review-front-stars">⭐⭐⭐⭐⭐</div><div class="review-front-name">Ananya Shah</div><div class="review-front-meta">Mumbai / Dubai · Ongoing</div><span class="review-service-badge">✈ Airport Transfer</span><div class="review-front-hint">Click to read →</div></div><div class="review-face review-back"><div class="rb-top"><div class="review-avatar">AS</div><div class="rb-top-info"><div class="rb-name">Ananya Shah</div><div class="rb-meta">Mumbai / Dubai</div></div><div class="review-back-stars">⭐⭐⭐⭐⭐</div></div><p class="review-back-text">As a frequent flyer between Mumbai and Dubai, I've tried every car service out there. NoirFleet is in a league of its own — consistent, elegant, and always on time. Nothing else comes close.</p><span class="review-back-badge">✈ Airport Transfer</span></div></div></div>
+            <div class="review-card" tabindex="0"><div class="review-card-inner"><div class="review-face review-front"><div class="review-front-glow" style="background:#4a9eff"></div><div class="review-avatar">EF</div><div class="review-front-stars">⭐⭐⭐⭐⭐</div><div class="review-front-name">Eleanor Foster</div><div class="review-front-meta">London, UK · June 2025</div><span class="review-service-badge">🚌 Group Transfer</span><div class="review-front-hint">Click to read →</div></div><div class="review-face review-back"><div class="rb-top"><div class="review-avatar">EF</div><div class="rb-top-info"><div class="rb-name">Eleanor Foster</div><div class="rb-meta">London, UK</div></div><div class="review-back-stars">⭐⭐⭐⭐⭐</div></div><p class="review-back-text">We needed group transport for 45 guests from Heathrow to a venue in Surrey. NoirFleet coordinated three coaches and two SUVs flawlessly. Impeccable service from start to finish.</p><span class="review-back-badge">🚌 Group Transfer</span></div></div></div>
+            <div class="review-card" tabindex="0"><div class="review-card-inner"><div class="review-face review-front"><div class="review-front-glow" style="background:#ff9f43"></div><div class="review-avatar">KN</div><div class="review-front-stars">⭐⭐⭐⭐⭐</div><div class="review-front-name">Kenji Nakamura</div><div class="review-front-meta">Tokyo, Japan · Nov 2024</div><span class="review-service-badge">🛣 Intercity</span><div class="review-front-hint">Click to read →</div></div><div class="review-face review-back"><div class="rb-top"><div class="review-avatar">KN</div><div class="rb-top-info"><div class="rb-name">Kenji Nakamura</div><div class="rb-meta">Tokyo, Japan</div></div><div class="review-back-stars">⭐⭐⭐⭐⭐</div></div><p class="review-back-text">The intercity transfer from Delhi to Agra was spectacular — comfortable SUV, a knowledgeable driver, and we stopped at the perfect time to see the Taj at sunrise. Truly premium service.</p><span class="review-back-badge">🛣 Intercity</span></div></div></div>
+            <div class="review-card" tabindex="0"><div class="review-card-inner"><div class="review-face review-front"><div class="review-front-glow" style="background:#ff6b6b"></div><div class="review-avatar">CB</div><div class="review-front-stars">⭐⭐⭐⭐⭐</div><div class="review-front-name">Claire Beaumont</div><div class="review-front-meta">Brussels, Belgium · Sept 2024</div><span class="review-service-badge">🛡 VIP Transfer</span><div class="review-front-hint">Click to read →</div></div><div class="review-face review-back"><div class="rb-top"><div class="review-avatar">CB</div><div class="rb-top-info"><div class="rb-name">Claire Beaumont</div><div class="rb-meta">Brussels, Belgium</div></div><div class="review-back-stars">⭐⭐⭐⭐⭐</div></div><p class="review-back-text">Our diplomat required discreet, security-conscious transport in London for three days. NoirFleet handled everything with the utmost professionalism. We will absolutely use them again.</p><span class="review-back-badge">🛡 VIP Transfer</span></div></div></div>
+            <div class="review-card" tabindex="0"><div class="review-card-inner"><div class="review-face review-front"><div class="review-front-glow" style="background:#8ab4f8"></div><div class="review-avatar">NK</div><div class="review-front-stars">⭐⭐⭐⭐⭐</div><div class="review-front-name">Nils Karlsson</div><div class="review-front-meta">Stockholm, Sweden · Aug 2025</div><span class="review-service-badge">⏱ Hourly Hire</span><div class="review-front-hint">Click to read →</div></div><div class="review-face review-back"><div class="rb-top"><div class="review-avatar">NK</div><div class="rb-top-info"><div class="rb-name">Nils Karlsson</div><div class="rb-meta">Stockholm, Sweden</div></div><div class="review-back-stars">⭐⭐⭐⭐⭐</div></div><p class="review-back-text">Booking was instant via WhatsApp, driver was 10 minutes early, car was immaculate, and the fare was exactly as quoted. This is the gold standard for executive car services globally.</p><span class="review-back-badge">⏱ Hourly Hire</span></div></div></div>
 
           </div>
         </div>
@@ -945,23 +947,29 @@
   /* ── CURSOR SPOTLIGHT ── */
   (function() {
     var spot = document.getElementById('cursorSpotlight');
-    var mouseX = 0, mouseY = 0, curX = 0, curY = 0;
+    var targetX = window.innerWidth / 2;
+    var targetY = window.innerHeight / 2;
+    var currentX = targetX;
+    var currentY = targetY;
+    var halfW = 300; // half of spotlight width (600/2)
+
     document.addEventListener('mousemove', function(e) {
-      mouseX = e.clientX;
-      mouseY = e.clientY;
+      targetX = e.clientX;
+      targetY = e.clientY;
       spot.style.opacity = '1';
     });
     document.addEventListener('mouseleave', function() {
       spot.style.opacity = '0';
     });
-    function animateSpot() {
-      curX += (mouseX - curX) * 0.12;
-      curY += (mouseY - curY) * 0.12;
-      spot.style.left = curX + 'px';
-      spot.style.top  = curY + 'px';
-      requestAnimationFrame(animateSpot);
+
+    function animate() {
+      currentX += (targetX - currentX) * 0.1;
+      currentY += (targetY - currentY) * 0.1;
+      spot.style.left = (currentX - halfW) + 'px';
+      spot.style.top  = (currentY - halfW) + 'px';
+      requestAnimationFrame(animate);
     }
-    animateSpot();
+    animate();
   })();
 
   /* ── MOBILE NAV ── */
@@ -1018,6 +1026,22 @@
       }
       if (e.key === 'Escape') {
         card.classList.remove('flipped');
+      }
+    });
+  });
+
+  /* ── REVIEW FLASHCARDS — flip ── */
+  document.querySelectorAll('.review-card').forEach(card => {
+    card.addEventListener('click', function() {
+      card.classList.toggle('rc-flipped');
+    });
+    card.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        card.classList.toggle('rc-flipped');
+      }
+      if (e.key === 'Escape') {
+        card.classList.remove('rc-flipped');
       }
     });
   });
