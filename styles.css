@@ -623,11 +623,13 @@ main { padding-top: 90px; }
 }
 .event-desc {
   font-size: 0.76rem; color: var(--muted);
-  line-height: 1.55; margin-bottom: 10px; flex: 1;
+  line-height: 1.55; margin-bottom: 8px; flex: 1;
+  overflow: hidden;
 }
 .event-details {
-  list-style: none; margin-bottom: 12px;
+  list-style: none; margin-bottom: 10px;
   display: flex; flex-direction: column; gap: 4px;
+  flex-shrink: 0;
 }
 .event-details li { font-size: 0.72rem; color: rgba(255,255,255,0.65); font-weight: 500; }
 .event-book-btn {
@@ -642,6 +644,8 @@ main { padding-top: 90px; }
   position: relative;
   z-index: 10;
   cursor: pointer;
+  margin-top: auto;
+  flex-shrink: 0;
 }
 .event-book-btn:hover { opacity: 0.9; transform: translateY(-1px); }
 
