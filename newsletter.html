@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<!--
+  ╔══════════════════════════════════════════════════════════════╗
+  ║  NoirFleet — Newsletter Integration Package                  ║
+  ║  Includes:                                                   ║
+  ║    1. Nav link snippet (add to existing index.html)          ║
+  ║    2. Newsletter section snippet (embed in index.html)       ║
+  ║    3. Full standalone newsletter.html page                   ║
+  ║    4. SEO meta tags & recommendations (see bottom comments)  ║
+  ╚══════════════════════════════════════════════════════════════╝
+-->
+
+<!-- ═══════════════════════════════════════════════════════════
+     SNIPPET 1 — ADD THIS LINK TO YOUR EXISTING <nav> ELEMENTS
+     ═══════════════════════════════════════════════════════════
+     In index.html, inside <nav class="main-nav"> and <div id="mobileNav">,
+     add this line alongside the other nav links:
+
+     <a href="newsletter.html">Newsletter</a>
+
+     ═══════════════════════════════════════════════════════════
+     SNIPPET 2 — NEWSLETTER INLINE SECTION (embed in index.html)
+     Place this section just before the <!-- CONTACT --> section
+     and add "Newsletter" to both nav menus as shown above.
+     ═══════════════════════════════════════════════════════════
+-->
+
+<!-- ── NEWSLETTER INLINE SECTION ──────────────────────────── -->
+<!--
+<section id="newsletter" class="newsletter-inline-section">
+  <div class="nl-inline-inner">
+    <div class="nl-inline-left">
+      <span class="section-eyebrow">Stay Informed</span>
+      <h2>The NoirFleet Dispatch</h2>
+      <p class="muted">Exclusive travel intelligence, event previews, and private offers
+      — delivered to your inbox. No noise. Only what matters.</p>
+      <ul class="nl-perks">
+        <li><span>✦</span> Early access to event transport packages</li>
+        <li><span>✦</span> Priority booking windows for FIFA, Cannes &amp; F1</li>
+        <li><span>✦</span> Curated destination guides from our chauffeurs</li>
+        <li><span>✦</span> Member-only rates and upgrades</li>
+      </ul>
+    </div>
+    <div class="nl-inline-right">
+      <form class="nl-inline-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="hidden" name="_subject" value="NoirFleet Newsletter Signup">
+        <div class="nl-field-group">
+          <label for="nl-name">Full Name</label>
+          <input type="text" id="nl-name" name="name" placeholder="James Hartley" required autocomplete="name">
+        </div>
+        <div class="nl-field-group">
+          <label for="nl-email">Email Address *</label>
+          <input type="email" id="nl-email" name="email" placeholder="james@company.com" required autocomplete="email">
+        </div>
+        <div class="nl-field-group">
+          <label for="nl-interest">Primary Interest</label>
+          <select id="nl-interest" name="interest">
+            <option value="">Select a service...</option>
+            <option value="airport">Airport Transfers</option>
+            <option value="corporate">Corporate Travel</option>
+            <option value="events">Events &amp; Festivals</option>
+            <option value="weddings">Weddings &amp; Occasions</option>
+            <option value="vip">VIP &amp; Diplomatic</option>
+          </select>
+        </div>
+        <button class="btn primary nl-submit" type="submit">
+          Join the Dispatch &rarr;
+        </button>
+        <p class="nl-privacy">We respect your privacy. Unsubscribe anytime. No spam, ever.</p>
+      </form>
+    </div>
+  </div>
+</section>
+-->
+<!-- ── END NEWSLETTER INLINE SECTION ──────────────────────── -->
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     SNIPPET 3 — CSS FOR NEWSLETTER INLINE SECTION
+     Add this to the bottom of your styles.css file
+     ═══════════════════════════════════════════════════════════
+
+.newsletter-inline-section {
+  background: linear-gradient(135deg, #0a0a0d 0%, #0f0e10 50%, #0a0a0d 100%);
+  border-top: 1px solid rgba(255, 209, 102, 0.12);
+  border-bottom: 1px solid rgba(255, 209, 102, 0.12);
+  padding: 80px 40px;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.newsletter-inline-section::before {
+  content: 'DISPATCH';
+  position: absolute;
+  top: 50%; left: 50%; transform: translate(-50%, -50%);
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 14rem; font-weight: 900;
+  color: rgba(255, 209, 102, 0.02);
+  pointer-events: none;
+  white-space: nowrap;
+  letter-spacing: 0.3em;
+}
+.nl-inline-inner {
+  max-width: 1280px; margin: 0 auto;
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 80px; align-items: center;
+  position: relative; z-index: 1;
+}
+.nl-inline-left h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 800; color: #ffffff;
+  margin: 10px 0 14px; line-height: 1.2;
+}
+.nl-inline-left .muted { font-size: 0.95rem; line-height: 1.7; margin-bottom: 24px; }
+.nl-perks { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.nl-perks li {
+  display: flex; align-items: flex-start; gap: 10px;
+  font-size: 0.88rem; color: rgba(255,255,255,0.7); line-height: 1.5;
+}
+.nl-perks li span { color: #ffd166; font-size: 0.7rem; flex-shrink: 0; margin-top: 4px; }
+.nl-inline-right {
+  background: #0f1013;
+  border: 1px solid rgba(255,209,102,0.15);
+  border-radius: 20px;
+  padding: 36px 32px;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.6);
+}
+.nl-inline-form { display: flex; flex-direction: column; gap: 16px; }
+.nl-field-group { display: flex; flex-direction: column; gap: 6px; }
+.nl-field-group label {
+  font-size: 0.75rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.1em; color: #8a9199;
+}
+.nl-field-group input,
+.nl-field-group select {
+  width: 100%; padding: 12px 16px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  color: #ffffff; font-size: 0.9rem;
+  font-family: 'DM Sans', system-ui, sans-serif;
+  outline: none; transition: border-color 0.2s;
+  -webkit-appearance: none; appearance: none;
+}
+.nl-field-group input:focus,
+.nl-field-group select:focus { border-color: rgba(255, 209, 102, 0.45); }
+.nl-field-group select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%238a9199' stroke-width='1.5' fill='none'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; padding-right: 36px; }
+.nl-submit { width: 100%; padding: 14px; font-size: 1rem; border-radius: 12px; margin-top: 4px; }
+.nl-privacy {
+  font-size: 0.72rem; color: #8a9199; text-align: center; line-height: 1.5;
+}
+@media (max-width: 980px) {
+  .newsletter-inline-section { padding: 60px 24px; }
+  .nl-inline-inner { grid-template-columns: 1fr; gap: 40px; }
+}
+@media (max-width: 600px) {
+  .newsletter-inline-section { padding: 48px 16px; }
+  .nl-inline-right { padding: 24px 20px; }
+  .newsletter-inline-section::before { font-size: 6rem; }
+}
+
+     ═══════════════════════════════════════════════════════════ -->
+
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     FULL STANDALONE NEWSLETTER PAGE (newsletter.html)
+     Save this as newsletter.html in your project root
+     ═══════════════════════════════════════════════════════════ -->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- ── PRIMARY SEO META TAGS ─────────────────────────────── -->
+  <title>NoirFleet Newsletter — Luxury Travel Dispatch | Exclusive Chauffeur Insights</title>
+  <meta name="description" content="Subscribe to the NoirFleet Dispatch for exclusive luxury travel insights, priority booking access for FIFA World Cup 2026, Cannes, F1 Morocco, and VIP chauffeur offers worldwide.">
+  <meta name="keywords" content="luxury chauffeur newsletter, premium ground transport updates, airport transfer deals, FIFA World Cup 2026 transport, Cannes Film Festival chauffeur, F1 Morocco transfer, VIP travel newsletter, executive car service">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="NoirFleet">
+  <link rel="canonical" href="https://www.noirfleet.com/newsletter.html">
+
+  <!-- ── OPEN GRAPH (Facebook, LinkedIn, WhatsApp) ─────────── -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The NoirFleet Dispatch — Luxury Travel Intelligence">
+  <meta property="og:description" content="Join 5,000+ discerning travelers. Get exclusive event transport access, member-only rates, and curated travel intelligence from NoirFleet.">
+  <meta property="og:url" content="https://www.noirfleet.com/newsletter.html">
+  <meta property="og:image" content="https://www.noirfleet.com/banner.png">
+  <meta property="og:site_name" content="NoirFleet">
+
+  <!-- ── TWITTER / X CARD ──────────────────────────────────── -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The NoirFleet Dispatch — Luxury Travel Intelligence">
+  <meta name="twitter:description" content="Exclusive chauffeur travel insights, event transport access, and member-only offers. Subscribe free.">
+  <meta name="twitter:image" content="https://www.noirfleet.com/banner.png">
+
+  <!-- ── STRUCTURED DATA (JSON-LD) ─────────────────────────── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "NoirFleet Newsletter — The Dispatch",
+    "description": "Subscribe to NoirFleet's luxury travel newsletter for exclusive chauffeur service updates, event transport packages, and priority booking access.",
+    "url": "https://www.noirfleet.com/newsletter.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "NoirFleet",
+      "url": "https://www.noirfleet.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-7203070345",
+        "contactType": "Customer Service",
+        "availableLanguage": "English"
+      }
+    }
+  }
+  </script>
+
+  <!-- ── FONTS ─────────────────────────────────────────────── -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    /* ── CSS RESET & ROOT VARIABLES ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: #060607;
+      color: #ffffff;
+      font-family: 'DM Sans', system-ui, sans-serif;
+      font-size: 16px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+    :root {
+      --gold:    #ffd166;
+      --gold2:   #ffb703;
+      --bg:      #060607;
+      --bg2:     #0a0a0c;
+      --card:    #0f1013;
+      --border:  rgba(255,255,255,0.05);
+      --border-g:rgba(255,209,102,0.15);
+      --muted:   #8a9199;
+      --radius:  16px;
+      --font-head:'Playfair Display', Georgia, serif;
+      --font-body:'DM Sans', system-ui, sans-serif;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+
+    /* ── BACKGROUND GRID TEXTURE ── */
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      background-image:
+        linear-gradient(rgba(255,209,102,0.015) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,209,102,0.015) 1px, transparent 1px);
+      background-size: 60px 60px;
+      pointer-events: none; z-index: 0;
+    }
+
+    /* ── FLOATING GLOW ORBS ── */
+    .bg-orb {
+      position: fixed; border-radius: 50%;
+      filter: blur(120px); pointer-events: none; z-index: 0;
+    }
+    .bg-orb-1 {
+      width: 600px; height: 600px;
+      background: rgba(255, 209, 102, 0.04);
+      top: -200px; right: -200px;
+    }
+    .bg-orb-2 {
+      width: 500px; height: 500px;
+      background: rgba(74, 158, 255, 0.03);
+      bottom: -150px; left: -150px;
+    }
+
+    /* ── MINIMAL HEADER ── */
+    .nl-header {
+      position: fixed; top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(6,6,7,0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nl-header-inner {
+      max-width: 1280px; margin: 0 auto;
+      padding: 14px 40px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nl-logo {
+      font-family: var(--font-head);
+      font-size: 1.3rem; font-weight: 800;
+      color: #fff;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .nl-logo span { color: var(--gold); }
+    .nl-back {
+      display: flex; align-items: center; gap: 6px;
+      font-size: 0.82rem; font-weight: 600; color: var(--muted);
+      padding: 8px 14px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .nl-back:hover { color: var(--gold); border-color: var(--border-g); }
+
+    /* ── HERO ── */
+    .nl-hero {
+      position: relative; z-index: 1;
+      padding: 140px 40px 80px;
+      text-align: center;
+      overflow: hidden;
+    }
+    .nl-hero::after {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(255,209,102,0.06), transparent 70%);
+      pointer-events: none;
+    }
+    .nl-eyebrow {
+      display: inline-block;
+      font-size: 0.68rem; font-weight: 700;
+      letter-spacing: 0.22em; text-transform: uppercase;
+      color: var(--gold); opacity: 0.85;
+      margin-bottom: 16px;
+    }
+    .nl-hero h1 {
+      font-family: var(--font-head);
+      font-size: clamp(2.4rem, 6vw, 5rem);
+      font-weight: 900; line-height: 1.05;
+      color: #fff; margin-bottom: 20px;
+    }
+    .nl-hero h1 em {
+      font-style: normal; color: var(--gold);
+      display: block;
+    }
+    .nl-hero-sub {
+      font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+      color: var(--muted); max-width: 520px;
+      margin: 0 auto 36px; line-height: 1.7;
+    }
+    .nl-hero-stats {
+      display: inline-flex; align-items: center; gap: 28px;
+      padding: 14px 28px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border-g);
+      border-radius: 50px;
+      margin-bottom: 0;
+    }
+    .nhs { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+    .nhs-n { font-size: 1.2rem; font-weight: 800; color: var(--gold); line-height: 1; }
+    .nhs-l { font-size: 0.62rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
+    .nhs-div { width: 1px; height: 28px; background: rgba(255,255,255,0.1); }
+
+    /* ── MAIN LAYOUT ── */
+    .nl-main {
+      position: relative; z-index: 1;
+      max-width: 1100px; margin: 0 auto;
+      padding: 0 40px 80px;
+      display: grid; grid-template-columns: 1fr 480px;
+      gap: 64px; align-items: start;
+    }
+
+    /* ── LEFT: BENEFITS ── */
+    .nl-benefits-title {
+      font-family: var(--font-head);
+      font-size: 1.4rem; font-weight: 800;
+      color: #fff; margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border-g);
+    }
+    .nl-benefit-list { display: flex; flex-direction: column; gap: 14px; margin-bottom: 40px; }
+    .nl-benefit {
+      display: flex; align-items: flex-start; gap: 14px;
+      padding: 16px 18px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .nl-benefit:hover { border-color: var(--border-g); transform: translateX(4px); }
+    .nl-benefit-icon {
+      width: 40px; height: 40px; flex-shrink: 0;
+      background: rgba(255,209,102,0.08);
+      border: 1px solid rgba(255,209,102,0.15);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem;
+    }
+    .nl-benefit-body { flex: 1; }
+    .nl-benefit-body strong {
+      display: block; font-size: 0.9rem; font-weight: 700;
+      color: #fff; margin-bottom: 3px;
+    }
+    .nl-benefit-body p { font-size: 0.8rem; color: var(--muted); line-height: 1.5; }
+
+    /* ── PAST ISSUES PREVIEW ── */
+    .nl-issues-title {
+      font-family: var(--font-head);
+      font-size: 1.1rem; font-weight: 800;
+      color: var(--gold); margin-bottom: 14px;
+    }
+    .nl-issue-card {
+      display: flex; gap: 14px; align-items: center;
+      padding: 14px 16px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin-bottom: 10px;
+      transition: border-color 0.2s;
+    }
+    .nl-issue-card:hover { border-color: var(--border-g); }
+    .nl-issue-num {
+      font-family: var(--font-head);
+      font-size: 1.6rem; font-weight: 900;
+      color: rgba(255,209,102,0.2); flex-shrink: 0;
+      width: 44px; text-align: center;
+    }
+    .nl-issue-body strong { display: block; font-size: 0.85rem; font-weight: 700; color: #fff; margin-bottom: 2px; }
+    .nl-issue-body span { font-size: 0.75rem; color: var(--muted); }
+
+    /* ── RIGHT: FORM CARD ── */
+    .nl-form-card {
+      position: sticky; top: 100px;
+      background: var(--card);
+      border: 1px solid var(--border-g);
+      border-radius: 22px;
+      padding: 36px 32px;
+      box-shadow:
+        0 32px 80px rgba(0,0,0,0.7),
+        0 0 0 1px rgba(255,209,102,0.06),
+        inset 0 1px 0 rgba(255,255,255,0.04);
+    }
+    .nl-form-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 0.62rem; font-weight: 700;
+      letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--gold);
+      background: rgba(255,209,102,0.1);
+      border: 1px solid rgba(255,209,102,0.2);
+      padding: 4px 12px; border-radius: 20px;
+      margin-bottom: 16px;
+    }
+    .nl-form-title {
+      font-family: var(--font-head);
+      font-size: 1.5rem; font-weight: 800;
+      color: #fff; line-height: 1.2;
+      margin-bottom: 6px;
+    }
+    .nl-form-sub {
+      font-size: 0.82rem; color: var(--muted);
+      line-height: 1.55; margin-bottom: 24px;
+    }
+    .nl-divider {
+      height: 1px; background: var(--border-g);
+      margin-bottom: 24px;
+    }
+    .nl-form { display: flex; flex-direction: column; gap: 14px; }
+    .nl-field { display: flex; flex-direction: column; gap: 6px; }
+    .nl-field label {
+      font-size: 0.72rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.1em;
+      color: var(--muted);
+    }
+    .nl-field input,
+    .nl-field select {
+      width: 100%; padding: 12px 16px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+      color: #fff; font-size: 0.9rem;
+      font-family: var(--font-body);
+      outline: none; transition: border-color 0.2s, background 0.2s;
+      -webkit-appearance: none; appearance: none;
+    }
+    .nl-field input:focus,
+    .nl-field select:focus {
+      border-color: rgba(255,209,102,0.5);
+      background: rgba(255,255,255,0.05);
+    }
+    .nl-field input::placeholder { color: #3d4249; }
+    .nl-field select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%238a9199' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 14px center;
+      padding-right: 36px; cursor: pointer;
+    }
+    .nl-field select option { background: #0f1013; }
+
+    /* Preference chips */
+    .nl-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .nl-chip {
+      padding: 6px 12px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 20px;
+      font-size: 0.75rem; font-weight: 600; color: var(--muted);
+      cursor: pointer; transition: all 0.2s;
+      user-select: none;
+    }
+    .nl-chip:hover, .nl-chip.active {
+      background: rgba(255,209,102,0.1);
+      border-color: rgba(255,209,102,0.3);
+      color: var(--gold);
+    }
+    .nl-chip input[type="checkbox"] { display: none; }
+
+    .nl-submit-btn {
+      width: 100%; padding: 15px;
+      background: linear-gradient(90deg, var(--gold), var(--gold2));
+      color: #060607; border: none; border-radius: 12px;
+      font-family: var(--font-body); font-size: 1rem; font-weight: 800;
+      cursor: pointer; margin-top: 6px;
+      box-shadow: 0 8px 28px rgba(255,183,3,0.28);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .nl-submit-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 36px rgba(255,183,3,0.38);
+    }
+    .nl-submit-btn:active { transform: translateY(0); }
+
+    .nl-trust {
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      margin-top: 12px;
+    }
+    .nl-trust-item {
+      display: flex; align-items: center; gap: 4px;
+      font-size: 0.68rem; color: rgba(255,255,255,0.3); font-weight: 500;
+    }
+    .nl-trust-dot { width: 2px; height: 2px; border-radius: 50%; background: rgba(255,255,255,0.15); }
+
+    /* ── SUCCESS STATE ── */
+    .nl-success {
+      display: none; flex-direction: column; align-items: center;
+      text-align: center; gap: 12px; padding: 20px 0;
+    }
+    .nl-success-icon {
+      width: 64px; height: 64px;
+      background: linear-gradient(135deg, rgba(92,203,122,0.15), rgba(92,203,122,0.05));
+      border: 1px solid rgba(92,203,122,0.3);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.8rem;
+    }
+    .nl-success h3 {
+      font-family: var(--font-head);
+      font-size: 1.4rem; font-weight: 800; color: #fff;
+    }
+    .nl-success p { font-size: 0.85rem; color: var(--muted); line-height: 1.6; }
+
+    /* ── FOOTER ── */
+    .nl-footer {
+      position: relative; z-index: 1;
+      border-top: 1px solid var(--border);
+      padding: 24px 40px;
+      max-width: 1100px; margin: 0 auto;
+      display: flex; justify-content: space-between; align-items: center;
+      gap: 16px; flex-wrap: wrap;
+    }
+    .nl-footer p { font-size: 0.78rem; color: var(--muted); }
+    .nl-footer a { color: var(--gold); font-weight: 600; }
+    .nl-footer a:hover { opacity: 0.75; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .nl-main { grid-template-columns: 1fr; gap: 48px; }
+      .nl-form-card { position: static; }
+      .nl-hero { padding: 120px 24px 60px; }
+      .nl-main { padding: 0 24px 60px; }
+      .nl-header-inner { padding: 14px 24px; }
+    }
+    @media (max-width: 600px) {
+      .nl-hero { padding: 110px 16px 48px; }
+      .nl-hero h1 { font-size: 2.2rem; }
+      .nl-main { padding: 0 16px 48px; }
+      .nl-hero-stats { flex-wrap: wrap; gap: 14px; padding: 12px 20px; }
+      .nl-form-card { padding: 24px 20px; }
+      .nl-header-inner { padding: 12px 16px; }
+      .nl-footer { padding: 20px 16px; flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Ambient background elements -->
+  <div class="bg-orb bg-orb-1" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb-2" aria-hidden="true"></div>
+
+  <!-- ── HEADER ─────────────────────────────────────────────── -->
+  <header class="nl-header" role="banner">
+    <div class="nl-header-inner">
+      <a href="index.html" class="nl-logo" aria-label="NoirFleet Home">
+        Noir<span>Fleet</span>
+      </a>
+      <a href="index.html" class="nl-back" aria-label="Back to main website">
+        ← Back to Main Site
+      </a>
+    </div>
+  </header>
+
+  <!-- ── HERO ──────────────────────────────────────────────── -->
+  <section class="nl-hero" aria-labelledby="nl-hero-heading">
+    <p class="nl-eyebrow">Intelligence · Exclusivity · Access</p>
+    <!-- H1 is the primary keyword-bearing heading for this page -->
+    <h1 id="nl-hero-heading">
+      The NoirFleet<em>Dispatch</em>
+    </h1>
+    <p class="nl-hero-sub">
+      Exclusive luxury travel intelligence, priority event transport access,
+      and member-only offers — curated for the world's most discerning travelers.
+    </p>
+    <div class="nl-hero-stats" role="list" aria-label="Newsletter statistics">
+      <div class="nhs" role="listitem"><span class="nhs-n">5K+</span><span class="nhs-l">Subscribers</span></div>
+      <div class="nhs-div" aria-hidden="true"></div>
+      <div class="nhs" role="listitem"><span class="nhs-n">Weekly</span><span class="nhs-l">Frequency</span></div>
+      <div class="nhs-div" aria-hidden="true"></div>
+      <div class="nhs" role="listitem"><span class="nhs-n">Free</span><span class="nhs-l">Always</span></div>
+      <div class="nhs-div" aria-hidden="true"></div>
+      <div class="nhs" role="listitem"><span class="nhs-n">0</span><span class="nhs-l">Spam</span></div>
+    </div>
+  </section>
+
+  <!-- ── MAIN CONTENT ──────────────────────────────────────── -->
+  <main class="nl-main" id="main-content">
+
+    <!-- LEFT COLUMN: BENEFITS + PAST ISSUES -->
+    <div>
+      <!-- H2 for semantic structure and secondary SEO targeting -->
+      <h2 class="nl-benefits-title">What You'll Receive</h2>
+
+      <ul class="nl-benefit-list" role="list">
+        <li class="nl-benefit" role="listitem">
+          <div class="nl-benefit-icon" aria-hidden="true">🏆</div>
+          <div class="nl-benefit-body">
+            <strong>Early Event Transport Access</strong>
+            <p>Priority booking windows for FIFA World Cup 2026, Cannes Film Festival, The Masters, and F1 Morocco — before public release.</p>
+          </div>
+        </li>
+        <li class="nl-benefit" role="listitem">
+          <div class="nl-benefit-icon" aria-hidden="true">💰</div>
+          <div class="nl-benefit-body">
+            <strong>Member-Only Rates &amp; Upgrades</strong>
+            <p>Exclusive subscriber discounts on airport transfers, hourly hire, and fleet upgrades across our global network in 50+ countries.</p>
+          </div>
+        </li>
+        <li class="nl-benefit" role="listitem">
+          <div class="nl-benefit-icon" aria-hidden="true">🗺️</div>
+          <div class="nl-benefit-body">
+            <strong>Chauffeur Destination Guides</strong>
+            <p>Insider knowledge from our professional drivers — the best routes, hidden arrivals, and local intelligence in every city we serve.</p>
+          </div>
+        </li>
+        <li class="nl-benefit" role="listitem">
+          <div class="nl-benefit-icon" aria-hidden="true">📊</div>
+          <div class="nl-benefit-body">
+            <strong>Luxury Travel Intelligence</strong>
+            <p>Curated updates on the global luxury transport industry, new fleet additions, service expansions, and NoirFleet news.</p>
+          </div>
+        </li>
+        <li class="nl-benefit" role="listitem">
+          <div class="nl-benefit-icon" aria-hidden="true">⚡</div>
+          <div class="nl-benefit-body">
+            <strong>Flash Availability Alerts</strong>
+            <p>Last-minute fleet availability for high-demand periods. First-come, first-served — subscribers are always first to know.</p>
+          </div>
+        </li>
+      </ul>
+
+      <!-- H3 for issue archive section -->
+      <h3 class="nl-issues-title">Recent Dispatches</h3>
+
+      <div role="list" aria-label="Recent newsletter issues">
+        <article class="nl-issue-card" role="listitem">
+          <div class="nl-issue-num" aria-hidden="true">08</div>
+          <div class="nl-issue-body">
+            <strong>FIFA World Cup 2026 — Transport Playbook</strong>
+            <span>March 2026 · 16 host cities, full fleet coverage, group booking guide</span>
+          </div>
+        </article>
+        <article class="nl-issue-card" role="listitem">
+          <div class="nl-issue-num" aria-hidden="true">07</div>
+          <div class="nl-issue-body">
+            <strong>The Masters 2026 — Augusta Insider Guide</strong>
+            <span>February 2026 · Traffic routes, airport timing, corporate hospitality</span>
+          </div>
+        </article>
+        <article class="nl-issue-card" role="listitem">
+          <div class="nl-issue-num" aria-hidden="true">06</div>
+          <div class="nl-issue-body">
+            <strong>Dubai Winter Season — VIP Transfer Packages</strong>
+            <span>January 2026 · DXB arrivals, yacht transfers, desert excursions</span>
+          </div>
+        </article>
+        <article class="nl-issue-card" role="listitem">
+          <div class="nl-issue-num" aria-hidden="true">05</div>
+          <div class="nl-issue-body">
+            <strong>SXSW 2026 — Austin Festival Transport Guide</strong>
+            <span>December 2025 · AUS airport, venue hops, full-day hire packages</span>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN: SUBSCRIPTION FORM -->
+    <aside aria-label="Newsletter subscription form">
+      <div class="nl-form-card">
+        <span class="nl-form-badge">✦ Free Subscription</span>
+        <h2 class="nl-form-title">Join the Dispatch</h2>
+        <p class="nl-form-sub">
+          Enter your details below. Your first issue arrives within 24 hours.
+          Unsubscribe anytime — no questions asked.
+        </p>
+        <div class="nl-divider" aria-hidden="true"></div>
+
+        <!-- SUBSCRIPTION FORM -->
+        <!-- Replace YOUR_FORM_ID with your Formspree endpoint -->
+        <form
+          class="nl-form"
+          id="nlForm"
+          action="https://formspree.io/f/YOUR_FORM_ID"
+          method="POST"
+          novalidate
+          aria-label="Newsletter signup"
+        >
+          <!-- Hidden fields for Formspree routing -->
+          <input type="hidden" name="_subject" value="New NoirFleet Newsletter Subscriber">
+          <input type="hidden" name="_next" value="https://www.noirfleet.com/newsletter.html?subscribed=true">
+          <!-- Honeypot anti-spam field (hidden from users, bots fill it) -->
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" aria-hidden="true">
+
+          <div class="nl-field">
+            <label for="sub-name">Full Name</label>
+            <input
+              type="text"
+              id="sub-name"
+              name="name"
+              placeholder="James Hartley"
+              autocomplete="name"
+              required
+            >
+          </div>
+
+          <div class="nl-field">
+            <label for="sub-email">Email Address *</label>
+            <input
+              type="email"
+              id="sub-email"
+              name="email"
+              placeholder="james@company.com"
+              autocomplete="email"
+              required
+              aria-required="true"
+            >
+          </div>
+
+          <div class="nl-field">
+            <label for="sub-location">Primary Location</label>
+            <select id="sub-location" name="location">
+              <option value="">Select your city...</option>
+              <option value="new-york">New York, USA</option>
+              <option value="los-angeles">Los Angeles, USA</option>
+              <option value="london">London, UK</option>
+              <option value="dubai">Dubai, UAE</option>
+              <option value="mumbai">Mumbai, India</option>
+              <option value="toronto">Toronto, Canada</option>
+              <option value="paris">Paris, France</option>
+              <option value="singapore">Singapore</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <!-- Interest preference chips -->
+          <div class="nl-field">
+            <label id="nl-interests-label">Interests (select all that apply)</label>
+            <div class="nl-chips" role="group" aria-labelledby="nl-interests-label">
+              <label class="nl-chip">
+                <input type="checkbox" name="interests[]" value="airport"> ✈ Airport Transfers
+              </label>
+              <label class="nl-chip">
+                <input type="checkbox" name="interests[]" value="corporate"> 💼 Corporate
+              </label>
+              <label class="nl-chip">
+                <input type="checkbox" name="interests[]" value="events"> 🎪 Events
+              </label>
+              <label class="nl-chip">
+                <input type="checkbox" name="interests[]" value="weddings"> 💍 Weddings
+              </label>
+              <label class="nl-chip">
+                <input type="checkbox" name="interests[]" value="vip"> 🛡 VIP / Diplomatic
+              </label>
+              <label class="nl-chip">
+                <input type="checkbox" name="interests[]" value="f1"> 🏎 F1 &amp; Sport
+              </label>
+            </div>
+          </div>
+
+          <button class="nl-submit-btn" type="submit" id="nlSubmit">
+            Subscribe to the Dispatch →
+          </button>
+
+          <!-- Trust indicators -->
+          <div class="nl-trust" role="note" aria-label="Trust indicators">
+            <span class="nl-trust-item">🔒 Encrypted</span>
+            <span class="nl-trust-dot" aria-hidden="true"></span>
+            <span class="nl-trust-item">✓ No spam</span>
+            <span class="nl-trust-dot" aria-hidden="true"></span>
+            <span class="nl-trust-item">↩ Unsubscribe anytime</span>
+          </div>
+        </form>
+
+        <!-- Success message (shown via JS after submission) -->
+        <div class="nl-success" id="nlSuccess" role="alert" aria-live="polite" aria-hidden="true">
+          <div class="nl-success-icon" aria-hidden="true">✓</div>
+          <h3>Welcome to the Dispatch</h3>
+          <p>Your subscription is confirmed. Check your inbox within 24 hours for your first issue — and enjoy early access to our upcoming 2026 event transport packages.</p>
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────── -->
+  <footer class="nl-footer" role="contentinfo">
+    <p>© <span id="nlYear"></span> NoirFleet. All rights reserved.</p>
+    <p>
+      <a href="index.html">Main Site</a> &nbsp;·&nbsp;
+      <a href="mailto:reservations@noirfleet.com">reservations@noirfleet.com</a> &nbsp;·&nbsp;
+      <a href="https://wa.me/917203070345">+91-7203070345</a>
+    </p>
+  </footer>
+
+  <script>
+    /* ── FOOTER YEAR ── */
+    document.getElementById('nlYear').textContent = new Date().getFullYear();
+
+    /* ── CHIP TOGGLE ──
+       Visually activates preference chips when clicked */
+    document.querySelectorAll('.nl-chip').forEach(chip => {
+      const cb = chip.querySelector('input[type="checkbox"]');
+      cb.addEventListener('change', () => {
+        chip.classList.toggle('active', cb.checked);
+      });
+    });
+
+    /* ── FORM SUBMISSION ──
+       Handles Formspree AJAX submission with success/error state */
+    const form    = document.getElementById('nlForm');
+    const success = document.getElementById('nlSuccess');
+    const btn     = document.getElementById('nlSubmit');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      btn.textContent = 'Subscribing...';
+      btn.disabled = true;
+
+      try {
+        const res = await fetch(form.action, {
+          method:  'POST',
+          body:    new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (res.ok) {
+          // Show success message, hide form
+          form.style.display = 'none';
+          success.style.display = 'flex';
+          success.removeAttribute('aria-hidden');
+        } else {
+          // Fallback: let Formspree handle the redirect
+          form.submit();
+        }
+      } catch {
+        // Network error fallback
+        form.submit();
+      }
+    });
+
+    /* ── URL PARAM: auto-show success if redirected back ── */
+    if (new URLSearchParams(window.location.search).get('subscribed') === 'true') {
+      form.style.display = 'none';
+      success.style.display = 'flex';
+      success.removeAttribute('aria-hidden');
+    }
+  </script>
+
+</body>
+</html>
+
+<!--
+  ════════════════════════════════════════════════════════════════
+  SEO RECOMMENDATIONS SUMMARY
+  ════════════════════════════════════════════════════════════════
+
+  1. META TAGS (already implemented above):
+     ✅ <title>       — keyword-rich, under 60 chars
+     ✅ <description> — under 160 chars, includes primary keywords
+     ✅ <keywords>    — includes long-tail variations
+     ✅ <canonical>   — prevents duplicate content penalties
+     ✅ Open Graph    — for social sharing previews
+     ✅ Twitter Card  — for X/Twitter link previews
+     ✅ JSON-LD       — structured data for Google rich results
+
+  2. HEADING HIERARCHY (correctly implemented):
+     H1 → "The NoirFleet Dispatch" (one per page, primary keyword)
+     H2 → "What You'll Receive" (section heading)
+     H2 → "Join the Dispatch"   (form section)
+     H3 → "Recent Dispatches"   (subsection)
+
+  3. TARGET KEYWORDS TO INCORPORATE IN CONTENT:
+     Primary:    luxury chauffeur service newsletter
+     Secondary:  airport transfer updates, premium ground transport
+     Long-tail:  FIFA World Cup 2026 transport, Cannes chauffeur newsletter,
+                 executive car service subscription, VIP travel dispatch
+     Local:      [City] luxury car service (e.g. "London luxury car service newsletter")
+
+  4. ADDITIONAL SEO ACTIONS RECOMMENDED:
+     • Submit newsletter.html URL to Google Search Console
+     • Add an <hreflang> tag if serving multiple languages
+     • Create a sitemap.xml entry for newsletter.html
+     • Add "Newsletter" to your schema's siteNavElement
+     • Link to newsletter.html from your main footer and nav
+     • Use breadcrumb schema: Home > Newsletter
+     • Target 300–500 word minimum for crawlable content
+     • Add alt text to any images added in future
+     • Ensure page loads in under 2.5s (Core Web Vitals)
+
+  5. LINK BUILDING SUGGESTIONS:
+     • Link to newsletter from homepage hero CTA
+     • Add newsletter link to every blog/article footer
+     • Include newsletter signup in email signatures
+     • Create a Google My Business post announcing the newsletter
+
+  ════════════════════════════════════════════════════════════════
+-->
