@@ -265,15 +265,19 @@ main { padding-top: 90px; }
 .events-cta { margin-top: 36px; padding: 28px 32px; background: linear-gradient(135deg, #12100a, #1a1710); border: 1px solid var(--border-g); border-radius: var(--radius); display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
 .events-cta p { font-size: 1rem; color: var(--muted); font-style: italic; }
 
-/* ────────────────────────────────────────
-   PARTNERS SECTION
-──────────────────────────────────────── */
+ 
 .partners-section {
   background: var(--bg);
-  padding: 60px 40px;
   border-top: 1px solid var(--border);
 }
-.partners-inner { max-width: 1280px; margin: 0 auto; }
+ 
+/* Inner container carries the padding —
+   same pattern as every other section */
+.partners-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 60px 40px;
+}
  
 .partners-grid {
   display: grid;
@@ -289,15 +293,14 @@ main { padding-top: 90px; }
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
-  transition: border-color 0.25s, transform 0.25s;
   min-height: 180px;
+  transition: border-color 0.25s, transform 0.25s;
 }
 .partner-card:hover {
   border-color: var(--border-g);
   transform: translateY(-3px);
 }
  
-/* Logo panel — fixed square, black bg, image centred and contained */
 .partner-logo-wrap {
   flex: 0 0 200px;
   width: 200px;
@@ -318,7 +321,6 @@ main { padding-top: 90px; }
   display: block;
 }
  
-/* Content */
 .partner-body {
   flex: 1;
   min-width: 0;
@@ -390,10 +392,16 @@ main { padding-top: 90px; }
 .gold-link { color: var(--gold); font-weight: 600; transition: opacity 0.2s; }
 .gold-link:hover { opacity: 0.75; }
  
-/* Mobile */
-@media (max-width: 600px) {
-  .partners-section { padding: 40px 16px; }
+/* ── Responsive ── */
+@media (max-width: 1100px) {
+  .partners-inner { padding-left: 24px; padding-right: 24px; }
+}
+@media (max-width: 980px) {
   .partners-grid { grid-template-columns: 1fr; }
+  .partners-inner { padding: 48px 20px; }
+}
+@media (max-width: 600px) {
+  .partners-inner { padding: 40px 16px; }
   .partner-card { flex-direction: column; }
   .partner-logo-wrap {
     flex: none;
@@ -405,7 +413,6 @@ main { padding-top: 90px; }
   }
   .partner-logo { height: 120px; }
   .partner-body { padding: 18px; }
-  .partners-grid { grid-template-columns: 1fr; }
 }
 
 /* ────────────────────────────────────────
