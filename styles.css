@@ -274,14 +274,14 @@ main { padding-top: 90px; }
   border-top: 1px solid var(--border);
 }
 .partners-inner { max-width: 1280px; margin: 0 auto; }
-
+ 
 .partners-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   gap: 20px;
   margin-bottom: 28px;
 }
-
+ 
 .partner-card {
   display: flex;
   flex-direction: row;
@@ -290,34 +290,42 @@ main { padding-top: 90px; }
   border-radius: var(--radius);
   overflow: hidden;
   transition: border-color 0.25s, transform 0.25s;
+  min-height: 180px;
 }
 .partner-card:hover {
   border-color: var(--border-g);
   transform: translateY(-3px);
 }
-
+ 
+/* Logo panel — fixed square, black bg, image centred and contained */
 .partner-logo-wrap {
-  flex: 0 0 210px;
+  flex: 0 0 200px;
+  width: 200px;
+  min-height: 180px;
   background: #000;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 28px 22px;
+  padding: 20px 16px;
   border-right: 1px solid var(--border);
+  overflow: hidden;
 }
 .partner-logo {
   width: 100%;
-  max-width: 170px;
-  height: auto;
+  height: 140px;
   object-fit: contain;
+  object-position: center;
+  display: block;
 }
-
+ 
+/* Content */
 .partner-body {
   flex: 1;
-  padding: 24px 24px;
+  min-width: 0;
+  padding: 22px 22px;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 5px;
   justify-content: center;
 }
 .partner-cat {
@@ -330,7 +338,7 @@ main { padding-top: 90px; }
 }
 .partner-name {
   font-family: var(--font-head);
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 800;
   color: var(--accent);
   letter-spacing: 0.06em;
@@ -341,11 +349,12 @@ main { padding-top: 90px; }
   font-size: 0.82rem;
   font-style: italic;
   color: rgba(255,209,102,0.65);
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 .partner-desc {
   font-size: 0.8rem;
   line-height: 1.65;
+  color: var(--muted);
   margin-bottom: 10px;
 }
 .partner-links {
@@ -371,7 +380,7 @@ main { padding-top: 90px; }
 .partner-link:hover { color: var(--gold); border-color: var(--border-g); }
 .partner-link svg { opacity: 0.5; flex-shrink: 0; transition: opacity 0.2s; }
 .partner-link:hover svg { opacity: 1; }
-
+ 
 .partners-cta-note {
   font-size: 0.82rem;
   color: var(--muted);
@@ -380,6 +389,24 @@ main { padding-top: 90px; }
 }
 .gold-link { color: var(--gold); font-weight: 600; transition: opacity 0.2s; }
 .gold-link:hover { opacity: 0.75; }
+ 
+/* Mobile */
+@media (max-width: 600px) {
+  .partners-section { padding: 40px 16px; }
+  .partners-grid { grid-template-columns: 1fr; }
+  .partner-card { flex-direction: column; }
+  .partner-logo-wrap {
+    flex: none;
+    width: 100%;
+    min-height: 160px;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 20px;
+  }
+  .partner-logo { height: 120px; }
+  .partner-body { padding: 18px; }
+  .partners-grid { grid-template-columns: 1fr; }
+}
 
 /* ────────────────────────────────────────
    SERVICES
