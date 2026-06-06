@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="The NoirFleet Travel Journal — city guides, transfer tips and stories from the road across the world's most prestigious destinations.">
+  <title>Travel Journal — NoirFleet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="pages.css">
+  <link rel="icon" type="image/png" href="noir_favicon.png">
+</head>
+<body data-page="blog">
+
+  <div id="site-header"></div>
+
+  <main class="page-body">
+
+    <section class="page-hero">
+      <img src="city_tours.jpg" alt="" class="page-hero-bg">
+      <div class="page-hero-inner">
+        <span class="page-hero-eyebrow">Stories From The Road</span>
+        <h1>Travel <span class="gold">Journal</span></h1>
+        <p>City guides, transfer tips and notes from our chauffeurs across the world's most prestigious destinations — updated regularly.</p>
+        <div class="page-breadcrumb"><a href="index.html">Home</a><span>/</span>Journal</div>
+      </div>
+    </section>
+
+    <section class="blog-section">
+      <div class="blog-toolbar">
+        <div class="blog-search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" id="blogSearch" placeholder="Search articles…" aria-label="Search articles">
+        </div>
+        <div class="blog-tags" id="blogTags"></div>
+      </div>
+
+      <div class="blog-grid" id="blogGrid"></div>
+    </section>
+
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="articles.js"></script>
+  <script src="shared.js"></script>
+  <script>
+  (function () {
+    var articles = (window.NF_ARTICLES || []).slice();
+    var grid    = document.getElementById('blogGrid');
+    var tagsBox = document.getElementById('blogTags');
+    var search  = document.getElementById('blogSearch');
+
+    var activeTag = 'All';
+    var query = '';
+
+    function esc(s) {
+      return String(s == null ? '' : s)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    /* ---- Build tag filter list ---- */
+    var cats = ['All'];
+    articles.forEach(function (a) {
+      if (a.category && cats.indexOf(a.category) === -1) cats.push(a.category);
+    });
+    tagsBox.innerHTML = cats.map(function (c) {
+      return '<button class="blog-tag' + (c === 'All' ? ' active' : '') + '" data-tag="' + esc(c) + '">' + esc(c) + '</button>';
+    }).join('');
+    Array.prototype.forEach.call(tagsBox.querySelectorAll('.blog-tag'), function (btn) {
+      btn.addEventListener('click', function () {
+        activeTag = btn.getAttribute('data-tag');
+        Array.prototype.forEach.call(tagsBox.querySelectorAll('.blog-tag'), function (b) {
+          b.classList.toggle('active', b === btn);
+        });
+        render();
+      });
+    });
+
+    search.addEventListener('input', function () {
+      query = search.value.trim().toLowerCase();
+      render();
+    });
+
+    function matches(a) {
+      if (activeTag !== 'All' && a.category !== activeTag) return false;
+      if (!query) return true;
+      var hay = (a.title + ' ' + a.excerpt + ' ' + (a.category || '')).toLowerCase();
+      return hay.indexOf(query) !== -1;
+    }
+
+    function card(a, featured) {
+      var img = a.image
+        ? '<img src="' + esc(a.image) + '" alt="' + esc(a.title) + '" onerror="this.style.display=\'none\'">'
+        : '';
+      return '' +
+        '<a class="article-card' + (featured ? ' featured' : '') + '" href="article.html?slug=' + encodeURIComponent(a.slug) + '">' +
+          '<div class="article-thumb">' + img +
+            (a.category ? '<span class="article-cat-pill">' + esc(a.category) + '</span>' : '') +
+          '</div>' +
+          '<div class="article-body">' +
+            '<div class="article-meta"><span>' + esc(a.date || '') + '</span></div>' +
+            '<h3>' + esc(a.title) + '</h3>' +
+            '<p class="article-excerpt">' + esc(a.excerpt || '') + '</p>' +
+            '<span class="article-readmore">Read article →</span>' +
+          '</div>' +
+        '</a>';
+    }
+
+    function render() {
+      var list = articles.filter(matches);
+      if (!list.length) {
+        grid.innerHTML = '<div class="blog-empty"><p>No articles match your search yet.</p></div>';
+        return;
+      }
+      grid.innerHTML = list.map(function (a, i) {
+        return card(a, i === 0 && activeTag === 'All' && !query);
+      }).join('');
+    }
+
+    render();
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="A story from the NoirFleet Travel Journal.">
+  <title>Travel Journal — NoirFleet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="pages.css">
+  <link rel="icon" type="image/png" href="noir_favicon.png">
+</head>
+<body data-page="blog">
+
+  <div id="site-header"></div>
+
+  <main class="page-body">
+    <article class="article-page" id="articleRoot">
+      <p class="muted" style="padding:40px 0">Loading…</p>
+    </article>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="articles.js"></script>
+  <script src="shared.js"></script>
+  <script>
+  (function () {
+    var root = document.getElementById('articleRoot');
+
+    function esc(s) {
+      return String(s == null ? '' : s)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function getSlug() {
+      var m = window.location.search.match(/[?&]slug=([^&]+)/);
+      return m ? decodeURIComponent(m[1]) : '';
+    }
+
+    var articles = window.NF_ARTICLES || [];
+    var slug = getSlug();
+    var a = null;
+    for (var i = 0; i < articles.length; i++) {
+      if (articles[i].slug === slug) { a = articles[i]; break; }
+    }
+
+    if (!a) {
+      root.innerHTML =
+        '<a class="article-back" href="blog.html">← Back to Journal</a>' +
+        '<div class="blog-empty"><h2>Article not found</h2>' +
+        '<p>This story may have moved. Browse the latest from the journal instead.</p></div>';
+      return;
+    }
+
+    document.title = a.title + ' — NoirFleet Travel Journal';
+
+    var heroImg = a.image
+      ? '<img class="article-hero-img" src="' + esc(a.image) + '" alt="' + esc(a.title) + '" onerror="this.style.display=\'none\'">'
+      : '';
+
+    root.innerHTML =
+      '<a class="article-back" href="blog.html">← Back to Journal</a>' +
+      (a.category ? '<span class="article-cat-pill">' + esc(a.category) + '</span>' : '') +
+      '<h1>' + esc(a.title) + '</h1>' +
+      '<div class="article-page-meta">' + esc(a.date || '') + '</div>' +
+      heroImg +
+      '<div class="article-content">' + (a.content || '') + '</div>' +
+      '<div class="article-footer-cta">' +
+        '<p>Travelling soon? Let NoirFleet handle the journey.</p>' +
+        '<a class="btn primary" href="contact.html">Book Your Ride</a>' +
+      '</div>';
+  })();
+  </script>
+</body>
+</html>
