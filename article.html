@@ -56,6 +56,36 @@
 
     document.title = a.title + ' — NoirFleet Travel Journal';
 
+    // Dynamic SEO: update description + Open Graph tags for this article
+    function setMeta(sel, attr, val) {
+      var el = document.head.querySelector(sel);
+      if (!el) {
+        el = document.createElement('meta');
+        var parts = sel.replace(/[\[\]"]/g,'').split('=');
+        el.setAttribute(parts[0].replace('meta',''), parts[1]);
+        document.head.appendChild(el);
+      }
+      el.setAttribute(attr, val);
+    }
+    var d = a.excerpt || 'A story from the NoirFleet Travel Journal.';
+    setMeta('meta[name="description"]', 'content', d);
+    setMeta('meta[property="og:title"]', 'content', a.title + ' — NoirFleet');
+    setMeta('meta[property="og:description"]', 'content', d);
+    if (a.image) setMeta('meta[property="og:image"]', 'content', a.image);
+    // Article structured data
+    var ld = document.createElement('script');
+    ld.type = 'application/ld+json';
+    ld.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": a.title,
+      "description": d,
+      "datePublished": a.date || "",
+      "author": { "@type": "Organization", "name": "NoirFleet" },
+      "publisher": { "@type": "Organization", "name": "NoirFleet" }
+    });
+    document.head.appendChild(ld);
+
     var heroImg = a.image
       ? '<img class="article-hero-img" src="' + esc(a.image) + '" alt="' + esc(a.title) + '" onerror="this.style.display=\'none\'">'
       : '';
