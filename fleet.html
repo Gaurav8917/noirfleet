@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="pages.css">
   <link rel="icon" type="image/png" href="noir_favicon.png">
-  <!-- ═══ SEO (auto-generated) — live URL: noirfleet.com ═══ -->
   <link rel="canonical" href="https://www.noirfleet.com/fleet.html">
   <meta name="robots" content="index,follow">
   <meta name="author" content="NoirFleet">
@@ -23,38 +22,302 @@
   <meta name="twitter:title" content="Our Luxury Fleet — Executive Sedans, SUVs & Bentley | NoirFleet">
   <meta name="twitter:description" content="Explore the NoirFleet luxury fleet — executive sedans, premium SUVs and chauffeur-driven vehicles for airport transfers, corporate travel and special events worldwide.">
   <meta name="twitter:image" content="https://www.noirfleet.com/banner.png">
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "NoirFleet",
-  "alternateName": "NoirFleet Premium Chauffeur Service",
-  "url": "https://www.noirfleet.com/",
-  "logo": "https://www.noirfleet.com/logo.jpg",
-  "image": "https://www.noirfleet.com/banner.png",
-  "description": "Premium chauffeur and luxury transport services worldwide.",
-  "email": "reservations@noirfleet.com",
-  "telephone": "+91-7203070345",
-  "areaServed": "Worldwide",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+91-7203070345",
-    "contactType": "reservations",
-    "availableLanguage": ["English"],
-    "areaServed": "Worldwide"
-  }
-}
-  </script>
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.noirfleet.com/" },
-    { "@type": "ListItem", "position": 2, "name": "Fleet", "item": "https://www.noirfleet.com/fleet.html" }
-  ]
-}
-  </script>
+
+  <style>
+    /* ═══════════════════════════════════════════
+       FLEET VEHICLE CARDS — NEW GRID LAYOUT
+    ═══════════════════════════════════════════ */
+
+    .fleet-section {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 64px 40px;
+    }
+
+    .fleet-section-header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 44px;
+      flex-wrap: wrap;
+    }
+
+    .fleet-section-header .section-eyebrow {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold, #ffd166);
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .fleet-section-header h2 {
+      font-family: var(--font-head, 'Playfair Display', serif);
+      font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+      font-weight: 900;
+      color: var(--accent, #fff);
+      line-height: 1.1;
+    }
+
+    .fleet-section-header h2 .gold { color: var(--gold, #ffd166); }
+
+    .fleet-count {
+      font-size: 0.8rem;
+      color: var(--muted, rgba(255,255,255,0.5));
+      white-space: nowrap;
+      padding-bottom: 6px;
+    }
+
+    /* ── Vehicle Grid ── */
+    .vehicle-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    /* First card (hero) spans 2 columns */
+    .vehicle-card:first-child {
+      grid-column: span 2;
+    }
+
+    .vehicle-card {
+      position: relative;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.07);
+      background: #0d0d10;
+      cursor: pointer;
+      transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .vehicle-card:hover {
+      border-color: rgba(255, 209, 102, 0.35);
+      transform: translateY(-5px);
+      box-shadow: 0 28px 60px rgba(0,0,0,0.55);
+    }
+
+    /* Image container */
+    .vehicle-img-wrap {
+      position: relative;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    /* Hero card: taller image */
+    .vehicle-card:first-child .vehicle-img-wrap {
+      height: 420px;
+    }
+
+    /* Regular cards */
+    .vehicle-card:not(:first-child) .vehicle-img-wrap {
+      height: 230px;
+    }
+
+    .vehicle-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+      display: block;
+    }
+
+    .vehicle-card:hover .vehicle-img-wrap img {
+      transform: scale(1.06);
+    }
+
+    /* Gradient overlay on image */
+    .vehicle-img-wrap::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0.05) 40%, rgba(0,0,0,0.55) 100%);
+      pointer-events: none;
+    }
+
+    /* Category badge on image */
+    .vehicle-badge {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      z-index: 2;
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold, #ffd166);
+      background: rgba(6, 6, 7, 0.72);
+      border: 1px solid rgba(255, 209, 102, 0.28);
+      padding: 5px 11px;
+      border-radius: 20px;
+      backdrop-filter: blur(6px);
+    }
+
+    /* Passenger count pill */
+    .vehicle-pax {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      z-index: 2;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.85);
+      background: rgba(0, 0, 0, 0.55);
+      border: 1px solid rgba(255,255,255,0.12);
+      padding: 4px 10px;
+      border-radius: 20px;
+      backdrop-filter: blur(6px);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    /* Card body */
+    .vehicle-body {
+      padding: 20px 22px 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      flex: 1;
+    }
+
+    .vehicle-card:first-child .vehicle-body {
+      padding: 22px 28px 26px;
+    }
+
+    .vehicle-name {
+      font-family: var(--font-head, 'Playfair Display', serif);
+      font-size: 1.18rem;
+      font-weight: 800;
+      color: var(--accent, #fff);
+      line-height: 1.2;
+    }
+
+    .vehicle-card:first-child .vehicle-name {
+      font-size: 1.5rem;
+    }
+
+    .vehicle-desc {
+      font-size: 0.83rem;
+      color: rgba(255,255,255,0.55);
+      line-height: 1.55;
+    }
+
+    .vehicle-specs {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 6px;
+    }
+
+    .vehicle-spec {
+      font-size: 0.73rem;
+      color: rgba(255,255,255,0.4);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .vehicle-spec::before {
+      content: '';
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+      background: var(--gold, #ffd166);
+      opacity: 0.6;
+      flex-shrink: 0;
+    }
+
+    .vehicle-cta {
+      margin-top: auto;
+      padding-top: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .vehicle-cta-label {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--gold, #ffd166);
+      letter-spacing: 0.04em;
+    }
+
+    .vehicle-cta-arrow {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 1px solid rgba(255, 209, 102, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold, #ffd166);
+      font-size: 0.9rem;
+      transition: background 0.2s, border-color 0.2s;
+    }
+
+    .vehicle-card:hover .vehicle-cta-arrow {
+      background: rgba(255, 209, 102, 0.12);
+      border-color: rgba(255, 209, 102, 0.6);
+    }
+
+    /* ── Fleet Feature Bar ── */
+    .fleet-features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 0;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 48px;
+      padding: 28px 32px;
+      background: linear-gradient(135deg, rgba(255,209,102,0.04), rgba(255,255,255,0.02));
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 16px;
+    }
+
+    .ff-item {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: rgba(255,255,255,0.65);
+      padding: 4px 12px;
+    }
+
+    .ff-item span {
+      font-size: 1.1rem;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 1024px) {
+      .vehicle-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .vehicle-card:first-child {
+        grid-column: span 2;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .fleet-section { padding: 48px 16px; }
+      .vehicle-grid {
+        grid-template-columns: 1fr;
+      }
+      .vehicle-card:first-child {
+        grid-column: span 1;
+      }
+      .vehicle-card:first-child .vehicle-img-wrap {
+        height: 260px;
+      }
+      .fleet-features { padding: 20px 16px; }
+      .ff-item { padding: 4px 8px; }
+    }
+  </style>
 </head>
 <body data-page="fleet">
 
@@ -62,6 +325,7 @@
 
   <main class="page-body">
 
+    <!-- PAGE HERO -->
     <section class="page-hero">
       <img src="suv.jpg" alt="" class="page-hero-bg">
       <div class="page-hero-inner">
@@ -72,37 +336,150 @@
       </div>
     </section>
 
+    <!-- FLEET GRID SECTION -->
     <section id="fleet" class="fleet-section">
-      <div class="carousel" id="fleetCarousel">
-        <button class="carousel-btn prev" id="prevFleet">&#8592;</button>
-        <div class="carousel-viewport">
-          <div class="carousel-track" id="carouselTrack" tabindex="0" role="list">
-            <figure class="carousel-slide" role="listitem">
-              <img src="sedan.jpg" alt="Sedan" class="carousel-image">
-              <figcaption class="carousel-caption">
-                <div class="caption-title">Executive Sedan</div>
-                <div class="caption-sub">Luxury executive sedans — perfect for airport transfers and business travel.</div>
-              </figcaption>
-            </figure>
-            <figure class="carousel-slide" role="listitem">
-              <img src="suv.jpg" alt="SUV" class="carousel-image">
-              <figcaption class="carousel-caption">
-                <div class="caption-title">Premium SUV</div>
-                <div class="caption-sub">Premium SUVs with extra space and comfort — ideal for family travel or group transfers.</div>
-              </figcaption>
-            </figure>
-            <figure class="carousel-slide" role="listitem">
-              <img src="exebus.jpg" alt="Executive Bus" class="carousel-image">
-              <figcaption class="carousel-caption">
-                <div class="caption-title">Executive Bus</div>
-                <div class="caption-sub">Spacious executive buses — perfect for corporate shuttles and group events.</div>
-              </figcaption>
-            </figure>
-          </div>
+
+      <div class="fleet-section-header">
+        <div>
+          <span class="section-eyebrow">Our Vehicles</span>
+          <h2>The <span class="gold">NoirFleet</span> Collection</h2>
         </div>
-        <button class="carousel-btn next" id="nextFleet">&#8594;</button>
-        <div class="carousel-dots" id="carouselDots"></div>
+        <span class="fleet-count">6 vehicles available</span>
       </div>
+
+      <div class="vehicle-grid">
+
+        <!-- 1. Hero Card — Cadillac Escalade (suv.jpg) -->
+        <article class="vehicle-card">
+          <div class="vehicle-img-wrap">
+            <img src="suv.jpg" alt="Cadillac Escalade — Premium SUV">
+            <span class="vehicle-badge">Premium SUV</span>
+            <span class="vehicle-pax">👤 up to 6</span>
+          </div>
+          <div class="vehicle-body">
+            <div class="vehicle-name">Cadillac Escalade</div>
+            <div class="vehicle-desc">Commanding presence meets refined luxury. The Escalade delivers unmatched road authority with a full-size cabin, plush seating for six, and an aura that announces your arrival before the door opens.</div>
+            <div class="vehicle-specs">
+              <span class="vehicle-spec">Full-size luxury SUV</span>
+              <span class="vehicle-spec">Panoramic sunroof</span>
+              <span class="vehicle-spec">Airport transfers</span>
+              <span class="vehicle-spec">Group travel</span>
+            </div>
+            <div class="vehicle-cta">
+              <span class="vehicle-cta-label">Reserve this vehicle</span>
+              <span class="vehicle-cta-arrow">→</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. BMW 7 Series (bmw_sedan.jpg) -->
+        <article class="vehicle-card">
+          <div class="vehicle-img-wrap">
+            <img src="bmw_sedan.jpg" alt="BMW 7 Series — Executive Sedan">
+            <span class="vehicle-badge">Executive Sedan</span>
+            <span class="vehicle-pax">👤 up to 3</span>
+          </div>
+          <div class="vehicle-body">
+            <div class="vehicle-name">BMW 7 Series</div>
+            <div class="vehicle-desc">German precision and quiet authority — the flagship sedan for executives who expect nothing less.</div>
+            <div class="vehicle-specs">
+              <span class="vehicle-spec">Business travel</span>
+              <span class="vehicle-spec">Climate seating</span>
+            </div>
+            <div class="vehicle-cta">
+              <span class="vehicle-cta-label">Reserve this vehicle</span>
+              <span class="vehicle-cta-arrow">→</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. Mercedes S-Class (mercedes_sedan.jpg) -->
+        <article class="vehicle-card">
+          <div class="vehicle-img-wrap">
+            <img src="mercedes_sedan.jpg" alt="Mercedes-Benz S-Class — Executive Sedan">
+            <span class="vehicle-badge">Executive Sedan</span>
+            <span class="vehicle-pax">👤 up to 3</span>
+          </div>
+          <div class="vehicle-body">
+            <div class="vehicle-name">Mercedes-Benz S-Class</div>
+            <div class="vehicle-desc">The benchmark for luxury sedans worldwide — refined, silent, and effortlessly elegant for any occasion.</div>
+            <div class="vehicle-specs">
+              <span class="vehicle-spec">Corporate events</span>
+              <span class="vehicle-spec">Airport VIP</span>
+            </div>
+            <div class="vehicle-cta">
+              <span class="vehicle-cta-label">Reserve this vehicle</span>
+              <span class="vehicle-cta-arrow">→</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. Land Rover Defender (defender_suv.jpg) -->
+        <article class="vehicle-card">
+          <div class="vehicle-img-wrap">
+            <img src="defender_suv.jpg" alt="Land Rover Defender — Adventure SUV">
+            <span class="vehicle-badge">Adventure SUV</span>
+            <span class="vehicle-pax">👤 up to 5</span>
+          </div>
+          <div class="vehicle-body">
+            <div class="vehicle-name">Land Rover Defender</div>
+            <div class="vehicle-desc">Bold, capable, and unmistakably British — ideal for those who want luxury without sacrificing versatility.</div>
+            <div class="vehicle-specs">
+              <span class="vehicle-spec">All-terrain</span>
+              <span class="vehicle-spec">Countryside tours</span>
+            </div>
+            <div class="vehicle-cta">
+              <span class="vehicle-cta-label">Reserve this vehicle</span>
+              <span class="vehicle-cta-arrow">→</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5. Chauffeur Service — Chevy Suburban (chaueffered_service.jpg) -->
+        <article class="vehicle-card">
+          <div class="vehicle-img-wrap">
+            <img src="chaueffered_service.jpg" alt="Chauffeur Service — Chevrolet Suburban">
+            <span class="vehicle-badge">Chauffeur Service</span>
+            <span class="vehicle-pax">👤 up to 6</span>
+          </div>
+          <div class="vehicle-body">
+            <div class="vehicle-name">Chauffeur Experience</div>
+            <div class="vehicle-desc">White-glove service from the moment you step out — our suited chauffeurs ensure every journey is seamless.</div>
+            <div class="vehicle-specs">
+              <span class="vehicle-spec">Meet & greet</span>
+              <span class="vehicle-spec">Flight tracking</span>
+            </div>
+            <div class="vehicle-cta">
+              <span class="vehicle-cta-label">Reserve this vehicle</span>
+              <span class="vehicle-cta-arrow">→</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6. Mercedes Sprinter Minibus (mercedes_minibus.jpg) -->
+        <article class="vehicle-card">
+          <div class="vehicle-img-wrap">
+            <img src="mercedes_minibus.jpg" alt="Mercedes-Benz Sprinter — Executive Minibus">
+            <span class="vehicle-badge">Executive Minibus</span>
+            <span class="vehicle-pax">👤 up to 14</span>
+          </div>
+          <div class="vehicle-body">
+            <div class="vehicle-name">Mercedes-Benz Sprinter</div>
+            <div class="vehicle-desc">Spacious and refined group transport — perfect for corporate shuttles, event transfers, and large delegations.</div>
+            <div class="vehicle-specs">
+              <span class="vehicle-spec">Group shuttle</span>
+              <span class="vehicle-spec">Corporate events</span>
+            </div>
+            <div class="vehicle-cta">
+              <span class="vehicle-cta-label">Reserve this vehicle</span>
+              <span class="vehicle-cta-arrow">→</span>
+            </div>
+          </div>
+        </article>
+
+      </div><!-- /.vehicle-grid -->
+
+      <!-- Fleet Features Bar -->
       <div class="fleet-features">
         <div class="ff-item"><span>🛡️</span>Fully Insured</div>
         <div class="ff-item"><span>✨</span>Immaculate Interiors</div>
@@ -111,8 +488,10 @@
         <div class="ff-item"><span>🕐</span>Flight Tracking</div>
         <div class="ff-item"><span>👔</span>Suited Chauffeurs</div>
       </div>
-    </section>
 
+    </section><!-- /#fleet -->
+
+    <!-- CTA BAND -->
     <div class="cta-band">
       <div class="cta-band-inner">
         <div><h2>Found your vehicle?</h2><p>Reserve your preferred car and chauffeur in minutes.</p></div>
