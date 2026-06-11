@@ -45,6 +45,70 @@
   }
 }
   </script>
+
+  <style>
+    /* ── Home: FIFA funnel strip ── */
+    .fifa-home-strip {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 40px;
+    }
+    .fifa-home-inner {
+      position: relative;
+      overflow: hidden;
+      border-radius: 18px;
+      border: 1px solid rgba(255,209,102,0.22);
+      background:
+        linear-gradient(135deg, rgba(74,158,255,0.10), rgba(10,10,12,0.92) 55%),
+        #0a0a0c;
+      padding: 46px 44px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+      flex-wrap: wrap;
+    }
+    .fifa-home-badge {
+      display: inline-block;
+      font-size: 0.66rem; font-weight: 800;
+      letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--gold, #ffd166);
+      border: 1px solid rgba(255,209,102,0.35);
+      background: rgba(255,209,102,0.08);
+      padding: 5px 13px; border-radius: 22px;
+      margin-bottom: 14px;
+    }
+    .fifa-home-text { max-width: 640px; }
+    .fifa-home-text h2 {
+      font-family: var(--font-head,'Playfair Display',serif);
+      font-size: clamp(1.5rem,3vw,2.1rem); font-weight: 800;
+      color: var(--accent,#fff); line-height: 1.15; margin-bottom: 10px;
+    }
+    .fifa-home-text p {
+      color: rgba(255,255,255,0.62); font-size: 0.95rem;
+      line-height: 1.6; margin-bottom: 0;
+    }
+    .fifa-home-strip .btn { white-space: nowrap; }
+
+    /* ── Home: From the Journal ── */
+    .home-journal { padding-top: 8px; }
+    .home-journal-head {
+      display: flex; align-items: flex-end; justify-content: space-between;
+      gap: 16px; flex-wrap: wrap; margin-bottom: 26px;
+    }
+    .home-journal-head .hj-all {
+      font-size: 0.82rem; font-weight: 700; letter-spacing: 0.04em;
+      color: var(--gold,#ffd166); text-decoration: none; white-space: nowrap;
+    }
+    .home-journal-head .hj-all:hover { text-decoration: underline; }
+    .home-journal-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+    }
+    @media (max-width: 900px) {
+      .fifa-home-inner { padding: 32px 24px; }
+      .home-journal-grid { grid-template-columns: 1fr; }
+    }
+  </style>
 </head>
 <body data-page="home">
 
@@ -54,7 +118,7 @@
 
     <!-- HERO -->
     <section class="hero-section">
-      <img src="banner.png" alt="NoirFleet banner" class="banner-image">
+      <img src="banner.png" alt="NoirFleet premium chauffeur fleet" class="banner-image">
       <div class="hero-overlay">
         <div class="hero-content">
           <p class="hero-eyebrow">Premium Ground Transport · Worldwide</p>
@@ -62,7 +126,7 @@
             Comfort. Style.<br>
             <span class="hero-gold">Reliability.</span>
           </h1>
-          <p class="hero-sub">Premium cars for airport transfers, corporate travel, hourly packages and events — served with impeccable care. Now serving SXSW 2026, FIFA World Cup &amp; more.</p>
+          <p class="hero-sub">Premium chauffeured cars for airport transfers, corporate travel, hourly packages and events — served with impeccable care. Now serving the FIFA World Cup 2026 &amp; major global events.</p>
           <div class="hero-actions">
             <a class="btn primary" href="services.html">View Packages</a>
             <a class="btn outline" href="contact.html">Book Now</a>
@@ -102,8 +166,8 @@
       </div>
       <div class="explore-grid">
         <a class="explore-card" href="fleet.html">
-          <img src="sedan.jpg" alt="Fleet">
-          <div class="explore-card-body"><h3>Our Fleet</h3><p>Executive sedans, SUVs &amp; buses.</p><span class="explore-card-arrow">Explore →</span></div>
+          <img src="sedan.jpg" alt="Premium chauffeur fleet">
+          <div class="explore-card-body"><h3>Our Fleet</h3><p>Premium sedans, SUVs &amp; mini vans.</p><span class="explore-card-arrow">Explore →</span></div>
         </a>
         <a class="explore-card" href="global.html">
           <img src="usa.jpg" alt="Global Presence">
@@ -111,7 +175,7 @@
         </a>
         <a class="explore-card" href="events.html">
           <img src="event.jpg" alt="Events 2026">
-          <div class="explore-card-body"><h3>Events 2026</h3><p>SXSW, FIFA, Cannes &amp; more.</p><span class="explore-card-arrow">Explore →</span></div>
+          <div class="explore-card-body"><h3>Events 2026</h3><p>FIFA World Cup, F1 &amp; more.</p><span class="explore-card-arrow">Explore →</span></div>
         </a>
         <a class="explore-card" href="services.html">
           <img src="corporate.jpg" alt="Services">
@@ -128,6 +192,18 @@
       </div>
     </section>
 
+    <!-- FIFA FUNNEL STRIP -->
+    <section class="fifa-home-strip">
+      <div class="fifa-home-inner">
+        <div class="fifa-home-text">
+          <span class="fifa-home-badge">⚽ FIFA World Cup 2026</span>
+          <h2>Premium Fleet for Football's Biggest Stage</h2>
+          <p>Match-day stadium transfers, VIP airport pickups and intercity charters across all 16 host cities in the USA, Canada and Mexico. Reserve your World Cup transport early.</p>
+        </div>
+        <a class="btn primary" href="fifa.html">Explore World Cup Services →</a>
+      </div>
+    </section>
+
     <!-- WHY -->
     <section class="why-section">
       <div class="section-head">
@@ -140,6 +216,18 @@
         <div class="why-card"><div class="why-num">03</div><h4>Transparent Pricing</h4><p>No hidden fees. No surge pricing. A confirmed quote before you book — always.</p></div>
         <div class="why-card"><div class="why-num">04</div><h4>24/7 Support</h4><p>Our team is available round the clock via WhatsApp, email, or phone — wherever you are.</p></div>
       </div>
+    </section>
+
+    <!-- FROM THE JOURNAL -->
+    <section class="explore-section fleet-section home-journal">
+      <div class="home-journal-head">
+        <div class="section-head" style="text-align:left;margin:0;max-width:none">
+          <span class="section-eyebrow">From The Journal</span>
+          <h2 style="margin:0">Travel Tips &amp; Guides</h2>
+        </div>
+        <a class="hj-all" href="blog.html">View all articles →</a>
+      </div>
+      <div class="home-journal-grid blog-grid" id="homeJournalGrid"></div>
     </section>
 
     <!-- CTA BAND -->
@@ -159,6 +247,28 @@
   </main>
 
   <div id="site-footer"></div>
+
+  <script src="articles.js"></script>
   <script src="shared.js"></script>
+  <script>
+  /* Render the 3 latest journal articles on the home page */
+  (function () {
+    var grid = document.getElementById('homeJournalGrid');
+    if (!grid || !window.NF_ARTICLES) return;
+    function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+    var latest = window.NF_ARTICLES.slice(0, 3);
+    grid.innerHTML = latest.map(function (a) {
+      var img = a.image ? '<img src="'+esc(a.image)+'" alt="'+esc(a.title)+'" onerror="this.style.display=\'none\'">' : '';
+      return '<a class="article-card" href="article.html?slug='+encodeURIComponent(a.slug)+'">'+
+        '<div class="article-thumb">'+img+(a.category?'<span class="article-cat-pill">'+esc(a.category)+'</span>':'')+'</div>'+
+        '<div class="article-body">'+
+          '<div class="article-meta"><span>'+esc(a.date||'')+'</span></div>'+
+          '<h3>'+esc(a.title)+'</h3>'+
+          '<p class="article-excerpt">'+esc(a.excerpt||'')+'</p>'+
+          '<span class="article-readmore">Read article →</span>'+
+        '</div></a>';
+    }).join('');
+  })();
+  </script>
 </body>
 </html>
