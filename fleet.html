@@ -134,7 +134,12 @@
       align-items: center;
       justify-content: center;
       border: 1px solid rgba(255,255,255,0.06);
+      touch-action: pan-y;            /* allow vertical scroll, capture horizontal swipe */
+      -webkit-user-select: none;
+      user-select: none;
+      cursor: grab;
     }
+    .fleet-media:active { cursor: grabbing; }
     .fleet-media-img {
       max-width: 92%;
       max-height: 86%;
@@ -142,6 +147,9 @@
       height: auto;
       object-fit: contain;
       transition: opacity 0.35s ease, transform 0.45s ease;
+      -webkit-user-drag: none;
+      user-select: none;
+      pointer-events: none;           /* let swipes pass through to the panel */
     }
     .fleet-media-img.fading { opacity: 0; transform: scale(0.98); }
 
@@ -478,18 +486,63 @@
       });
     }
 
-    // ── Wire up every category (arrows loop around) ─────────────
+    // ── Step helper (loops around) ──────────────────────────────
+    function step(key, dir) {
+      const len = FLEET[key].length;
+      state[key] = dir === 'next'
+        ? (state[key] + 1) % len
+        : (state[key] - 1 + len) % len;
+      render(key);
+    }
+
+    // ── Wire up every category (arrows + swipe, loop around) ────
     document.querySelectorAll('.fleet-category').forEach(function (cat) {
       const key = cat.dataset.category;
+
+      // Arrow buttons
       cat.querySelectorAll('.fleet-arrow').forEach(function (btn) {
         btn.addEventListener('click', function () {
-          const len = FLEET[key].length;
-          state[key] = btn.dataset.dir === 'next'
-            ? (state[key] + 1) % len
-            : (state[key] - 1 + len) % len;
-          render(key);
+          step(key, btn.dataset.dir);
         });
       });
+
+      // Touch swipe on the image area (mobile)
+      const media = cat.querySelector('.fleet-media');
+      if (media) {
+        let startX = 0, startY = 0, tracking = false;
+        const THRESHOLD = 40; // min px to count as a swipe
+
+        media.addEventListener('touchstart', function (e) {
+          const t = e.changedTouches[0];
+          startX = t.clientX; startY = t.clientY; tracking = true;
+        }, { passive: true });
+
+        media.addEventListener('touchend', function (e) {
+          if (!tracking) return;
+          tracking = false;
+          const t = e.changedTouches[0];
+          const dx = t.clientX - startX;
+          const dy = t.clientY - startY;
+          // horizontal swipe only (ignore vertical scrolls)
+          if (Math.abs(dx) > THRESHOLD && Math.abs(dx) > Math.abs(dy)) {
+            step(key, dx < 0 ? 'next' : 'prev');
+          }
+        }, { passive: true });
+
+        // Mouse drag on desktop (optional, feels natural)
+        let mDown = false, mStartX = 0;
+        media.addEventListener('mousedown', function (e) {
+          mDown = true; mStartX = e.clientX;
+        });
+        media.addEventListener('mouseup', function (e) {
+          if (!mDown) return;
+          mDown = false;
+          const dx = e.clientX - mStartX;
+          if (Math.abs(dx) > THRESHOLD) step(key, dx < 0 ? 'next' : 'prev');
+        });
+        media.addEventListener('mouseleave', function () { mDown = false; });
+      }
+
       render(key);
     });
   </script>
