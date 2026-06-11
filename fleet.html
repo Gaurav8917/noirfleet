@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Explore the NoirFleet luxury fleet — executive sedans, premium SUVs and chauffeur-driven vehicles for airport transfers, corporate travel and special events worldwide.">
-  <title>Our Luxury Fleet — Executive Sedans, SUVs & Minibus | NoirFleet</title>
+  <meta name="description" content="Explore the NoirFleet premium sedan collection — Mercedes-Benz S-Class, Maybach, E-Class, C-Class, Audi A8 and BMW 7 Series for chauffeured airport, corporate and event travel worldwide.">
+  <title>Our Luxury Fleet — Premium Sedans, SUVs & Mini Vans | NoirFleet</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="pages.css">
@@ -14,29 +14,32 @@
   <meta name="author" content="NoirFleet">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NoirFleet">
-  <meta property="og:title" content="Our Luxury Fleet — Executive Sedans, SUVs & Minibus | NoirFleet">
-  <meta property="og:description" content="Explore the NoirFleet luxury fleet — executive sedans, premium SUVs and chauffeur-driven vehicles for airport transfers, corporate travel and special events worldwide.">
+  <meta property="og:title" content="Our Luxury Fleet — Premium Sedans, SUVs & Mini Vans | NoirFleet">
+  <meta property="og:description" content="Explore the NoirFleet premium sedan collection — Mercedes-Benz S-Class, Maybach, Audi A8 and BMW 7 Series for chauffeured travel worldwide.">
   <meta property="og:url" content="https://www.noirfleet.com/fleet.html">
   <meta property="og:image" content="https://www.noirfleet.com/banner.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Our Luxury Fleet — Executive Sedans, SUVs & Minibus | NoirFleet">
-  <meta name="twitter:description" content="Explore the NoirFleet luxury fleet — executive sedans, premium SUVs and chauffeur-driven vehicles for airport transfers, corporate travel and special events worldwide.">
+  <meta name="twitter:title" content="Our Luxury Fleet — Premium Sedans, SUVs & Mini Vans | NoirFleet">
+  <meta name="twitter:description" content="Explore the NoirFleet premium sedan collection — Mercedes-Benz S-Class, Maybach, Audi A8 and BMW 7 Series for chauffeured travel worldwide.">
   <meta name="twitter:image" content="https://www.noirfleet.com/banner.png">
 
   <style>
     /* ═══════════════════════════════════════════════════
-       FLEET — THREE COLUMN CATEGORY SLIDERS
+       FLEET — CATEGORY SHOWCASE SLIDERS
+       One stacked block per category (Premium Sedan now;
+       Premium SUV + Premium Mini Van to be added later by
+       duplicating a .fleet-category block and adding data).
     ═══════════════════════════════════════════════════ */
 
     .fleet-section {
-      max-width: 1280px;
+      max-width: 1240px;
       margin: 0 auto;
       padding: 64px 40px 72px;
     }
 
     .fleet-section-header {
       text-align: center;
-      margin-bottom: 56px;
+      margin-bottom: 48px;
     }
     .fleet-section-header .section-eyebrow {
       display: inline-block;
@@ -56,49 +59,46 @@
     }
     .fleet-section-header h2 .gold { color: var(--gold, #ffd166); }
 
-    /* ── Three-column wrapper ── */
-    .fleet-columns {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-      align-items: start;
-    }
+    /* ── Category block ── */
+    .fleet-category { margin-bottom: 48px; }
 
-    /* ── Individual category column ── */
-    .fleet-col {
-      display: flex;
-      flex-direction: column;
-      gap: 0;
-    }
-
-    /* Category label row */
-    .fleet-col-header {
+    .fleet-cat-bar {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 16px;
+      gap: 16px;
+      padding-bottom: 14px;
+      margin-bottom: 22px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
     }
-    .fleet-col-title {
-      font-size: 0.68rem;
-      font-weight: 700;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--gold, #ffd166);
+    .fleet-cat-title {
+      font-family: var(--font-head, 'Playfair Display', serif);
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--accent, #fff);
+      letter-spacing: 0.01em;
     }
-
-    /* Arrow nav controls */
-    .fleet-col-arrows {
+    .fleet-cat-nav {
       display: flex;
-      gap: 8px;
+      align-items: center;
+      gap: 14px;
+    }
+    .fleet-counter {
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      color: rgba(255,255,255,0.5);
+      font-variant-numeric: tabular-nums;
+      min-width: 58px;
+      text-align: right;
     }
     .fleet-arrow {
-      width: 34px;
-      height: 34px;
+      width: 38px; height: 38px;
       border-radius: 50%;
-      border: 1px solid rgba(255, 209, 102, 0.3);
+      border: 1px solid rgba(255, 209, 102, 0.32);
       background: transparent;
       color: var(--gold, #ffd166);
-      font-size: 1rem;
+      font-size: 1.05rem;
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -108,130 +108,149 @@
     }
     .fleet-arrow:hover {
       background: rgba(255, 209, 102, 0.12);
-      border-color: rgba(255, 209, 102, 0.65);
+      border-color: rgba(255, 209, 102, 0.7);
       transform: scale(1.08);
     }
-    .fleet-arrow:active { transform: scale(0.96); }
-    .fleet-arrow:disabled {
-      opacity: 0.25;
-      cursor: default;
-      transform: none;
+    .fleet-arrow:active { transform: scale(0.95); }
+
+    /* ── Showcase (image + info) ── */
+    .fleet-showcase {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 26px;
+      align-items: stretch;
     }
 
-    /* ── Card ── */
-    .fleet-card-wrap {
+    /* Image lives on a light "showroom" panel so the
+       white-background studio photos look intentional
+       and are never cropped (object-fit: contain). */
+    .fleet-media {
       position: relative;
-      border-radius: 14px;
+      border-radius: 16px;
       overflow: hidden;
-      border: 1px solid rgba(255,255,255,0.07);
-      background: #0a0a0c;
-      transition: border-color 0.3s, box-shadow 0.3s;
+      background: linear-gradient(150deg, #f6f7f9 0%, #e9ebef 100%);
+      min-height: 380px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(255,255,255,0.06);
     }
-    .fleet-card-wrap:hover {
-      border-color: rgba(255, 209, 102, 0.3);
-      box-shadow: 0 20px 50px rgba(0,0,0,0.5);
-    }
-
-    /* Image shown in full — no crop, natural aspect ratio */
-    .fleet-card-img {
-      display: block;
-      width: 100%;
+    .fleet-media-img {
+      max-width: 92%;
+      max-height: 86%;
+      width: auto;
       height: auto;
-      transition: opacity 0.35s ease;
+      object-fit: contain;
+      transition: opacity 0.35s ease, transform 0.45s ease;
     }
-    .fleet-card-img.fading { opacity: 0; }
+    .fleet-media-img.fading { opacity: 0; transform: scale(0.98); }
 
-    /* Subtle bottom gradient over image */
-    .fleet-card-img-overlay {
+    .fleet-dots {
       position: absolute;
-      bottom: 0; left: 0; right: 0;
-      height: 45%;
-      background: linear-gradient(to top, rgba(5,5,7,0.92) 0%, transparent 100%);
-      pointer-events: none;
-    }
-
-    /* Dot indicator strip */
-    .fleet-dot-row {
-      position: absolute;
-      bottom: 108px;
-      left: 0; right: 0;
+      bottom: 16px; left: 0; right: 0;
       display: flex;
       justify-content: center;
-      gap: 6px;
+      gap: 7px;
       z-index: 3;
     }
     .fleet-dot {
-      width: 5px; height: 5px;
+      width: 7px; height: 7px;
       border-radius: 50%;
-      background: rgba(255,255,255,0.25);
+      background: rgba(0,0,0,0.18);
+      cursor: pointer;
       transition: background 0.25s, transform 0.25s;
     }
+    .fleet-dot:hover { background: rgba(0,0,0,0.4); }
     .fleet-dot.active {
-      background: var(--gold, #ffd166);
-      transform: scale(1.35);
+      background: #b8860b;
+      transform: scale(1.4);
     }
 
-    /* Card text body */
-    .fleet-card-body {
-      padding: 18px 20px 20px;
+    /* Info panel (dark) */
+    .fleet-info {
       background: #0a0a0c;
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 16px;
+      padding: 30px 30px 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      transition: border-color 0.3s;
     }
-    .fleet-card-name {
-      font-family: var(--font-head, 'Playfair Display', serif);
-      font-size: 1.2rem;
-      font-weight: 800;
-      color: var(--accent, #fff);
-      margin-bottom: 6px;
+    .fleet-showcase:hover .fleet-info { border-color: rgba(255,209,102,0.22); }
+
+    .fleet-brand-pill {
+      align-self: flex-start;
+      font-size: 0.66rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold, #ffd166);
+      border: 1px solid rgba(255,209,102,0.32);
+      background: rgba(255,209,102,0.07);
+      padding: 5px 12px;
+      border-radius: 20px;
+      margin-bottom: 16px;
       transition: opacity 0.3s;
     }
-    .fleet-card-desc {
-      font-size: 0.82rem;
-      color: rgba(255,255,255,0.52);
-      line-height: 1.55;
+    .fleet-name {
+      font-family: var(--font-head, 'Playfair Display', serif);
+      font-size: 1.7rem;
+      font-weight: 800;
+      color: var(--accent, #fff);
+      line-height: 1.15;
       margin-bottom: 12px;
       transition: opacity 0.3s;
     }
-    .fleet-card-specs {
+    .fleet-desc {
+      font-size: 0.92rem;
+      color: rgba(255,255,255,0.58);
+      line-height: 1.65;
+      margin-bottom: 18px;
+      transition: opacity 0.3s;
+    }
+    .fleet-specs {
       display: flex;
       flex-wrap: wrap;
-      gap: 6px;
-      margin-bottom: 14px;
+      gap: 8px;
+      margin-bottom: 24px;
       transition: opacity 0.3s;
     }
     .fleet-spec-tag {
-      font-size: 0.7rem;
+      font-size: 0.72rem;
       font-weight: 500;
-      color: rgba(255,255,255,0.45);
+      color: rgba(255,255,255,0.5);
       background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.08);
-      padding: 3px 9px;
+      border: 1px solid rgba(255,255,255,0.09);
+      padding: 4px 11px;
       border-radius: 20px;
     }
-    .fleet-card-cta {
+    .fleet-cta {
       display: inline-flex;
       align-items: center;
-      gap: 8px;
-      font-size: 0.78rem;
+      gap: 9px;
+      font-size: 0.82rem;
       font-weight: 700;
       color: var(--gold, #ffd166);
       letter-spacing: 0.04em;
       text-decoration: none;
+      align-self: flex-start;
       transition: gap 0.2s;
     }
-    .fleet-card-cta:hover { gap: 13px; }
-    .fleet-card-cta-arrow {
+    .fleet-cta:hover { gap: 14px; }
+    .fleet-cta-arrow {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      width: 26px; height: 26px;
+      width: 28px; height: 28px;
       border-radius: 50%;
       border: 1px solid rgba(255,209,102,0.35);
-      font-size: 0.85rem;
+      font-size: 0.9rem;
       transition: background 0.2s;
     }
-    .fleet-card-cta:hover .fleet-card-cta-arrow {
-      background: rgba(255,209,102,0.12);
-    }
+    .fleet-cta:hover .fleet-cta-arrow { background: rgba(255,209,102,0.12); }
+
+    .fade-text { opacity: 0; }
 
     /* ── Fleet feature bar ── */
     .fleet-features {
@@ -258,12 +277,15 @@
 
     /* ── Responsive ── */
     @media (max-width: 900px) {
-      .fleet-columns { grid-template-columns: 1fr; gap: 36px; }
+      .fleet-showcase { grid-template-columns: 1fr; gap: 0; }
+      .fleet-media { min-height: 240px; border-radius: 16px 16px 0 0; }
+      .fleet-info { border-radius: 0 0 16px 16px; border-top: none; }
       .fleet-section { padding: 48px 20px 60px; }
       .fleet-features { padding: 20px 16px; }
     }
     @media (max-width: 480px) {
       .fleet-section { padding: 40px 14px 52px; }
+      .fleet-name { font-size: 1.4rem; }
     }
   </style>
 </head>
@@ -279,7 +301,7 @@
       <div class="page-hero-inner">
         <span class="page-hero-eyebrow">Our Vehicles</span>
         <h1>A Fleet Built for <span class="gold">Excellence</span></h1>
-        <p>From executive sedans to luxury minibuses — every vehicle maintained to the highest standard, ready to serve you anywhere in the world.</p>
+        <p>From premium sedans to spacious mini vans — every vehicle maintained to the highest standard, ready to serve you anywhere in the world.</p>
         <div class="page-breadcrumb"><a href="index.html">Home</a><span>/</span>Fleet</div>
       </div>
     </section>
@@ -292,84 +314,43 @@
         <h2>The <span class="gold">NoirFleet</span> Collection</h2>
       </div>
 
-      <div class="fleet-columns">
-
-        <!-- ═══ COLUMN 1: SEDAN ═══ -->
-        <div class="fleet-col" data-col="sedan">
-          <div class="fleet-col-header">
-            <span class="fleet-col-title">Executive Sedan</span>
-            <div class="fleet-col-arrows">
-              <button class="fleet-arrow" data-dir="prev" aria-label="Previous sedan">&#8592;</button>
-              <button class="fleet-arrow" data-dir="next" aria-label="Next sedan">&#8594;</button>
-            </div>
-          </div>
-          <div class="fleet-card-wrap">
-            <img class="fleet-card-img" src="" alt="">
-            <div class="fleet-card-img-overlay"></div>
-            <div class="fleet-dot-row"></div>
-            <div class="fleet-card-body">
-              <div class="fleet-card-name"></div>
-              <div class="fleet-card-desc"></div>
-              <div class="fleet-card-specs"></div>
-              <a class="fleet-card-cta" href="contact.html">
-                Reserve this vehicle
-                <span class="fleet-card-cta-arrow">&#8594;</span>
-              </a>
-            </div>
+      <!-- ═══════════════════════════════════════════════
+           CATEGORY: PREMIUM SEDAN
+           To add SUV / Mini Van later: copy this whole
+           .fleet-category block, change data-category and the
+           title, then add a matching array in the FLEET object
+           at the bottom of this file.
+      ═══════════════════════════════════════════════ -->
+      <div class="fleet-category" data-category="sedan">
+        <div class="fleet-cat-bar">
+          <h3 class="fleet-cat-title">Premium Sedan</h3>
+          <div class="fleet-cat-nav">
+            <span class="fleet-counter">01 / 07</span>
+            <button class="fleet-arrow" data-dir="prev" aria-label="Previous sedan">&#8592;</button>
+            <button class="fleet-arrow" data-dir="next" aria-label="Next sedan">&#8594;</button>
           </div>
         </div>
 
-        <!-- ═══ COLUMN 2: SUV ═══ -->
-        <div class="fleet-col" data-col="suv">
-          <div class="fleet-col-header">
-            <span class="fleet-col-title">Premium SUV</span>
-            <div class="fleet-col-arrows">
-              <button class="fleet-arrow" data-dir="prev" aria-label="Previous SUV">&#8592;</button>
-              <button class="fleet-arrow" data-dir="next" aria-label="Next SUV">&#8594;</button>
-            </div>
+        <div class="fleet-showcase">
+          <div class="fleet-media">
+            <img class="fleet-media-img" src="" alt="">
+            <div class="fleet-dots"></div>
           </div>
-          <div class="fleet-card-wrap">
-            <img class="fleet-card-img" src="" alt="">
-            <div class="fleet-card-img-overlay"></div>
-            <div class="fleet-dot-row"></div>
-            <div class="fleet-card-body">
-              <div class="fleet-card-name"></div>
-              <div class="fleet-card-desc"></div>
-              <div class="fleet-card-specs"></div>
-              <a class="fleet-card-cta" href="contact.html">
-                Reserve this vehicle
-                <span class="fleet-card-cta-arrow">&#8594;</span>
-              </a>
-            </div>
+          <div class="fleet-info">
+            <span class="fleet-brand-pill"></span>
+            <div class="fleet-name"></div>
+            <div class="fleet-desc"></div>
+            <div class="fleet-specs"></div>
+            <a class="fleet-cta" href="contact.html">
+              Reserve this vehicle
+              <span class="fleet-cta-arrow">&#8594;</span>
+            </a>
           </div>
         </div>
+      </div>
 
-        <!-- ═══ COLUMN 3: MINIBUS ═══ -->
-        <div class="fleet-col" data-col="minibus">
-          <div class="fleet-col-header">
-            <span class="fleet-col-title">Executive Minibus</span>
-            <div class="fleet-col-arrows">
-              <button class="fleet-arrow" data-dir="prev" aria-label="Previous minibus">&#8592;</button>
-              <button class="fleet-arrow" data-dir="next" aria-label="Next minibus">&#8594;</button>
-            </div>
-          </div>
-          <div class="fleet-card-wrap">
-            <img class="fleet-card-img" src="" alt="">
-            <div class="fleet-card-img-overlay"></div>
-            <div class="fleet-dot-row"></div>
-            <div class="fleet-card-body">
-              <div class="fleet-card-name"></div>
-              <div class="fleet-card-desc"></div>
-              <div class="fleet-card-specs"></div>
-              <a class="fleet-card-cta" href="contact.html">
-                Reserve this vehicle
-                <span class="fleet-card-cta-arrow">&#8594;</span>
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </div><!-- /.fleet-columns -->
+      <!-- PREMIUM SUV  — add later -->
+      <!-- PREMIUM MINI VAN — add later -->
 
       <!-- Fleet Feature Bar -->
       <div class="fleet-features">
@@ -401,112 +382,115 @@
 
   <script>
     // ── Fleet data ──────────────────────────────────────────────
+    // Add 'suv' and 'minivan' arrays here later, then duplicate the
+    // .fleet-category block above with the matching data-category.
     const FLEET = {
       sedan: [
         {
-          img: 'bmw_sedan.jpg',
-          alt: 'BMW 7 Series',
-          name: 'BMW 7 Series',
-          desc: 'German precision and quiet authority — the flagship sedan for executives who expect nothing less.',
-          specs: ['Business travel', 'Climate seating', 'Airport VIP']
-        },
-        {
-          img: 'mercedes_sedan.jpg',
-          alt: 'Mercedes-Benz S-Class',
+          img: 'mercedes_s_class.jpg', alt: 'Mercedes-Benz S-Class', brand: 'Mercedes-Benz',
           name: 'Mercedes-Benz S-Class',
-          desc: 'The benchmark for luxury sedans worldwide — refined, silent, and effortlessly elegant for any occasion.',
-          specs: ['Corporate events', 'Airport VIP', 'Long-distance']
+          desc: 'The definitive luxury sedan — silent, refined and effortlessly commanding. The first choice for executives and VIP airport arrivals.',
+          specs: ['Airport VIP', 'Executive travel', 'Rear comfort']
         },
         {
-          img: 'chaueffered_service.jpg',
-          alt: 'Chauffeur Service',
-          name: 'Chauffeur Experience',
-          desc: 'White-glove service from the moment you step out — our suited chauffeurs ensure every journey is seamless.',
-          specs: ['Meet & greet', 'Flight tracking', 'Suited chauffeur']
-        }
-      ],
-      suv: [
-        {
-          img: 'suv.jpg',
-          alt: 'Cadillac Escalade',
-          name: 'Cadillac Escalade',
-          desc: 'Commanding presence meets refined luxury — the Escalade delivers unmatched road authority with a full-size cabin.',
-          specs: ['Family travel', 'Airport transfers', 'Panoramic sunroof']
+          img: 'mercedes_maybach.jpg', alt: 'Mercedes-Maybach S-Class', brand: 'Mercedes-Maybach',
+          name: 'Mercedes-Maybach S-Class',
+          desc: 'The pinnacle of chauffeured travel. First-class rear seating, hand-finished detail and a cabin built for the most discerning passenger.',
+          specs: ['VIP & diplomatic', 'Executive rear suite', 'Ultimate comfort']
         },
         {
-          img: 'defender_suv.jpg',
-          alt: 'Land Rover Defender',
-          name: 'Land Rover Defender',
-          desc: 'Bold, capable, and unmistakably British — ideal for those who want luxury without sacrificing versatility.',
-          specs: ['All-terrain', 'Countryside tours', 'Group travel']
-        }
-      ],
-      minibus: [
+          img: 'mercedes_e_class.jpg', alt: 'Mercedes-Benz E-Class', brand: 'Mercedes-Benz',
+          name: 'Mercedes-Benz E-Class',
+          desc: 'The quintessential business sedan — poised, comfortable and impeccably presented for daily corporate travel and airport runs.',
+          specs: ['Business travel', 'Airport transfers', 'City executive']
+        },
         {
-          img: 'mercedes_minibus.jpg',
-          alt: 'Mercedes-Benz Sprinter',
-          name: 'Mercedes-Benz Sprinter',
-          desc: 'Spacious and refined group transport — perfect for corporate shuttles, event transfers, and large delegations.',
-          specs: ['Group shuttle', 'Corporate events', 'Airport transfers']
+          img: 'mercedes_c_class.jpg', alt: 'Mercedes-Benz C-Class', brand: 'Mercedes-Benz',
+          name: 'Mercedes-Benz C-Class',
+          desc: 'Compact executive elegance with the full Mercedes pedigree — ideal for solo travellers and swift city transfers.',
+          specs: ['City transfers', 'Solo executive', 'Airport runs']
+        },
+        {
+          img: 'audi_a8.jpg', alt: 'Audi A8 L', brand: 'Audi',
+          name: 'Audi A8 L (LWB)',
+          desc: 'Understated power and a serene long-wheelbase cabin. Quietly luxurious, with generous rear space for long-distance comfort.',
+          specs: ['Executive travel', 'Long-distance', 'Rear lounge']
+        },
+        {
+          img: 'bmw_7_series.jpg', alt: 'BMW 7 Series', brand: 'BMW',
+          name: 'BMW 7 Series',
+          desc: 'German precision and quiet authority — the flagship BMW sedan for executives who expect nothing less than the best.',
+          specs: ['Business travel', 'Airport VIP', 'Quiet cabin']
+        },
+        {
+          img: 'bmw_3_series_gt.jpg', alt: 'BMW 3 Series GT', brand: 'BMW',
+          name: 'BMW 3 Series GT',
+          desc: 'Sporting elegance with a refined, agile drive — a confident choice for city executives and seamless airport transfers.',
+          specs: ['City executive', 'Airport transfers', 'Agile comfort']
         }
       ]
     };
 
-    // ── State ────────────────────────────────────────────────────
-    const state = { sedan: 0, suv: 0, minibus: 0 };
+    // ── State ───────────────────────────────────────────────────
+    const state = { sedan: 0 };
 
-    // ── Render a column ──────────────────────────────────────────
-    function render(colKey) {
-      const col = document.querySelector(`.fleet-col[data-col="${colKey}"]`);
-      if (!col) return;
-      const vehicles = FLEET[colKey];
-      const idx = state[colKey];
-      const v = vehicles[idx];
+    function pad(n) { return String(n).padStart(2, '0'); }
+
+    // ── Render one category ─────────────────────────────────────
+    function render(key) {
+      const cat = document.querySelector('.fleet-category[data-category="' + key + '"]');
+      if (!cat) return;
+      const list = FLEET[key];
+      const idx = state[key];
+      const v = list[idx];
 
       // Image — fade out, swap, fade in
-      const img = col.querySelector('.fleet-card-img');
+      const img = cat.querySelector('.fleet-media-img');
       img.classList.add('fading');
-      setTimeout(() => {
+      setTimeout(function () {
         img.src = v.img;
         img.alt = v.alt;
         img.classList.remove('fading');
-      }, 160);
+      }, 170);
 
-      // Text
-      col.querySelector('.fleet-card-name').textContent = v.name;
-      col.querySelector('.fleet-card-desc').textContent = v.desc;
+      // Text — quick fade
+      const fadeEls = cat.querySelectorAll('.fleet-brand-pill, .fleet-name, .fleet-desc, .fleet-specs');
+      fadeEls.forEach(function (el) { el.classList.add('fade-text'); });
+      setTimeout(function () {
+        cat.querySelector('.fleet-brand-pill').textContent = v.brand;
+        cat.querySelector('.fleet-name').textContent = v.name;
+        cat.querySelector('.fleet-desc').textContent = v.desc;
+        cat.querySelector('.fleet-specs').innerHTML =
+          v.specs.map(function (s) { return '<span class="fleet-spec-tag">' + s + '</span>'; }).join('');
+        fadeEls.forEach(function (el) { el.classList.remove('fade-text'); });
+      }, 170);
 
-      // Specs
-      const specsEl = col.querySelector('.fleet-card-specs');
-      specsEl.innerHTML = v.specs.map(s =>
-        `<span class="fleet-spec-tag">${s}</span>`
-      ).join('');
+      // Counter
+      cat.querySelector('.fleet-counter').textContent = pad(idx + 1) + ' / ' + pad(list.length);
 
       // Dots
-      const dotRow = col.querySelector('.fleet-dot-row');
-      dotRow.innerHTML = vehicles.map((_, i) =>
-        `<span class="fleet-dot${i === idx ? ' active' : ''}"></span>`
-      ).join('');
-
-      // Arrow states
-      const [prevBtn, nextBtn] = col.querySelectorAll('.fleet-arrow');
-      prevBtn.disabled = idx === 0;
-      nextBtn.disabled = idx === vehicles.length - 1;
+      const dots = cat.querySelector('.fleet-dots');
+      dots.innerHTML = list.map(function (_, i) {
+        return '<span class="fleet-dot' + (i === idx ? ' active' : '') + '" data-i="' + i + '"></span>';
+      }).join('');
+      dots.querySelectorAll('.fleet-dot').forEach(function (d) {
+        d.addEventListener('click', function () { state[key] = +d.dataset.i; render(key); });
+      });
     }
 
-    // ── Wire up arrows ───────────────────────────────────────────
-    document.querySelectorAll('.fleet-col').forEach(col => {
-      const key = col.dataset.col;
-      col.querySelectorAll('.fleet-arrow').forEach(btn => {
-        btn.addEventListener('click', () => {
-          const dir = btn.dataset.dir;
-          const max = FLEET[key].length - 1;
-          if (dir === 'prev') state[key] = Math.max(0, state[key] - 1);
-          if (dir === 'next') state[key] = Math.min(max, state[key] + 1);
+    // ── Wire up every category (arrows loop around) ─────────────
+    document.querySelectorAll('.fleet-category').forEach(function (cat) {
+      const key = cat.dataset.category;
+      cat.querySelectorAll('.fleet-arrow').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          const len = FLEET[key].length;
+          state[key] = btn.dataset.dir === 'next'
+            ? (state[key] + 1) % len
+            : (state[key] - 1 + len) % len;
           render(key);
         });
       });
-      render(key); // initial render
+      render(key);
     });
   </script>
 
