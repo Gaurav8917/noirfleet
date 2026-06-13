@@ -357,8 +357,61 @@
         </div>
       </div>
 
-      <!-- PREMIUM SUV  — add later -->
-      <!-- PREMIUM MINI VAN — add later -->
+      <!-- ═══ CATEGORY: PREMIUM SUV / MPV ═══ -->
+      <div class="fleet-category" data-category="suv">
+        <div class="fleet-cat-bar">
+          <h3 class="fleet-cat-title">Premium SUV / MPV</h3>
+          <div class="fleet-cat-nav">
+            <span class="fleet-counter">01 / 07</span>
+            <button class="fleet-arrow" data-dir="prev" aria-label="Previous SUV">&#8592;</button>
+            <button class="fleet-arrow" data-dir="next" aria-label="Next SUV">&#8594;</button>
+          </div>
+        </div>
+        <div class="fleet-showcase">
+          <div class="fleet-media">
+            <img class="fleet-media-img" src="" alt="">
+            <div class="fleet-dots"></div>
+          </div>
+          <div class="fleet-info">
+            <span class="fleet-brand-pill"></span>
+            <div class="fleet-name"></div>
+            <div class="fleet-desc"></div>
+            <div class="fleet-specs"></div>
+            <a class="fleet-cta" href="contact.html">
+              Reserve this vehicle
+              <span class="fleet-cta-arrow">&#8594;</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ═══ CATEGORY: PREMIUM BUS ═══ -->
+      <div class="fleet-category" data-category="bus">
+        <div class="fleet-cat-bar">
+          <h3 class="fleet-cat-title">Premium Bus</h3>
+          <div class="fleet-cat-nav">
+            <span class="fleet-counter">01 / 03</span>
+            <button class="fleet-arrow" data-dir="prev" aria-label="Previous bus">&#8592;</button>
+            <button class="fleet-arrow" data-dir="next" aria-label="Next bus">&#8594;</button>
+          </div>
+        </div>
+        <div class="fleet-showcase">
+          <div class="fleet-media">
+            <img class="fleet-media-img" src="" alt="">
+            <div class="fleet-dots"></div>
+          </div>
+          <div class="fleet-info">
+            <span class="fleet-brand-pill"></span>
+            <div class="fleet-name"></div>
+            <div class="fleet-desc"></div>
+            <div class="fleet-specs"></div>
+            <a class="fleet-cta" href="contact.html">
+              Reserve this vehicle
+              <span class="fleet-cta-arrow">&#8594;</span>
+            </a>
+          </div>
+        </div>
+      </div>
 
       <!-- Fleet Feature Bar -->
       <div class="fleet-features">
@@ -436,11 +489,75 @@
           desc: 'Sporting elegance with a refined, agile drive — a confident choice for city executives and seamless airport transfers.',
           specs: ['City executive', 'Airport transfers', 'Agile comfort']
         }
+      ],
+      suv: [
+        {
+          img: 'toyota_vellfire.jpg', alt: 'Toyota Vellfire', brand: 'Toyota',
+          name: 'Toyota Vellfire',
+          desc: 'A chauffeur-favourite luxury MPV with limousine-grade rear seating — first-class space and comfort for VIP family or executive travel.',
+          specs: ['VIP MPV', 'Family travel', 'Airport transfers']
+        },
+        {
+          img: 'land_rover_defender.jpg', alt: 'Land Rover Defender', brand: 'Land Rover',
+          name: 'Land Rover Defender',
+          desc: 'Iconic British capability meets modern luxury — a commanding, versatile SUV for group travel and a confident statement arrival.',
+          specs: ['All-terrain', 'Group travel', 'Statement arrival']
+        },
+        {
+          img: 'gmc_yukon.jpg', alt: 'GMC Yukon Denali', brand: 'GMC',
+          name: 'GMC Yukon Denali',
+          desc: 'Commanding full-size American luxury with a spacious, refined cabin — ideal for families, groups and high-profile airport transfers.',
+          specs: ['Family & group', 'Airport transfers', 'Spacious cabin']
+        },
+        {
+          img: 'bmw_x5.jpg', alt: 'BMW X5', brand: 'BMW',
+          name: 'BMW X5',
+          desc: 'Athletic luxury in SUV form — assured on city streets and the open road, with executive comfort for every journey.',
+          specs: ['Executive SUV', 'City & highway', 'Airport transfers']
+        },
+        {
+          img: 'mercedes_gl.jpg', alt: 'Mercedes-Benz GL', brand: 'Mercedes-Benz',
+          name: 'Mercedes-Benz GL',
+          desc: 'Three rows of refined luxury and a serene ride — generous space for families, groups and long-distance comfort.',
+          specs: ['Family travel', 'Group transfers', 'Long-distance']
+        },
+        {
+          img: 'kia_carnival.jpg', alt: 'Kia Carnival', brand: 'Kia',
+          name: 'Kia Carnival',
+          desc: 'A spacious premium people-mover with flexible seating and an easy, comfortable ride — perfect for groups and family airport runs.',
+          specs: ['Group travel', 'Family comfort', 'Airport runs']
+        },
+        {
+          img: 'toyota_fortuner.jpg', alt: 'Toyota Fortuner', brand: 'Toyota',
+          name: 'Toyota Fortuner',
+          desc: 'Robust, dependable and confidently capable — a versatile SUV built for group travel, varied terrain and longer intercity journeys.',
+          specs: ['Group travel', 'All-terrain', 'Intercity']
+        }
+      ],
+      bus: [
+        {
+          img: 'volvo_bus.jpg', alt: 'Volvo Coach', brand: 'Volvo',
+          name: 'Volvo Luxury Coach',
+          desc: 'A premium long-distance coach for large groups — air-conditioned comfort, generous luggage capacity and a smooth, quiet ride.',
+          specs: ['Large groups', 'Intercity', 'Events & shuttles']
+        },
+        {
+          img: 'mercedes_v_class.jpg', alt: 'Mercedes-Benz V-Class', brand: 'Mercedes-Benz',
+          name: 'Mercedes-Benz V-Class',
+          desc: 'A luxury van for executive groups — lounge-style seating, refined interiors and effortless comfort for VIP shuttles and airport transfers.',
+          specs: ['Executive group', 'VIP shuttle', 'Airport transfers']
+        },
+        {
+          img: 'force_urbania.jpg', alt: 'Force Urbania', brand: 'Force',
+          name: 'Force Urbania',
+          desc: 'A spacious, modern premium minibus — comfortable seating for mid-size groups, ideal for events, corporate shuttles and airport transfers.',
+          specs: ['Group shuttle', 'Events', 'Airport transfers']
+        }
       ]
     };
 
     // ── State ───────────────────────────────────────────────────
-    const state = { sedan: 0 };
+    const state = { sedan: 0, suv: 0, bus: 0 };
 
     function pad(n) { return String(n).padStart(2, '0'); }
 
