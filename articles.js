@@ -22,7 +22,66 @@
 
 const NF_ARTICLES = [
 
-  /* ─── 1. INDIA SEO MEGA GUIDE (June 14, 2026) ─── */
+  /* ─── 1. FIFA WORLD CUP 2026 TRAVEL GUIDE FOR INDIAN FANS (June 15, 2026) ─── */
+  {
+    slug: "fifa-world-cup-2026-travel-guide-for-indian-fans",
+    title: "FIFA World Cup 2026 Travel Guide for Indian Fans — Visa, FIFA PASS & Premium Ground Transport Across the USA, Canada & Mexico",
+    date: "June 15, 2026",
+    category: "FIFA 2026",
+    image: "fifa_india_travel.jpg",
+    excerpt: "From the FIFA PASS visa pathway to multi-city travel between the USA, Canada and Mexico — everything Indian fans and corporate delegations need to know before flying out for the 2026 World Cup, plus how NoirFleet keeps your ground transport seamless across all three countries.",
+    content: `
+      <p>The FIFA World Cup 2026 is already underway — kicked off on June 11 and running through July 19 across 16 host cities split between the United States, Canada and Mexico. For Indian football fans, this is not a tournament being watched from a distance. FIFA confirmed it received millions of ticket requests within the first day of sales alone, and a meaningful share of those buyers are travelling from India — corporate hospitality groups, NRIs based across the Gulf and North America joining family from home, and a growing segment of fans who have simply decided this is a once-in-a-generation trip worth taking. If you are one of them, the logistics of this trip look very different from a typical holiday, and getting them right starts long before you land.</p>
+
+      <h2>The Visa Question Every Indian Fan Asks First</h2>
+      <p>Indian passport holders are not part of the US Visa Waiver Program, so a B1/B2 visitor visa is required to attend matches in the United States — there is no separate "World Cup visa." What has changed for this tournament is the FIFA Priority Appointment Scheduling System, known as FIFA PASS. Fans who purchase tickets directly through FIFA and opt into PASS become eligible for a priority visa interview slot, which is designed to help cut through the long appointment backlogs that Indian applicants typically face. India is among the countries where PASS has been activated, alongside nations like Brazil, Mexico, Nigeria and Saudi Arabia.</p>
+      <p>It's worth being clear-eyed about what PASS actually does: it speeds up getting an interview, it does not guarantee visa approval. Standard eligibility rules still apply, and the US Embassy has been explicit that ticket holders can still be refused. For Canada, Indian travellers need either a visitor visa or an eTA depending on how they're entering the country. Mexico is the one piece of good news in this puzzle — Indian travellers holding a valid US visa do not need a separate Mexican visa, just a tourist FMM card, which makes a US–Mexico leg of the trip far simpler than it sounds.</p>
+
+      <h2>Three Countries, One Ticket — The Host City Reality</h2>
+      <p>This is the part most first-time World Cup travellers from India underestimate. The 2026 tournament is genuinely spread across a continent: 11 host cities in the USA, 2 in Canada and 3 in Mexico. The opening match was played at Estadio Azteca in Mexico City, and the final will be held at MetLife Stadium in the New York/New Jersey area on July 19. Unless you're attending a single match in a single city, your itinerary is almost certainly going to involve at least one international leg between host countries — and quite possibly two or three domestic legs between US host cities as well.</p>
+      <p>For Indian fans following a specific team or chasing the knockout rounds, this often means a compressed schedule: land in one city, watch a match, fly out within 18–24 hours to the next host city, repeat. Every hour spent stuck in immigration queues, hunting for a cab outside an unfamiliar airport, or waiting on a rideshare app that won't accept international cards eats directly into match time — or sleep.</p>
+
+      <h2>What a World Cup Trip From India Actually Costs</h2>
+      <p>Ticket prices for this tournament have been described as the steepest in World Cup history, with top-category seats for the final running well into six figures in rupee terms. A realistic multi-city trip — say two weeks, three host cities, mid-tier match tickets — lands somewhere in the ₹3.5 to ₹6 lakh range per person once flights, hotels and local transport are factored in, and that's before any hospitality packages.</p>
+
+      <blockquote>The travellers making this trip are not budget backpackers — they're the same profile of client who books a chauffeur for a Mumbai airport run or a Hyderabad FDA inspection pickup, just doing it in Dallas or Toronto instead.</blockquote>
+
+      <p>That distinction matters. If you're already spending lakhs on tickets and flights, the last thing you want is to land at DFW or Pearson at midnight after a delayed connection and start negotiating with an unmetered cab in a language you don't speak, in a city you've never been to.</p>
+
+      <h2>The Hidden Travel Problem: Stadium-to-Hotel, Airport-to-Stadium, City-to-City</h2>
+      <p>Host city stadiums are rarely in city centres — MetLife Stadium is in New Jersey, AT&T Stadium is well outside downtown Dallas, and several Mexico City venues sit far from the hotel districts where international visitors typically stay. Match days bring road closures, surge pricing on rideshare apps that frequently spikes 4–5x during peak exit times, and post-match crowds of 70,000+ people all trying to leave at once.</p>
+      <p>For Indian fans travelling in groups — and for the corporate delegations attending hospitality boxes as part of sponsor or client entertainment programmes — this is exactly the kind of friction a pre-booked chauffeur eliminates. A driver who knows to be parked two blocks away from the main exit, who has already mapped the route to your next airport, and who is working off a fixed quote rather than a surge multiplier, turns a stressful night into a non-event.</p>
+
+      <h2>Why Corporate Delegations and High-Net-Worth Fans Are Booking Chauffeurs for This Tournament</h2>
+      <p>Several Indian pharma, IT and financial services companies are already using the World Cup as a client hospitality platform — flying in customers and partners for match-day experiences in cities like New York, Los Angeles, Houston and Toronto. For these groups, ground transport isn't a convenience, it's part of the brand experience. A guest who is picked up at the airport by a professional chauffeur in a clean, late-model vehicle forms a different impression of the host company than one who is left to find their own way through an unfamiliar terminal.</p>
+      <p>The same logic applies to individual fans travelling with family. If you've taken the once-in-a-lifetime trip to watch your favourite clubs' stars on the World Cup stage, the last memory you want is an argument with a cab driver outside SoFi Stadium at 11 PM.</p>
+
+      <h2>NoirFleet's FIFA World Cup 2026 Ground Transport Network</h2>
+      <p>NoirFleet provides pre-booked, fixed-rate chauffeur service across the World Cup footprint — covering airport transfers, stadium-to-hotel routes on match days, and inter-city transfers for fans and delegations moving between host cities. Coverage includes:</p>
+      <ul>
+        <li><strong>USA:</strong> New York / New Jersey (MetLife Stadium), Los Angeles (SoFi Stadium), Dallas (AT&T Stadium), Miami (Hard Rock Stadium), Atlanta (Mercedes-Benz Stadium), Houston (NRG Stadium), Philadelphia, Boston, San Francisco Bay Area, Seattle and Kansas City</li>
+        <li><strong>Canada:</strong> Toronto and Vancouver</li>
+        <li><strong>Mexico:</strong> Mexico City, Guadalajara and Monterrey</li>
+      </ul>
+      <p>Every booking is confirmed in advance with a named driver, a fixed price quoted in INR or USD before you travel, and live flight tracking — so if your connection is delayed, your chauffeur adjusts automatically rather than charging you for a no-show.</p>
+
+      <h2>Practical Tips for Indian Travellers Heading to the World Cup</h2>
+      <ul>
+        <li>Apply for your US visa appointment and FIFA PASS opt-in as early as possible — appointment slots for India fill up months in advance regardless of PASS priority</li>
+        <li>If your itinerary includes a US leg followed by Mexico, remember you likely won't need a separate Mexican visa — just the FMM tourist card, provided your US visa is valid</li>
+        <li>For Canada, confirm whether you need a full visitor visa or an eTA based on your entry method — this depends on how you're arriving, not just your nationality</li>
+        <li>Pre-book ground transport for match days specifically — this is when rideshare pricing and availability are at their worst</li>
+        <li>Build in buffer time between host cities; even domestic US flights see significant delays during major tournament weekends</li>
+      </ul>
+
+      <h2>Plan Your World Cup Ground Transport Before You Land</h2>
+      <p>Whether you're a fan chasing your team through the knockout rounds, an NRI family reuniting for the final, or a corporate travel manager organising client hospitality across three countries, the trip runs smoother when ground transport is the one thing you don't have to think about on the ground. NoirFleet's FIFA World Cup 2026 chauffeur network is bookable now across all 16 host cities — reach out to lock in your match-day and inter-city transfers before peak weeks fill up.</p>
+
+      <p><a href="fifa.html">Explore our World Cup transport services</a> or <a href="contact.html">contact us to plan your tournament travel</a>.</p>
+    `
+  },
+
+  /* ─── 2. INDIA SEO MEGA GUIDE (June 14, 2026) ─── */
   {
     slug: "premium-chauffeur-cab-service-india",
     title: "Premium Chauffeur & Cab Service Across India — NoirFleet City Guide",
@@ -128,7 +187,7 @@ const NF_ARTICLES = [
     `
   },
 
-  /* ─── 2. FIFA WORLD CUP GROUND TRANSPORT (June 14, 2026) ─── */
+  /* ─── 3. FIFA WORLD CUP GROUND TRANSPORT (June 14, 2026) ─── */
   {
     slug: "fifa-world-cup-2026-ground-transportation-guide",
     title: "FIFA World Cup 2026: The Complete Ground Transportation Guide for Fans and Corporates",
@@ -147,7 +206,7 @@ const NF_ARTICLES = [
       <ul>
         <li><strong>New York / New Jersey</strong> — MetLife Stadium is a 30–50 minute drive from Midtown Manhattan. JFK, Newark and LaGuardia all serve the area. Traffic on the New Jersey Turnpike on match days is severe. A pre-booked chauffeur who knows the approach routes is essential.</li>
         <li><strong>Los Angeles</strong> — SoFi Stadium in Inglewood is 15 km from downtown LA, but LA traffic is unpredictable. LAX transfers on match days require significant buffer time.</li>
-        <li><strong>Dallas</strong> — AT&amp;T Stadium in Arlington sits between Dallas and Fort Worth. The city is car-dependent by design, making private ground transport the natural choice.</li>
+        <li><strong>Dallas</strong> — AT&T Stadium in Arlington sits between Dallas and Fort Worth. The city is car-dependent by design, making private ground transport the natural choice.</li>
         <li><strong>San Francisco Bay Area</strong> — Levi's Stadium in Santa Clara is 70 km from downtown San Francisco. Premium transfer demand will be extremely high throughout the group stage.</li>
         <li><strong>Miami</strong> — Hard Rock Stadium is 25 km from South Beach and Brickell. Miami in June is hot; a pre-cooled vehicle is comfort, not indulgence.</li>
         <li><strong>Seattle</strong> — Lumen Field is right in downtown Seattle. Sea-Tac Airport is a 30-minute drive in normal conditions, longer on match days.</li>
@@ -197,7 +256,7 @@ const NF_ARTICLES = [
     `
   },
 
-  /* ─── 3. INDIAN PHARMA COMPANIES TRAVEL (June 13, 2026) ─── */
+  /* ─── 4. INDIAN PHARMA COMPANIES TRAVEL (June 13, 2026) ─── */
   {
     slug: "indian-pharma-companies-travel",
     title: "How India's Top Pharma Companies Travel — and Why They Choose a Dedicated Chauffeur",
@@ -277,7 +336,7 @@ const NF_ARTICLES = [
     `
   },
 
-  /* ─── 4. GETTING AROUND FIFA 2026 (June 7, 2026) ─── */
+  /* ─── 5. GETTING AROUND FIFA 2026 (June 7, 2026) ─── */
   {
     slug: "fifa-world-cup-2026-airport-transfers-and-host-city-transport",
     title: "Getting Around the FIFA World Cup 2026: Airport Transfers and Host-City Transport",
@@ -309,7 +368,7 @@ const NF_ARTICLES = [
     `
   },
 
-  /* ─── 5. TRAVEL BETWEEN FIFA HOST CITIES (June 7, 2026) ─── */
+  /* ─── 6. TRAVEL BETWEEN FIFA HOST CITIES (June 7, 2026) ─── */
   {
     slug: "how-to-travel-between-fifa-2026-host-cities",
     title: "How to Travel Between FIFA 2026 Host Cities in Comfort",
@@ -338,7 +397,7 @@ const NF_ARTICLES = [
     `
   },
 
-  /* ─── 6. PREMIUM TRANSFER VS TAXI (June 7, 2026) ─── */
+  /* ─── 7. PREMIUM TRANSFER VS TAXI (June 7, 2026) ─── */
   {
     slug: "premium-airport-transfer-vs-regular-taxi",
     title: "Premium Airport Transfer vs Regular Taxi: What's the Difference?",
@@ -365,7 +424,7 @@ const NF_ARTICLES = [
     `
   },
 
-  /* ─── 7. WHAT TO EXPECT FROM A CHAUFFEUR (June 7, 2026) ─── */
+  /* ─── 8. WHAT TO EXPECT FROM A CHAUFFEUR (June 7, 2026) ─── */
   {
     slug: "what-to-expect-from-a-premium-chauffeur-service",
     title: "What to Expect From a Premium Chauffeur Service",
@@ -398,7 +457,7 @@ const NF_ARTICLES = [
     `
   },
 
-  /* ─── 8. DUBAI AIRPORT TO DOWNTOWN (June 5, 2026) ─── */
+  /* ─── 9. DUBAI AIRPORT TO DOWNTOWN (June 5, 2026) ─── */
   {
     slug: "dubai-airport-to-downtown-the-smooth-way",
     title: "Dubai: Airport to Downtown, The Smooth Way",
@@ -426,7 +485,7 @@ const NF_ARTICLES = [
     `
   },
 
-  /* ─── 9. FIVE THINGS THAT MAKE A TRANSFER PREMIUM (June 3, 2026) ─── */
+  /* ─── 10. FIVE THINGS THAT MAKE A TRANSFER PREMIUM (June 3, 2026) ─── */
   {
     slug: "five-things-that-make-an-airport-transfer-truly-premium",
     title: "Five Things That Make an Airport Transfer Truly Premium",
@@ -454,7 +513,7 @@ const NF_ARTICLES = [
     `
   },
 
-  /* ─── 10. A WEEKEND IN LONDON (June 1, 2026) ─── */
+  /* ─── 11. A WEEKEND IN LONDON (June 1, 2026) ─── */
   {
     slug: "a-weekend-in-london-by-car",
     title: "A Weekend in London, By Car",
