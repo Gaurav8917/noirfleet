@@ -22,62 +22,310 @@
 
 const NF_ARTICLES = [
 
-  /* ─── 1. FIFA WORLD CUP 2026 TRAVEL GUIDE FOR INDIAN FANS (June 15, 2026) ─── */
+/* ══════════════════════════════════════════════
+   DAY 1 — PASTE THESE 2 ARTICLES AT THE TOP
+   OF NF_ARTICLES IN articles.js
+   ══════════════════════════════════════════════ */
+
+  {
+    slug: "cab-chauffeur-service-mumbai",
+    title: "Cab & Chauffeur Service in Mumbai — Airport Transfers, Corporate Cars & Outstation",
+    date: "June 15, 2026",
+    category: "City Guide",
+    image: "sedan.jpg",
+    excerpt: "Looking for a reliable cab or chauffeur service in Mumbai? NoirFleet provides premium airport transfers, corporate car hire and outstation cabs across BKC, Andheri, Nariman Point, Lower Parel and every major Mumbai corridor.",
+    content: `
+      <p>Mumbai never stops moving. As India's financial capital, commercial heart and entertainment hub, the city runs 24 hours a day — and so does the demand for reliable, professional ground transport. Whether you need a cab from Chhatrapati Shivaji Maharaj International Airport to a hotel in BKC, a corporate chauffeur for a full day of client meetings in Nariman Point, or an outstation taxi from Mumbai to Pune, NoirFleet provides premium cab and chauffeur services across every corner of Mumbai and Maharashtra.</p>
+
+      <p>This guide covers everything you need to know about cab and chauffeur service in Mumbai — neighbourhoods, airports, corporate corridors, outstation routes and why thousands of Mumbai professionals choose NoirFleet over standard cab aggregators.</p>
+
+      <h2>Mumbai Airport Cab & Transfer Service</h2>
+
+      <p>Chhatrapati Shivaji Maharaj International Airport (BOM) is one of India's busiest airports, handling over 50 million passengers a year across Terminal 1 (domestic) and Terminal 2 (international and select domestic). Getting in and out of Mumbai airport efficiently requires a driver who knows the difference between the two terminals, the approach routes at different hours, and how to navigate the airport access roads during peak traffic.</p>
+
+      <h3>Terminal 2 (T2) Airport Transfers</h3>
+      <p>T2 handles international flights and major domestic carriers. NoirFleet provides flight-tracked pickups from T2 arrivals — your driver monitors your flight in real time and adjusts pickup timing if you land early or late. You will find your chauffeur waiting at the designated meeting point with a name board. No waiting, no confusion, no calls needed.</p>
+
+      <h3>Terminal 1 (T1) Airport Transfers</h3>
+      <p>T1 handles select domestic carriers including IndiGo and SpiceJet services. NoirFleet covers T1 pickups and drops as well — particularly useful for early morning domestic departures and late-night arrivals when standard cab availability is unreliable.</p>
+
+      <h3>Key Mumbai Airport Transfer Routes</h3>
+      <ul>
+        <li><strong>BOM → BKC (Bandra Kurla Complex):</strong> 12–18 km, 25–50 minutes depending on traffic. Mumbai's primary financial district, home to SEBI, HSBC, Citibank, pharma offices and five-star business hotels.</li>
+        <li><strong>BOM → Nariman Point / South Mumbai:</strong> 22–28 km, 40–70 minutes. The original CBD — Mantralaya, NCPA, Reserve Bank of India, major law firms and financial institutions.</li>
+        <li><strong>BOM → Lower Parel / Worli:</strong> 15–22 km, 30–55 minutes. The media, entertainment and new corporate hub — Peninsula Business Park, One Indiabulls, Kamala Mills.</li>
+        <li><strong>BOM → Andheri / MIDC:</strong> 8–12 km, 20–40 minutes. Close to the airport, home to media companies, IT offices and the SEEPZ export zone.</li>
+        <li><strong>BOM → Powai:</strong> 14–18 km, 30–50 minutes. Hiranandani Business Park, IIT Bombay, tech and startup offices.</li>
+        <li><strong>BOM → Juhu / Vile Parle:</strong> 6–10 km, 15–30 minutes. Beach hotels, residential transfers and Bollywood-adjacent addresses.</li>
+        <li><strong>BOM → Navi Mumbai / Belapur:</strong> 25–32 km, 40–65 minutes. Emerging corporate zone with major IT parks and manufacturing offices.</li>
+      </ul>
+
+      <h2>Corporate Cab & Chauffeur Service in Mumbai</h2>
+
+      <p>Mumbai's corporate landscape is concentrated in a few key corridors, and moving efficiently between them — especially during the 9 AM and 6 PM rush — requires a driver who knows the city's alternate routes. NoirFleet's Mumbai corporate chauffeur service includes:</p>
+
+      <ul>
+        <li><strong>Full-day hire (8 hours / 80 km):</strong> A dedicated vehicle and chauffeur for the entire day — ideal for roadshows, multi-stop client meetings, due diligence visits and investor days.</li>
+        <li><strong>Half-day hire (4 hours / 40 km):</strong> For morning or afternoon meeting blocks.</li>
+        <li><strong>Point-to-point transfers:</strong> Fixed-fare rides between specific addresses — hotel to office, office to airport, hotel to dinner venue.</li>
+        <li><strong>Corporate account billing:</strong> Monthly consolidated GST invoicing, trip logs and expense-compatible receipts for companies with recurring Mumbai travel needs.</li>
+      </ul>
+
+      <h3>Key Corporate Corridors in Mumbai</h3>
+      <ul>
+        <li><strong>BKC (Bandra Kurla Complex):</strong> India's most active financial district. G Block and C Block house the biggest names in banking, insurance, pharma and consulting.</li>
+        <li><strong>Nariman Point:</strong> Old-guard CBD. Reserve Bank of India, Air India Building, NCPA — still the address of choice for many law firms and financial institutions.</li>
+        <li><strong>Lower Parel:</strong> The new media and corporate corridor. One Indiabulls, Kamala Mills, Peninsula Business Park.</li>
+        <li><strong>Powai:</strong> Hiranandani Business Park and IIT Bombay make this East Mumbai's tech and consulting hub.</li>
+        <li><strong>Andheri East (MIDC & Marol):</strong> Manufacturing, export and mid-size corporate offices.</li>
+        <li><strong>Navi Mumbai (Belapur, Vashi, Airoli):</strong> Growing corporate satellite city with major IT parks.</li>
+      </ul>
+
+      <blockquote>In Mumbai, the difference between a 30-minute meeting commute and a 90-minute one is entirely the driver's knowledge of the city.</blockquote>
+
+      <h2>Outstation Cab Service from Mumbai</h2>
+
+      <p>Mumbai is the gateway to some of Maharashtra's and India's most popular outstation destinations. NoirFleet provides chauffeur-driven outstation cabs from Mumbai with professional drivers, clean premium vehicles and transparent pricing — no hidden charges, no meter surprises.</p>
+
+      <ul>
+        <li><strong>Mumbai to Pune:</strong> 148 km via the Expressway, approximately 2.5–3 hours. The most popular outstation route from Mumbai — for corporate visits, weekend getaways and pharma site visits in Hinjewadi and Magarpatta.</li>
+        <li><strong>Mumbai to Nashik:</strong> 167 km, approximately 3–3.5 hours via NH-160. Wine country, Shirdi pilgrimage access and industrial visits.</li>
+        <li><strong>Mumbai to Shirdi:</strong> 241 km, approximately 4.5–5 hours. One of India's most travelled pilgrimage routes.</li>
+        <li><strong>Mumbai to Lonavala / Khandala:</strong> 83 km, approximately 1.5–2 hours. Popular weekend hill station escape.</li>
+        <li><strong>Mumbai to Goa:</strong> 597 km via NH-66 Coastal Highway, approximately 10–11 hours. Available as an overnight or day transfer with rest stops.</li>
+        <li><strong>Mumbai to Aurangabad (Ajanta & Ellora):</strong> 337 km, approximately 5.5–6 hours. Heritage tourism and AURIC industrial corridor.</li>
+        <li><strong>Mumbai to Mahabaleshwar:</strong> 260 km, approximately 4.5–5 hours. Maharashtra's most popular hill station.</li>
+      </ul>
+
+      <h2>Luxury & Premium Cab Options in Mumbai</h2>
+
+      <p>NoirFleet's Mumbai fleet covers every need from executive sedans to large delegation vehicles:</p>
+
+      <ul>
+        <li><strong>Mercedes-Benz E-Class & S-Class:</strong> For senior executives, VIP guests, regulatory delegation pickups and high-profile client transfers.</li>
+        <li><strong>BMW 5 Series & 7 Series:</strong> Premium executive sedan for corporate point-to-point and airport transfers.</li>
+        <li><strong>Toyota Vellfire & Innova Crysta:</strong> For groups of 4–7, family airport transfers and delegation transport where comfort over distance matters.</li>
+        <li><strong>Toyota Innova (standard):</strong> Reliable, spacious and practical for multi-stop corporate days and outstation routes.</li>
+      </ul>
+
+      <h2>Why Choose NoirFleet Over Ola, Uber or Local Taxis in Mumbai?</h2>
+
+      <ul>
+        <li><strong>No surge pricing, ever.</strong> Mumbai's peak hours, rain and match days send Ola and Uber prices soaring. NoirFleet fares are fixed when you book, not when you ride.</li>
+        <li><strong>Flight tracking on every airport pickup.</strong> Your driver knows when your flight lands without you sending a single message.</li>
+        <li><strong>GST invoicing for corporate accounts.</strong> Proper tax invoices, trip logs and consolidated billing — something aggregators do not reliably provide.</li>
+        <li><strong>24/7 availability.</strong> Early morning flights, late-night client dinners, 3 AM pharma inspection pickups — NoirFleet is always available in Mumbai.</li>
+        <li><strong>Trained, professional chauffeurs.</strong> Not gig-economy drivers — uniformed, vetted, Mumbai-experienced professionals.</li>
+      </ul>
+
+      <h2>Book a Cab or Chauffeur in Mumbai</h2>
+
+      <p>Whether you need a one-off airport transfer or a recurring corporate account for your Mumbai operations, NoirFleet is ready to serve. Contact our reservations team with your pickup location, destination, date and time — we confirm quickly with driver details and a fixed fare.</p>
+
+      <p><a href="contact.html">Book a Mumbai cab or chauffeur</a> · <a href="fleet.html">View our fleet</a> · <a href="services.html">Explore all services</a></p>
+    `
+  },
+
+  {
+    slug: "cab-chauffeur-service-delhi-ncr",
+    title: "Cab & Chauffeur Service in Delhi NCR — Airport Transfers, Corporate Cars & Outstation",
+    date: "June 15, 2026",
+    category: "City Guide",
+    image: "airport_rides.jpg",
+    excerpt: "Looking for a premium cab or chauffeur service in Delhi NCR? NoirFleet provides airport transfers from IGI, corporate car hire in Gurgaon, Noida and Connaught Place, and outstation cabs to Agra, Jaipur, Chandigarh and beyond.",
+    content: `
+      <p>Delhi NCR is India's seat of power and one of its largest commercial centres. Covering New Delhi, Gurgaon, Noida, Faridabad, Ghaziabad and the surrounding region, the NCR is a sprawling metropolis where the distance between a government ministry in Lutyens' Delhi and a corporate office in Cyber City Gurgaon can mean 90 minutes of travel — or 30, depending entirely on your driver's route knowledge and your vehicle's reliability.</p>
+
+      <p>NoirFleet provides premium cab and chauffeur services across Delhi NCR — airport transfers from Indira Gandhi International, corporate cars across all NCR business districts, diplomatic and government liaison transport, and outstation cabs to Agra, Jaipur, Chandigarh and beyond.</p>
+
+      <h2>Delhi Airport Cab & Transfer Service</h2>
+
+      <p>Indira Gandhi International Airport (DEL / IGI) is India's busiest airport, handling over 70 million passengers a year across Terminal 1 (domestic, select carriers) and Terminal 2/3 (international and major domestic). The airport sits in the southwest of Delhi — well-positioned for Gurgaon transfers but requiring significant travel time to Noida and Greater Noida.</p>
+
+      <h3>Key Delhi Airport Transfer Routes</h3>
+      <ul>
+        <li><strong>IGI → Aerocity (Hotel District):</strong> 3–5 km, 10–15 minutes. The closest hospitality zone to the airport — Pullman, Ibis, Novotel, Lemon Tree Premier and more.</li>
+        <li><strong>IGI → Connaught Place / Central Delhi:</strong> 14–18 km, 30–50 minutes. India's most iconic business address — corporate offices, embassies and government-adjacent meetings.</li>
+        <li><strong>IGI → Gurgaon (Cyber City / DLF):</strong> 12–18 km, 25–45 minutes. Haryana's corporate powerhouse — MNCs, consulting firms, IT companies, financial services.</li>
+        <li><strong>IGI → Noida / Greater Noida:</strong> 40–55 km, 50–80 minutes. Delhi's eastern IT and manufacturing satellite — requires planning for NH-48 / DND Flyway routing.</li>
+        <li><strong>IGI → South Delhi (Saket / Vasant Kunj):</strong> 8–14 km, 20–35 minutes. South Delhi residential, retail and boutique corporate offices.</li>
+        <li><strong>IGI → Lutyens' Delhi (India Gate / Rajpath area):</strong> 18–22 km, 35–55 minutes. Government ministries, diplomatic missions and institutional addresses.</li>
+        <li><strong>IGI → Faridabad:</strong> 35–45 km, 50–70 minutes. Industrial and manufacturing corridor south of Delhi.</li>
+      </ul>
+
+      <h2>Corporate Cab & Chauffeur Service in Delhi NCR</h2>
+
+      <p>Delhi NCR's corporate geography is unique in India. Unlike Mumbai where business is concentrated in a few districts, Delhi NCR's offices are spread across four states and dozens of urban centres. A corporate travel account with NoirFleet covers the entire region — one booking contact, one invoice, consistent service whether the pickup is in Cyber City Gurgaon or Sector 62 Noida.</p>
+
+      <h3>Key Corporate Corridors in Delhi NCR</h3>
+      <ul>
+        <li><strong>Cyber City / DLF Gurgaon:</strong> India's largest private office complex — home to Google, Microsoft, American Express, Deloitte, EY and hundreds of MNCs.</li>
+        <li><strong>Golf Course Road / Sohna Road:</strong> Extended Gurgaon corporate zone with IT parks, co-working campuses and startup offices.</li>
+        <li><strong>Connaught Place (CP):</strong> Central Delhi's original CBD — banks, PSUs, government-adjacent offices and embassies.</li>
+        <li><strong>Lutyens' Delhi:</strong> Government of India ministries, Prime Minister's Office, Parliament, and diplomatic missions along Rajpath and its surrounding avenues.</li>
+        <li><strong>Noida Sector 62 / 63 / 125:</strong> East Delhi's IT and BPO corridor — HCL, Wipro, Infosys and major back-office operations.</li>
+        <li><strong>Greater Noida (Knowledge Park):</strong> Manufacturing, auto industry and educational institutions.</li>
+        <li><strong>Nehru Place:</strong> Delhi's IT hardware and electronics market — surprisingly active for corporate procurement visits.</li>
+      </ul>
+
+      <h3>Government and Diplomatic Transport in Delhi</h3>
+      <p>Delhi's unique character as India's national capital means a significant portion of ground transport demand comes from government liaison visits, diplomatic protocol transfers and institutional meetings that simply do not occur in other Indian cities. NoirFleet's Delhi chauffeurs are experienced in the specific requirements of North Block and South Block ministry visits, Vigyan Bhawan conference pickups, Parliament House access points and the diplomatic enclave in Chanakyapuri. Discretion, punctuality and protocol-awareness are non-negotiable in this segment — and are baseline standards for every NoirFleet chauffeur.</p>
+
+      <blockquote>In Delhi, who meets you at the airport and what they drive you in is noted before the first handshake in the meeting room.</blockquote>
+
+      <h2>Outstation Cab Service from Delhi NCR</h2>
+
+      <p>Delhi is the hub of the Golden Triangle and the gateway to North India's most visited destinations. NoirFleet provides premium outstation cabs from Delhi with professional chauffeurs, clean vehicles and fixed fares.</p>
+
+      <ul>
+        <li><strong>Delhi to Agra:</strong> 233 km via Yamuna Expressway, approximately 3–3.5 hours. The Taj Mahal, Agra Fort and Fatehpur Sikri — India's most popular day-trip route. Corporate visits to Agra's leather and handicraft industry clusters also drive significant cab demand.</li>
+        <li><strong>Delhi to Jaipur:</strong> 281 km via NH-48, approximately 4.5–5 hours. The Pink City — part of the Golden Triangle, major MICE and wedding destination.</li>
+        <li><strong>Delhi to Chandigarh:</strong> 249 km via NH-44, approximately 4–4.5 hours. India's best-planned city — corporate visits, educational institutions and Punjab/Haryana government offices.</li>
+        <li><strong>Delhi to Dehradun:</strong> 295 km via NH-334, approximately 5–5.5 hours. Uttarakhand's capital — ONGC, FRI, and the gateway to Mussoorie and Haridwar.</li>
+        <li><strong>Delhi to Haridwar / Rishikesh:</strong> 214–238 km, approximately 4.5–5 hours. Popular pilgrimage and wellness travel from Delhi.</li>
+        <li><strong>Delhi to Shimla:</strong> 370 km via NH-5, approximately 7–8 hours. Himachal Pradesh's capital — government and tourism.</li>
+        <li><strong>Delhi to Amritsar:</strong> 455 km via NH-44, approximately 7–8 hours. Golden Temple pilgrimage and Punjab border tourism.</li>
+        <li><strong>Delhi to Mathura / Vrindavan:</strong> 145–155 km, approximately 2.5–3 hours. Popular pilgrimage route and Krishna Circuit tourism.</li>
+      </ul>
+
+      <h2>Luxury & Premium Cab Options in Delhi NCR</h2>
+
+      <ul>
+        <li><strong>Mercedes-Benz S-Class:</strong> For government liaisons, diplomatic pickups and senior executive transfers requiring the highest standard of vehicle.</li>
+        <li><strong>Mercedes-Benz E-Class & BMW 5/7 Series:</strong> Premium executive sedans for corporate airport transfers and client-facing rides.</li>
+        <li><strong>Toyota Vellfire:</strong> Premium MPV for delegation groups, family airport transfers and multi-passenger corporate trips.</li>
+        <li><strong>Toyota Innova Crysta:</strong> The reliable workhorse for outstation routes — spacious, comfortable and road-proven on NH-48, NH-44 and the Yamuna Expressway.</li>
+      </ul>
+
+      <h2>Why Choose NoirFleet Over Ola, Uber or Local Taxis in Delhi NCR?</h2>
+
+      <ul>
+        <li><strong>NCR-wide coverage under one account.</strong> Gurgaon pickup, Noida drop, Delhi airport departure — all on one account, one invoice, no vendor switching.</li>
+        <li><strong>Fixed fares across the entire NCR.</strong> Delhi's traffic is unpredictable. Your fare is not — it is fixed before you ride.</li>
+        <li><strong>Government and diplomatic protocol experience.</strong> Our Delhi chauffeurs are trained in the specific access, parking and communication protocols for institutional Delhi.</li>
+        <li><strong>24/7 reliability.</strong> IGI Airport has flights arriving through the night. NoirFleet's Delhi team is available round the clock, every day.</li>
+        <li><strong>GST-compliant corporate invoicing.</strong> Essential for government contractors, MNCs and listed companies operating in Delhi NCR.</li>
+      </ul>
+
+      <h2>Book a Cab or Chauffeur in Delhi NCR</h2>
+
+      <p>Contact NoirFleet's reservations team with your pickup address in Delhi, Gurgaon, Noida or anywhere in the NCR — we confirm your booking with driver details and a fixed fare, whether it is an airport pickup at 3 AM or a full-day corporate hire in Cyber City.</p>
+
+      <p><a href="contact.html">Book a Delhi NCR cab or chauffeur</a> · <a href="fleet.html">View our fleet</a> · <a href="services.html">Explore all services</a></p>
+    `
+  },
+
+
+  /* ─── 1. INDIAN FANS FIFA WORLD CUP 2026 TRAVEL GUIDE (June 14, 2026) ─── */
   {
     slug: "fifa-world-cup-2026-travel-guide-for-indian-fans",
-    title: "FIFA World Cup 2026 Travel Guide for Indian Fans — Visa, FIFA PASS & Premium Ground Transport Across the USA, Canada & Mexico",
-    date: "June 15, 2026",
+    title: "FIFA World Cup 2026 Travel Guide for Indians — Visa, Flights and Premium Ground Transport in the USA",
+    date: "June 14, 2026",
     category: "FIFA 2026",
-    image: "fifa_india_travel.jpg",
-    excerpt: "From the FIFA PASS visa pathway to multi-city travel between the USA, Canada and Mexico — everything Indian fans and corporate delegations need to know before flying out for the 2026 World Cup, plus how NoirFleet keeps your ground transport seamless across all three countries.",
+    image: "event.jpg",
+    excerpt: "India may not be playing, but millions of Indian fans, NRIs and corporate travellers are heading to the USA, Canada and Mexico for the 2026 FIFA World Cup. Here is everything you need — visa, flights, cities and how to move like a VIP once you land.",
     content: `
-      <p>The FIFA World Cup 2026 is already underway — kicked off on June 11 and running through July 19 across 16 host cities split between the United States, Canada and Mexico. For Indian football fans, this is not a tournament being watched from a distance. FIFA confirmed it received millions of ticket requests within the first day of sales alone, and a meaningful share of those buyers are travelling from India — corporate hospitality groups, NRIs based across the Gulf and North America joining family from home, and a growing segment of fans who have simply decided this is a once-in-a-generation trip worth taking. If you are one of them, the logistics of this trip look very different from a typical holiday, and getting them right starts long before you land.</p>
+      <p>India did not qualify for the 2026 FIFA World Cup. But that has not stopped millions of Indian football fans from making the journey to North America. India has one of the world's most passionate football fan bases — millions follow Manchester United, Liverpool, Real Madrid, Barcelona and Brazil with the kind of devotion that crosses oceans. The 2026 World Cup, the biggest in history with 48 teams across 16 cities in the USA, Canada and Mexico, is drawing Indian fans, NRI families, corporate hospitality guests and high-net-worth travellers in significant numbers.</p>
 
-      <h2>The Visa Question Every Indian Fan Asks First</h2>
-      <p>Indian passport holders are not part of the US Visa Waiver Program, so a B1/B2 visitor visa is required to attend matches in the United States — there is no separate "World Cup visa." What has changed for this tournament is the FIFA Priority Appointment Scheduling System, known as FIFA PASS. Fans who purchase tickets directly through FIFA and opt into PASS become eligible for a priority visa interview slot, which is designed to help cut through the long appointment backlogs that Indian applicants typically face. India is among the countries where PASS has been activated, alongside nations like Brazil, Mexico, Nigeria and Saudi Arabia.</p>
-      <p>It's worth being clear-eyed about what PASS actually does: it speeds up getting an interview, it does not guarantee visa approval. Standard eligibility rules still apply, and the US Embassy has been explicit that ticket holders can still be refused. For Canada, Indian travellers need either a visitor visa or an eTA depending on how they're entering the country. Mexico is the one piece of good news in this puzzle — Indian travellers holding a valid US visa do not need a separate Mexican visa, just a tourist FMM card, which makes a US–Mexico leg of the trip far simpler than it sounds.</p>
+      <p>If you have your tickets and you are planning your trip from India, this guide covers everything that comes after the booking — visa, flights, which cities to prioritise and, critically, how to move between airports, hotels and stadiums without losing hours of your trip to taxi queues and surge pricing.</p>
 
-      <h2>Three Countries, One Ticket — The Host City Reality</h2>
-      <p>This is the part most first-time World Cup travellers from India underestimate. The 2026 tournament is genuinely spread across a continent: 11 host cities in the USA, 2 in Canada and 3 in Mexico. The opening match was played at Estadio Azteca in Mexico City, and the final will be held at MetLife Stadium in the New York/New Jersey area on July 19. Unless you're attending a single match in a single city, your itinerary is almost certainly going to involve at least one international leg between host countries — and quite possibly two or three domestic legs between US host cities as well.</p>
-      <p>For Indian fans following a specific team or chasing the knockout rounds, this often means a compressed schedule: land in one city, watch a match, fly out within 18–24 hours to the next host city, repeat. Every hour spent stuck in immigration queues, hunting for a cab outside an unfamiliar airport, or waiting on a rideshare app that won't accept international cards eats directly into match time — or sleep.</p>
+      <h2>Are Indians Actually Going to the FIFA World Cup 2026?</h2>
 
-      <h2>What a World Cup Trip From India Actually Costs</h2>
-      <p>Ticket prices for this tournament have been described as the steepest in World Cup history, with top-category seats for the final running well into six figures in rupee terms. A realistic multi-city trip — say two weeks, three host cities, mid-tier match tickets — lands somewhere in the ₹3.5 to ₹6 lakh range per person once flights, hotels and local transport are factored in, and that's before any hospitality packages.</p>
+      <p>Yes — and in larger numbers than any previous World Cup. Several factors make 2026 different for Indian travellers:</p>
 
-      <blockquote>The travellers making this trip are not budget backpackers — they're the same profile of client who books a chauffeur for a Mumbai airport run or a Hyderabad FDA inspection pickup, just doing it in Dallas or Toronto instead.</blockquote>
-
-      <p>That distinction matters. If you're already spending lakhs on tickets and flights, the last thing you want is to land at DFW or Pearson at midnight after a delayed connection and start negotiating with an unmetered cab in a language you don't speak, in a city you've never been to.</p>
-
-      <h2>The Hidden Travel Problem: Stadium-to-Hotel, Airport-to-Stadium, City-to-City</h2>
-      <p>Host city stadiums are rarely in city centres — MetLife Stadium is in New Jersey, AT&T Stadium is well outside downtown Dallas, and several Mexico City venues sit far from the hotel districts where international visitors typically stay. Match days bring road closures, surge pricing on rideshare apps that frequently spikes 4–5x during peak exit times, and post-match crowds of 70,000+ people all trying to leave at once.</p>
-      <p>For Indian fans travelling in groups — and for the corporate delegations attending hospitality boxes as part of sponsor or client entertainment programmes — this is exactly the kind of friction a pre-booked chauffeur eliminates. A driver who knows to be parked two blocks away from the main exit, who has already mapped the route to your next airport, and who is working off a fixed quote rather than a surge multiplier, turns a stressful night into a non-event.</p>
-
-      <h2>Why Corporate Delegations and High-Net-Worth Fans Are Booking Chauffeurs for This Tournament</h2>
-      <p>Several Indian pharma, IT and financial services companies are already using the World Cup as a client hospitality platform — flying in customers and partners for match-day experiences in cities like New York, Los Angeles, Houston and Toronto. For these groups, ground transport isn't a convenience, it's part of the brand experience. A guest who is picked up at the airport by a professional chauffeur in a clean, late-model vehicle forms a different impression of the host company than one who is left to find their own way through an unfamiliar terminal.</p>
-      <p>The same logic applies to individual fans travelling with family. If you've taken the once-in-a-lifetime trip to watch your favourite clubs' stars on the World Cup stage, the last memory you want is an argument with a cab driver outside SoFi Stadium at 11 PM.</p>
-
-      <h2>NoirFleet's FIFA World Cup 2026 Ground Transport Network</h2>
-      <p>NoirFleet provides pre-booked, fixed-rate chauffeur service across the World Cup footprint — covering airport transfers, stadium-to-hotel routes on match days, and inter-city transfers for fans and delegations moving between host cities. Coverage includes:</p>
       <ul>
-        <li><strong>USA:</strong> New York / New Jersey (MetLife Stadium), Los Angeles (SoFi Stadium), Dallas (AT&T Stadium), Miami (Hard Rock Stadium), Atlanta (Mercedes-Benz Stadium), Houston (NRG Stadium), Philadelphia, Boston, San Francisco Bay Area, Seattle and Kansas City</li>
-        <li><strong>Canada:</strong> Toronto and Vancouver</li>
-        <li><strong>Mexico:</strong> Mexico City, Guadalajara and Monterrey</li>
-      </ul>
-      <p>Every booking is confirmed in advance with a named driver, a fixed price quoted in INR or USD before you travel, and live flight tracking — so if your connection is delayed, your chauffeur adjusts automatically rather than charging you for a no-show.</p>
-
-      <h2>Practical Tips for Indian Travellers Heading to the World Cup</h2>
-      <ul>
-        <li>Apply for your US visa appointment and FIFA PASS opt-in as early as possible — appointment slots for India fill up months in advance regardless of PASS priority</li>
-        <li>If your itinerary includes a US leg followed by Mexico, remember you likely won't need a separate Mexican visa — just the FMM tourist card, provided your US visa is valid</li>
-        <li>For Canada, confirm whether you need a full visitor visa or an eTA based on your entry method — this depends on how you're arriving, not just your nationality</li>
-        <li>Pre-book ground transport for match days specifically — this is when rideshare pricing and availability are at their worst</li>
-        <li>Build in buffer time between host cities; even domestic US flights see significant delays during major tournament weekends</li>
+        <li><strong>Time zones finally work in our favour.</strong> Unlike Qatar 2022 where matches were late evening for Indian viewers, North American match times fall in the evening and night in India — meaning those who could not attend are watching live, and those who are there are not battling jet lag for morning kickoffs.</li>
+        <li><strong>Direct flights from India to the USA are well established.</strong> Air India and other carriers operate direct routes from Delhi and Mumbai to New York, making the journey significantly more manageable than previous editions in South America or Africa.</li>
+        <li><strong>The NRI factor is enormous.</strong> There are over four million Indians living in the United States alone. Many are hosting family from India, attending matches together, or organising group trips for relatives visiting on the back of World Cup tickets.</li>
+        <li><strong>Corporate hospitality is being sold through Indian agents.</strong> Fanatic Sports, an authorised Indian sales agent for the FIFA Official Hospitality Programme, is selling premium hospitality packages to Indian corporates and high-net-worth individuals — packages that include VIP seating, exclusive lounges and gourmet experiences at every host stadium.</li>
+        <li><strong>FIFA brought the trophy to India.</strong> In January 2026, the FIFA World Cup 2026 trophy toured Delhi and Guwahati — a deliberate signal from FIFA that India is considered a major fan market for this tournament.</li>
       </ul>
 
-      <h2>Plan Your World Cup Ground Transport Before You Land</h2>
-      <p>Whether you're a fan chasing your team through the knockout rounds, an NRI family reuniting for the final, or a corporate travel manager organising client hospitality across three countries, the trip runs smoother when ground transport is the one thing you don't have to think about on the ground. NoirFleet's FIFA World Cup 2026 chauffeur network is bookable now across all 16 host cities — reach out to lock in your match-day and inter-city transfers before peak weeks fill up.</p>
+      <h2>Visa Requirements for Indian Fans Travelling to the World Cup</h2>
 
-      <p><a href="fifa.html">Explore our World Cup transport services</a> or <a href="contact.html">contact us to plan your tournament travel</a>.</p>
+      <p>This is the most critical piece of planning for Indian travellers. The three host countries — USA, Canada and Mexico — each have different visa requirements for Indian passport holders.</p>
+
+      <h3>United States (B1/B2 Visitor Visa)</h3>
+      <p>Indian citizens require a valid B1/B2 visitor visa to enter the United States. If your visa is already valid, you are clear to travel. If it has expired or you have never had one, apply immediately — standard wait times for visa interview appointments in India have been long, and the tournament has already begun. The US State Department has activated the FIFA PASS (Priority Appointment Scheduling System) for Indian ticket holders — if you have confirmed match tickets purchased directly from FIFA, you can request a priority interview slot through the PASS system. This moves you to the front of the appointment queue but does not change the visa decision criteria. You still need standard documentation: financial proof, return flight bookings, hotel confirmations and ties to India demonstrating you will return after the tournament.</p>
+
+      <h3>Canada (Temporary Resident Visa or eTA)</h3>
+      <p>For matches in Toronto and Vancouver, Indian passport holders need either a Temporary Resident Visa (TRV) or an Electronic Travel Authorization (eTA). If you hold a valid US B1/B2 visa or have visited Canada in the last 10 years, you may qualify for the simpler eTA, which costs CAD 7 and processes quickly. If not, a full TRV application is required. Canada focuses heavily on documentation — match tickets, hotel bookings, return flights and financial evidence are all essential.</p>
+
+      <h3>Mexico (Visa-Free with Valid US Visa)</h3>
+      <p>This is the good news. Indian travellers who hold a valid US B1/B2 visa do not need a separate Mexican visa — they only need to complete the FMM tourist card on arrival. Mexico is hosting matches in Mexico City, Guadalajara and Monterrey. If you are planning to attend the opener at Estadio Azteca, your US visa covers your Mexico entry as well.</p>
+
+      <h2>Flights from India to FIFA World Cup Host Cities</h2>
+
+      <p>The primary gateway airports for Indian travellers are New York (JFK/EWR), Los Angeles (LAX) and Miami (MIA), with connecting options to other host cities.</p>
+
+      <ul>
+        <li><strong>Delhi (DEL) → New York (EWR/JFK):</strong> Air India operates direct flights on this route — approximately 15–16 hours. New York/New Jersey hosts MetLife Stadium, the venue for the World Cup final on July 19.</li>
+        <li><strong>Mumbai (BOM) → New York / Los Angeles:</strong> Multiple airlines operate this corridor with one stop. Los Angeles hosts SoFi Stadium for the group stage and knockout rounds.</li>
+        <li><strong>Delhi / Mumbai → Miami:</strong> Miami's Hard Rock Stadium is one of the most active group-stage venues. Connections through European hubs are common.</li>
+        <li><strong>To Toronto and Vancouver:</strong> Air Canada and Air India connect Indian cities to both Canadian host cities, with Toronto being the more common gateway from India.</li>
+        <li><strong>To Mexico City:</strong> Connecting through US hubs or via European carriers is typical for India-Mexico City routing.</li>
+      </ul>
+
+      <p>A realistic 10–15 day trip following your team across 2–3 cities from India costs approximately ₹3.5 to ₹6 lakh per person for flights, accommodation and match tickets, depending on which games you attend. The final is in a category of its own — top-tier seats are now priced above ₹7 lakh for a single ticket.</p>
+
+      <h2>Which Cities Should Indian Fans Prioritise?</h2>
+
+      <p>With 16 host cities across three countries, choosing where to go is itself a planning challenge. Here is a practical guide for Indian travellers:</p>
+
+      <h3>New York / New Jersey — The Flagship Destination</h3>
+      <p>MetLife Stadium in East Rutherford hosts the World Cup final on July 19. For Indian fans who want to experience the tournament's biggest moments, New York is the anchor city. The city itself is India's most familiar American destination — flights are established, the Indian community is large, and the infrastructure for international visitors is excellent. From a ground transport perspective, the New Jersey Turnpike and the approaches to MetLife Stadium will be heavily congested on match days. A pre-booked chauffeur transfer from Manhattan or your hotel is essential.</p>
+
+      <h3>Los Angeles — Group Stage and Knockout Action</h3>
+      <p>SoFi Stadium in Inglewood hosts significant group-stage fixtures and knockout rounds. LA is a natural destination for Indian fans given its enormous NRI population and the city's familiarity as a travel destination. Be aware that LA traffic is genuinely unpredictable — a 30-minute journey can become 90 minutes on match days without a driver who knows alternative routes.</p>
+
+      <h3>Mexico City — The Historic Opener</h3>
+      <p>Estadio Azteca, one of football's most iconic venues, hosts the tournament opener. For Indian fans who love football history, watching a match at the Azteca is a once-in-a-generation experience. Mexico City is also significantly more affordable than US host cities, making it an accessible option. Indian travellers with a valid US visa can enter Mexico without a separate visa.</p>
+
+      <h3>Miami — Football in the Sun</h3>
+      <p>Hard Rock Stadium in Miami Gardens is active throughout the group stage. Miami in June is hot and humid — a pre-cooled chauffeur transfer from your hotel to the stadium is not a luxury in these conditions, it is basic comfort. The city is popular with Indian travellers for its beach, food and nightlife options around match days.</p>
+
+      <h3>Dallas — Central USA Hub</h3>
+      <p>AT&T Stadium in Arlington is geographically central, making Dallas a practical base for fans following teams across multiple central US venues. DFW International Airport has good connectivity from Indian gateway airports.</p>
+
+      <h2>Ground Transport in the USA — Why This Is Where Most Indian Travellers Get It Wrong</h2>
+
+      <p>Indian travellers planning their World Cup trips spend significant time on flights and hotels but almost no time on ground transport — and this is where the experience falls apart. Here is the reality of moving around US host cities during the World Cup:</p>
+
+      <h3>Ride-hailing apps will surge severely</h3>
+      <p>Uber and Lyft operate dynamic surge pricing. On match days in New York, Los Angeles and Miami, surge multipliers of 3x to 5x are common around stadium areas and major hotels. A ₹1,500 equivalent ride can become ₹7,500 without warning. For Indian travellers not accustomed to this, it is a significant and avoidable expense.</p>
+
+      <h3>Taxi queues at airports will be very long</h3>
+      <p>Every host-city airport will be running at or above capacity on tournament days. Arriving after a 16-hour flight from Delhi and then waiting 90 minutes for a taxi is a poor start to a trip that cost lakhs of rupees to plan.</p>
+
+      <h3>Stadium exits are chaotic without a plan</h3>
+      <p>After 80,000 people leave a match simultaneously, road closures around every World Cup stadium create a controlled exit zone accessible only to pre-authorised vehicles. Without a pre-booked vehicle and an agreed pickup point away from the main crowd, you will be walking a long distance before finding transport. With a pre-booked NoirFleet chauffeur and a designated meeting point, you are in the car within 15 minutes of the final whistle.</p>
+
+      <h3>The solution: pre-book before you leave India</h3>
+      <p>NoirFleet operates across all 16 FIFA World Cup 2026 host cities in the USA, Canada and Mexico. Indian travellers can book their complete ground transport — airport arrivals, hotel to stadium, post-match pickups and intercity transfers — before they board their flight from Mumbai or Delhi. Fixed fares, flight-tracked pickups, name-board meet and greet at arrivals, and premium vehicles mean you travel in the USA the same way you would expect a premium chauffeur service to operate back home.</p>
+
+      <h2>For Indian Corporate Travellers and Hospitality Guests</h2>
+
+      <p>Many Indian companies are using the FIFA World Cup 2026 as a corporate hospitality and client entertainment opportunity. Indian pharma companies, IT firms, BFSI corporates and conglomerates are flying clients, senior executives and business partners to the USA for official hospitality packages and match experiences.</p>
+
+      <p>For these guests, the standard of ground transport must match the standard of the hospitality package. A client who has been hosted in a private suite at MetLife Stadium should not be standing in a taxi queue in the New Jersey heat afterwards. NoirFleet's corporate World Cup accounts handle the full ground transport programme — vehicles confirmed in advance, drivers briefed on hospitality schedules, and a single account managing all pickups across the trip regardless of which city the schedule moves to next.</p>
+
+      <blockquote>The hospitality suite is impressive. The car waiting outside afterwards is what the guest remembers on the flight home.</blockquote>
+
+      <h2>Practical Tips for Indian Fans Travelling to the World Cup</h2>
+
+      <ul>
+        <li><strong>Carry USD cash for incidentals</strong> — not all vendors at fan zones and street food areas around stadiums accept international cards smoothly.</li>
+        <li><strong>Get a US SIM or international roaming pack</strong> before you land — you will need maps, communication and ride apps from the moment you arrive at the airport.</li>
+        <li><strong>Book accommodation early in host cities</strong> — hotel rates in New York, LA and Miami during match weeks are extremely high, and proximity to the stadium or city centre matters for ground transport logistics.</li>
+        <li><strong>Plan your intercity travel</strong> — if you are following your team across more than one host city, decide early whether to fly or use a chauffeured intercity transfer. For shorter legs like Philadelphia to New York (~150 km), a direct chauffeured car is often faster door-to-door than flying.</li>
+        <li><strong>Pre-book all airport transfers before departure from India</strong> — NoirFleet can confirm your full ground transport programme across all your host cities in a single booking conversation before you leave.</li>
+      </ul>
+
+      <h2>Book Your World Cup Ground Transport with NoirFleet</h2>
+
+      <p>NoirFleet provides premium chauffeur service across all 16 FIFA World Cup 2026 host cities. Indian fans and corporate travellers can book airport transfers, match-day stadium transport, post-match pickups and intercity chauffeured transfers from India before departure — fixed fares, flight-tracked pickups and premium vehicles confirmed in advance.</p>
+
+      <p>Contact our reservations team to plan your complete World Cup ground transport programme. <a href="contact.html">Book your World Cup transfer</a> · <a href="fifa.html">Explore our FIFA 2026 services</a> · <a href="fleet.html">View our fleet</a></p>
     `
   },
 
@@ -95,12 +343,9 @@ const NF_ARTICLES = [
       <p>This guide covers every major Indian city where NoirFleet operates, the services available in each location, and why thousands of clients across India choose us over local cab aggregators and car rental companies for business and personal travel.</p>
 
       <h2>Why Choose NoirFleet Over a Regular Cab or Taxi App in India?</h2>
-
-      <p>India has no shortage of cab services. Ola, Uber, local taxi operators and car rental companies are available in every city. But they are built for volume, not quality. NoirFleet is built differently:</p>
-
       <ul>
         <li><strong>Fixed fares, no surge pricing.</strong> Your fare is agreed before the ride. No surprises at 2 AM when every app is surging.</li>
-        <li><strong>Professional chauffeurs, not just drivers.</strong> Our chauffeurs are uniformed, vetted, trained in hospitality and punctuality.</li>
+        <li><strong>Professional chauffeurs, not just drivers.</strong> Our chauffeurs are uniformed, vetted and trained in hospitality and punctuality.</li>
         <li><strong>Flight-tracked airport pickups.</strong> We monitor your flight and adjust arrival time automatically — no calls needed.</li>
         <li><strong>Premium vehicles.</strong> Mercedes-Benz, BMW, Toyota Innova Crysta, Toyota Vellfire — not whatever car happens to be nearby.</li>
         <li><strong>Corporate accounts with GST invoicing.</strong> Monthly billing, trip logs and compliant receipts for your expense management.</li>
@@ -130,58 +375,51 @@ const NF_ARTICLES = [
       <h2>NoirFleet City by City — India Coverage</h2>
 
       <h3>Mumbai — Cab, Chauffeur and Corporate Car Service</h3>
-      <p>Mumbai is India's commercial capital and NoirFleet's most active Indian city. We provide airport transfers from CSIA (T1 and T2), corporate car service across BKC, Nariman Point, Lower Parel, Andheri and Powai, and outstation cabs from Mumbai to Pune, Nashik, Shirdi, Lonavala and Goa. Our Mumbai corporate clients include professionals from finance, pharmaceuticals, media and entertainment. Whether you need a cab in South Mumbai at midnight or a corporate fleet of five cars for a morning roadshow in BKC, NoirFleet Mumbai delivers.</p>
+      <p>Mumbai is India's commercial capital and NoirFleet's most active Indian city. We provide airport transfers from CSIA (T1 and T2), corporate car service across BKC, Nariman Point, Lower Parel, Andheri and Powai, and outstation cabs from Mumbai to Pune, Nashik, Shirdi, Lonavala and Goa. Whether you need a cab in South Mumbai at midnight or a corporate fleet of five cars for a morning roadshow in BKC, NoirFleet Mumbai delivers.</p>
 
       <h3>Delhi and NCR — Cab, Taxi and Chauffeur Service</h3>
-      <p>Delhi NCR — covering New Delhi, Gurgaon, Noida, Faridabad and Ghaziabad — is one of India's busiest corporate travel corridors. NoirFleet provides IGI Airport transfers, corporate cab service in Cyber City and DLF Gurgaon, government liaison transport near North Block and South Block, and outstation cabs from Delhi to Agra, Jaipur, Chandigarh and Dehradun. We also serve the diplomatic and hospitality corridor around Chanakyapuri and Lutyens' Delhi for VIP and delegation transfers.</p>
+      <p>Delhi NCR — covering New Delhi, Gurgaon, Noida, Faridabad and Ghaziabad — is one of India's busiest corporate travel corridors. NoirFleet provides IGI Airport transfers, corporate cab service in Cyber City and DLF Gurgaon, government liaison transport near North Block and South Block, and outstation cabs from Delhi to Agra, Jaipur, Chandigarh and Dehradun.</p>
 
       <h3>Bangalore — Cab, Corporate Car and Airport Transfer Service</h3>
-      <p>Bangalore is India's technology capital and one of NoirFleet's highest-demand cities. We provide KIA airport transfers, corporate cabs in Whitefield, Electronic City, Outer Ring Road, Koramangala and Indiranagar, and outstation car service from Bangalore to Mysore, Coorg, Ooty and Chennai. Our Bangalore corporate accounts serve IT and tech companies, biotech and pharma firms, and startups requiring reliable executive transport.</p>
+      <p>Bangalore is India's technology capital and one of NoirFleet's highest-demand cities. We provide KIA airport transfers, corporate cabs in Whitefield, Electronic City, Outer Ring Road, Koramangala and Indiranagar, and outstation car service from Bangalore to Mysore, Coorg, Ooty and Chennai.</p>
 
       <h3>Hyderabad — Chauffeur, Corporate Cab and Airport Transfer</h3>
-      <p>Hyderabad is India's pharmaceutical and IT hub. NoirFleet provides Rajiv Gandhi International Airport transfers, corporate cab service across Hitech City, Gachibowli, Banjara Hills, Jubilee Hills and Genome Valley, and outstation car service from Hyderabad to Tirupati, Vijayawada, Warangal and Bangalore. We are the preferred chauffeur partner for pharma companies, IT firms and government delegations in Hyderabad.</p>
+      <p>Hyderabad is India's pharmaceutical and IT hub. NoirFleet provides Rajiv Gandhi International Airport transfers, corporate cab service across Hitech City, Gachibowli, Banjara Hills, Jubilee Hills and Genome Valley, and outstation car service from Hyderabad to Tirupati, Vijayawada, Warangal and Bangalore.</p>
 
       <h3>Chennai — Cab, Taxi and Corporate Transfer Service</h3>
-      <p>Chennai is Tamil Nadu's commercial and industrial centre. NoirFleet provides Chennai International Airport transfers, corporate cab service in Guindy, Ambattur, OMR, Tidel Park and Anna Salai, and outstation cabs from Chennai to Pondicherry, Mahabalipuram, Coimbatore and Bangalore. We serve the automotive, manufacturing, IT and healthcare corridors of Chennai.</p>
+      <p>Chennai is Tamil Nadu's commercial and industrial centre. NoirFleet provides Chennai International Airport transfers, corporate cab service in Guindy, Ambattur, OMR, Tidel Park and Anna Salai, and outstation cabs from Chennai to Pondicherry, Mahabalipuram, Coimbatore and Bangalore.</p>
 
       <h3>Pune — Cab, Corporate Car and Airport Transfer</h3>
-      <p>Pune is Maharashtra's second city and a major IT, automotive and pharmaceutical hub. NoirFleet provides Pune International Airport transfers, corporate cab service in Hinjewadi, Magarpatta, Kharadi, Baner and Aundh, and outstation cabs from Pune to Mumbai, Nashik, Shirdi, Mahabaleshwar and Goa. Serum Institute, Lupin and many Hinjewadi IT parks rely on NoirFleet for executive and delegation transport.</p>
+      <p>Pune is Maharashtra's second city and a major IT, automotive and pharmaceutical hub. NoirFleet provides Pune International Airport transfers, corporate cab service in Hinjewadi, Magarpatta, Kharadi, Baner and Aundh, and outstation cabs from Pune to Mumbai, Nashik, Shirdi, Mahabaleshwar and Goa.</p>
 
       <h3>Ahmedabad — Cab, Chauffeur and Corporate Car Service</h3>
-      <p>Ahmedabad is Gujarat's industrial and commercial capital. NoirFleet provides Sardar Vallabhbhai Patel International Airport transfers, corporate cab service in SG Road, Ashram Road, GIFT City and GIDC Vatva, and outstation cabs from Ahmedabad to Surat, Vadodara, Rajkot and Gandhinagar. We serve the Gujarat pharma cluster, textile industry executives and GIFT City financial professionals.</p>
+      <p>Ahmedabad is Gujarat's industrial and commercial capital. NoirFleet provides Sardar Vallabhbhai Patel International Airport transfers, corporate cab service in SG Road, Ashram Road, GIFT City and GIDC Vatva, and outstation cabs from Ahmedabad to Surat, Vadodara, Rajkot and Gandhinagar.</p>
 
       <h3>Kolkata — Cab, Taxi and Corporate Transfer Service</h3>
       <p>Kolkata is Eastern India's commercial hub. NoirFleet provides NSCBI Airport transfers, corporate cab service in Salt Lake Sector V, Rajarhat, Park Street and Dalhousie, and outstation cabs from Kolkata to Siliguri, Digha and Shantiniketan.</p>
 
       <h3>Jaipur — Cab, Chauffeur and Outstation Service</h3>
-      <p>Jaipur is Rajasthan's capital and a major destination for tourism, weddings and corporate events. NoirFleet provides Jaipur International Airport transfers, city cab service across Malviya Nagar, Tonk Road, MI Road and C-Scheme, and outstation cabs from Jaipur to Delhi, Agra, Udaipur and Jodhpur. Our wedding car fleet in Jaipur is particularly popular for luxury destination weddings.</p>
+      <p>Jaipur is Rajasthan's capital and a major destination for tourism, weddings and corporate events. NoirFleet provides Jaipur International Airport transfers, city cab service across Malviya Nagar, Tonk Road, MI Road and C-Scheme, and outstation cabs from Jaipur to Delhi, Agra, Udaipur and Jodhpur.</p>
 
       <h3>Goa — Cab, Taxi and Luxury Transfer Service</h3>
-      <p>Goa is India's premier leisure and MICE destination. NoirFleet provides Goa International Airport transfers (Dabolim and Mopa), cab service across North Goa and South Goa, and full-day hire for corporate retreats, wedding groups and leisure travellers. Our Goa service is popular for corporate offsite events and high-end leisure travel groups.</p>
+      <p>Goa is India's premier leisure and MICE destination. NoirFleet provides Goa International Airport transfers (Dabolim and Mopa), cab service across North Goa and South Goa, and full-day hire for corporate retreats, wedding groups and leisure travellers.</p>
 
       <h3>Surat — Corporate Cab and Chauffeur Service</h3>
-      <p>Surat is Gujarat's textile and diamond trading capital. NoirFleet provides cab and chauffeur service for corporate clients across Surat's Ring Road corridor, textile markets and diamond trading centres, along with airport transfers and outstation cabs to Ahmedabad, Mumbai and Vadodara.</p>
+      <p>Surat is Gujarat's textile and diamond trading capital. NoirFleet provides cab and chauffeur service across Surat's Ring Road corridor, textile markets and diamond trading centres, along with airport transfers and outstation cabs to Ahmedabad, Mumbai and Vadodara.</p>
 
       <h3>Lucknow — Cab, Taxi and Corporate Transfer</h3>
       <p>Lucknow is Uttar Pradesh's capital and a growing corporate hub. NoirFleet provides Chaudhary Charan Singh International Airport transfers, corporate cab service in Gomti Nagar and Hazratganj, and outstation cabs from Lucknow to Agra, Varanasi, Kanpur and Delhi.</p>
 
       <h3>Kochi — Chauffeur and Airport Transfer Service</h3>
-      <p>Kochi is Kerala's commercial capital and a major port city. NoirFleet provides Cochin International Airport transfers, corporate cab service in Kakkanad IT Park, Edapally and Marine Drive, and outstation cabs from Kochi to Munnar, Alleppey, Thrissur and Thiruvananthapuram.</p>
+      <p>Kochi is Kerala's commercial capital. NoirFleet provides Cochin International Airport transfers, corporate cab service in Kakkanad IT Park, Edapally and Marine Drive, and outstation cabs from Kochi to Munnar, Alleppey, Thrissur and Thiruvananthapuram.</p>
 
       <h2>Industries We Serve Across India</h2>
-
-      <p><strong>Pharmaceutical and Healthcare.</strong> FDA inspection teams, CXO transfers, delegation pickups, manufacturing site visits — across Mumbai, Hyderabad, Ahmedabad, Bangalore and Pune.</p>
+      <p><strong>Pharmaceutical and Healthcare.</strong> FDA inspection teams, CXO transfers, delegation pickups and manufacturing site visits across Mumbai, Hyderabad, Ahmedabad, Bangalore and Pune.</p>
       <p><strong>Information Technology.</strong> Executive airport pickups, client shuttles, campus transfers and corporate accounts for IT parks across Bangalore, Hyderabad, Pune, Chennai and NCR.</p>
       <p><strong>Banking and Financial Services.</strong> Confidential CXO travel, roadshow transport and client management for banks and financial firms in Mumbai, Delhi, Bangalore and Chennai.</p>
       <p><strong>Manufacturing and Industrial.</strong> Factory visit transport, vendor audit travel and site inspection pickups for industrial clients in Gujarat, Maharashtra, Tamil Nadu and Telangana.</p>
       <p><strong>Hospitality and Weddings.</strong> Luxury wedding cars, guest fleet management, hotel transfers and event transport across every Indian city and destination wedding location.</p>
       <p><strong>Government and Diplomatic.</strong> Delegation transport, ministry liaison transfers and VIP pickups in Delhi, Mumbai, Hyderabad and state capitals across India.</p>
-
-      <h2>How to Book NoirFleet Across India</h2>
-
-      <p>Booking is simple. Contact our reservations team with your pickup city, date, time, destination and vehicle preference. We confirm your booking with driver details and a fixed fare — no app needed, no surge pricing, no uncertainty.</p>
-
-      <p>For corporate accounts, contact us to set up a dedicated account with monthly invoicing, GST compliance and a single point of contact for all your company's India travel requirements.</p>
 
       <p><a href="contact.html">Book a chauffeur across India</a> · <a href="fleet.html">View our fleet</a> · <a href="services.html">Explore all services</a></p>
     `
@@ -196,40 +434,38 @@ const NF_ARTICLES = [
     image: "event.jpg",
     excerpt: "16 host cities, 3 countries, 104 matches — and millions of people who all need to get somewhere. Here is how to handle ground transportation at the 2026 FIFA World Cup without losing a minute of the action.",
     content: `
-      <p>The 2026 FIFA World Cup is the most geographically ambitious tournament in history. Spread across 16 cities in the United States, Canada and Mexico — from Vancouver to Miami, from Guadalajara to New York — it will draw an estimated five million visitors over 39 days. The football will be spectacular. The logistics, for anyone who has not planned ahead, will be gruelling.</p>
-
-      <p>Ground transportation is where most World Cup travel plans break down. Flights between host cities get booked. Ride-hailing apps surge. Taxi queues outside stadiums stretch for hours after the final whistle. For fans, sponsors, corporate hospitality guests and official delegations, having a ground transport plan before you travel is not optional — it is what separates a trip you remember for the right reasons from one you spend fighting to get anywhere.</p>
+      <p>The 2026 FIFA World Cup is the most geographically ambitious tournament in history. Spread across 16 cities in the United States, Canada and Mexico — from Vancouver to Miami, from Guadalajara to New York — it will draw an estimated five million visitors over 39 days. Ground transportation is where most World Cup travel plans break down. This guide covers every layer of 2026 World Cup ground transport: airport transfers, stadium pickups and intercity travel.</p>
 
       <h2>The 16 Host Cities and Their Transport Character</h2>
 
       <h3>United States Host Cities</h3>
       <ul>
-        <li><strong>New York / New Jersey</strong> — MetLife Stadium is a 30–50 minute drive from Midtown Manhattan. JFK, Newark and LaGuardia all serve the area. Traffic on the New Jersey Turnpike on match days is severe. A pre-booked chauffeur who knows the approach routes is essential.</li>
+        <li><strong>New York / New Jersey</strong> — MetLife Stadium is a 30–50 minute drive from Midtown Manhattan. Traffic on the New Jersey Turnpike on match days is severe. A pre-booked chauffeur is essential.</li>
         <li><strong>Los Angeles</strong> — SoFi Stadium in Inglewood is 15 km from downtown LA, but LA traffic is unpredictable. LAX transfers on match days require significant buffer time.</li>
-        <li><strong>Dallas</strong> — AT&T Stadium in Arlington sits between Dallas and Fort Worth. The city is car-dependent by design, making private ground transport the natural choice.</li>
+        <li><strong>Dallas</strong> — AT&amp;T Stadium in Arlington sits between Dallas and Fort Worth. The city is car-dependent by design, making private ground transport the natural choice.</li>
         <li><strong>San Francisco Bay Area</strong> — Levi's Stadium in Santa Clara is 70 km from downtown San Francisco. Premium transfer demand will be extremely high throughout the group stage.</li>
         <li><strong>Miami</strong> — Hard Rock Stadium is 25 km from South Beach and Brickell. Miami in June is hot; a pre-cooled vehicle is comfort, not indulgence.</li>
-        <li><strong>Seattle</strong> — Lumen Field is right in downtown Seattle. Sea-Tac Airport is a 30-minute drive in normal conditions, longer on match days.</li>
-        <li><strong>Boston</strong> — Gillette Stadium is 45 km south of the city in Foxborough. Logan Airport to the stadium is a significant transfer requiring advance planning.</li>
+        <li><strong>Seattle</strong> — Lumen Field is in downtown Seattle. Sea-Tac Airport is a 30-minute drive in normal conditions, longer on match days.</li>
+        <li><strong>Boston</strong> — Gillette Stadium is 45 km south of the city in Foxborough. A significant transfer requiring advance planning.</li>
         <li><strong>Philadelphia</strong> — Lincoln Financial Field is a 20-minute drive from Center City.</li>
-        <li><strong>Kansas City</strong> — Arrowhead Stadium is southeast of downtown. Kansas City International sits on the opposite side of the city, making transfers 45–60 minutes in normal traffic.</li>
+        <li><strong>Kansas City</strong> — Arrowhead Stadium is southeast of downtown. Transfers 45–60 minutes in normal traffic.</li>
       </ul>
 
       <h3>Canada Host Cities</h3>
       <ul>
-        <li><strong>Toronto</strong> — BMO Field is in the Harbourfront area. Toronto Pearson (YYZ) is 30 km northwest. Match days on the Gardiner Expressway can add significant time.</li>
+        <li><strong>Toronto</strong> — BMO Field is in the Harbourfront area. Toronto Pearson (YYZ) is 30 km northwest.</li>
         <li><strong>Vancouver</strong> — BC Place is in downtown Vancouver. YVR airport is connected by road or Canada Line SkyTrain.</li>
       </ul>
 
       <h3>Mexico Host Cities</h3>
       <ul>
-        <li><strong>Mexico City</strong> — Estadio Azteca, hosting the tournament opener, is in the south of a city of 22 million. Traffic in Mexico City is among the most complex on the continent. A trusted local chauffeur partner is essential.</li>
-        <li><strong>Guadalajara</strong> — Estadio Akron is 15 km west of the city centre. Guadalajara's premium car services market is well developed.</li>
-        <li><strong>Monterrey</strong> — Estadio BBVA is 15 km from the city centre. Monterrey's corporate culture means premium ground transport is well established.</li>
+        <li><strong>Mexico City</strong> — Estadio Azteca hosts the tournament opener. Traffic in Mexico City is among the most complex on the continent. A trusted local chauffeur partner is essential.</li>
+        <li><strong>Guadalajara</strong> — Estadio Akron is 15 km west of the city centre.</li>
+        <li><strong>Monterrey</strong> — Estadio BBVA is 15 km from the city centre.</li>
       </ul>
 
       <h2>Airport Transfers: The Non-Negotiable</h2>
-      <p>Every host-city airport during the World Cup will be operating at or above capacity. Ride-hailing apps will surge to multiples of the normal fare during peak arrival windows. The only way to guarantee a fixed fare, a waiting driver and a flight-tracked pickup is to pre-book a chauffeur transfer.</p>
+      <p>Every host-city airport during the World Cup will be operating at or above capacity. Ride-hailing apps will surge to multiples of the normal fare. The only way to guarantee a fixed fare, a waiting driver and a flight-tracked pickup is to pre-book a chauffeur transfer.</p>
 
       <blockquote>In a city of five million World Cup visitors, the pre-booked car is the only car you can count on.</blockquote>
 
@@ -239,17 +475,8 @@ const NF_ARTICLES = [
       <h2>Intercity Travel: When to Drive, When to Fly</h2>
       <ul>
         <li><strong>Dallas to Kansas City</strong> (~500 km) — a chauffeured intercity transfer is a genuine alternative to flying.</li>
-        <li><strong>Guadalajara to Mexico City</strong> (~540 km) — for a group of four to six, a chauffeured Vellfire is often faster door-to-door than flying.</li>
+        <li><strong>Guadalajara to Mexico City</strong> (~540 km) — for a group, a chauffeured Vellfire is often faster door-to-door than flying.</li>
         <li><strong>Philadelphia to New York</strong> (~150 km) — a direct chauffeured transfer is almost always faster than flying.</li>
-      </ul>
-
-      <h2>Planning Checklist</h2>
-      <ul>
-        <li>Book airport transfers for every arrival as early as possible.</li>
-        <li>Arrange stadium transfers with a post-match pickup point agreed in advance.</li>
-        <li>Decide which intercity legs are better driven than flown, especially for groups.</li>
-        <li>Use one transport provider across all cities.</li>
-        <li>For corporate guests, brief your transport partner on guest profiles and schedules in advance.</li>
       </ul>
 
       <p>NoirFleet operates across all 16 FIFA World Cup 2026 host cities. <a href="fifa.html">Explore our World Cup transport services</a> or <a href="contact.html">contact us to plan your tournament travel</a>.</p>
@@ -265,14 +492,12 @@ const NF_ARTICLES = [
     image: "sedan.jpg",
     excerpt: "From Sun Pharma's Mumbai boardrooms to Dr. Reddy's Hyderabad campuses — a guide to airport transfers, FDA inspection pickups and corporate ground transport for India's pharmaceutical executives.",
     content: `
-      <p>India is now the world's third-largest pharmaceutical industry by volume, supplying over 60 countries with generic medicines, APIs and biologics. Behind that supply chain is an enormous volume of executive travel — board meetings, FDA inspection visits, investor roadshows, manufacturing site audits, international delegation arrivals. The people driving those decisions need to move efficiently, discreetly and comfortably between airports, five-star hotels, government offices and research campuses. That is precisely where a dedicated pharmaceutical executive chauffeur service becomes not a luxury, but a necessity.</p>
-
-      <p>At NoirFleet, we work with corporates and senior professionals across India's leading pharmaceutical corridors. This guide outlines where pharma travel is most concentrated in India, which routes matter most, and what to look for in a chauffeur partner as a pharmaceutical company travel manager or CXO.</p>
+      <p>India is now the world's third-largest pharmaceutical industry by volume, supplying over 60 countries with generic medicines, APIs and biologics. Behind that supply chain is an enormous volume of executive travel — board meetings, FDA inspection visits, investor roadshows, manufacturing site audits, international delegation arrivals. That is precisely where a dedicated pharmaceutical executive chauffeur service becomes not a luxury, but a necessity.</p>
 
       <h2>India's Pharmaceutical Hubs and Their Travel Needs</h2>
       <ul>
-        <li><strong>Mumbai</strong> — Home to Sun Pharma, Cipla, Piramal and Wockhardt. CSMI Airport sees heavy pharma executive traffic, particularly for regulatory meetings and investor events in BKC and Nariman Point.</li>
-        <li><strong>Hyderabad</strong> — Dr. Reddy's Laboratories, Aurobindo Pharma, Natco Pharma and hundreds of API manufacturers. Genome Valley and Cyberabad are high-demand chauffeur corridors from Rajiv Gandhi International.</li>
+        <li><strong>Mumbai</strong> — Home to Sun Pharma, Cipla, Piramal and Wockhardt. CSMI Airport sees heavy pharma executive traffic for regulatory meetings and investor events in BKC and Nariman Point.</li>
+        <li><strong>Hyderabad</strong> — Dr. Reddy's Laboratories, Aurobindo Pharma, Natco Pharma and hundreds of API manufacturers. Genome Valley and Cyberabad are high-demand chauffeur corridors.</li>
         <li><strong>Ahmedabad</strong> — Zydus Lifesciences, Cadila, Alkem and Torrent Pharma. Sardar Vallabhbhai Patel International handles large volumes of pharma-related international arrivals.</li>
         <li><strong>Bengaluru</strong> — Biocon, Strides Pharma and a growing biosimilar ecosystem. Kempegowda International is one of India's busiest airports for international pharma delegations.</li>
         <li><strong>Pune</strong> — Serum Institute of India, Lupin and multiple CROs. Pharma campuses spread across Hinjewadi and Pimpri-Chinchwad.</li>
@@ -282,21 +507,21 @@ const NF_ARTICLES = [
       <h2>The Most Common Pharma Travel Scenarios in India</h2>
 
       <h3>1. FDA and Regulatory Inspection Teams</h3>
-      <p>When a USFDA or EMA inspection team arrives at Mumbai, Hyderabad or Ahmedabad, there is zero tolerance for lateness or confusion. NoirFleet's chauffeurs meet passengers airside with name boards, assist with luggage and maintain the professional first impression your facility needs to make before the inspection even begins.</p>
+      <p>When a USFDA or EMA inspection team arrives at Mumbai, Hyderabad or Ahmedabad, there is zero tolerance for lateness. NoirFleet's chauffeurs meet passengers airside with name boards, assist with luggage and maintain the professional first impression your facility needs before the inspection even begins.</p>
 
       <h3>2. CXO and Board-Level Airport Transfers</h3>
-      <p>A Managing Director flying from Hyderabad to Mumbai for a Sun Pharma or Cipla partner meeting expects the car to be waiting, the driver to be professional, and the cabin to be quiet. NoirFleet provides a single point of accountability — from flight-tracking that ensures your driver is there even when the arrival is 40 minutes early, to a discreet communication protocol that does not involve multiple WhatsApp messages to the executive's personal number.</p>
+      <p>A Managing Director flying from Hyderabad to Mumbai for a Sun Pharma or Cipla partner meeting expects the car to be waiting, the driver to be professional, and the cabin to be quiet. NoirFleet provides a single point of accountability — from flight-tracking to discreet communication protocols.</p>
 
       <blockquote>When a regulatory inspection team lands, the car is the first thing they see. It signals how you run your operation.</blockquote>
 
       <h3>3. Investor and Partner Roadshows</h3>
-      <p>The CFO at Nariman Point at 9 AM, then BKC at 11:30 AM, then a PE fund lunch in Worli before flying out at 5 PM — this requires a dedicated vehicle on standby throughout, not a shared cab booked trip-by-trip.</p>
+      <p>The CFO at Nariman Point at 9 AM, BKC at 11:30 AM, a PE fund lunch in Worli before flying out at 5 PM — this requires a dedicated vehicle on standby throughout, not a shared cab booked trip-by-trip.</p>
 
       <h3>4. API Manufacturer Site Visits</h3>
-      <p>Formulation companies auditing API suppliers in Hyderabad's Bollaram and Pashamylaram industrial areas, or in Ankleshwar and Vapi in Gujarat, require ground transport that goes beyond city-centre hotel runs.</p>
+      <p>Formulation companies auditing API suppliers in Hyderabad's Bollaram and Pashamylaram, or in Ankleshwar and Vapi in Gujarat, require ground transport beyond city-centre hotel runs.</p>
 
       <h3>5. International Delegation Arrivals</h3>
-      <p>When a Japanese licensee, a US generic company procurement head or a European biotech partner lands in India, the quality of that transfer communicates company culture. A premium chauffeur service reflects the same standard the company would extend in Tokyo, New York or Basel.</p>
+      <p>When a Japanese licensee or a European biotech partner lands in India, the quality of the transfer communicates company culture. A premium chauffeur service reflects the same standard the company would extend in Tokyo, New York or Basel.</p>
 
       <h2>High-Demand Airport Transfer Routes for Indian Pharma</h2>
       <ul>
@@ -307,21 +532,6 @@ const NF_ARTICLES = [
         <li><strong>PNQ → Hinjewadi / Manjri</strong> — Serum Institute, Lupin Research Park; vaccine partnership delegations.</li>
         <li><strong>DEL → Gurgaon / Aerocity</strong> — CDSCO, pharma liaison offices; regulatory and ministry meetings.</li>
       </ul>
-
-      <h2>What Makes a Pharma-Ready Chauffeur Service Different</h2>
-      <p><strong>Confidentiality and discretion.</strong> NoirFleet's chauffeurs observe a strict confidentiality protocol and do not share trip details externally.</p>
-      <p><strong>Flight tracking and proactive communication.</strong> NoirFleet monitors all commercial flights on assigned airport runs in real time and repositions accordingly.</p>
-      <p><strong>Appropriate vehicles for senior guests.</strong> Mercedes-Benz E-Class and S-Class, BMW 7 Series and Toyota Vellfire MPVs for delegation groups.</p>
-      <p><strong>Multi-city coordination.</strong> One account, one billing relationship and one point of contact across all Indian pharma cities.</p>
-      <p><strong>Corporate account and GST invoicing.</strong> Monthly consolidated invoicing, detailed trip logs and GST-compliant receipts.</p>
-
-      <h2>India's Leading Pharma Companies and Their Travel Geography</h2>
-      <p><strong>Sun Pharmaceutical Industries</strong> — headquartered in Mumbai, manufacturing across Sikkim, Vadodara and Halol. Investor meetings concentrate in BKC and Nariman Point.</p>
-      <p><strong>Dr. Reddy's Laboratories</strong> — headquartered in Hyderabad. Genome Valley campuses, JNTU road and the Bollaram manufacturing cluster are core routes.</p>
-      <p><strong>Cipla</strong> — headquartered in Mumbai (Vikhroli) with manufacturing presence in Goa and Ahmedabad.</p>
-      <p><strong>Biocon</strong> — Bengaluru-based with an international partner base in Japan, the US and Europe.</p>
-      <p><strong>Zydus Lifesciences</strong> — Ahmedabad-headquartered with manufacturing in Changodar.</p>
-      <p><strong>Aurobindo Pharma</strong> — A Hyderabad major with API and formulation plants across Telangana.</p>
 
       <h2>Setting Up a Corporate Account with NoirFleet</h2>
       <ul>
@@ -345,7 +555,7 @@ const NF_ARTICLES = [
     image: "event.jpg",
     excerpt: "The 2026 World Cup spans 16 cities across three countries. Here is how to handle airport transfers, match-day travel and everything in between without the stress.",
     content: `
-      <p>The 2026 FIFA World Cup is the largest in history: 48 teams, 104 matches and 16 host cities spread across the United States, Canada and Mexico, running from June 11 to July 19. For travelling fans, sponsors and officials, the football is the easy part. The hard part is moving smoothly between airports, hotels and stadiums in cities you may not know, during the busiest sporting month the continent has ever seen.</p>
+      <p>The 2026 FIFA World Cup is the largest in history: 48 teams, 104 matches and 16 host cities spread across the United States, Canada and Mexico, running from June 11 to July 19. The football is the easy part. Moving smoothly between airports, hotels and stadiums in cities you may not know, during the busiest sporting month the continent has ever seen, is the challenge.</p>
 
       <h2>Airport Transfers: Plan for the Surge</h2>
       <p>Every host-city airport will see record arrivals during the tournament. Taxi queues will be long and ride-hailing surge pricing will be steep around match days. A pre-booked chauffeur transfer removes that uncertainty entirely: your driver tracks your flight, waits at arrivals with a name board, and the fare is fixed before you land.</p>
@@ -353,10 +563,7 @@ const NF_ARTICLES = [
       <h2>Match-Day Stadium Transfers</h2>
       <p>Stadium areas operate under heavy road closures on match days. A driver who knows the approved drop-off zones and the best pickup point after the final whistle saves you the long walk and the post-match crush.</p>
 
-      <h2>Following Your Team Across Cities</h2>
-      <p>Group-stage fixtures can send you between distant host cities on tight turnarounds. Where flights are inconvenient, chauffeured intercity transfers offer door-to-door comfort with planned rest stops.</p>
-
-      <h3>A Simple Checklist</h3>
+      <h2>A Simple Checklist</h2>
       <ul>
         <li>Pre-book airport pickups for every arrival, well ahead of the match dates.</li>
         <li>Arrange match-day transfers with a confirmed post-match pickup point.</li>
@@ -377,7 +584,7 @@ const NF_ARTICLES = [
     image: "city_tours.jpg",
     excerpt: "Following your team through the group stage means crossing a continent. Here is how to move between World Cup host cities comfortably and on time.",
     content: `
-      <p>One of the quirks of a World Cup hosted across three countries is the distance. A team can play its three group-stage matches in cities hundreds, even thousands, of kilometres apart. For fans following every game, the journey between host cities becomes part of the trip itself.</p>
+      <p>A team can play its three group-stage matches in cities hundreds of kilometres apart. For fans following every game, the journey between host cities becomes part of the trip itself.</p>
 
       <h2>Fly or Drive?</h2>
       <p>For the longest hops, flying is usually the practical choice. But airports during the World Cup mean long security lines, packed terminals and tight connections. For shorter and medium legs, a chauffeured intercity transfer is often faster door-to-door once you account for airport time.</p>
@@ -438,9 +645,6 @@ const NF_ARTICLES = [
       <h2>Booking</h2>
       <p>It starts with a simple request: your pickup, your destination, the time and how many passengers. A good service confirms quickly, gives you a clear fixed quote, and lets you add details such as a flight number, a child seat or a preferred vehicle.</p>
 
-      <h2>Before the Journey</h2>
-      <p>You receive confirmation with your driver and vehicle details ahead of time. For airport pickups, the service monitors your flight so the timing adjusts to reality rather than the schedule.</p>
-
       <h2>During the Ride</h2>
       <p>The car arrives early, clean and climate-controlled. Your chauffeur handles your luggage, knows the route and reads the moment — offering conversation if you want it, or quiet space if you would rather rest or work.</p>
 
@@ -497,7 +701,7 @@ const NF_ARTICLES = [
       <p>The word "premium" gets attached to a lot of car services. Real premium isn't about the badge on the bonnet — it's about five details that consistently separate a forgettable ride from one you book again.</p>
 
       <h2>1. Flight Tracking That Actually Works</h2>
-      <p>Your flight is early. Your flight is delayed three hours. A premium service already knows, and the driver's arrival shifts silently to match. You should never have to update anyone.</p>
+      <p>Your flight is early. Your flight is delayed three hours. A premium service already knows, and the driver's arrival shifts silently to match.</p>
 
       <h2>2. The Meet-and-Greet</h2>
       <p>A name board at arrivals, help with luggage, and a walk to the car that feels unhurried. The first ninety seconds set the tone for the entire journey.</p>
@@ -527,14 +731,8 @@ const NF_ARTICLES = [
       <h2>Saturday</h2>
       <p>Begin in Mayfair with a slow coffee, then a short transfer to the museums of South Kensington before the crowds arrive. By midday, glide east to the South Bank — the walk along the river is best done on foot, with the car meeting you at the far end near the Tate.</p>
 
-      <h3>Lunch Worth the Detour</h3>
-      <ul>
-        <li>Borough Market for something casual and excellent.</li>
-        <li>A river-view table if the weather cooperates.</li>
-      </ul>
-
       <h2>Sunday</h2>
-      <p>Sundays are for the parks and the markets. Columbia Road in the morning, then a leisurely drive west to Notting Hill.</p>
+      <p>Sundays are for the parks and the markets. Columbia Road in the morning, then a leisurely drive west to Notting Hill. The beauty of a private car here is simple: you carry your finds, your coats, and your tired feet without thinking about any of it.</p>
 
       <blockquote>The luxury of a great city isn't seeing everything — it's choosing what to see, and arriving unhurried.</blockquote>
     `
