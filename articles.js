@@ -22,6 +22,267 @@
 
 const NF_ARTICLES = [
 
+/* ─── DAY 2 — ARTICLE 1: BANGALORE ─── */
+  {
+    slug: "cab-chauffeur-service-bangalore",
+    title: "Cab & Chauffeur Service in Bangalore — Airport Transfers, IT Corporate Cars & Outstation",
+    date: "June 16, 2026",
+    category: "City Guide",
+    image: "bangalore.jpg",
+    excerpt: "Looking for a reliable cab or chauffeur in Bangalore? NoirFleet provides premium airport transfers from KIA, corporate car hire in Whitefield, Electronic City and Outer Ring Road, and outstation cabs to Mysore, Coorg, Ooty and Chennai.",
+    content: `
+      <p>Bangalore — officially Bengaluru — is India's technology capital and one of the fastest-growing cities in Asia. Home to the Indian Space Research Organisation, hundreds of Fortune 500 technology companies, a booming startup ecosystem, and India's most active biotech and pharma research corridor, Bangalore generates enormous demand for reliable, professional ground transport every single day. Whether you are an IT executive flying into Kempegowda International Airport for a product launch, a biotech delegate visiting Biocon's research campus, or a family looking for a comfortable outstation cab to Coorg or Mysore, NoirFleet provides premium cab and chauffeur services across every corridor of Bangalore and Karnataka.</p>
+
+      <h2>Bangalore Airport Cab & Transfer Service</h2>
+
+      <p>Kempegowda International Airport (BLR / KIA) sits approximately 40 km north of the city centre — making it one of India's most distant major airports from its city's business districts. This distance, combined with Bangalore's notorious traffic on the Bellary Road (NH-44) corridor, means airport transfers require careful planning and a driver who knows exactly when to leave and which route to take.</p>
+
+      <h3>Key Bangalore Airport Transfer Routes</h3>
+      <ul>
+        <li><strong>KIA → MG Road / Brigade Road:</strong> 38–42 km, approximately 50–75 minutes. Central Bangalore's commercial and retail heart — banks, offices and five-star hotels.</li>
+        <li><strong>KIA → Whitefield:</strong> 50–58 km, approximately 60–90 minutes. Bangalore's largest IT hub — ITPL, International Tech Park, Prestige Tech Park and hundreds of MNC offices.</li>
+        <li><strong>KIA → Electronic City:</strong> 55–65 km, approximately 70–100 minutes. Infosys headquarters, Wipro campus, HCL and dozens of major IT companies.</li>
+        <li><strong>KIA → Outer Ring Road (ORR):</strong> 40–55 km, approximately 55–80 minutes. The new corporate spine of Bangalore — Manyata Tech Park, Bagmane Tech Park, RMZ Ecospace.</li>
+        <li><strong>KIA → Koramangala:</strong> 45–52 km, approximately 60–85 minutes. Bangalore's startup capital — home to Flipkart's early offices, Swiggy, Zomato and hundreds of funded startups.</li>
+        <li><strong>KIA → Indiranagar:</strong> 40–48 km, approximately 55–80 minutes. Premium residential and boutique corporate addresses in East Bangalore.</li>
+        <li><strong>KIA → Hebbal / Manyata:</strong> 18–22 km, approximately 25–40 minutes. The closest major business zone to the airport — Manyata Tech Park is one of Bangalore's largest campuses.</li>
+      </ul>
+
+      <h2>Corporate Cab & Chauffeur Service in Bangalore</h2>
+
+      <p>Bangalore's corporate geography is spread across four distinct zones — the airport corridor in the north, the Outer Ring Road belt in the east, Whitefield in the far east, and Electronic City in the south. A corporate travel account with NoirFleet covers all four zones under one booking relationship.</p>
+
+      <h3>Key Corporate Corridors in Bangalore</h3>
+      <ul>
+        <li><strong>Whitefield / ITPL:</strong> International Tech Park Bangalore, Prestige Tech Park, Salarpuria Magnificia — home to IBM, SAP, Dell, Accenture and hundreds of IT companies.</li>
+        <li><strong>Electronic City:</strong> Infosys global headquarters, Wipro campus, HCL Technologies — the original Bangalore IT zone that put the city on the global map.</li>
+        <li><strong>Outer Ring Road (ORR):</strong> Manyata Tech Park, Bagmane Tech Park, RMZ Ecospace, Embassy Tech Village — the new spine of Bangalore corporate life.</li>
+        <li><strong>Koramangala:</strong> Startup ecosystem, VC funds, D2C brands and tech unicorn offices — a premium address for early and growth-stage companies.</li>
+        <li><strong>Hebbal:</strong> Close to the airport, increasingly popular for MNC regional headquarters and pharmaceutical company offices.</li>
+        <li><strong>Biocon Special Economic Zone (Hebbel):</strong> Biocon's research and manufacturing campus — one of India's most active biotech destinations for international delegation visits.</li>
+      </ul>
+
+      <blockquote>In Bangalore, the traffic between Whitefield and Electronic City at 6 PM can take 2 hours. The right driver leaves at the right time and knows every alternate route.</blockquote>
+
+      <h2>Outstation Cab Service from Bangalore</h2>
+
+      <ul>
+        <li><strong>Bangalore to Mysore:</strong> 145 km via Mysore Road, approximately 3–3.5 hours. The most popular day trip from Bangalore — Mysore Palace, Chamundeshwari Temple and the Brindavan Gardens.</li>
+        <li><strong>Bangalore to Coorg (Madikeri):</strong> 265 km, approximately 5–5.5 hours. Karnataka's coffee country — one of South India's most beloved weekend escapes.</li>
+        <li><strong>Bangalore to Ooty:</strong> 270 km via Mysore, approximately 5.5–6 hours. Tamil Nadu's queen of hill stations — crossing the Nilgiris via the scenic Bandipur forest route.</li>
+        <li><strong>Bangalore to Chikmagalur:</strong> 245 km, approximately 4.5–5 hours. Coffee estate country — increasingly popular for corporate retreats and wellness travel.</li>
+        <li><strong>Bangalore to Chennai:</strong> 345 km via NH-48, approximately 5.5–6.5 hours. The most important intercity corporate route in South India.</li>
+        <li><strong>Bangalore to Hyderabad:</strong> 570 km via NH-44, approximately 8.5–9.5 hours. Available as an overnight transfer or a long-day drive with rest stops.</li>
+        <li><strong>Bangalore to Pondicherry:</strong> 310 km, approximately 5.5–6 hours. Heritage French Quarter, wellness retreats and weekend travel.</li>
+        <li><strong>Bangalore to Hampi:</strong> 340 km, approximately 5.5–6 hours. UNESCO World Heritage Site — popular for cultural tourism and photography expeditions.</li>
+      </ul>
+
+      <h2>Luxury & Premium Cab Options in Bangalore</h2>
+
+      <ul>
+        <li><strong>Mercedes-Benz E-Class & S-Class:</strong> For senior executives, international delegation pickups and client-facing airport transfers.</li>
+        <li><strong>BMW 5 Series & 7 Series:</strong> Premium executive sedan for Bangalore's IT and biotech corporate accounts.</li>
+        <li><strong>Toyota Vellfire:</strong> Premium MPV for delegation groups visiting Biocon, Infosys or Wipro campuses.</li>
+        <li><strong>Toyota Innova Crysta:</strong> Ideal for outstation routes to Coorg, Ooty and Mysore — spacious and reliable on Karnataka's mountain roads.</li>
+      </ul>
+
+      <h2>Why Choose NoirFleet Over Ola or Uber in Bangalore?</h2>
+
+      <ul>
+        <li><strong>KIA distance expertise.</strong> The 40 km airport corridor is where most Bangalore transfers go wrong. Our drivers know exactly when to leave based on real-time conditions.</li>
+        <li><strong>No surge pricing.</strong> Bangalore's rain, tech events and traffic jams send app prices soaring. Your NoirFleet fare is fixed when you book.</li>
+        <li><strong>IT and biotech corporate accounts.</strong> GST invoicing, monthly billing and trip logs — compatible with the expense management systems of Bangalore's largest employers.</li>
+        <li><strong>24/7 availability.</strong> International tech companies run global schedules. 3 AM airport pickups and midnight client drops are standard for our Bangalore team.</li>
+      </ul>
+
+      <p><a href="contact.html">Book a Bangalore cab or chauffeur</a> · <a href="fleet.html">View our fleet</a> · <a href="services.html">Explore all services</a></p>
+    `
+  },
+
+  /* ─── DAY 2 — ARTICLE 2: HYDERABAD ─── */
+  {
+    slug: "cab-chauffeur-service-hyderabad",
+    title: "Cab & Chauffeur Service in Hyderabad — Airport Transfers, Pharma & IT Corporate Cars",
+    date: "June 16, 2026",
+    category: "City Guide",
+    image: "hyderabad.jpg",
+    excerpt: "Looking for a premium cab or chauffeur in Hyderabad? NoirFleet provides airport transfers from Rajiv Gandhi International, corporate car hire in Hitech City, Gachibowli and Genome Valley, and outstation cabs to Tirupati, Vijayawada and Bangalore.",
+    content: `
+      <p>Hyderabad is one of India's most important cities for business — and one of the most underserved when it comes to premium ground transport. As the global headquarters of Dr. Reddy's Laboratories, Aurobindo Pharma and Natco Pharma, the home of India's largest pharma manufacturing cluster in Genome Valley, and the location of major IT campuses for Microsoft, Google, Amazon and Infosys, Hyderabad receives a constant stream of international business visitors, regulatory inspection teams and senior executives who need professional, reliable ground transport from the moment they land.</p>
+
+      <p>NoirFleet provides premium cab and chauffeur services across Hyderabad and Telangana — airport transfers from Rajiv Gandhi International, corporate cars across Hitech City, Gachibowli, Banjara Hills and Genome Valley, and outstation cabs to Tirupati, Vijayawada, Warangal and Bangalore.</p>
+
+      <h2>Hyderabad Airport Cab & Transfer Service</h2>
+
+      <p>Rajiv Gandhi International Airport (HYD) is located in Shamshabad, approximately 22 km south of Hyderabad city centre. The airport is well-connected to the city via the Outer Ring Road, making transfers relatively predictable compared to other major Indian cities — but match-day traffic, peak-hour congestion on ORR and the distance to Genome Valley in the north all require a driver who plans the route in advance.</p>
+
+      <h3>Key Hyderabad Airport Transfer Routes</h3>
+      <ul>
+        <li><strong>HYD → Hitech City / Madhapur:</strong> 28–33 km, approximately 35–55 minutes. Hyderabad's primary IT corridor — Microsoft, Google, Amazon, Facebook, Cognizant and hundreds of IT companies.</li>
+        <li><strong>HYD → Gachibowli:</strong> 25–30 km, approximately 30–50 minutes. Financial district, DLF Cyber City Hyderabad and major IT campuses.</li>
+        <li><strong>HYD → Banjara Hills:</strong> 20–25 km, approximately 28–45 minutes. Hyderabad's premium residential and hospitality address — five-star hotels and executive residences.</li>
+        <li><strong>HYD → Jubilee Hills:</strong> 22–28 km, approximately 30–48 minutes. Premium residential, celebrity addresses and boutique corporate offices.</li>
+        <li><strong>HYD → Secunderabad:</strong> 28–34 km, approximately 35–55 minutes. Twin city commercial centre, railway hub and defence establishments.</li>
+        <li><strong>HYD → Genome Valley (Turkapally / Shameerpet):</strong> 45–55 km, approximately 50–75 minutes. India's pharma manufacturing capital — Dr. Reddy's, Aurobindo, Natco, Hetero and hundreds of API manufacturers.</li>
+        <li><strong>HYD → Bollaram / Pashamylaram:</strong> 40–50 km, approximately 45–70 minutes. Industrial pharmaceutical and API manufacturing clusters — high demand for FDA inspection team transfers.</li>
+      </ul>
+
+      <h2>Corporate Cab & Chauffeur Service in Hyderabad</h2>
+
+      <p>Hyderabad has two distinct corporate worlds that often need to be bridged in a single day — the IT corridor in the west (Hitech City, Gachibowli) and the pharma manufacturing corridor in the north and west (Genome Valley, Bollaram, Pashamylaram). NoirFleet's Hyderabad corporate accounts are set up to serve both seamlessly.</p>
+
+      <h3>Key Corporate Corridors in Hyderabad</h3>
+      <ul>
+        <li><strong>Hitech City / Cyberabad:</strong> Microsoft India Development Centre, Google Hyderabad, Amazon India, Facebook — Hyderabad's answer to Bangalore's Outer Ring Road.</li>
+        <li><strong>Gachibowli / Financial District:</strong> DLF Cyber City Hyderabad, Wipro campus, Infosys Hyderabad — premium IT and financial services corridor.</li>
+        <li><strong>Genome Valley:</strong> India's first dedicated life sciences cluster — over 200 pharma, biotech and medical device companies in a purpose-built industrial park north of Hyderabad.</li>
+        <li><strong>Bollaram / Pashamylaram:</strong> Active pharmaceutical ingredient (API) manufacturing zone — one of the highest-density pharma industrial areas in the world.</li>
+        <li><strong>Banjara Hills Road No. 1–12:</strong> Corporate offices, pharma company headquarters, luxury hotels and five-star hospitality — the most prestigious address in Hyderabad.</li>
+        <li><strong>HITEX Exhibition Centre:</strong> Hyderabad's premier MICE venue — regular conferences, pharma exhibitions and IT summits requiring fleet coordination.</li>
+      </ul>
+
+      <blockquote>Hyderabad's pharma corridor runs from the airport through the city and all the way to Genome Valley — a route our chauffeurs know better than anyone.</blockquote>
+
+      <h3>FDA Inspection Team Transfers in Hyderabad</h3>
+      <p>Hyderabad is the single most active city in India for USFDA manufacturing inspections. When an FDA inspection team arrives at HYD — often on international flights from the United States with unpredictable arrival times — the host pharmaceutical company needs a ground transport partner who tracks the flight in real time, has the vehicle positioned correctly, and delivers the team to the manufacturing facility or hotel without a single moment of uncertainty. NoirFleet's Hyderabad team handles FDA inspection transfers as a core service — not an afterthought.</p>
+
+      <h2>Outstation Cab Service from Hyderabad</h2>
+
+      <ul>
+        <li><strong>Hyderabad to Tirupati:</strong> 570 km via NH-65, approximately 8.5–9.5 hours. One of the world's most visited pilgrimage destinations — Lord Venkateswara Temple. Available as an overnight transfer with rest stops.</li>
+        <li><strong>Hyderabad to Vijayawada:</strong> 275 km via NH-65, approximately 4–4.5 hours. Andhra Pradesh's commercial capital and a major business corridor from Hyderabad.</li>
+        <li><strong>Hyderabad to Warangal:</strong> 148 km via NH-163, approximately 2.5–3 hours. Telangana's second city — historical and industrial significance.</li>
+        <li><strong>Hyderabad to Bangalore:</strong> 570 km via NH-44, approximately 8.5–9.5 hours. The most important intercity corporate route from Hyderabad — available overnight or as a long-day transfer.</li>
+        <li><strong>Hyderabad to Nagpur:</strong> 500 km via NH-44, approximately 7.5–8.5 hours. Maharashtra's orange city and a major pharmaceutical and power sector hub.</li>
+        <li><strong>Hyderabad to Amaravati:</strong> 300 km, approximately 4.5–5 hours. Andhra Pradesh's new capital and an emerging administrative and corporate destination.</li>
+        <li><strong>Hyderabad to Srisailam:</strong> 215 km, approximately 3.5–4 hours. Major pilgrimage destination and Nagarjuna Sagar dam tourism.</li>
+      </ul>
+
+      <h2>Luxury & Premium Cab Options in Hyderabad</h2>
+
+      <ul>
+        <li><strong>Mercedes-Benz E-Class & S-Class:</strong> For FDA inspection teams, international pharma delegates and senior IT executives.</li>
+        <li><strong>BMW 5 Series & 7 Series:</strong> Premium executive sedan for Hitech City and Gachibowli corporate accounts.</li>
+        <li><strong>Toyota Vellfire:</strong> Premium MPV for pharma delegation groups and large corporate airport transfers.</li>
+        <li><strong>Toyota Innova Crysta:</strong> The go-to vehicle for Genome Valley and Bollaram site visits — reliable, spacious and road-proven on Hyderabad's industrial corridors.</li>
+      </ul>
+
+      <h2>Why Choose NoirFleet Over Ola or Uber in Hyderabad?</h2>
+
+      <ul>
+        <li><strong>Pharma-specific expertise.</strong> We understand Genome Valley, Bollaram, FDA inspection protocols and the specific transfer needs of pharmaceutical companies. A standard cab aggregator does not.</li>
+        <li><strong>Flight tracking for international arrivals.</strong> FDA teams and international pharma delegates arrive on international flights. We track every flight and position the vehicle accordingly — no calls needed from your team.</li>
+        <li><strong>Fixed fares to industrial zones.</strong> Genome Valley and Bollaram are far from the city. Ride-hailing apps often surge or cancel these routes. NoirFleet's fare is fixed and the driver always shows up.</li>
+        <li><strong>GST corporate invoicing.</strong> Hyderabad's pharma and IT companies require compliant invoicing for all corporate travel. NoirFleet provides monthly consolidated GST invoices with full trip logs.</li>
+        <li><strong>24/7 availability.</strong> FDA inspections happen on their schedule, not yours. 2 AM airport pickups are standard for our Hyderabad team.</li>
+      </ul>
+
+      <p><a href="contact.html">Book a Hyderabad cab or chauffeur</a> · <a href="fleet.html">View our fleet</a> · <a href="services.html">Explore all services</a></p>
+    `
+  },
+
+  /* ─── DAY 2 — ARTICLE 3: MUMBAI TO PUNE OUTSTATION ─── */
+  {
+    slug: "mumbai-to-pune-cab-service",
+    title: "Mumbai to Pune Cab Service — Distance, Price, Route & Chauffeur Options",
+    date: "June 16, 2026",
+    category: "Outstation",
+    image: "mumbai-pune-highway.jpg",
+    excerpt: "Planning a trip from Mumbai to Pune? NoirFleet provides premium chauffeur-driven cab service on the Mumbai-Pune route — fixed fares, professional drivers, clean vehicles and door-to-door comfort whether you are travelling for business or leisure.",
+    content: `
+      <p>The Mumbai to Pune route is the most travelled intercity road corridor in India. Every single day, thousands of people make this journey for business meetings, corporate site visits, weekend getaways, family visits, pharma factory audits, IT project travel and countless other reasons. The 148 km route via the Mumbai-Pune Expressway (NH-48) takes approximately 2.5 to 3.5 hours in normal conditions — and significantly longer during peak hours, monsoon season and long weekends.</p>
+
+      <p>NoirFleet provides premium cab service on the Mumbai to Pune route — professional chauffeurs, clean and comfortable vehicles, fixed fares with no hidden charges, and door-to-door service from any address in Mumbai to any address in Pune.</p>
+
+      <h2>Mumbai to Pune Distance and Route</h2>
+
+      <ul>
+        <li><strong>Distance:</strong> 148 km via Mumbai-Pune Expressway (NH-48) — the fastest and most popular route.</li>
+        <li><strong>Alternate route:</strong> 163 km via the Old Mumbai-Pune Highway (NH-48 old alignment) through Khopoli and Khandala — scenic but slower, especially during monsoon.</li>
+        <li><strong>Drive time:</strong> 2.5 to 3 hours in normal conditions. 3.5 to 4.5 hours on Friday evenings, long weekend departures and during the monsoon season (June to September).</li>
+        <li><strong>Key landmarks en route:</strong> Khalapur toll, Khopoli, Expressway ghat section (Khandala-Lonavala), Talegaon interchange, Dehu Road, Wakad flyover into Pune.</li>
+      </ul>
+
+      <h2>Mumbai to Pune — Key Pickup and Drop Zones</h2>
+
+      <h3>Mumbai Pickup Locations</h3>
+      <ul>
+        <li><strong>South Mumbai</strong> (Nariman Point, Churchgate, Colaba, Fort) — add 25–35 minutes to total journey time from expressway entry</li>
+        <li><strong>BKC / Bandra</strong> — approximately 30–40 minutes to expressway via Eastern Freeway or Western Express Highway</li>
+        <li><strong>Andheri / Powai</strong> — approximately 35–50 minutes to expressway entry depending on traffic</li>
+        <li><strong>Thane</strong> — 20–30 minutes to expressway via Eastern Express Highway</li>
+        <li><strong>Navi Mumbai</strong> — direct access to NH-48 via Sion-Panvel Highway, often faster than central Mumbai pickup</li>
+        <li><strong>Mumbai Airport (T1 / T2)</strong> — approximately 40–55 minutes to expressway, ideal for direct Mumbai airport to Pune transfers</li>
+      </ul>
+
+      <h3>Pune Drop Locations</h3>
+      <ul>
+        <li><strong>Hinjewadi IT Park</strong> — Maharashtra's largest IT zone, home to Wipro, Infosys, TCS and hundreds of tech companies</li>
+        <li><strong>Magarpatta City / Hadapsar</strong> — major IT and corporate hub in east Pune</li>
+        <li><strong>Kharadi / EON IT Park</strong> — IBM, Cognizant and other major IT employers</li>
+        <li><strong>Baner / Aundh / Balewadi</strong> — premium residential and startup zone in west Pune</li>
+        <li><strong>Pune Airport (PNQ)</strong> — for Mumbai to Pune Airport transfers</li>
+        <li><strong>Koregaon Park / Kalyani Nagar</strong> — premium hospitality, hotels and residential addresses</li>
+        <li><strong>Pimpri-Chinchwad (PCMC)</strong> — Pune's industrial and automotive corridor — Bajaj, Tata Motors and pharma companies</li>
+        <li><strong>Serum Institute of India (Manjri / Hadapsar)</strong> — the world's largest vaccine manufacturer — regular transfers for international delegates and regulatory visitors</li>
+      </ul>
+
+      <h2>Common Mumbai to Pune Travel Reasons</h2>
+
+      <h3>Corporate and Business Travel</h3>
+      <p>The Mumbai-Pune corridor is one of India's busiest corporate travel routes. Mumbai-based executives visiting Pune's IT parks in Hinjewadi and Kharadi, pharma professionals travelling to Serum Institute or Lupin Research Park, automotive industry visitors heading to Pimpri-Chinchwad — all of these require a reliable, professional cab service that shows up on time and gets them there without stress. NoirFleet's Mumbai to Pune corporate cab service includes flight coordination if you are connecting from a Mumbai airport arrival directly to Pune.</p>
+
+      <h3>Pharma Site Visits and Audits</h3>
+      <p>Pune is Maharashtra's second-largest pharma hub after Mumbai. International pharmaceutical buyers, USFDA inspection teams visiting Serum Institute or Lupin, and corporate audit teams from Mumbai regularly need direct cab service from Mumbai to Pune's pharma manufacturing zones. NoirFleet handles this route with the same professionalism it applies to FDA inspection transfers in Hyderabad and Ahmedabad — flight tracked, fixed fare, professional vehicle.</p>
+
+      <h3>Weekend and Leisure Travel</h3>
+      <p>Mumbai to Pune is also one of India's most popular weekend escape routes. Pune's pleasant climate, restaurants, vineyards in the surrounding region and the proximity to Mahabaleshwar and Lavasa make it a natural weekend destination for Mumbai residents. NoirFleet provides comfortable, stress-free weekend cab service — leave Friday evening, return Sunday night, without the anxiety of self-driving on the expressway ghat in traffic.</p>
+
+      <blockquote>The Mumbai-Pune Expressway is fast when it moves and a parking lot when it does not. The difference is always the departure time — and our drivers know exactly when to leave.</blockquote>
+
+      <h2>Mumbai to Pune — Vehicle Options</h2>
+
+      <ul>
+        <li><strong>Toyota Innova Crysta:</strong> The most popular choice for Mumbai to Pune — spacious, comfortable, reliable and road-proven on this route. Seats up to 6 passengers comfortably with luggage.</li>
+        <li><strong>Mercedes-Benz E-Class:</strong> For executive and premium travel — ideal for senior professionals and VIP guests making the Mumbai-Pune journey.</li>
+        <li><strong>Toyota Vellfire:</strong> Premium MPV for delegation groups and family travel — maximum comfort over the 2.5–3 hour journey.</li>
+        <li><strong>Sedan (Honda City / Toyota Camry):</strong> For solo or two-passenger point-to-point transfers where luggage is minimal.</li>
+      </ul>
+
+      <h2>Mumbai to Pune Cab — What's Included with NoirFleet</h2>
+
+      <ul>
+        <li>Professional, uniformed chauffeur with Mumbai-Pune route experience</li>
+        <li>Fixed fare agreed before departure — no meter, no toll surprises, no hidden charges</li>
+        <li>Tolls included in the quoted fare (Khalapur and Pune entry tolls)</li>
+        <li>Bottled water and clean, air-conditioned vehicle</li>
+        <li>One planned rest stop at Lonavala or expressway service station if required</li>
+        <li>Door-to-door service — any address in Mumbai to any address in Pune</li>
+        <li>Available for one-way and round trips</li>
+        <li>GST invoice for corporate clients</li>
+      </ul>
+
+      <h2>Mumbai to Pune Return Cab Service</h2>
+
+      <p>NoirFleet also provides Pune to Mumbai cab service — same professional standard, same fixed fares, same door-to-door service in reverse. Whether you are returning from a day of meetings in Hinjewadi to catch a flight from Mumbai airport, or heading back to Mumbai after a Pune weekend, our return cab service is available with the same advance booking and fare transparency.</p>
+
+      <h2>Nearby Outstation Options from This Route</h2>
+
+      <ul>
+        <li><strong>Mumbai to Lonavala / Khandala:</strong> 83 km, approximately 1.5–2 hours — a popular stop en route to Pune or a standalone weekend trip</li>
+        <li><strong>Mumbai to Mahabaleshwar:</strong> 260 km, approximately 4.5–5 hours — via Pune on the same NH-48 corridor</li>
+        <li><strong>Pune to Nashik:</strong> 212 km, approximately 3.5–4 hours — onward connectivity from this route</li>
+      </ul>
+
+      <h2>How to Book Mumbai to Pune Cab with NoirFleet</h2>
+
+      <p>Booking is simple. Contact our reservations team with your Mumbai pickup address, Pune destination, travel date and preferred time. We confirm your booking with driver details and a fixed fare — typically within minutes. No app needed, no surge pricing, no uncertainty.</p>
+
+      <p><a href="contact.html">Book your Mumbai to Pune cab</a> · <a href="fleet.html">View our fleet</a> · <a href="cab-chauffeur-service-mumbai">Read our Mumbai city guide</a> · <a href="cab-chauffeur-service-pune">Read our Pune city guide</a></p>
+    `
+  },
+
+
 /* ══════════════════════════════════════════════
    DAY 1 — PASTE THESE 2 ARTICLES AT THE TOP
    OF NF_ARTICLES IN articles.js
