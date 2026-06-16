@@ -22,6 +22,214 @@
 
 const NF_ARTICLES = [
 
+/* ─── DAY 3 — ARTICLE 1: CHENNAI ─── */
+  {
+    slug: "cab-chauffeur-service-chennai",
+    title: "Cab & Chauffeur Service in Chennai — Airport Transfers, Corporate Cars & Outstation",
+    date: "June 17, 2026",
+    category: "City Guide",
+    image: "chennai.jpg",
+    excerpt: "Cab and chauffeur service in Chennai for airport transfers, OMR corporate travel and outstation routes to Pondicherry, Coimbatore and Tirupati. Fixed fares, professional chauffeurs, no surge pricing.",
+    content: `
+      <p>Chennai runs on three industries that rarely show up in the same sentence anywhere else in India — automotive manufacturing, IT services and private healthcare. Ford, Hyundai, Renault-Nissan and BMW all operate plants within an hour of the city. OMR carries the IT workforce of TCS, Cognizant, HCL and Infosys. And Apollo, Fortis and a dozen other hospital chains pull patients and visiting specialists from across South India and Sri Lanka. Each of these brings a different kind of cab demand, and a generic ride-hailing app treats all three the same way. NoirFleet does not.</p>
+
+      <h2>Chennai Airport (MAA) Cab and Transfer Service</h2>
+
+      <p>Chennai International Airport (MAA) splits across a domestic terminal and an international terminal connected by a short walkway, both sitting roughly 12 km southwest of the city centre in Tirusulam. Flights land around the clock, and the GST Road approach into the city carries enough truck and bus traffic that timing your pickup window matters as much as booking the right car.</p>
+
+      <h3>Chennai Airport Transfer Routes</h3>
+      <ul>
+        <li><strong>MAA → Guindy:</strong> 6–9 km, 15–25 minutes. Industrial estate, automotive ancillary offices, and one of Chennai's oldest commercial pockets.</li>
+        <li><strong>MAA → OMR (Old Mahabalipuram Road):</strong> 14–24 km depending on which OMR landmark, 30–55 minutes. Chennai's IT spine — Tidel Park, DLF IT Park, Ascendas, and the SIPCOT IT corridor stretching toward Siruseri.</li>
+        <li><strong>MAA → Anna Salai / T Nagar:</strong> 14–18 km, 30–50 minutes. The historic CBD and Chennai's busiest retail and banking district.</li>
+        <li><strong>MAA → Ambattur:</strong> 18–24 km, 35–55 minutes. Auto component manufacturing and one of South India's densest industrial estates.</li>
+        <li><strong>MAA → ECR / Mahabalipuram hotels:</strong> 35–55 km, 60–90 minutes. Resort and weekend-getaway corridor along the East Coast Road.</li>
+        <li><strong>MAA → Velachery / Sholinganallur:</strong> 10–16 km, 20–35 minutes. Residential and IT-adjacent zone feeding directly into the OMR corridor.</li>
+      </ul>
+
+      <h2>Corporate Cab and Chauffeur Service in Chennai</h2>
+
+      <p>OMR alone stretches over 25 km, and a single corporate account covering pickups from Tidel Park to Siruseri needs a driver who already knows which stretch is signal-heavy at 9 AM and which service road bypasses it. NoirFleet's Chennai chauffeurs work this corridor daily.</p>
+
+      <h3>Key Corporate Zones in Chennai</h3>
+      <ul>
+        <li><strong>OMR / IT Corridor:</strong> Tidel Park, DLF Chennai, Ascendas IT Park, RMZ Millenia — the densest concentration of IT and BPO employers in South India outside Bangalore.</li>
+        <li><strong>Guindy Industrial Estate:</strong> One of India's oldest planned industrial zones, still active for auto ancillary and light manufacturing offices.</li>
+        <li><strong>Ambattur Industrial Estate:</strong> Heavy manufacturing, auto component suppliers feeding the Ford, Hyundai and Renault-Nissan plants outside the city.</li>
+        <li><strong>Anna Salai (Mount Road):</strong> Chennai's traditional CBD — banks, insurance offices, and legacy corporate headquarters.</li>
+        <li><strong>Sriperumbudur / Oragadam:</strong> 40–50 km southwest of the city, home to the Hyundai, Renault-Nissan, Ford and BMW manufacturing plants — a route NoirFleet covers for both factory visits and supplier audits.</li>
+      </ul>
+
+      <blockquote>OMR at 6 PM moves at the speed of whichever signal is broken that day. A driver who knows the service-road workaround saves forty minutes most evenings.</blockquote>
+
+      <h2>Outstation Cab Service from Chennai</h2>
+
+      <ul>
+        <li><strong>Chennai to Pondicherry:</strong> 160 km via ECR, approximately 3–3.5 hours. The coastal route through Mahabalipuram is the scenic option; the inland NH-32 route is faster.</li>
+        <li><strong>Chennai to Mahabalipuram:</strong> 58 km via ECR, approximately 1–1.5 hours. UNESCO World Heritage shore temples, a half-day trip or a stop en route to Pondicherry.</li>
+        <li><strong>Chennai to Tirupati:</strong> 135 km, approximately 2.5–3 hours. One of India's most-travelled pilgrimage routes from any South Indian city.</li>
+        <li><strong>Chennai to Coimbatore:</strong> 510 km via NH-544, approximately 8–8.5 hours. Tamil Nadu's textile and engineering hub — usually an overnight transfer.</li>
+        <li><strong>Chennai to Bangalore:</strong> 345 km via NH-48, approximately 5.5–6.5 hours. The busiest corporate intercity route in South India.</li>
+        <li><strong>Chennai to Vellore:</strong> 140 km, approximately 2.5–3 hours. Medical tourism route — CMC Vellore draws patients from across the country and abroad.</li>
+        <li><strong>Chennai to Madurai:</strong> 460 km, approximately 7.5–8 hours. Temple city, usually booked as an overnight transfer or split with a flight one way.</li>
+      </ul>
+
+      <h2>Vehicle Options in Chennai</h2>
+      <ul>
+        <li><strong>Mercedes-Benz E-Class:</strong> Executive transfers, hospital VIP pickups, automotive plant visitor protocol.</li>
+        <li><strong>Toyota Innova Crysta:</strong> The standard for OMR corporate accounts and outstation routes to Pondicherry and Tirupati.</li>
+        <li><strong>Toyota Vellfire:</strong> Delegation groups visiting Sriperumbudur or Oragadam manufacturing plants.</li>
+      </ul>
+
+      <h2>Why NoirFleet Instead of Ola or Uber in Chennai</h2>
+      <ul>
+        <li><strong>OMR route knowledge.</strong> 25 km of corridor with constant signal and service-road variation — not something a rotating pool of app drivers tracks consistently.</li>
+        <li><strong>Fixed fares to Sriperumbudur and Oragadam.</strong> Aggregator apps frequently surge or refuse these out-of-city industrial routes. NoirFleet's fare is set at booking.</li>
+        <li><strong>Hospital and medical tourism experience.</strong> Apollo, Fortis and CMC Vellore visitor transfers require punctuality that matches appointment slots, not app availability.</li>
+        <li><strong>GST invoicing for automotive and IT corporate accounts.</strong> Monthly consolidated billing built for finance teams, not individual trip receipts.</li>
+      </ul>
+
+      <p><a href="contact.html">Book a Chennai cab or chauffeur</a> · <a href="fleet.html">View our fleet</a> · <a href="services.html">Explore all services</a></p>
+    `
+  },
+
+  /* ─── DAY 3 — ARTICLE 2: PUNE ─── */
+  {
+    slug: "cab-chauffeur-service-pune",
+    title: "Cab & Chauffeur Service in Pune — Airport Transfers, IT & Pharma Corporate Cars",
+    date: "June 17, 2026",
+    category: "City Guide",
+    image: "pune.jpg",
+    excerpt: "Cab and chauffeur service in Pune for airport transfers, Hinjewadi and Magarpatta corporate travel, Serum Institute pharma transfers, and outstation routes to Mumbai, Nashik and Mahabaleshwar.",
+    content: `
+      <p>Pune carries three identities inside one municipal boundary. Hinjewadi and Kharadi run on IT services money. Pimpri-Chinchwad runs on Tata Motors, Bajaj and a dense automotive supplier base. And Manjri-Hadapsar is home to Serum Institute of India, the world's largest vaccine manufacturer by volume. A cab booked for a Hinjewadi client meeting has nothing in common with one booked for a Serum Institute regulatory visit — except that both need a driver who shows up on time and knows exactly which Pune to get them to.</p>
+
+      <h2>Pune Airport (PNQ) Cab and Transfer Service</h2>
+
+      <p>Pune Airport sits in Lohegaon, on the city's northeast side — a position that puts it close to Kharadi and Viman Nagar but a genuine haul from Hinjewadi on the opposite side of the city. Anyone booking a Pune airport pickup for a Hinjewadi office address should plan for 45 minutes minimum, more during evening peak.</p>
+
+      <h3>Pune Airport Transfer Routes</h3>
+      <ul>
+        <li><strong>PNQ → Kharadi:</strong> 8–12 km, 20–35 minutes. EON IT Park, World Trade Center Pune — closest major IT zone to the airport.</li>
+        <li><strong>PNQ → Hinjewadi:</strong> 24–30 km, 45–75 minutes. Maharashtra's largest IT park — Infosys, Wipro, TCS, Cognizant and hundreds of tech employers across three phases.</li>
+        <li><strong>PNQ → Magarpatta / Hadapsar:</strong> 14–18 km, 30–50 minutes. Self-contained IT township and corporate zone in southeast Pune.</li>
+        <li><strong>PNQ → Baner / Aundh / Balewadi:</strong> 18–24 km, 35–60 minutes. Premium residential corridor with growing startup and co-working presence.</li>
+        <li><strong>PNQ → Koregaon Park / Kalyani Nagar:</strong> 6–10 km, 15–25 minutes. Hospitality and premium residential zone closest to the airport.</li>
+        <li><strong>PNQ → Manjri (Serum Institute):</strong> 16–20 km, 30–45 minutes. Vaccine manufacturing and biotech research zone — regular international regulatory traffic.</li>
+        <li><strong>PNQ → Pimpri-Chinchwad:</strong> 28–35 km, 50–80 minutes. Automotive manufacturing belt on the city's far northwest.</li>
+      </ul>
+
+      <h2>Corporate Cab and Chauffeur Service in Pune</h2>
+
+      <h3>Key Corporate Zones in Pune</h3>
+      <ul>
+        <li><strong>Hinjewadi IT Park (Phase 1, 2, 3):</strong> The single largest IT employment zone in Maharashtra. Internal shuttle distances between phases alone can run 5–8 km.</li>
+        <li><strong>Magarpatta City:</strong> A planned township combining residential, retail and IT office space — IT companies including Synechron and Allstate India operate here.</li>
+        <li><strong>EON IT Park / Kharadi:</strong> Barclays, Credit Suisse and several BFSI back-office operations sit alongside IT services firms.</li>
+        <li><strong>Pimpri-Chinchwad (PCMC):</strong> Tata Motors, Bajaj Auto, Force Motors — Pune's original industrial identity, still its largest manufacturing employer base.</li>
+        <li><strong>Serum Institute of India (Manjri):</strong> The world's largest vaccine producer by doses. International regulatory delegations, WHO inspection teams and partner company visits are a regular and high-priority transfer category.</li>
+        <li><strong>Lupin Research Park (Pirangut):</strong> Pharma R&D facility on the city's western outskirts, well outside the standard IT corridor coverage.</li>
+      </ul>
+
+      <blockquote>Hinjewadi to Magarpatta is the same distance as Mumbai's longest commercial corridors, except Pune drivers who only know the IT side often have no idea the pharma side even exists.</blockquote>
+
+      <h2>Outstation Cab Service from Pune</h2>
+
+      <ul>
+        <li><strong>Pune to Mumbai:</strong> 148 km via the Expressway, approximately 2.5–3 hours. Read our complete <a href="mumbai-to-pune-cab-service">Mumbai to Pune route guide</a> for pickup zones, tolls and timing.</li>
+        <li><strong>Pune to Nashik:</strong> 212 km, approximately 3.5–4 hours. Wine country and industrial corridor connectivity.</li>
+        <li><strong>Pune to Mahabaleshwar:</strong> 120 km, approximately 2.5–3 hours. Maharashtra's most popular hill station, closer from Pune than from Mumbai.</li>
+        <li><strong>Pune to Shirdi:</strong> 195 km, approximately 3.5–4 hours. High-volume pilgrimage route.</li>
+        <li><strong>Pune to Lonavala / Khandala:</strong> 65 km, approximately 1.5–2 hours. Closest hill-station escape, frequently booked as a half-day or evening trip.</li>
+        <li><strong>Pune to Kolhapur:</strong> 230 km via NH-48, approximately 4–4.5 hours. Industrial and sugar-belt corridor in south Maharashtra.</li>
+        <li><strong>Pune to Aurangabad:</strong> 235 km, approximately 4–4.5 hours. Ajanta-Ellora heritage route and AURIC industrial zone.</li>
+      </ul>
+
+      <h2>Vehicle Options in Pune</h2>
+      <ul>
+        <li><strong>Toyota Innova Crysta:</strong> The default for Hinjewadi corporate accounts and Mumbai-Pune outstation transfers.</li>
+        <li><strong>Mercedes-Benz E-Class:</strong> Senior IT executives, Serum Institute international delegate pickups.</li>
+        <li><strong>Toyota Vellfire:</strong> Pharma delegation groups and multi-passenger Hinjewadi corporate transfers.</li>
+      </ul>
+
+      <h2>Why NoirFleet Instead of Ola or Uber in Pune</h2>
+      <ul>
+        <li><strong>Genuine Hinjewadi-to-airport route fluency.</strong> Most app drivers refuse or surge this 45-minute-plus run during peak hours. NoirFleet treats it as a standard fixed-fare route.</li>
+        <li><strong>Serum Institute and pharma transfer experience.</strong> International regulatory visits demand the same discretion and flight-tracking standard we apply across our pharma corporate accounts nationally.</li>
+        <li><strong>Coverage across both Pune identities.</strong> One account serves Hinjewadi IT pickups and Pimpri-Chinchwad factory visits without switching vendors.</li>
+        <li><strong>GST-compliant monthly invoicing</strong> for IT, automotive and pharma corporate clients.</li>
+      </ul>
+
+      <p><a href="contact.html">Book a Pune cab or chauffeur</a> · <a href="fleet.html">View our fleet</a> · <a href="cab-chauffeur-service-mumbai">Read our Mumbai city guide</a></p>
+    `
+  },
+
+  /* ─── DAY 3 — ARTICLE 3: DELHI TO AGRA OUTSTATION ─── */
+  {
+    slug: "delhi-to-agra-cab-service",
+    title: "Delhi to Agra Cab Service — Taj Mahal Day Trip, Distance & Chauffeur Guide",
+    date: "June 17, 2026",
+    category: "Outstation",
+    image: "delhi-agra.jpg",
+    excerpt: "Delhi to Agra cab service for the Taj Mahal day trip — distance, route, pickup zones across Delhi NCR, timing for sunrise viewing, and what a fixed-fare chauffeur transfer actually includes.",
+    content: `
+      <p>More cabs leave Delhi for Agra on any given morning than for any other single destination in North India. The Taj Mahal pulls that volume on its own, and the Yamuna Expressway makes the trip short enough to do as a single day — leave before sunrise, stand in front of the Taj by mid-morning, see Agra Fort and Fatehpur Sikri, and be back in Delhi by dinner. Getting that timing right depends entirely on which cab and which route, because the difference between a smooth day trip and a rushed one is almost always the departure hour.</p>
+
+      <h2>Delhi to Agra — Distance and Route</h2>
+
+      <ul>
+        <li><strong>Distance via Yamuna Expressway:</strong> 233 km, approximately 3–3.5 hours. Six-lane, toll road, the fastest and most-used option.</li>
+        <li><strong>Distance via NH-19 (old GT Road):</strong> 210 km but slower in practice — 4–4.5 hours due to truck traffic and town pass-throughs at Faridabad, Palwal and Mathura. Used mainly when the Expressway has closures.</li>
+        <li><strong>Tolls:</strong> The Yamuna Expressway charges toll at entry and exit points; NoirFleet builds this into the quoted fare so nothing changes hands en route.</li>
+        <li><strong>Key landmarks en route:</strong> Greater Noida toll plaza, Mathura exit (for those adding a Krishna Janmabhoomi stop), Agra entry near Sikandra.</li>
+      </ul>
+
+      <h2>Pickup Zones Across Delhi NCR</h2>
+
+      <p>Where you start in the NCR changes your total journey time more than anything else on this route.</p>
+
+      <ul>
+        <li><strong>Noida / Greater Noida:</strong> Direct access to the Yamuna Expressway with no central Delhi crossing — the fastest possible start point, often 15–20 minutes quicker onto the highway than any other NCR zone.</li>
+        <li><strong>South Delhi (Saket, Vasant Kunj):</strong> 35–45 minutes to reach the Expressway entry via the DND or Kalindi Kunj route.</li>
+        <li><strong>Gurgaon:</strong> 60–75 minutes to Expressway entry — the longest lead-in among major NCR pickup zones since the route effectively crosses the whole city.</li>
+        <li><strong>Aerocity / IGI Airport:</strong> 50–65 minutes to Expressway entry — relevant for travellers landing in Delhi and heading straight to Agra without a city stop.</li>
+        <li><strong>Connaught Place / Central Delhi:</strong> 40–55 minutes to Expressway entry, depending on which route the driver takes through East Delhi.</li>
+      </ul>
+
+      <h2>Same-Day Round Trip or Overnight Stay</h2>
+
+      <p>A same-day round trip from Delhi covers the Taj Mahal, Agra Fort and usually Fatehpur Sikri in roughly 10–12 hours door to door, including sightseeing time. It works well for travellers on a tight itinerary or anyone already booked into a Delhi hotel. An overnight stay in Agra adds a relaxed evening Taj viewing slot, a second morning at the monument with fewer crowds, and removes the fatigue of two 3-hour drives in a single day. NoirFleet runs both formats — a fixed same-day round trip with the car and driver waiting throughout, or a one-way drop with a separate return booking for the next day.</p>
+
+      <h2>Best Departure Time for Sunrise Taj Viewing</h2>
+
+      <p>The Taj Mahal opens at sunrise, and the light in the first 45 minutes after opening is the reason most serious photographers and first-time visitors plan around it. To be inside the complex at opening, a Delhi departure between 4:00 AM and 4:30 AM is the realistic window — earlier from Gurgaon, slightly later from Noida. NoirFleet's overnight and early-morning chauffeurs are positioned for exactly this departure pattern; pre-booking the night before guarantees the driver and vehicle are ready without a 4 AM phone call to confirm anything.</p>
+
+      <blockquote>The Taj at 6:15 AM with twenty other visitors and the Taj at 10 AM with two thousand are the same monument and completely different experiences. The only variable is what time the car left Delhi.</blockquote>
+
+      <h2>What's Included in a NoirFleet Delhi-Agra Transfer</h2>
+
+      <ul>
+        <li>Fixed fare agreed before departure — Yamuna Expressway tolls included, no meter, no surprise charges on return</li>
+        <li>Professional chauffeur with route familiarity on both the Expressway and NH-19 alternate</li>
+        <li>Driver wait time built into the same-day round-trip package for sightseeing stops</li>
+        <li>Air-conditioned vehicle, bottled water, and a rest stop at the Expressway service plaza if requested</li>
+        <li>Pickup from any Delhi NCR address — hotel, residence, or IGI Airport directly</li>
+        <li>GST invoice available for corporate or group bookings</li>
+      </ul>
+
+      <h2>Agra's Business Travel Angle</h2>
+
+      <p>Agra is not only a tourist stop. The city runs one of India's largest leather goods and footwear export clusters, alongside a significant handicraft and marble inlay manufacturing base supplying both domestic retailers and international buyers. Sourcing teams, export quality auditors and buying agents travel this same Delhi-Agra corridor for factory visits and vendor meetings — and need the same punctual, fixed-fare standard as a tourist day trip, minus the sightseeing stops. NoirFleet handles both categories on the identical route with the same chauffeur standard.</p>
+
+      <h2>How to Book Delhi to Agra Cab Service</h2>
+
+      <p>Share your Delhi pickup address, preferred departure time and whether you want a same-day round trip or a one-way drop with NoirFleet's reservations team. Confirmation comes back with driver details and a fixed fare — early-morning sunrise departures and late-evening returns are standard, not an exception.</p>
+
+      <p><a href="contact.html">Book your Delhi to Agra cab</a> · <a href="fleet.html">View our fleet</a> · <a href="cab-chauffeur-service-delhi-ncr">Read our Delhi NCR city guide</a></p>
+    `
+  },
+
+
 /* ─── DAY 2 — ARTICLE 1: BANGALORE ─── */
   {
     slug: "cab-chauffeur-service-bangalore",
