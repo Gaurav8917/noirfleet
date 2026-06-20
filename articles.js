@@ -22,14 +22,386 @@
 
 const NF_ARTICLES = [
 
+/* ─── DAY 6 — ARTICLE 1: LUXURY CHAUFFEUR SERVICE (Pillar) ─── */
+  {
+    slug: "luxury-chauffeur-service-india",
+    title: "Luxury Chauffeur Service in India | NoirFleet",
+    date: "June 20, 2026",
+    category: "Luxury Travel",
+    image: "sedan.jpg",
+    excerpt: "Luxury chauffeur service in India — discretion, immaculate vehicles, professional etiquette and seamless punctuality for HNWIs and executives.",
+    content: `
+      <p>A genuine luxury chauffeur service is not defined by the badge on the car. It is defined by what does not happen — the moment of uncertainty at arrivals, the question about whether the driver will show up, the negotiation over the fare, the anxiety about making the flight. When these things are absent, what remains is the journey itself, and that is what a true luxury chauffeur experience is built around. In India, where premium transport has historically meant either a hired Ambassador with a uniformed driver or an expensive ride-hailing request that delivers a mid-range sedan, the gap between what high-net-worth individuals and discerning travellers expect and what the market has provided has been significant. NoirFleet was built specifically to close that gap.</p>
+
+      <p>This guide defines what separates a luxury chauffeur service from an ordinary premium cab, what discerning travellers and executives should expect at every stage of the journey, and why the experience matters as much as the destination.</p>
+
+      <h2>What a Luxury Chauffeur Service Actually Means</h2>
+
+      <p>The word luxury is applied carelessly in ground transport. Every operator with a Mercedes in the fleet uses it. What genuinely separates a luxury chauffeur service from a premium cab with a better car is a set of operational standards that hold without exception, not a vehicle specification that sounds impressive in a brochure.</p>
+
+      <p>Four things define the difference:</p>
+
+      <ul>
+        <li><strong>The chauffeur, not just the driver.</strong> A chauffeur is trained in professional conduct, discretion, route knowledge and client-reading. They do not ask where you are going — they already know. They do not offer conversation unless invited. They handle luggage without being asked. They wear a uniform because presentation is part of the service, not an afterthought.</li>
+        <li><strong>The vehicle condition, not just the vehicle class.</strong> An immaculate interior is non-negotiable. A Mercedes-Benz S-Class that carries the faint trace of a previous passenger's perfume or a fingerprint on the window is not a luxury vehicle in service — it is an expensive car with a maintenance problem. A luxury chauffeur service treats cabin condition as carefully as it treats punctuality.</li>
+        <li><strong>The booking experience, not just the ride.</strong> A genuine luxury service confirms your booking immediately, shares your chauffeur's name and vehicle details in advance, and never requires you to chase for information. The interaction before and after the journey reflects the same standard as the journey itself.</li>
+        <li><strong>The punctuality standard, not just a punctuality claim.</strong> Every car service claims punctuality. A luxury chauffeur service builds it structurally — through flight tracking on airport pickups, position monitoring, and departure timing that accounts for real traffic rather than optimistic estimates.</li>
+      </ul>
+
+      <h2>The Experience — What Happens at Every Stage</h2>
+
+      <h3>Before the Journey</h3>
+      <p>A luxury chauffeur booking is confirmed within minutes of the request, not hours. The client receives a confirmation that includes the chauffeur's name, the vehicle registration, and a direct contact number — not a central helpdesk that reroutes to a dispatcher. For airport pickups, flight monitoring begins automatically; there is no need to update anyone if the flight shifts. The vehicle is prepared specifically for the trip — climate set to a comfortable temperature before the passenger enters, water placed in the door pocket, the route confirmed before departure.</p>
+
+      <h3>At Arrivals</h3>
+      <p>A NoirFleet chauffeur at an arrivals hall holds a name board and waits at the pre-agreed point without needing to be called. They assist with luggage as a matter of course, not as an optional service. The walk from the terminal to the vehicle takes as long as it takes — there is no sense of hurry, no mention of traffic, no commentary about the journey ahead unless the passenger initiates it. The vehicle is waiting with the engine running, the temperature already set, the door held open.</p>
+
+      <h3>During the Journey</h3>
+      <p>The single most important quality in a chauffeur during the journey is reading the passenger correctly. A high-net-worth individual travelling between meetings needs silence and space to prepare. A family arriving after a long international flight needs a calm, unhurried atmosphere. A guest attending a wedding needs reassurance about timing and a driver who knows the venue. A chauffeur who imposes conversation on a passenger who wants quiet, or who offers silence to a passenger who wants local knowledge, is failing at the core skill of the role regardless of how well the vehicle is maintained.</p>
+
+      <p>The route should be known, not navigated in real time. A chauffeur who drives while watching a phone-mounted GPS application is not a chauffeur — they are a driver with a premium car. Route knowledge, including alternate options for traffic or diversions, should be held in the driver's experience, not consulted turn by turn.</p>
+
+      <h3>After the Journey</h3>
+      <p>The journey ends when the passenger confirms they have arrived and everything they need has been attended to. Luggage is not unloaded and left — it is placed where the passenger indicates. If there is any delay in a multi-stop itinerary, the passenger is informed before it affects their schedule rather than after. Billing is handled through the account or pre-agreed method; there are no conversations about payment at the vehicle door.</p>
+
+      <h2>Ideal Vehicle by Traveller Type</h2>
+
+      <p><strong>Solo Executive or High-Net-Worth Individual</strong> — Mercedes-Benz S-Class. The S-Class exists as the benchmark of executive sedan travel specifically because it builds refinement into the engineering rather than applying it as an aftermarket option. The rear cabin is designed around the passenger experience in a way no other production sedan matches at this price point.</p>
+
+      <p><strong>Couple or Small VIP Group</strong> — Mercedes-Benz E-Class or BMW 7 Series. Both deliver the space and quietness a couple requires without the scale of a full executive van. Either is appropriate for high-profile social events, destination weddings and private occasion travel.</p>
+
+      <p><strong>Family Travelling with Children or Elderly</strong> — Toyota Vellfire. The Vellfire's rear cabin configuration — genuine reclining captain's chairs, ample headroom and luggage space — makes it the vehicle of choice for families where comfort across a longer journey matters more than the perceived prestige of a sedan badge.</p>
+
+      <p><strong>Delegation or Corporate Group</strong> — Toyota Vellfire or Mercedes-Benz V-Class. When four to six individuals need to travel together — for a regulatory inspection team arrival, an investor roadshow group or a wedding party movement — keeping the party in one vehicle rather than splitting across two sedans is both logistically cleaner and more appropriate for the context.</p>
+
+      <p><strong>Wedding or High-Profile Social Event</strong> — Mercedes-Benz S-Class with presentation detailing. The vehicle arrives clean beyond standard. In the context of a wedding or a significant social occasion, the exterior presentation of the vehicle contributes to the moment in a way that an Innova Crysta, however comfortable, does not.</p>
+
+      <h2>Why Luxury Chauffeur Service Is Not the Same as Executive Car Hire</h2>
+
+      <p>Executive car hire provides a vehicle and a driver at a premium price point. A luxury chauffeur service provides a trained professional, an immaculate vehicle and an operational standard that removes uncertainty from the journey. The difference is not semantic — it is the reason the experience feels different from the moment of confirmation to the moment of drop-off.</p>
+
+      <p>In practical terms, executive car hire works for routine airport runs where the standard is adequate. A luxury chauffeur service is what matters when the passenger is a client whose first impression of your organisation begins with the car that picks them up, or a high-profile individual whose discretion requirements extend to not having their journey details shared with a booking platform, or a family whose members include elderly or unwell passengers for whom the quality of the vehicle and the smoothness of the drive are not preferences but requirements.</p>
+
+      <h2>Discretion — The Quality Most Operators Ignore</h2>
+
+      <p>For high-net-worth individuals and senior executives, discretion is not a secondary consideration. Conversations that take place in a chauffeur vehicle during regulatory visits, pre-merger due diligence, investor meetings and sensitive personal occasions are commercially and personally significant. A luxury chauffeur service operates with a strict confidentiality standard — trip details are not shared externally, conversations in the vehicle are not engaged with unless invited, and the chauffeur's professional conduct is indistinguishable from a trusted member of support staff rather than a service provider encountered for the first time.</p>
+
+      <p>Most premium cab services and even many executive car hire operators do not address this at all. The quality of the vehicle is the extent of the premium offering. Discretion is treated as implicit but never built into training or operational conduct. NoirFleet treats it as a core service standard because the passengers who require a genuine luxury chauffeur service require it specifically.</p>
+
+      <h2>Airport Transfer Options</h2>
+
+      <p>Airport transfers are where the difference between a luxury chauffeur service and an ordinary premium cab is most immediately apparent. At Chhatrapati Shivaji Maharaj International, Indira Gandhi International, Kempegowda International, Rajiv Gandhi International and every other major Indian airport, the arrivals experience for a passenger using NoirFleet is structurally different from a standard booking. The chauffeur has been tracking the flight from the time of departure, not from the scheduled arrival time. The name board is at the agreed point, not wherever the driver has decided to stand. The vehicle is the confirmed vehicle, not whatever was available at dispatch. The fare is the quoted fare, not a meter reading plus a surcharge for late-night arrival.</p>
+
+      <h2>Corporate Account and Business Travel</h2>
+
+      <p>For companies that regularly require luxury chauffeur service for senior executives, visiting clients and international delegations, a NoirFleet corporate account removes per-booking friction entirely. A dedicated account manager handles bookings, a single consolidated GST-compliant invoice replaces multiple receipts, and the service standard across every booking is consistent rather than dependent on which driver was available that day. This matters specifically for the category of client — pharmaceutical company CXOs, investment banking managing directors, technology executives — whose travel reflects on their organisation in every interaction.</p>
+
+      <h2>VIP and High-Profile Transportation</h2>
+
+      <p>High-profile individuals — corporate figures, public personalities, senior government officials, international visitors — require a ground transport standard that goes beyond premium. Vehicle presentation, chauffeur conduct, timing precision and discretion all operate at a level where any failure is not an inconvenience but a reputational event. NoirFleet's VIP transportation service is built around this reality, with chauffeurs specifically briefed on protocol requirements and vehicles prepared to a presentation standard that matches the significance of the occasion.</p>
+
+      <h2>Why Choose NoirFleet</h2>
+
+      <p>NoirFleet's luxury chauffeur service is built around the four non-negotiable standards — chauffeur professionalism, vehicle condition, booking experience and punctuality — applied consistently rather than selectively. Our fleet covers Mercedes-Benz S-Class and E-Class, BMW 7 Series and Toyota Vellfire across India's primary cities. Our chauffeurs are trained, uniformed and vetted rather than app-dispatched from an open pool. Flight monitoring is applied to every airport pickup without requiring a call from the passenger. Corporate accounts are managed with consolidated GST invoicing and a single point of contact. Customer support operates 24/7 because the journeys that require a genuine luxury chauffeur service do not observe business hours.</p>
+
+      <h2>Fleet Options</h2>
+      <ul>
+        <li><strong>Mercedes-Benz S-Class</strong> — the flagship executive sedan for VIP, corporate and high-profile social occasions</li>
+        <li><strong>Mercedes-Benz E-Class</strong> — refined executive travel for senior professionals and corporate airport transfers</li>
+        <li><strong>BMW 7 Series</strong> — the alternative flagship for clients who prefer the BMW driving character and cabin aesthetic</li>
+        <li><strong>Toyota Vellfire</strong> — the premium MPV for families, delegations and any journey where rear-cabin comfort over distance is the priority</li>
+        <li><strong>Mercedes-Benz V-Class</strong> — executive group transport for up to seven passengers without compromising on vehicle quality</li>
+      </ul>
+
+      <h2>Safety Standards</h2>
+      <p>Every chauffeur in NoirFleet's network is subject to background verification, driving record screening and professional conduct assessment before deployment. Vehicles are maintained on a regular inspection schedule — not reactive maintenance when a fault is reported. GPS tracking and real-time monitoring apply to every journey, providing both the passenger and the operations team with live visibility. The same safety standards that apply to a routine corporate airport pickup apply to a late-night VIP transfer or an early-morning delegation arrival.</p>
+
+      <h2>Pricing Factors</h2>
+      <p>Luxury chauffeur service pricing reflects several variables, none of which should be a surprise at the point of payment. Vehicle class — S-Class, E-Class, Vellfire or V-Class — carries different base rates reflecting the vehicle's running costs and the demand for that class. Journey distance, whether a standard airport transfer or an outstation route, forms the primary fare calculation. Duration, particularly for full-day and half-day hire where the vehicle is on standby throughout, is priced on a package basis. Waiting time at intermediate stops, particularly for multi-stop corporate itineraries, is factored into the quote at booking rather than added at drop-off. All quotes are inclusive of tolls and driver expenses. There is no surge mechanism and no meter — the quoted fare is the final fare.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What separates a luxury chauffeur service from a regular premium cab?</h3>
+      <p>A luxury chauffeur service provides trained professional conduct, discretion, immaculate vehicle preparation and structural punctuality — not just a better vehicle class. The difference is operational standard, not vehicle specification.</p>
+
+      <h3>Which vehicle is recommended for a senior executive airport transfer in India?</h3>
+      <p>The Mercedes-Benz S-Class is the standard recommendation for senior executive and VIP airport transfers, with the E-Class serving the same function for standard corporate airport runs.</p>
+
+      <h3>Is discretion guaranteed with NoirFleet's luxury chauffeur service?</h3>
+      <p>Yes. Trip details are not shared externally, conversations in the vehicle are not engaged unless invited, and all chauffeurs operate under a strict professional conduct standard that extends to confidentiality.</p>
+
+      <h3>Can I book a luxury chauffeur service on a full-day hire basis?</h3>
+      <p>Yes. Full-day and half-day hire are standard booking formats, with the vehicle and chauffeur on standby for the entire duration of the booking rather than dispatched per trip.</p>
+
+      <h3>Does NoirFleet track flights on airport pickups?</h3>
+      <p>Yes. Flight tracking is applied automatically to every airport pickup. The chauffeur monitors the flight from departure and adjusts pickup timing for delays or early arrivals without requiring any communication from the passenger.</p>
+
+      <h3>Is luxury chauffeur service available for outstation routes?</h3>
+      <p>Yes, across all major Indian intercity routes — Mumbai to Pune, Delhi to Agra and Jaipur, Bangalore to Mysore, Hyderabad to Tirupati and all other corridors in the NoirFleet network.</p>
+
+      <h3>What is included in a luxury chauffeur service fare?</h3>
+      <p>The quoted fare is all-inclusive — tolls, driver expenses and waiting time at standard stops are built in. There is no surge pricing and no meter. The quoted fare is the fare paid.</p>
+
+      <h3>How do I set up a corporate account for recurring luxury chauffeur bookings?</h3>
+      <p>Contact NoirFleet's reservations team. Corporate accounts are activated with a single conversation, consolidated GST-compliant invoicing is set up, and a dedicated account manager handles all subsequent bookings.</p>
+
+      <h3>What is the minimum notice required to book a luxury chauffeur?</h3>
+      <p>NoirFleet can accommodate bookings with as little as a few hours' notice in most Indian cities, though advance booking is recommended for S-Class and Vellfire vehicles during high-demand periods.</p>
+
+      <h3>Does NoirFleet operate luxury chauffeur service outside India?</h3>
+      <p>Yes. NoirFleet's network extends to major global cities and all 16 FIFA World Cup 2026 host cities in the USA, Canada and Mexico, applying the same luxury chauffeur standard internationally as in India.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>A luxury chauffeur service in India is available. What has been scarce is a luxury chauffeur service that applies the same standard to every booking — not just the high-profile ones, not just in Mumbai and Delhi, not just when the client is already known. NoirFleet's approach is to build the standard into the operation rather than deliver it selectively. The result is a chauffeur experience where the discretion, the vehicle condition, the punctuality and the professional conduct are consistent because they are structural — not because a particular driver happened to be excellent that day.</p>
+
+      <p>Ready to experience a genuine luxury chauffeur service? <a href="contact.html">Book your first NoirFleet transfer</a> or <a href="fleet.html">explore our fleet</a> to find the right vehicle for your journey.</p>
+    `
+  },
+
+/* ─── DAY 6 — ARTICLE 2: CORPORATE TRANSPORTATION SOLUTIONS (B2B Pillar) ─── */
+  {
+    slug: "corporate-transportation-solutions-india",
+    title: "Corporate Transportation Solutions India | NoirFleet",
+    date: "June 20, 2026",
+    category: "Corporate Travel",
+    image: "airport_rides.jpg",
+    excerpt: "Corporate transportation solutions for Indian businesses — executive travel, GST invoicing and account setup built for HR, admin and finance teams.",
+    content: `
+      <p>If you manage corporate transportation for an Indian business, you already know the problem. The current arrangement — a mix of Ola Business accounts, local cab vendors, occasional app bookings and manually compiled expense receipts — works until it does not. It fails at the airport when a visiting client's flight lands at 11 PM and the booked driver has gone offline. It fails at the billing stage when the finance team asks for consolidated GST invoices and receives a folder of screenshots. It fails at the compliance stage when the safety audit asks for driver background verification records that do not exist. And it fails at the credibility stage when a senior executive from a global partner company steps into a vehicle that does not match the standard of every other touchpoint in the visit.</p>
+
+      <p>Corporate transportation solutions exist to solve these failures structurally — not by hoping the current arrangement performs better next time, but by replacing it with an account built around the actual requirements of a professional organization. This guide covers what genuine corporate transportation solutions look like, which business pain points they address, and how to set up a NoirFleet corporate account that works across every Indian city your business operates in.</p>
+
+      <h2>The Real Cost of Unmanaged Corporate Ground Transport</h2>
+
+      <p>Most finance directors and admin heads underestimate the total cost of unmanaged corporate transport because the visible cost — the cab fare — is only part of the picture. The real cost includes:</p>
+
+      <ul>
+        <li><strong>Productivity loss.</strong> An executive who spends 40 minutes calling a driver who has not arrived, then 20 minutes waiting for an alternative, then arrives at a meeting late and unprepared has lost significantly more value than the cost of the cab fare.</li>
+        <li><strong>Reputational cost.</strong> A visiting client or regulatory inspector whose airport pickup fails, or who is placed in an inappropriate vehicle, forms an impression that no subsequent meeting can fully reverse.</li>
+        <li><strong>Administrative cost.</strong> An admin manager who manually reconciles cab receipts from three different platforms, chases missing GST invoices and fields complaints from employees about unreliable transport is spending time that could be directed elsewhere.</li>
+        <li><strong>Compliance exposure.</strong> In sectors with formal vendor compliance requirements — pharma, banking, listed companies — using unverified drivers and vehicles without documented safety checks creates an audit liability that is invisible until it is not.</li>
+      </ul>
+
+      <p>A structured corporate transportation solution addresses all four simultaneously, not just the fare.</p>
+
+      <h2>What Corporate Transportation Solutions Actually Cover</h2>
+
+      <h3>Executive Airport Transfers</h3>
+      <p>The highest-stakes and most frequently mismanaged category. A senior executive's airport transfer — whether arriving from an international flight or departing for a board meeting — requires a vehicle that is confirmed in advance, a driver who is tracking the flight rather than waiting for a call, and a fare that is fixed rather than subject to surge or driver discretion. NoirFleet's executive transportation accounts apply these standards to every airport transfer by default, not on request.</p>
+
+      <h3>Client and Guest Transfers</h3>
+      <p>When a company receives visiting clients, regulatory inspectors, international partners or investors, the vehicle that picks them up communicates the organization's standards before the first conversation. A corporate transportation solution provides the right vehicle class for the occasion — Mercedes-Benz E-Class or S-Class for senior guests, Toyota Vellfire for delegation groups — without requiring a separate booking process for each category. The account manager handles the allocation based on guest profile, briefed in advance.</p>
+
+      <h3>Employee Corporate Commute and Shuttle</h3>
+      <p>For organizations running early-morning or late-night shift patterns — IT companies, BPOs, hospitals, pharma manufacturing facilities — employee transport is a safety and retention issue as much as a logistics one. A structured corporate transportation account covers shift-specific pickup schedules, route optimization across employee locations, and documented driver verification that satisfies internal safety policies and external audits.</p>
+
+      <h3>Multi-City Executive Travel</h3>
+      <p>For executives who travel regularly between Indian cities — Mumbai to Pune, Delhi to Gurgaon to Noida in a single day, Hyderabad to Genome Valley and back — a corporate account eliminates per-trip booking friction entirely. The account manager handles the vehicle allocation in each city under a single relationship, with consistent service standards whether the pickup is at Chhatrapati Shivaji Maharaj International or Rajiv Gandhi International.</p>
+
+      <h3>Corporate Roadshows and Investor Events</h3>
+      <p>Multi-stop, time-sensitive days — a CFO moving between Nariman Point, BKC and Lower Parel for investor meetings, or a CEO visiting three manufacturing facilities in a single day — require a dedicated vehicle on standby throughout, not a sequence of point-to-point bookings. NoirFleet's day-hire format keeps the vehicle and chauffeur committed for the full day, with scheduling flexibility built in for running over on individual meetings.</p>
+
+      <h3>Factory and Site Visit Transport</h3>
+      <p>Outstation site visits — manufacturing plant audits, vendor assessments, regulatory inspections — require transport that goes well beyond standard city corridors. A driver who knows the industrial estate layout, the gate access protocol and the fastest return route to the airport is a genuine operational advantage for time-pressured corporate visits. NoirFleet's India network covers these corridors as standard routes rather than special requests.</p>
+
+      <h2>Solving the Specific Pain Points HR, Admin and Finance Teams Face</h2>
+
+      <h3>For HR Managers — Employee Safety and Satisfaction</h3>
+      <p>Employee transport is directly linked to retention in shift-dependent industries. An employee who cannot rely on consistent, safe transport to and from night shifts — or who regularly fields unreliable pickups for client-facing travel — is a flight risk. A structured corporate transportation solution with documented driver verification, GPS-tracked vehicles and consistent scheduling addresses the safety and satisfaction components simultaneously. NoirFleet's corporate accounts include driver background verification records available on request for internal HR compliance purposes.</p>
+
+      <h3>For Admin Heads — Booking Simplicity and Accountability</h3>
+      <p>The most common admin complaint about unstructured corporate transport is not the cost — it is the time spent managing it. Chasing drivers, rerouting failed bookings, explaining to executives why their car did not arrive, reconciling receipts across multiple platforms. A NoirFleet corporate account replaces this entirely with a single booking contact, confirmation within minutes, and direct dispatcher access for same-day changes. The admin team's role reduces from active firefighting to occasional oversight.</p>
+
+      <h3>For Finance Directors — GST Compliance and Cost Visibility</h3>
+      <p>Corporate transport spend is notoriously difficult to track when it runs through multiple platforms and individual employee expenses. A NoirFleet corporate account provides monthly consolidated invoicing with full trip logs — pickup point, destination, vehicle class, duration and fare — in a format compatible with standard expense management systems. GST-compliant invoices are issued for every billing cycle, removing the compliance friction that unstructured transport creates at audit time. Cost visibility improves immediately because all transport spend flows through a single account rather than being reconstructed from individual receipts after the fact.</p>
+
+      <h3>For Corporate Procurement Teams — Vendor Compliance and SLA</h3>
+      <p>Vendor compliance requirements in regulated industries — pharmaceutical companies, listed entities, financial institutions — include documented driver screening, vehicle inspection records and service level agreements. A standard cab aggregator cannot satisfy these requirements. NoirFleet's corporate transportation accounts are structured to provide the documentation that compliance teams need, including driver verification records, vehicle maintenance logs and a formal SLA covering punctuality standards and escalation procedures.</p>
+
+      <h2>Airport Transfer Options for Corporate Accounts</h2>
+
+      <p>Airport transfers are the most visible and most frequently failed element of corporate ground transport. NoirFleet's corporate airport transfer service covers every major Indian airport — BOM, DEL, BLR, HYD, MAA, CCU, AMD, PNQ and others — under a single account. Flight tracking is applied to every pickup automatically. The vehicle confirmed at booking is the vehicle that arrives. The chauffeur is positioned at the agreed meeting point, not wherever they have decided to wait. International arrivals, early-morning domestic departures and late-night flights are all handled at the same standard as a 9 AM business pickup.</p>
+
+      <h2>Business Travel Solutions Across India</h2>
+
+      <p>Corporate transportation solutions for Indian businesses need to work across the geography of Indian corporate life, which is considerably more complex than it appears from a head office perspective. A company headquartered in Mumbai with operations in Hyderabad, Ahmedabad and Bangalore needs transport that operates consistently in all four cities — not a Mumbai vendor who subcontracts to local operators of varying quality in other cities. NoirFleet's India network covers all primary corporate cities under a single account, with the same driver standards, vehicle presentation and booking process applied regardless of which city the travel is in.</p>
+
+      <h2>VIP Transportation for High-Stakes Corporate Occasions</h2>
+
+      <p>Not all corporate transport is routine. Board director airport pickups, regulatory inspection team arrivals, investor roadshow vehicle fleets and foreign dignitary transfers require a standard that ordinary corporate transport cannot consistently deliver. NoirFleet's VIP transportation service within corporate accounts is structured around these occasions specifically — appropriate vehicle class briefed in advance, chauffeur prepared for the specific guest's protocol requirements, and presentation standard that matches the significance of the visit.</p>
+
+      <h2>Why Choose NoirFleet for Corporate Transportation</h2>
+
+      <ul>
+        <li><strong>Single account, all Indian cities.</strong> One booking contact, one invoice, one SLA covering Mumbai, Delhi, Bangalore, Hyderabad, Chennai, Pune, Ahmedabad and all other operational cities. No vendor switching, no quality variance.</li>
+        <li><strong>GST-compliant consolidated invoicing.</strong> Monthly billing with full trip logs in a format your finance team can process without manual reconciliation.</li>
+        <li><strong>Documented driver verification.</strong> Background checks and training records available for corporate compliance audits in regulated industries.</li>
+        <li><strong>Flight tracking on every airport pickup.</strong> No calls needed when flights shift. The chauffeur adjusts automatically.</li>
+        <li><strong>24/7 dispatcher access for same-day changes.</strong> Direct line to the operations team, not a helpdesk that escalates over hours.</li>
+        <li><strong>Premium fleet matched to occasion.</strong> Mercedes-Benz S-Class and E-Class, BMW 7 Series, Toyota Vellfire and Innova Crysta allocated by booking type, not by what is available at dispatch.</li>
+        <li><strong>Formal SLA with escalation procedure.</strong> Service level commitments that satisfy procurement requirements in regulated industries.</li>
+      </ul>
+
+      <h2>Fleet Options for Corporate Accounts</h2>
+
+      <ul>
+        <li><strong>Mercedes-Benz S-Class</strong> — board directors, C-suite guests and regulatory delegation arrivals</li>
+        <li><strong>Mercedes-Benz E-Class</strong> — standard executive airport transfers and client-facing corporate runs</li>
+        <li><strong>BMW 7 Series</strong> — executive alternative for clients with a BMW preference</li>
+        <li><strong>Toyota Vellfire</strong> — delegation groups, investor roadshow teams and employee airport transfers for senior staff</li>
+        <li><strong>Toyota Innova Crysta</strong> — outstation site visits, factory audits and multi-passenger corporate runs where comfort over distance is the priority</li>
+        <li><strong>Mini Coaches / Sprinter Vans</strong> — larger employee group transfers and conference shuttle operations</li>
+      </ul>
+
+      <h2>Safety Standards</h2>
+
+      <p>Every driver in NoirFleet's corporate network undergoes background verification before deployment. Vehicles are maintained on a documented inspection schedule — records available to corporate clients on request. GPS tracking and real-time monitoring apply to all trips, with the operations team maintaining live visibility across the fleet. The same safety standard applies to a late-night employee pickup as to a CEO airport transfer. For clients in regulated industries, NoirFleet can provide formal driver verification documentation and vehicle inspection records as part of the vendor compliance package.</p>
+
+      <h2>Pricing Factors</h2>
+
+      <p>Corporate transportation account pricing is structured around actual usage patterns rather than hypothetical scenarios. Vehicle class — S-Class, E-Class, Vellfire or Innova — carries different base rates reflecting the running cost and demand for each category. Journey type — airport transfer, point-to-point, day hire or outstation — is priced on the appropriate structure for that format. Volume commitments across monthly bookings typically unlock account rates that are more favourable than per-booking pricing. All pricing is GST-inclusive and transparent at the time of account setup — no hidden charges, no surge mechanism, no driver-side negotiation.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How do we set up a corporate transportation account with NoirFleet?</h3>
+      <p>Contact NoirFleet's reservations team with your organisation's city coverage, typical booking types and volume expectations. Account setup requires a single conversation — billing terms, GST details and the dedicated booking contact are confirmed within 24 hours.</p>
+
+      <h3>Does a corporate transportation account cover multiple Indian cities?</h3>
+      <p>Yes. A single NoirFleet corporate account covers all Indian cities in the network — Mumbai, Delhi NCR, Bangalore, Hyderabad, Chennai, Pune, Ahmedabad and others — under one booking relationship and one monthly invoice.</p>
+
+      <h3>Can we get GST-compliant invoices for all bookings?</h3>
+      <p>Yes. Monthly consolidated GST invoices with full trip logs are standard for all corporate accounts, in a format compatible with standard expense management and procurement systems.</p>
+
+      <h3>What happens if a driver does not show up or a booking fails?</h3>
+      <p>Corporate accounts include direct dispatcher access for same-day issues. A replacement vehicle is dispatched immediately rather than the client being redirected to a helpdesk queue. The SLA covers response time and escalation procedure.</p>
+
+      <h3>Are driver background verification records available for compliance audits?</h3>
+      <p>Yes. Driver verification records and vehicle inspection documentation are available to corporate clients in regulated industries as part of the vendor compliance package.</p>
+
+      <h3>What vehicle class is appropriate for visiting regulatory inspectors?</h3>
+      <p>A Mercedes-Benz E-Class or S-Class is standard for regulatory inspection team arrivals, with Toyota Vellfire available for larger groups. The vehicle class is briefed to the account manager in advance and allocated accordingly.</p>
+
+      <h3>Can corporate transportation solutions cover outstation and intercity routes?</h3>
+      <p>Yes. Corporate accounts cover outstation routes — manufacturing site visits, intercity executive travel, factory audits — under the same account structure as city transfers, with Innova Crysta the standard vehicle for longer outstation runs.</p>
+
+      <h3>How does flight tracking work for corporate airport pickups?</h3>
+      <p>Flight tracking is applied automatically to every airport pickup under a corporate account. The chauffeur monitors the flight from departure and adjusts pickup timing for delays or early arrivals. No call from the passenger or admin team is required.</p>
+
+      <h3>What is the minimum commitment required for a corporate account?</h3>
+      <p>There is no minimum trip commitment to open a NoirFleet corporate account. Volume-based pricing tiers are available for organisations with consistent monthly usage, but the account structure itself is available to any organisation requiring professional corporate transportation.</p>
+
+      <h3>Does NoirFleet provide corporate transportation solutions for MICE events and conferences?</h3>
+      <p>Yes. Conference shuttle operations, delegate airport transfer programmes and multi-vehicle coordination for MICE events are covered under corporate account arrangements, with dedicated event transport planning support available for larger programmes.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>Corporate transportation solutions for Indian businesses are not a luxury — they are an operational decision with measurable impact on executive productivity, client impressions, employee safety, billing compliance and administrative overhead. The organisations that treat ground transport as a managed function rather than an ad hoc expense category consistently outperform those that do not, across every metric that matters to HR, admin and finance teams.</p>
+
+      <p>NoirFleet's corporate transportation solutions are built to address the specific pain points that admin heads, finance directors and procurement teams face — not to offer a premium cab with better branding. A single account, all Indian cities, GST-compliant invoicing, documented driver verification and 24/7 support. If your current arrangement is creating problems rather than solving them, the fix is a conversation, not a workaround.</p>
+
+      <p>Ready to set up a corporate account? <a href="contact.html">Contact NoirFleet's corporate team</a> · <a href="fleet.html">View our fleet</a> · <a href="services.html">Explore all services</a></p>
+    `
+  },
+
+
+/* ─── DAY 5 — FIFA CORPORATE LOGISTICS (Urgent B2B / Trending) ─── */
+  {
+    slug: "last-minute-fifa-2026-corporate-hospitality",
+    title: "Last-Minute FIFA 2026 Corporate Hospitality Logistics Fix",
+    date: "June 19, 2026",
+    category: "FIFA 2026",
+    image: "fifa-corporate-transport.jpg",
+    excerpt: "Knockout rounds start June 28. Secure last minute FIFA 2026 corporate hospitality and emergency executive transportation before quarter-finals hit.",
+    content: `
+      <p>The Round of 32 begins June 28. That gives corporate travel planners and tournament sponsors nine days before logistics complexity at every host city doubles overnight. If your current transport vendor is already missing pickup windows during the group stage, the knockout phase will not be forgiving — and securing <strong>last minute FIFA 2026 corporate hospitality</strong> support now is the difference between a flawless quarter-final weekend and a scrambled, reputation-damaging mess.</p>
+
+      <p>This is not a tourism guide. This is an operational briefing for HR managers, event coordinators, executive assistants and sponsorship teams who are currently watching their ground transportation plans fall apart in real time.</p>
+
+      <h2>The Reality on the Ground Right Now</h2>
+
+      <p>Group stage traffic was the warm-up. Host cities from Inglewood to East Rutherford are already reporting gridlock around match-day windows, and that was with group fixtures spread across 12 groups and multiple kickoff times per day.</p>
+
+      <p>From June 28 onward, the structure changes entirely. The Round of 32 — a new format introduced for this 48-team tournament — compresses fixtures into fewer venues with higher stakes and denser VIP movement. Quarter-finals land July 9-11 at Foxborough, Inglewood, Miami Gardens and Kansas City. Semi-finals follow July 14-15. The final is July 19 at MetLife Stadium in New Jersey.</p>
+
+      <p><strong>Every one of these dates means a spike in:</strong></p>
+      <ul>
+        <li>Sudden VIP and sponsor arrivals with under-48-hour notice</li>
+        <li>Stadium perimeter road closures that standard GPS routing does not account for</li>
+        <li>Rideshare surge pricing that can hit 4-5x normal rates within minutes of a match ending</li>
+        <li>Low-tier transport vendors overbooked across multiple clients simultaneously, leading to missed pickups</li>
+      </ul>
+
+      <p>If your current vendor was adequate for a Tuesday group-stage fixture, that says nothing about whether they can handle a Saturday quarter-final exit with 80,000 people leaving at once.</p>
+
+      <h2>Section 1: Salvaging the Experience — Securing Remaining Hospitality Access</h2>
+
+      <p>For planners who have not yet locked in premium seating for the knockout phase, time is short but not gone. <strong>On Location remains the only FIFA-authorized hospitality provider</strong> for official ticket-inclusive packages, and remaining inventory for quarter-final and semi-final dates is moving fast as teams confirm their paths through the bracket.</p>
+
+      <p>What this means practically for your organization:</p>
+      <ul>
+        <li><strong>Act before team confirmations, not after.</strong> Once a specific quarter-final matchup is known, demand for that fixture's remaining hospitality spikes immediately. Planners booking based on venue and date — rather than waiting to see which teams qualify — secure better inventory.</li>
+        <li><strong>Private suite availability is venue-dependent, not date-dependent.</strong> MetLife Stadium, SoFi Stadium and Mercedes-Benz Stadium in Atlanta have different remaining capacity profiles. A planner fixated on one preferred venue may be missing better-available options at another quarter-final or semi-final site.</li>
+        <li><strong>Corporate suites move independently of general ticket sales.</strong> If your procurement team has been checking general resale platforms and finding nothing, that is not the same as official corporate hospitality inventory through authorized channels.</li>
+      </ul>
+
+      <p>Securing the seats, however, solves only half the problem. The other half — getting your delegation to and from that suite reliably — is where most corporate plans are currently failing.</p>
+
+      <h2>Section 2: The Fleet Deficit — Why Rideshare Cannot Meet Corporate Timelines</h2>
+
+      <p>Standard rideshare apps were not built for this. At venues the scale of MetLife Stadium or SoFi Stadium, the mathematics of match-day logistics break basic ride-hailing models entirely.</p>
+
+      <p><strong>Here is what actually happens:</strong></p>
+      <ul>
+        <li>Driver supply within a stadium's geofenced pickup zone is finite and shared across every attendee using the same apps simultaneously</li>
+        <li>Surge pricing activates the moment a match ends, often before your delegation has even left their seats</li>
+        <li>Drivers can and do cancel low-fare-relative-to-distance rides during high-demand windows, leaving corporate groups stranded with no recourse</li>
+        <li>There is no accountability structure — no dedicated dispatcher, no named driver commitment, no service-level guarantee</li>
+      </ul>
+
+      <p>For a tournament sponsor moving a CEO from a private suite to a connecting flight with a two-hour window, none of this is acceptable. <strong>A dedicated premium car rental with an executive chauffeur is not a luxury upgrade at this point — it is the only structurally sound option for a corporate timeline that cannot tolerate uncertainty.</strong></p>
+
+      <p>The difference is not comfort. It is operational certainty: a named chauffeur, a confirmed vehicle, a fixed pickup point pre-cleared for stadium perimeter access, and a fare locked before the match even begins.</p>
+
+      <h2>Section 3: Seamless Vendor Switching — Opening an Emergency Executive Account</h2>
+
+      <p>If you are reading this because your existing vendor has already failed you once during the group stage, switching does not need to be complicated. NoirFleet's <strong>emergency executive transportation</strong> accounts are built specifically for organizations that need coverage activated within days, not weeks.</p>
+
+      <p><strong>What setting up an emergency account actually involves:</strong></p>
+      <ul>
+        <li><strong>A single onboarding call</strong> covering your delegation size, host cities, and match dates through the remainder of the tournament</li>
+        <li><strong>Immediate fleet allocation</strong> across whichever host cities your itinerary touches — no need to separately vet a new vendor in each city</li>
+        <li><strong>One consolidated account</strong> with GST/tax-compliant invoicing, replacing scattered receipts from multiple failed bookings</li>
+        <li><strong>Direct dispatcher access</strong> for same-day changes — if a flight shifts or a match goes to extra time, your transport plan adjusts without a new booking process</li>
+      </ul>
+
+      <p>This covers the full scope of tournament logistics: airport transfers for arriving delegations and sponsors, stadium drop-offs and pickups coordinated around actual match end times rather than scheduled end times, and inter-city transfers for organizations following their team or client through multiple knockout venues.</p>
+
+      <h2>What This Looks Like in Practice</h2>
+
+      <p>A sponsor delegation landing for a quarter-final weekend needs three things to go right: an airport pickup that accounts for international flight delays, a stadium transfer that gets them through perimeter security checkpoints without standing in general pedestrian traffic, and a post-match departure that does not leave them stranded in a surge-priced scramble with 80,000 other people trying to leave at once.</p>
+
+      <p>A <strong>premium car rental with driver World Cup 2026</strong> arrangement solves all three as a single coordinated plan rather than three separate gambles with three different booking apps.</p>
+
+      <h2>The Window Is Closing</h2>
+
+      <p>Nine days remain before the Round of 32 begins. Quarter-final dates are locked at four venues. The semi-finals and final follow in rapid succession through July 19. Every day this window narrows, available premium vehicle inventory at each host city tightens further — chauffeurs and fleets are being reserved now by organizations that did not wait for a logistics failure to act.</p>
+
+      <p>If your current vendor has already missed a pickup, do not wait for the quarter-finals to find out whether they can handle the pressure of a knockout-round crowd exit. <strong>Secure your dedicated luxury vehicles and emergency executive transportation account before the bracket tightens further.</strong></p>
+
+      <p><a href="contact.html">Open an emergency corporate account with NoirFleet</a> · <a href="fifa.html">View our FIFA World Cup 2026 transport services</a> · <a href="fleet.html">See available premium fleet</a></p>
+    `
+  },
+
+
 /* ─── DAY 4 — ARTICLE 1: BANGALORE TO MYSORE (Route Guide) ─── */
   {
     slug: "bangalore-to-mysore-cab-service",
-    title: "Bangalore to Mysore Cab Service — The Chauffeur-Driven Way to Travel",
+    title: "Bangalore to Mysore Cab Service | NoirFleet",
     date: "June 18, 2026",
     category: "Outstation",
     image: "bangalore.jpg",
-    excerpt: "A Bangalore to Mysore cab service built around chauffeur standards, not just price — route details, tolls, stopovers, vehicle guidance by traveller type, and what separates a professional transfer from a forgettable one.",
+    excerpt: "Bangalore to Mysore cab service — route details, tolls, stopovers and why a chauffeur-driven car beats self-driving this route.",
     content: `
       <p>A Bangalore to Mysore cab service should solve a problem that nobody else seems to be solving: getting from one city to the other without spending the journey worried about whether the driver will take the toll road, whether the air conditioning argument from the previous passenger's review will repeat itself, or whether four hours in a worn-out sedan is really worth the savings. The 145-kilometre run between Karnataka's tech capital and its heritage city is one of South India's most travelled weekend and business routes, and the difference between a forgettable ride and a genuinely comfortable one almost always comes down to who is driving and what they are driving you in.</p>
 
@@ -166,11 +538,11 @@ const NF_ARTICLES = [
   /* ─── DAY 4 — ARTICLE 2: HYDERABAD TO TIRUPATI (Route Guide) ─── */
   {
     slug: "hyderabad-to-tirupati-cab-service",
-    title: "Hyderabad to Tirupati Cab Service — Pilgrimage Travel Done Right",
+    title: "Hyderabad to Tirupati Cab Service | NoirFleet",
     date: "June 18, 2026",
     category: "Outstation",
     image: "hyderabad.jpg",
-    excerpt: "A Hyderabad to Tirupati cab service designed around darshan timing, overnight comfort and senior-citizen-friendly travel — route details, tolls, stopovers and why a chauffeur-driven journey matters most on a pilgrimage.",
+    excerpt: "Hyderabad to Tirupati cab service for darshan travel — route, tolls, overnight timing and why a chauffeur matters most on this pilgrimage.",
     content: `
       <p>A Hyderabad to Tirupati cab service carries a different kind of weight compared to an ordinary outstation trip. Most passengers on this route are travelling against a fixed darshan slot, often after months of planning the booking through the TTD portal, and the journey itself — roughly 570 kilometres and 8.5 to 9.5 hours by road — has to deliver them comfortably enough to actually enjoy the pilgrimage rather than arrive exhausted before the darshan even begins. This is one of India's most travelled devotional corridors, connecting Telangana's capital to one of the world's most visited religious destinations, and the standard of the vehicle and driver matters more here than on almost any other route in the country.</p>
 
@@ -307,11 +679,11 @@ const NF_ARTICLES = [
   /* ─── DAY 4 — ARTICLE 3: DELHI TO JAIPUR (Route Guide) ─── */
   {
     slug: "delhi-to-jaipur-cab-service",
-    title: "Delhi to Jaipur Cab Service — The Golden Triangle, Done Properly",
+    title: "Delhi to Jaipur Cab Service | NoirFleet",
     date: "June 18, 2026",
     category: "Outstation",
     image: "jaipur.jpg",
-    excerpt: "A Delhi to Jaipur cab service for tourists, corporate travellers and wedding guests alike — NH48 route details, tolls, stopovers, vehicle guidance by traveller type, and why the right chauffeur changes this entire journey.",
+    excerpt: "Delhi to Jaipur cab service via NH48 — route, tolls, stopovers and vehicle guidance for tourists, corporate travellers and wedding guests.",
     content: `
       <p>A Delhi to Jaipur cab service sits at the intersection of three very different kinds of traveller, which is part of what makes this route unlike the others on the Golden Triangle circuit. Tourists treat it as the second leg after Agra, corporate travellers use it for Jaipur's growing MICE, real estate and textile-sourcing economy, and a distinct wedding-guest segment exists simply because Jaipur has become one of India's most sought-after destination wedding cities. The 280-kilometre run via NH48 takes 4.5 to 5.5 hours, and the right chauffeur and vehicle choice changes meaningfully depending on which of these three journeys you are actually making.</p>
 
@@ -445,11 +817,11 @@ const NF_ARTICLES = [
 /* ─── DAY 3 — ARTICLE 1: CHENNAI ─── */
   {
     slug: "cab-chauffeur-service-chennai",
-    title: "Cab & Chauffeur Service in Chennai — Airport Transfers, Corporate Cars & Outstation",
+    title: "Cab & Chauffeur Service in Chennai | NoirFleet",
     date: "June 17, 2026",
     category: "City Guide",
     image: "chennai.jpg",
-    excerpt: "Cab and chauffeur service in Chennai for airport transfers, OMR corporate travel and outstation routes to Pondicherry, Coimbatore and Tirupati. Fixed fares, professional chauffeurs, no surge pricing.",
+    excerpt: "Chennai cab and chauffeur service for MAA airport transfers, OMR corporate travel and outstation routes. Fixed fares, professional chauffeurs.",
     content: `
       <p>Chennai runs on three industries that rarely show up in the same sentence anywhere else in India — automotive manufacturing, IT services and private healthcare. Ford, Hyundai, Renault-Nissan and BMW all operate plants within an hour of the city. OMR carries the IT workforce of TCS, Cognizant, HCL and Infosys. And Apollo, Fortis and a dozen other hospital chains pull patients and visiting specialists from across South India and Sri Lanka. Each of these brings a different kind of cab demand, and a generic ride-hailing app treats all three the same way. NoirFleet does not.</p>
 
@@ -516,11 +888,11 @@ const NF_ARTICLES = [
   /* ─── DAY 3 — ARTICLE 2: PUNE ─── */
   {
     slug: "cab-chauffeur-service-pune",
-    title: "Cab & Chauffeur Service in Pune — Airport Transfers, IT & Pharma Corporate Cars",
+    title: "Cab & Chauffeur Service in Pune | NoirFleet",
     date: "June 17, 2026",
     category: "City Guide",
     image: "pune.jpg",
-    excerpt: "Cab and chauffeur service in Pune for airport transfers, Hinjewadi and Magarpatta corporate travel, Serum Institute pharma transfers, and outstation routes to Mumbai, Nashik and Mahabaleshwar.",
+    excerpt: "Pune cab and chauffeur service — PNQ airport transfers, Hinjewadi corporate travel, Serum Institute pharma transfers and outstation routes.",
     content: `
       <p>Pune carries three identities inside one municipal boundary. Hinjewadi and Kharadi run on IT services money. Pimpri-Chinchwad runs on Tata Motors, Bajaj and a dense automotive supplier base. And Manjri-Hadapsar is home to Serum Institute of India, the world's largest vaccine manufacturer by volume. A cab booked for a Hinjewadi client meeting has nothing in common with one booked for a Serum Institute regulatory visit — except that both need a driver who shows up on time and knows exactly which Pune to get them to.</p>
 
@@ -587,11 +959,11 @@ const NF_ARTICLES = [
   /* ─── DAY 3 — ARTICLE 3: DELHI TO AGRA OUTSTATION ─── */
   {
     slug: "delhi-to-agra-cab-service",
-    title: "Delhi to Agra Cab Service — Taj Mahal Day Trip, Distance & Chauffeur Guide",
+    title: "Delhi to Agra Cab Service | Taj Mahal Day Trip",
     date: "June 17, 2026",
     category: "Outstation",
     image: "delhi-agra.jpg",
-    excerpt: "Delhi to Agra cab service for the Taj Mahal day trip — distance, route, pickup zones across Delhi NCR, timing for sunrise viewing, and what a fixed-fare chauffeur transfer actually includes.",
+    excerpt: "Delhi to Agra cab service for the Taj Mahal day trip — distance, route, NCR pickup zones and sunrise departure timing guide.",
     content: `
       <p>More cabs leave Delhi for Agra on any given morning than for any other single destination in North India. The Taj Mahal pulls that volume on its own, and the Yamuna Expressway makes the trip short enough to do as a single day — leave before sunrise, stand in front of the Taj by mid-morning, see Agra Fort and Fatehpur Sikri, and be back in Delhi by dinner. Getting that timing right depends entirely on which cab and which route, because the difference between a smooth day trip and a rushed one is almost always the departure hour.</p>
 
@@ -653,11 +1025,11 @@ const NF_ARTICLES = [
 /* ─── DAY 2 — ARTICLE 1: BANGALORE ─── */
   {
     slug: "cab-chauffeur-service-bangalore",
-    title: "Cab & Chauffeur Service in Bangalore — Airport Transfers, IT Corporate Cars & Outstation",
+    title: "Cab & Chauffeur Service in Bangalore | NoirFleet",
     date: "June 16, 2026",
     category: "City Guide",
     image: "bangalore.jpg",
-    excerpt: "Looking for a reliable cab or chauffeur in Bangalore? NoirFleet provides premium airport transfers from KIA, corporate car hire in Whitefield, Electronic City and Outer Ring Road, and outstation cabs to Mysore, Coorg, Ooty and Chennai.",
+    excerpt: "Bangalore cab and chauffeur service — KIA airport transfers, Whitefield and ORR corporate hire, outstation cabs to Mysore, Coorg and Chennai.",
     content: `
       <p>Bangalore — officially Bengaluru — is India's technology capital and one of the fastest-growing cities in Asia. Home to the Indian Space Research Organisation, hundreds of Fortune 500 technology companies, a booming startup ecosystem, and India's most active biotech and pharma research corridor, Bangalore generates enormous demand for reliable, professional ground transport every single day. Whether you are an IT executive flying into Kempegowda International Airport for a product launch, a biotech delegate visiting Biocon's research campus, or a family looking for a comfortable outstation cab to Coorg or Mysore, NoirFleet provides premium cab and chauffeur services across every corridor of Bangalore and Karnataka.</p>
 
@@ -730,11 +1102,11 @@ const NF_ARTICLES = [
   /* ─── DAY 2 — ARTICLE 2: HYDERABAD ─── */
   {
     slug: "cab-chauffeur-service-hyderabad",
-    title: "Cab & Chauffeur Service in Hyderabad — Airport Transfers, Pharma & IT Corporate Cars",
+    title: "Cab & Chauffeur Service in Hyderabad | NoirFleet",
     date: "June 16, 2026",
     category: "City Guide",
     image: "hyderabad.jpg",
-    excerpt: "Looking for a premium cab or chauffeur in Hyderabad? NoirFleet provides airport transfers from Rajiv Gandhi International, corporate car hire in Hitech City, Gachibowli and Genome Valley, and outstation cabs to Tirupati, Vijayawada and Bangalore.",
+    excerpt: "Hyderabad cab and chauffeur service — HYD airport transfers, Hitech City and Genome Valley corporate hire, outstation cabs to Tirupati.",
     content: `
       <p>Hyderabad is one of India's most important cities for business — and one of the most underserved when it comes to premium ground transport. As the global headquarters of Dr. Reddy's Laboratories, Aurobindo Pharma and Natco Pharma, the home of India's largest pharma manufacturing cluster in Genome Valley, and the location of major IT campuses for Microsoft, Google, Amazon and Infosys, Hyderabad receives a constant stream of international business visitors, regulatory inspection teams and senior executives who need professional, reliable ground transport from the moment they land.</p>
 
@@ -812,11 +1184,11 @@ const NF_ARTICLES = [
   /* ─── DAY 2 — ARTICLE 3: MUMBAI TO PUNE OUTSTATION ─── */
   {
     slug: "mumbai-to-pune-cab-service",
-    title: "Mumbai to Pune Cab Service — Distance, Price, Route & Chauffeur Options",
+    title: "Mumbai to Pune Cab Service | NoirFleet",
     date: "June 16, 2026",
     category: "Outstation",
     image: "mumbai-pune-highway.jpg",
-    excerpt: "Planning a trip from Mumbai to Pune? NoirFleet provides premium chauffeur-driven cab service on the Mumbai-Pune route — fixed fares, professional drivers, clean vehicles and door-to-door comfort whether you are travelling for business or leisure.",
+    excerpt: "Mumbai to Pune cab service — fixed fares, professional chauffeurs and door-to-door comfort for business and leisure travel on the Expressway.",
     content: `
       <p>The Mumbai to Pune route is the most travelled intercity road corridor in India. Every single day, thousands of people make this journey for business meetings, corporate site visits, weekend getaways, family visits, pharma factory audits, IT project travel and countless other reasons. The 148 km route via the Mumbai-Pune Expressway (NH-48) takes approximately 2.5 to 3.5 hours in normal conditions — and significantly longer during peak hours, monsoon season and long weekends.</p>
 
@@ -918,11 +1290,11 @@ const NF_ARTICLES = [
 
   {
     slug: "cab-chauffeur-service-mumbai",
-    title: "Cab & Chauffeur Service in Mumbai — Airport Transfers, Corporate Cars & Outstation",
+    title: "Cab & Chauffeur Service in Mumbai | NoirFleet",
     date: "June 15, 2026",
     category: "City Guide",
     image: "sedan.jpg",
-    excerpt: "Looking for a reliable cab or chauffeur service in Mumbai? NoirFleet provides premium airport transfers, corporate car hire and outstation cabs across BKC, Andheri, Nariman Point, Lower Parel and every major Mumbai corridor.",
+    excerpt: "Mumbai cab and chauffeur service — airport transfers, corporate car hire across BKC, Nariman Point and Andheri, outstation cabs to Pune and Goa.",
     content: `
       <p>Mumbai never stops moving. As India's financial capital, commercial heart and entertainment hub, the city runs 24 hours a day — and so does the demand for reliable, professional ground transport. Whether you need a cab from Chhatrapati Shivaji Maharaj International Airport to a hotel in BKC, a corporate chauffeur for a full day of client meetings in Nariman Point, or an outstation taxi from Mumbai to Pune, NoirFleet provides premium cab and chauffeur services across every corner of Mumbai and Maharashtra.</p>
 
@@ -1017,11 +1389,11 @@ const NF_ARTICLES = [
 
   {
     slug: "cab-chauffeur-service-delhi-ncr",
-    title: "Cab & Chauffeur Service in Delhi NCR — Airport Transfers, Corporate Cars & Outstation",
+    title: "Cab & Chauffeur Service in Delhi NCR | NoirFleet",
     date: "June 15, 2026",
     category: "City Guide",
     image: "airport_rides.jpg",
-    excerpt: "Looking for a premium cab or chauffeur service in Delhi NCR? NoirFleet provides airport transfers from IGI, corporate car hire in Gurgaon, Noida and Connaught Place, and outstation cabs to Agra, Jaipur, Chandigarh and beyond.",
+    excerpt: "Delhi NCR cab and chauffeur service — IGI airport transfers, Gurgaon and Noida corporate hire, outstation cabs to Agra, Jaipur and Chandigarh.",
     content: `
       <p>Delhi NCR is India's seat of power and one of its largest commercial centres. Covering New Delhi, Gurgaon, Noida, Faridabad, Ghaziabad and the surrounding region, the NCR is a sprawling metropolis where the distance between a government ministry in Lutyens' Delhi and a corporate office in Cyber City Gurgaon can mean 90 minutes of travel — or 30, depending entirely on your driver's route knowledge and your vehicle's reliability.</p>
 
@@ -1108,11 +1480,11 @@ const NF_ARTICLES = [
   /* ─── 1. INDIAN FANS FIFA WORLD CUP 2026 TRAVEL GUIDE (June 14, 2026) ─── */
   {
     slug: "fifa-world-cup-2026-travel-guide-for-indian-fans",
-    title: "FIFA World Cup 2026 Travel Guide for Indians — Visa, Flights and Premium Ground Transport in the USA",
+    title: "FIFA 2026 Travel Guide for Indians | NoirFleet",
     date: "June 14, 2026",
     category: "FIFA 2026",
     image: "event.jpg",
-    excerpt: "India may not be playing, but millions of Indian fans, NRIs and corporate travellers are heading to the USA, Canada and Mexico for the 2026 FIFA World Cup. Here is everything you need — visa, flights, cities and how to move like a VIP once you land.",
+    excerpt: "Indian fans travelling to FIFA World Cup 2026 — visa requirements, flights, host cities and how to secure premium ground transport in the USA.",
     content: `
       <p>India did not qualify for the 2026 FIFA World Cup. But that has not stopped millions of Indian football fans from making the journey to North America. India has one of the world's most passionate football fan bases — millions follow Manchester United, Liverpool, Real Madrid, Barcelona and Brazil with the kind of devotion that crosses oceans. The 2026 World Cup, the biggest in history with 48 teams across 16 cities in the USA, Canada and Mexico, is drawing Indian fans, NRI families, corporate hospitality guests and high-net-worth travellers in significant numbers.</p>
 
@@ -1221,11 +1593,11 @@ const NF_ARTICLES = [
   /* ─── 2. INDIA SEO MEGA GUIDE (June 14, 2026) ─── */
   {
     slug: "premium-chauffeur-cab-service-india",
-    title: "Premium Chauffeur & Cab Service Across India — NoirFleet City Guide",
+    title: "Premium Chauffeur & Cab Service Across India",
     date: "June 14, 2026",
     category: "India",
     image: "sedan.jpg",
-    excerpt: "From Mumbai to Chennai, Delhi to Hyderabad — NoirFleet provides premium chauffeur-driven cab, airport transfer, corporate car and outstation travel services across every major Indian city. One call. Any city. Zero compromise.",
+    excerpt: "Premium chauffeur and cab service across India — airport transfers, corporate car hire and outstation cabs in every major Indian city.",
     content: `
       <p>Whether you need a corporate cab in Mumbai, an airport transfer in Delhi, a chauffeur-driven car in Hyderabad, or a luxury taxi for an outstation trip from Bangalore — NoirFleet is India's premium ground transport service, operating across every major city and state. We are not a ride-hailing app. We are a dedicated chauffeur service built for professionals, executives, wedding guests, and travellers who expect more than a metered taxi.</p>
 
@@ -1317,11 +1689,11 @@ const NF_ARTICLES = [
   /* ─── 3. FIFA WORLD CUP GROUND TRANSPORT (June 14, 2026) ─── */
   {
     slug: "fifa-world-cup-2026-ground-transportation-guide",
-    title: "FIFA World Cup 2026: The Complete Ground Transportation Guide for Fans and Corporates",
+    title: "FIFA 2026 Ground Transport Guide | NoirFleet",
     date: "June 14, 2026",
     category: "FIFA 2026",
     image: "event.jpg",
-    excerpt: "16 host cities, 3 countries, 104 matches — and millions of people who all need to get somewhere. Here is how to handle ground transportation at the 2026 FIFA World Cup without losing a minute of the action.",
+    excerpt: "How to handle FIFA World Cup 2026 ground transportation — airport transfers, stadium pickups and intercity travel across 16 host cities.",
     content: `
       <p>The 2026 FIFA World Cup is the most geographically ambitious tournament in history. Spread across 16 cities in the United States, Canada and Mexico — from Vancouver to Miami, from Guadalajara to New York — it will draw an estimated five million visitors over 39 days. Ground transportation is where most World Cup travel plans break down. This guide covers every layer of 2026 World Cup ground transport: airport transfers, stadium pickups and intercity travel.</p>
 
@@ -1375,11 +1747,11 @@ const NF_ARTICLES = [
   /* ─── 4. INDIAN PHARMA COMPANIES TRAVEL (June 13, 2026) ─── */
   {
     slug: "indian-pharma-companies-travel",
-    title: "How India's Top Pharma Companies Travel — and Why They Choose a Dedicated Chauffeur",
+    title: "How India's Pharma Companies Travel | NoirFleet",
     date: "June 13, 2026",
     category: "Corporate Travel",
     image: "sedan.jpg",
-    excerpt: "From Sun Pharma's Mumbai boardrooms to Dr. Reddy's Hyderabad campuses — a guide to airport transfers, FDA inspection pickups and corporate ground transport for India's pharmaceutical executives.",
+    excerpt: "How India's pharma companies travel — airport transfers, FDA inspection pickups and corporate ground transport for pharmaceutical executives.",
     content: `
       <p>India is now the world's third-largest pharmaceutical industry by volume, supplying over 60 countries with generic medicines, APIs and biologics. Behind that supply chain is an enormous volume of executive travel — board meetings, FDA inspection visits, investor roadshows, manufacturing site audits, international delegation arrivals. That is precisely where a dedicated pharmaceutical executive chauffeur service becomes not a luxury, but a necessity.</p>
 
@@ -1438,11 +1810,11 @@ const NF_ARTICLES = [
   /* ─── 5. GETTING AROUND FIFA 2026 (June 7, 2026) ─── */
   {
     slug: "fifa-world-cup-2026-airport-transfers-and-host-city-transport",
-    title: "Getting Around the FIFA World Cup 2026: Airport Transfers and Host-City Transport",
+    title: "FIFA 2026 Airport Transfers & Host City Transport",
     date: "June 7, 2026",
     category: "FIFA 2026",
     image: "event.jpg",
-    excerpt: "The 2026 World Cup spans 16 cities across three countries. Here is how to handle airport transfers, match-day travel and everything in between without the stress.",
+    excerpt: "FIFA World Cup 2026 spans 16 cities across 3 countries. Here is how to handle airport transfers and match-day travel without the stress.",
     content: `
       <p>The 2026 FIFA World Cup is the largest in history: 48 teams, 104 matches and 16 host cities spread across the United States, Canada and Mexico, running from June 11 to July 19. The football is the easy part. Moving smoothly between airports, hotels and stadiums in cities you may not know, during the busiest sporting month the continent has ever seen, is the challenge.</p>
 
@@ -1496,7 +1868,7 @@ const NF_ARTICLES = [
   /* ─── 7. PREMIUM TRANSFER VS TAXI (June 7, 2026) ─── */
   {
     slug: "premium-airport-transfer-vs-regular-taxi",
-    title: "Premium Airport Transfer vs Regular Taxi: What's the Difference?",
+    title: "Premium Airport Transfer vs Regular Taxi",
     date: "June 7, 2026",
     category: "Travel Tips",
     image: "airport_rides.jpg",
