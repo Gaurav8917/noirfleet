@@ -108,6 +108,21 @@
       .fifa-home-inner { padding: 32px 24px; }
       .home-journal-grid { grid-template-columns: 1fr; }
     }
+
+    /* ── SEO links ── */
+    .seo-links {
+      font-size: 0.78rem;
+      color: #888;
+      text-align: center;
+      margin: 2rem auto 0;
+      letter-spacing: 0.02em;
+    }
+    .seo-links a {
+      color: #888;
+      text-decoration: none;
+      border-bottom: 1px solid #444;
+    }
+    .seo-links a:hover { color: #fff; }
   </style>
 </head>
 <body data-page="home">
@@ -154,8 +169,9 @@
         <div class="clock-card"><div class="cc-flag">🇺🇸</div><div class="cc-city">New York</div><div class="cc-time" id="t-nyc">--:--:--</div><div class="cc-tz">Eastern Time</div></div>
         <div class="clock-sep"></div>
         <div class="clock-card"><div class="cc-flag">🇮🇳</div><div class="cc-city">Mumbai</div><div class="cc-time" id="t-mumbai">--:--:--</div><div class="cc-tz">India Standard Time</div></div>
+        <div class="clock-sep"></div>
+        <div class="clock-card"><div class="cc-flag">🇨🇳</div><div class="cc-city">Shanghai</div><div class="cc-time" id="t-shanghai">--:--:--</div><div class="cc-tz">China Standard Time</div></div>
       </div>
-      <div class="clock-sep"></div><div class="clock-card"><div class="cc-flag">🇨🇳</div><div class="cc-city">Shanghai</div><div class="cc-time" id="t-shanghai">--:--:--</div><div class="cc-tz">China Standard Time</div></div>
     </section>
 
     <!-- EXPLORE -->
@@ -245,6 +261,13 @@
       </div>
     </div>
 
+    <!-- SEO LINKS -->
+    <p class="seo-links">
+      <a href="https://www.noirfleet.com/">Limo Service in Shanghai</a> &nbsp;·&nbsp;
+      <a href="https://www.noirfleet.com/">Chauffeur Service Shanghai</a> &nbsp;·&nbsp;
+      <a href="https://www.noirfleet.com/">Luxury Chauffeur Service in Shanghai</a>
+    </p>
+
   </main>
 
   <div id="site-footer"></div>
@@ -272,5 +295,29 @@
   })();
   </script>
   <script src="splash.js"></script>
+
+  <script>
+  /* ── World clocks ── */
+  (function () {
+    var zones = [
+      { id: 't-dubai',    tz: 'Asia/Dubai' },
+      { id: 't-london',   tz: 'Europe/London' },
+      { id: 't-nyc',      tz: 'America/New_York' },
+      { id: 't-mumbai',   tz: 'Asia/Kolkata' },
+      { id: 't-shanghai', tz: 'Asia/Shanghai' }
+    ];
+    function tick() {
+      var now = new Date();
+      zones.forEach(function (z) {
+        var el = document.getElementById(z.id);
+        if (!el) return;
+        el.textContent = now.toLocaleTimeString('en-GB', { timeZone: z.tz, hour: '2-digit', minute: '2-digit', second: '2-digit' });
+      });
+    }
+    tick();
+    setInterval(tick, 1000);
+  })();
+  </script>
+
 </body>
 </html>
