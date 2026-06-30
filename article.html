@@ -3,7 +3,52 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Article | NoirFleet</title>
+
+  <!-- ═══ SEO BASE TAGS — overwritten by JS per article ═══ -->
+  <title>NoirFleet — Premium Chauffeur &amp; Luxury Transport</title>
+  <meta name="description" content="NoirFleet provides premium chauffeur and luxury transport services worldwide — airport transfers, corporate travel, weddings and VIP event transport.">
+  <meta name="robots" content="index,follow">
+  <meta name="author" content="NoirFleet">
+  <link rel="canonical" href="https://www.noirfleet.com/article.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="NoirFleet">
+  <meta property="og:title" content="NoirFleet — Premium Chauffeur &amp; Luxury Transport">
+  <meta property="og:description" content="NoirFleet provides premium chauffeur and luxury transport services worldwide.">
+  <meta property="og:url" content="https://www.noirfleet.com/article.html">
+  <meta property="og:image" content="https://www.noirfleet.com/banner.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NoirFleet — Premium Chauffeur &amp; Luxury Transport">
+  <meta name="twitter:description" content="NoirFleet provides premium chauffeur and luxury transport services worldwide.">
+  <meta name="twitter:image" content="https://www.noirfleet.com/banner.png">
+
+  <!-- JSON-LD: Article + BreadcrumbList — overwritten by JS -->
+  <script type="application/ld+json" id="article-schema">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "name": "NoirFleet Journal",
+    "publisher": {
+      "@type": "Organization",
+      "name": "NoirFleet",
+      "logo": { "@type": "ImageObject", "url": "https://www.noirfleet.com/logo.jpg" }
+    }
+  }
+  </script>
+  <script type="application/ld+json" id="breadcrumb-schema">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.noirfleet.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://www.noirfleet.com/blog.html" }
+    ]
+  }
+  </script>
+
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="pages.css">
@@ -82,14 +127,12 @@
       margin: 0 auto;
       padding: 56px 24px 80px;
     }
-
     .article-outer p {
       font-size: 17px;
       line-height: 1.8;
       color: rgba(240,237,230,0.88);
       margin-bottom: 1.5rem;
     }
-
     .article-outer h2 {
       font-family: 'Playfair Display', serif;
       font-size: clamp(20px, 2.8vw, 28px);
@@ -98,26 +141,22 @@
       margin: 2.8rem 0 1rem;
       line-height: 1.25;
     }
-
     .article-outer h3 {
       font-size: 18px;
       font-weight: 600;
       color: var(--text);
       margin: 2rem 0 0.7rem;
     }
-
     .article-outer ul, .article-outer ol {
       padding-left: 20px;
       margin-bottom: 1.5rem;
     }
-
     .article-outer li {
       font-size: 16px;
       line-height: 1.75;
       color: rgba(240,237,230,0.85);
       margin-bottom: 0.5rem;
     }
-
     .article-outer blockquote {
       border-left: 3px solid var(--gold);
       margin: 2.5rem 0;
@@ -130,26 +169,45 @@
       color: var(--text);
       line-height: 1.55;
     }
-
-    .article-outer a {
-      color: var(--gold);
-      text-decoration: none;
-    }
+    .article-outer a { color: var(--gold); text-decoration: none; }
     .article-outer a:hover { text-decoration: underline; }
-
     .article-outer strong { color: var(--text); font-weight: 600; }
-
     .article-outer hr {
       border: none;
       border-top: 1px solid var(--border);
       margin: 3rem 0;
     }
-
     .article-outer img {
       width: 100%;
       border-radius: 8px;
       margin: 1.5rem 0;
     }
+
+    /* ── TABLE ── */
+    .article-outer table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 2rem 0;
+      font-size: 15px;
+    }
+    .article-outer th {
+      background: var(--surface);
+      color: var(--gold);
+      font-weight: 600;
+      padding: 12px 16px;
+      text-align: left;
+      border: 1px solid var(--border);
+      font-size: 13px;
+      letter-spacing: 0.04em;
+    }
+    .article-outer td {
+      padding: 11px 16px;
+      border: 1px solid var(--border);
+      color: rgba(240,237,230,0.85);
+      vertical-align: top;
+      line-height: 1.55;
+    }
+    .article-outer tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
 
     /* ── BACK LINK ── */
     .back-link {
@@ -274,15 +332,15 @@
       .article-outer { padding: 36px 20px 60px; }
       .article-cta { padding: 28px 20px; }
       .article-outer blockquote { font-size: 17px; padding: 14px 18px; }
+      .article-outer table { font-size: 13px; }
+      .article-outer th, .article-outer td { padding: 9px 11px; }
     }
   </style>
 </head>
 <body data-page="article">
 
   <div id="site-header"></div>
-
   <div id="article-root"></div>
-
   <div id="site-footer"></div>
 
   <script src="articles.js"></script>
@@ -290,10 +348,15 @@
   <script>
   (function () {
 
+    var BASE_URL = 'https://www.noirfleet.com/';
+
     /* ── helpers ── */
     function esc(s) {
       return String(s == null ? '' : s)
         .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+    function escAttr(s) {
+      return String(s == null ? '' : s).replace(/"/g,'&quot;');
     }
     function readTime(content) {
       var words = (content || '').replace(/<[^>]*>/g,' ').split(/\s+/).filter(Boolean).length;
@@ -302,6 +365,18 @@
     function getSlug() {
       var params = new URLSearchParams(window.location.search);
       return params.get('slug') || '';
+    }
+    function setMeta(name, value) {
+      var el = document.querySelector('meta[name="' + name + '"]');
+      if (el) el.setAttribute('content', escAttr(value));
+    }
+    function setOG(prop, value) {
+      var el = document.querySelector('meta[property="' + prop + '"]');
+      if (el) el.setAttribute('content', escAttr(value));
+    }
+    function setTwitter(name, value) {
+      var el = document.querySelector('meta[name="' + name + '"]');
+      if (el) el.setAttribute('content', escAttr(value));
     }
 
     /* ── find article ── */
@@ -325,12 +400,104 @@
       return;
     }
 
-    /* ── UPDATE HEAD ── */
-    document.title = esc(article.title) + ' | NoirFleet';
-    var descEl = document.querySelector('meta[name="description"]');
-    if (descEl) descEl.setAttribute('content', esc(article.excerpt || article.title));
+    /* ══════════════════════════════════════════
+       UPDATE ALL HEAD META TAGS DYNAMICALLY
+       This is what Google needs to index correctly
+    ══════════════════════════════════════════ */
 
-    /* ── RELATED ARTICLES (up to 3, same category, excluding current) ── */
+    var pageTitle  = article.title + ' | NoirFleet';
+    var pageDesc   = article.excerpt || article.title;
+    var pageURL    = BASE_URL + 'article.html?slug=' + encodeURIComponent(article.slug);
+    var pageImage  = article.image
+                     ? BASE_URL + article.image
+                     : BASE_URL + 'banner.png';
+
+    /* Title */
+    document.title = pageTitle;
+
+    /* Canonical */
+    var canonEl = document.querySelector('link[rel="canonical"]');
+    if (canonEl) canonEl.setAttribute('href', pageURL);
+
+    /* Meta description */
+    setMeta('description', pageDesc);
+
+    /* Open Graph */
+    setOG('og:title',       pageTitle);
+    setOG('og:description', pageDesc);
+    setOG('og:url',         pageURL);
+    setOG('og:image',       pageImage);
+
+    /* Twitter */
+    setTwitter('twitter:title',       pageTitle);
+    setTwitter('twitter:description', pageDesc);
+    setTwitter('twitter:image',       pageImage);
+
+    /* ══════════════════════════════════════════
+       JSON-LD: Article Schema
+    ══════════════════════════════════════════ */
+    var articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": article.title,
+      "description": pageDesc,
+      "url": pageURL,
+      "datePublished": article.date || "",
+      "dateModified": article.date || "",
+      "author": {
+        "@type": "Organization",
+        "name": "NoirFleet"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "NoirFleet",
+        "logo": {
+          "@type": "ImageObject",
+          "url": BASE_URL + "logo.jpg"
+        }
+      },
+      "image": pageImage,
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": pageURL
+      }
+    };
+    var schemaEl = document.getElementById('article-schema');
+    if (schemaEl) schemaEl.textContent = JSON.stringify(articleSchema);
+
+    /* ══════════════════════════════════════════
+       JSON-LD: BreadcrumbList Schema
+    ══════════════════════════════════════════ */
+    var breadcrumbSchema = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": BASE_URL
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Journal",
+          "item": BASE_URL + "blog.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": article.title,
+          "item": pageURL
+        }
+      ]
+    };
+    var breadcrumbEl = document.getElementById('breadcrumb-schema');
+    if (breadcrumbEl) breadcrumbEl.textContent = JSON.stringify(breadcrumbSchema);
+
+    /* ══════════════════════════════════════════
+       RELATED ARTICLES
+    ══════════════════════════════════════════ */
     var related = articles.filter(function(a) {
       return a.slug !== article.slug && a.category === article.category;
     }).slice(0, 3);
@@ -341,7 +508,9 @@
       related = related.concat(others).slice(0, 3);
     }
 
-    /* ── RENDER ── */
+    /* ══════════════════════════════════════════
+       RENDER PAGE
+    ══════════════════════════════════════════ */
     var coverImg = article.image
       ? '<img class="article-cover" src="' + esc(article.image) + '" alt="' + esc(article.title) + '" onerror="this.style.display=\'none\'">'
       : '';
@@ -370,11 +539,11 @@
 
     root.innerHTML =
       /* HERO */
-      '<header class="article-hero">' +
+      '<header class="article-hero" itemscope itemtype="https://schema.org/Article">' +
         (article.category ? '<span class="article-eyebrow">' + esc(article.category) + '</span>' : '') +
-        '<h1>' + esc(article.title) + '</h1>' +
+        '<h1 itemprop="headline">' + esc(article.title) + '</h1>' +
         '<div class="article-hero-meta">' +
-          '<span>' + esc(article.date || '') + '</span>' +
+          '<span itemprop="datePublished">' + esc(article.date || '') + '</span>' +
           '<span class="dot">·</span>' +
           '<span>' + readTime(article.content) + '</span>' +
         '</div>' +
@@ -395,10 +564,8 @@
           'Back to Journal' +
         '</a>' +
 
-        /* ARTICLE CONTENT — innerHTML so HTML tags render */
-        '<div class="article-body-content">' + (article.content || '') + '</div>' +
+        '<div class="article-body-content" itemprop="articleBody">' + (article.content || '') + '</div>' +
 
-        /* CTA */
         '<div class="article-cta">' +
           '<h2>Ready to travel with NoirFleet?</h2>' +
           '<p>Premium chauffeurs, worldwide. Book your ride or explore our fleet.</p>' +
@@ -408,7 +575,6 @@
           '</div>' +
         '</div>' +
 
-        /* RELATED */
         relatedHTML +
 
       '</div>';
