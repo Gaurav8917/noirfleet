@@ -1,13 +1,320 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.noirfleet.com/</loc><lastmod>2026-06-07</lastmod><priority>1.0</priority></url>
-  <url><loc>https://www.noirfleet.com/services.html</loc><lastmod>2026-06-07</lastmod><priority>0.9</priority></url>
-  <url><loc>https://www.noirfleet.com/fifa.html</loc><lastmod>2026-06-07</lastmod><priority>0.9</priority></url>
-  <url><loc>https://www.noirfleet.com/fleet.html</loc><lastmod>2026-06-07</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.noirfleet.com/contact.html</loc><lastmod>2026-06-07</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.noirfleet.com/events.html</loc><lastmod>2026-06-07</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.noirfleet.com/global.html</loc><lastmod>2026-06-07</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.noirfleet.com/reviews.html</loc><lastmod>2026-06-07</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.noirfleet.com/blog.html</loc><lastmod>2026-06-07</lastmod><priority>0.6</priority></url>
-  <url><loc>https://www.noirfleet.com/partners.html</loc><lastmod>2026-06-07</lastmod><priority>0.5</priority></url>
+
+  <!-- ═══ MAIN PAGES ═══ -->
+  <url>
+    <loc>https://www.noirfleet.com/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/blog.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/services.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/fleet.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/contact.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/global.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/events.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/fifa.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/partners.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/reviews.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ═══ ARTICLES — LUXURY TRAVEL ═══ -->
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=how-indias-elite-travel-hnwi-premium-transport</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=luxury-chauffeur-service-india</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=wedding-car-rental-india</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ═══ ARTICLES — CITY GUIDES ═══ -->
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=cab-chauffeur-service-mumbai</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=cab-chauffeur-service-delhi-ncr</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=cab-chauffeur-service-bangalore</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=cab-chauffeur-service-hyderabad</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=cab-chauffeur-service-chennai</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=cab-chauffeur-service-pune</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=cab-chauffeur-service-shanghai</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=chauffeur-service-rwanda-tanzania-east-africa</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=dubai-airport-to-downtown-the-smooth-way</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=a-weekend-in-london-by-car</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ═══ ARTICLES — OUTSTATION ROUTE GUIDES ═══ -->
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=mumbai-to-goa-cab-service</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=mumbai-to-pune-cab-service</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=delhi-to-jaipur-cab-service</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=delhi-to-agra-cab-service</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=bangalore-to-mysore-cab-service</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=hyderabad-to-tirupati-cab-service</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=ahmedabad-to-mumbai-cab-service</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ═══ ARTICLES — CORPORATE TRAVEL ═══ -->
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=corporate-transportation-solutions-india</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=indian-pharma-companies-travel</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ═══ ARTICLES — TRAVEL TIPS ═══ -->
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=solo-women-travel-india-chauffeur-safety-guide</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=bleisure-travel-ground-transport-guide</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=self-drive-vs-chauffeur-driven-car-india</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=premium-airport-transfer-vs-regular-taxi</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=what-to-expect-from-a-premium-chauffeur-service</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=five-things-that-make-an-airport-transfer-truly-premium</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ═══ ARTICLES — FIFA 2026 ═══ -->
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=last-minute-fifa-2026-corporate-hospitality</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=fifa-world-cup-2026-travel-guide-for-indian-fans</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=fifa-world-cup-2026-ground-transportation-guide</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=fifa-world-cup-2026-airport-transfers-and-host-city-transport</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=how-to-travel-between-fifa-2026-host-cities</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ═══ ARTICLES — INDIA PILLAR ═══ -->
+  <url>
+    <loc>https://www.noirfleet.com/article.html?slug=premium-chauffeur-cab-service-india</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
 </urlset>
