@@ -157,10 +157,12 @@
         '<div class="header-cta">' +
           '<div class="contact-box">' +
             '<a href="' + WHATSAPP_US + '" class="contact-item">📞 ' + PHONE_US + '</a>' +
-            '<span class="divider">|</span>' +
-            '<a href="' + WHATSAPP_IN + '" class="contact-item">📞 ' + PHONE_IN + '</a>' +
-            '<span class="divider">|</span>' +
-            '<a href="mailto:' + EMAIL + '" class="contact-item">✉ ' + EMAIL + '</a>' +
+            '<div class="contact-extra">' +
+              '<span class="divider">|</span>' +
+              '<a href="' + WHATSAPP_IN + '" class="contact-item">📞 ' + PHONE_IN + '</a>' +
+              '<span class="divider">|</span>' +
+              '<a href="mailto:' + EMAIL + '" class="contact-item">✉ ' + EMAIL + '</a>' +
+            '</div>' +
           '</div>' +
           '<button id="menuToggle" class="hamburger" aria-label="Open menu" aria-expanded="false">' +
             '<span></span><span></span><span></span>' +
@@ -220,7 +222,7 @@
             '<a href="' + WHATSAPP_US + '">' + PHONE_US + ' (USA)</a>' +
             '<a href="' + WHATSAPP_IN + '">' + PHONE_IN + ' (India)</a>' +
             '<a href="mailto:' + EMAIL + '">' + EMAIL + '</a>' +
-            '<span class="muted">Available 24/7</span>' +
+            '<span class="muted">Worldwide · Available 24/7</span>' +
           '</div>' +
         '</div>' +
       '</div>' +
