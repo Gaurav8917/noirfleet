@@ -172,7 +172,7 @@
       '<div id="mobileNav" class="mobile-nav" aria-hidden="true">' +
         navLinks() +
         '<div class="mnav-contact">' +
-          '<a href="' + WHATSAPP_US + '">📞 ' + PHONE_US + ' (USA)</a>' +
+          '<a href="' + WHATSAPP_US + '">📞 ' + PHONE_US + ' (Worldwide)</a>' +
           '<a href="' + WHATSAPP_IN + '">📞 ' + PHONE_IN + ' (India)</a>' +
           '<a href="mailto:' + EMAIL + '">✉ ' + EMAIL + '</a>' +
         '</div>' +
@@ -219,7 +219,7 @@
           '</div>' +
           '<div class="fn-col">' +
             '<strong>Contact</strong>' +
-            '<a href="' + WHATSAPP_US + '">' + PHONE_US + ' (USA)</a>' +
+            '<a href="' + WHATSAPP_US + '">' + PHONE_US + ' (Worldwide)</a>' +
             '<a href="' + WHATSAPP_IN + '">' + PHONE_IN + ' (India)</a>' +
             '<a href="mailto:' + EMAIL + '">' + EMAIL + '</a>' +
             '<span class="muted">Worldwide · Available 24/7</span>' +
