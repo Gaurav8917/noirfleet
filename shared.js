@@ -19,9 +19,12 @@
     { id: 'contact',  label: 'Contact',  href: 'contact.html'  }
   ];
 
-  var WHATSAPP = 'https://wa.me/917203070345';
-  var PHONE    = '+91-7203070345';
-  var EMAIL    = 'reservations@noirfleet.com';
+  /* ---- CONTACT NUMBERS (USA primary, India secondary) ---- */
+  var WHATSAPP_US = 'https://wa.me/13502381309';
+  var PHONE_US    = '+1-350-238-1309';
+  var WHATSAPP_IN = 'https://wa.me/917203070345';
+  var PHONE_IN    = '+91-7203070345';
+  var EMAIL       = 'reservations@noirfleet.com';
 
   var current = document.body.getAttribute('data-page') || 'home';
 
@@ -153,7 +156,9 @@
         '<nav class="main-nav" id="mainNav">' + navLinks() + '</nav>' +
         '<div class="header-cta">' +
           '<div class="contact-box">' +
-            '<a href="' + WHATSAPP + '" class="contact-item">📞 ' + PHONE + '</a>' +
+            '<a href="' + WHATSAPP_US + '" class="contact-item">📞 ' + PHONE_US + '</a>' +
+            '<span class="divider">|</span>' +
+            '<a href="' + WHATSAPP_IN + '" class="contact-item">📞 ' + PHONE_IN + '</a>' +
             '<span class="divider">|</span>' +
             '<a href="mailto:' + EMAIL + '" class="contact-item">✉ ' + EMAIL + '</a>' +
           '</div>' +
@@ -165,7 +170,8 @@
       '<div id="mobileNav" class="mobile-nav" aria-hidden="true">' +
         navLinks() +
         '<div class="mnav-contact">' +
-          '<a href="' + WHATSAPP + '">📞 ' + PHONE + '</a>' +
+          '<a href="' + WHATSAPP_US + '">📞 ' + PHONE_US + ' (USA)</a>' +
+          '<a href="' + WHATSAPP_IN + '">📞 ' + PHONE_IN + ' (India)</a>' +
           '<a href="mailto:' + EMAIL + '">✉ ' + EMAIL + '</a>' +
         '</div>' +
       '</div>' +
@@ -182,7 +188,8 @@
           '<strong class="footer-name">NoirFleet</strong>' +
           '<p class="muted">Premium Ground Transport — Worldwide</p>' +
           '<div class="footer-links-inline">' +
-            '<a href="' + WHATSAPP + '">WhatsApp</a>' +
+            '<a href="' + WHATSAPP_US + '">WhatsApp (USA)</a>' +
+            '<a href="' + WHATSAPP_IN + '">WhatsApp (India)</a>' +
             '<a href="mailto:' + EMAIL + '">Email Us</a>' +
           '</div>' +
         '</div>' +
@@ -210,7 +217,8 @@
           '</div>' +
           '<div class="fn-col">' +
             '<strong>Contact</strong>' +
-            '<a href="' + WHATSAPP + '">' + PHONE + '</a>' +
+            '<a href="' + WHATSAPP_US + '">' + PHONE_US + ' (USA)</a>' +
+            '<a href="' + WHATSAPP_IN + '">' + PHONE_IN + ' (India)</a>' +
             '<a href="mailto:' + EMAIL + '">' + EMAIL + '</a>' +
             '<span class="muted">Available 24/7</span>' +
           '</div>' +
@@ -387,7 +395,7 @@
     ].join('');
     document.head.appendChild(waStyle);
 
-    var waUrl = 'https://wa.me/917203070345?text=' + encodeURIComponent('Hello NoirFleet, I would like to book a premium chauffeur service.');
+    var waUrl = WHATSAPP_US + '?text=' + encodeURIComponent('Hello NoirFleet, I would like to book a premium chauffeur service.');
     var wa = document.createElement('a');
     wa.id = 'nf-wa';
     wa.href = waUrl;
