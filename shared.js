@@ -190,7 +190,7 @@
           '<strong class="footer-name">NoirFleet</strong>' +
           '<p class="muted">Premium Ground Transport — Worldwide</p>' +
           '<div class="footer-links-inline">' +
-            '<a href="' + WHATSAPP_US + '">WhatsApp (Worldwise)</a>' +
+            '<a href="' + WHATSAPP_US + '">WhatsApp (Worldwide)</a>' +
             '<a href="' + WHATSAPP_IN + '">WhatsApp (India)</a>' +
             '<a href="mailto:' + EMAIL + '">Email Us</a>' +
           '</div>' +
