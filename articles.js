@@ -22,6 +22,289 @@
 
 const NF_ARTICLES = [
 
+   /* ─── AFCON 2027 — EVENT TRANSPORT GUIDE ─── */
+  {
+    slug: "afcon-2027-chauffeur-transport-guide-kenya-tanzania-uganda",
+    title: "AFCON 2027 Transport Guide — Kenya, Tanzania & Uganda",
+    date: "July 22, 2026",
+    category: "City Guide",
+    image: "city_tours.jpg",
+    excerpt: "AFCON 2027 in Kenya, Tanzania and Uganda — ground transport for corporate sponsors, official delegations and luxury hospitality operators.",
+    content: `
+      <p>The 2027 Africa Cup of Nations — AFCON 2027 — will be the most logistically complex edition of the tournament in its 70-year history. For the first time, the competition will be co-hosted by three nations: Kenya, Uganda and Tanzania. Running from 19 June to 17 July 2027, the tournament spans ten proposed host cities across East Africa, a combined geography of over 1.8 million square kilometres and three separate aviation systems. The corporate sponsors, official delegations, football federations, broadcast rights holders and luxury hospitality operators who attend AFCON 2027 will face a ground transport challenge unlike any previous edition — and unlike any other major football tournament currently on the global calendar.</p>
+
+      <p>AFCON 2027 is also a milestone event: the 70th anniversary of Africa's most watched football competition, and the last edition to be held in an odd-numbered year before the tournament moves to a quadrennial format from 2028. Qualification begins in March 2026, with 24 national teams competing across the three host nations over 52 matches. The audiences — domestic and international — will be the largest in East African sporting history.</p>
+
+      <p>This guide covers the ground transport reality of AFCON 2027 for its most commercially significant attendees: the corporate sponsors with delegation travel requirements across three countries, the official organising committees and football federations, the luxury hospitality agencies managing premium guest programmes, and the international media and broadcast delegations whose operational requirements make ground transport the operational foundation of their entire tournament presence.</p>
+
+      <h2>AFCON 2027 — Key Facts</h2>
+
+      <table>
+        <tr><th>Detail</th><th>Information</th></tr>
+        <tr><td>Tournament</td><td>Africa Cup of Nations 2027 (AFCON 2027 / CAN 2027)</td></tr>
+        <tr><td>Edition</td><td>36th edition — 70th anniversary</td></tr>
+        <tr><td>Host Nations</td><td>Kenya, Uganda, Tanzania (first three-nation host in tournament history)</td></tr>
+        <tr><td>Dates</td><td>19 June – 17 July 2027</td></tr>
+        <tr><td>Teams</td><td>24 national teams</td></tr>
+        <tr><td>Matches</td><td>52 matches across the tournament</td></tr>
+        <tr><td>Host Cities</td><td>10 proposed — 3 in Kenya, 3 in Uganda, 4 in Tanzania</td></tr>
+        <tr><td>Defending Champions</td><td>Morocco (winners of AFCON 2025)</td></tr>
+        <tr><td>Next Edition</td><td>AFCON 2028 (quadrennial format from 2028 onwards)</td></tr>
+      </table>
+
+      <h2>The Three-Nation Hosting Challenge</h2>
+
+      <p>No previous edition of the Africa Cup of Nations has been hosted across three countries. The operational complexity this creates for attendees — and the ground transport requirements it generates — is qualitatively different from single-nation or two-nation tournaments.</p>
+
+      <p>A corporate sponsor following their national team through the group stage may find their team's three group matches spread across Nairobi, Kampala and Dar es Salaam — three different capital cities in three different countries, requiring three sets of airport transfers, three sets of hotel-to-stadium connections and three sets of corporate hospitality logistics, each in a different country with different ground transport infrastructure, different traffic environments and different levels of professional transfer availability.</p>
+
+      <p>An official CAF delegation managing the tournament's operations moves between all three host nations across the 29-day tournament window, with coordination requirements across ten host cities. A luxury hospitality agency managing a premium guest programme for a telecoms or energy corporate sponsor needs a ground transport partner who can provide consistent service across all three countries under a single account — not three separate local vendors with three separate standards, three separate booking systems and three separate points of contact.</p>
+
+      <p>NoirFleet's East Africa network covers Kenya, Uganda and Tanzania under a single account with a single operational standard — the same vehicle quality, the same chauffeur briefing process, the same flight-tracking at every airport arrival, and the same all-inclusive fare structure whether the transfer is from Jomo Kenyatta International in Nairobi, Entebbe International in Kampala or Julius Nyerere International in Dar es Salaam.</p>
+
+      <h2>Host Cities and Ground Transport Corridors</h2>
+
+      <h3>Kenya — Nairobi and Beyond</h3>
+      <p>Nairobi is East Africa's most developed corporate city and the natural hub of AFCON 2027's Kenyan leg. Jomo Kenyatta International Airport (NBO) connects directly to Europe, the Middle East and South Asia, making Nairobi the primary arrival point for international corporate sponsors and official delegations attending the tournament. The proposed host venues in Kenya include the Talanta Sports Stadium in Nairobi — currently under construction and specifically designed for AFCON 2027. Nairobi's corporate infrastructure — the CBD, Westlands, Karen and the KICC conference complex — is well-established, and the city's ground transport ecosystem, while demanding in peak-hour traffic, is navigable for a professional chauffeur familiar with Nairobi's specific corridor patterns.</p>
+
+      <p>The Nairobi airport to city centre transfer covers approximately 18 kilometres, taking 30 to 60 minutes depending on time of day and congestion. During match days at tournament venues, traffic around the Nairobi stadiums will require specific routing knowledge and departure timing that a pre-booked professional chauffeur provides automatically.</p>
+
+      <h3>Uganda — Kampala and Entebbe</h3>
+      <p>Entebbe International Airport (EBB) sits on the shores of Lake Victoria, 37 kilometres from Kampala city centre — a transfer corridor that takes 45 to 75 minutes under normal conditions and significantly longer on match days. The Entebbe to Kampala road is one of Uganda's most trafficked, and the concentrations of event traffic during AFCON 2027 group stage matches in Kampala will extend transfer times considerably for attendees who have not pre-arranged professional ground transport.</p>
+
+      <p>Kampala's three proposed host venues for AFCON 2027 will draw significant crowds from across Uganda and neighbouring Rwanda, Democratic Republic of Congo and South Sudan — creating a match-day traffic environment that requires departure timing precision from anyone with an onward flight or commercial obligation. A NoirFleet chauffeur on the Kampala corridor who has been briefed on match-day traffic patterns departs the hotel at the right time, not at the time that feels comfortable.</p>
+
+      <h3>Tanzania — Dar es Salaam, Zanzibar and Beyond</h3>
+      <p>Tanzania's four proposed AFCON 2027 host cities give it the largest host city footprint of the three nations — and the most complex ground transport geography. Julius Nyerere International Airport in Dar es Salaam (DAR) is the primary international gateway, with transfer times to the city centre of 20 to 45 minutes depending on traffic. Dar es Salaam's traffic, particularly on the Bagamoyo Road and Nyerere Road corridors approaching potential match venues, is among the most demanding in East Africa during peak hours.</p>
+
+      <p>Tanzania's hosting of AFCON 2027 also coincides with a period of significant infrastructure investment across the country, including the Julius Nyerere Hydroelectric Project and multiple highway upgrades — meaning road conditions on some corridors will be in transition during the tournament period. A chauffeur familiar with current Dar es Salaam road conditions is a specific asset during a tournament that falls during a period of active urban development.</p>
+
+      <p>Zanzibar, if included in the final host city list, presents a distinct transfer challenge: Zanzibar International Airport (ZNZ) connects to Dar es Salaam by direct flight and by high-speed ferry, with resort connections from ZNZ running 20 to 50 minutes by private transfer. The luxury hospitality end of AFCON 2027 — VIP guests staying in Zanzibar's premium beach resorts while attending matches in Dar es Salaam — creates a specific travel pattern that requires coordination between island transfers and mainland match-day logistics.</p>
+
+      <h2>The Corporate Sponsor Transport Programme</h2>
+
+      <p>AFCON's corporate sponsor portfolio typically includes Africa's largest telecoms operators (MTN, Airtel, Safaricom), banking groups (Standard Bank, Ecobank, KCB), energy companies (TotalEnergies, CNOOC), FMCG giants and international brands using the tournament to activate across African markets. These sponsors run corporate hospitality programmes at each host city — VIP suites, branded activations, client entertainment — that generate significant transport requirements for their guests and delegation members.</p>
+
+      <p>A telecoms sponsor managing a corporate hospitality programme across all three host nations needs ground transport that:</p>
+
+      <p><strong>Covers all three countries under one account.</strong> Managing separate transport vendors in Kenya, Uganda and Tanzania creates coordination complexity, billing fragmentation and standard inconsistency that a single NoirFleet account eliminates. One account, one operations contact, one invoice across the full tournament period.</p>
+
+      <p><strong>Handles delegation arrivals at three international airports.</strong> Flight-tracked pickups at NBO, EBB and DAR for sponsor delegation members arriving on different schedules across the tournament window, with each transfer confirmed before the passenger boards their flight.</p>
+
+      <p><strong>Manages match-day hospitality logistics.</strong> Stadium-adjacent ground transport — hotel to hospitality suite, hospitality suite to post-match dinner venue — is time-sensitive on match days in a way that requires pre-positioned vehicles rather than on-demand booking. A fleet pre-positioned at the corporate hospitality entrance at the correct time absorbs the post-match movement without queues, confusion or waiting.</p>
+
+      <p><strong>Accommodates VIP and executive-level protocol.</strong> Senior executives and government officials attending AFCON as guests of corporate sponsors carry implicit protocol requirements: discretion, vehicle presentation standards and chauffeur conduct that matches the seniority of the guest. NoirFleet's VIP transport standard applies to every booking at this level, not as an upgrade option.</p>
+
+      <h2>Official Delegations and Football Federation Transport</h2>
+
+      <p>The 24 national football federations participating in AFCON 2027, the CAF organising committee, the match officials' management team, the broadcast rights holders (beIN Sports, SuperSport, Canal+ Afrique) and the accredited international media all require ground transport at a standard that the local informal sector cannot consistently provide.</p>
+
+      <p>National federations arriving with squad delegations of 30 to 50 personnel — players, coaching staff, medical staff, federation officials — require fleet-scale coordinated transport from the arrival airport to the team hotel, and between the team hotel and the training ground and match venue throughout the group stage and knockout rounds. Coordinating a 50-person delegation movement from Jomo Kenyatta International to a Nairobi team hotel requires pre-arranged coach and minibus capacity alongside executive vehicles for federation officers — not improvised vehicle assembly at the arrivals terminal.</p>
+
+      <p>Match officials require independent transport from their accommodation to match venues that is separate from team and sponsor transport, confirming this is an operational requirement managed by the tournament organiser that benefits from a pre-qualified ground transport partner across all three host nations.</p>
+
+      <h2>Luxury Hospitality and Premium Experience Operators</h2>
+
+      <p>The premium end of AFCON 2027 — hospitality packages that combine match access with East Africa's world-class safari and leisure experiences — generates a specific transport pattern that no single AFCON host city can cover in isolation. A premium hospitality package that includes a Serengeti safari extension for corporate guests after the group stage matches requires coordination between Dar es Salaam match-day transport and Arusha or Serengeti lodge transfers — the same seamless connection between the tournament environment and the East African safari that NoirFleet's network covers under a single booking.</p>
+
+      <p>Gorilla trekking extensions in Uganda — combining Kampala match attendance with Bwindi Impenetrable Forest access — require the same multi-leg coordination: match-day transport in Kampala, overnight road transfer to the forest gates, lodge connections and return. These itineraries are exactly the multi-leg, multi-country programmes that NoirFleet's East Africa service is designed to handle, and they represent the premium differentiation that luxury hospitality operators need to offer clients for whom attending a football tournament in East Africa is also an opportunity to access one of the world's most extraordinary wildlife destinations.</p>
+
+      <h2>Key Airport Transfer Routes for AFCON 2027</h2>
+
+      <table>
+        <tr><th>Airport</th><th>Destination</th><th>Distance</th><th>Drive Time</th></tr>
+        <tr><td>NBO — Nairobi (Jomo Kenyatta)</td><td>Nairobi City Centre / CBD</td><td>~18 km</td><td>30–60 min</td></tr>
+        <tr><td>NBO — Nairobi</td><td>Karen / Westlands Hotels</td><td>~22–28 km</td><td>35–70 min</td></tr>
+        <tr><td>EBB — Entebbe</td><td>Kampala City Centre</td><td>~37 km</td><td>45–75 min</td></tr>
+        <tr><td>EBB — Entebbe</td><td>Entebbe Town Hotels</td><td>~5 km</td><td>10–15 min</td></tr>
+        <tr><td>DAR — Dar es Salaam (Julius Nyerere)</td><td>Dar es Salaam City Centre</td><td>~12 km</td><td>20–45 min</td></tr>
+        <tr><td>DAR — Dar es Salaam</td><td>Oyster Bay / Masaki</td><td>~8 km</td><td>15–35 min</td></tr>
+        <tr><td>ZNZ — Zanzibar</td><td>Stone Town / Beach Resorts</td><td>5–45 km</td><td>15–60 min</td></tr>
+        <tr><td>JRO — Kilimanjaro (Arusha)</td><td>Arusha Town</td><td>~46 km</td><td>45–60 min</td></tr>
+      </table>
+
+      <h2>Why Pre-Book AFCON 2027 Ground Transport Now</h2>
+
+      <p>AFCON 2027 begins in June 2027. The window for securing appropriate ground transport across Kenya, Tanzania and Uganda is open now — and the operators who understand the tournament's specific requirements and have the East Africa network to cover all three host nations under a single account are a small group. The AFCON 2027 corporate sponsor who begins ground transport planning in April 2027 will find that the professional operators are committed, the vehicle availability in the relevant classes is constrained, and the coordination complexity of three-nation logistics cannot be solved in six weeks.</p>
+
+      <p>For corporate sponsors, official delegations and luxury hospitality operators, the conversation about AFCON 2027 ground transport should happen during the tournament qualification window — not during the tournament itself. NoirFleet is available to discuss programme requirements, assess the multi-city coordination needs of specific delegation structures and confirm vehicle availability across Kenya, Uganda and Tanzania for the full tournament period from June to July 2027.</p>
+
+      <h2>Why Choose NoirFleet for AFCON 2027</h2>
+
+      <p>NoirFleet's East Africa network is the only premium chauffeur service that covers Kenya, Uganda and Tanzania under a single account with a consistent operational standard — the same flight-tracked airport pickups, the same vehicle presentation, the same all-inclusive fare transparency and the same 24/7 operations contact whether the transfer is in Nairobi, Kampala or Dar es Salaam. For the AFCON 2027 corporate sponsor running a hospitality programme across all three host nations, this single-account consistency is not a convenience — it is the operational foundation that makes a three-country tournament programme manageable rather than chaotic.</p>
+
+      <p>Beyond the tournament itself, NoirFleet's safari and leisure transfer network across Tanzania and Kenya means that premium hospitality packages combining AFCON attendance with East African wildlife experiences — the Serengeti, Maasai Mara, Bwindi gorilla trekking, Zanzibar — can be managed end-to-end through one transport partner, providing the seamless connection between stadium and safari that defines the most compelling AFCON 2027 hospitality proposition.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>When is AFCON 2027 and which countries are hosting?</h3>
+      <p>AFCON 2027 runs from 19 June to 17 July 2027, co-hosted by Kenya, Tanzania and Uganda — the first three-nation AFCON in the tournament's history and the 70th anniversary edition.</p>
+
+      <h3>How many host cities does AFCON 2027 have?</h3>
+      <p>Ten proposed host cities: three in Kenya, three in Uganda and four in Tanzania. Final confirmation of host venues is pending.</p>
+
+      <h3>Can NoirFleet provide ground transport across all three AFCON 2027 host nations?</h3>
+      <p>Yes. NoirFleet covers Kenya, Uganda and Tanzania under a single account with consistent vehicle standards, flight-tracked airport pickups and a single operations contact across all ten host cities.</p>
+
+      <h3>How should corporate sponsors approach AFCON 2027 ground transport planning?</h3>
+      <p>Begin planning during the qualification window — well before the tournament. Three-nation coordination across 29 days requires programme assessment, vehicle fleet confirmation and delegation logistics planning that cannot be compressed into a short pre-tournament window.</p>
+
+      <h3>Does NoirFleet cover national federation delegation transport at AFCON 2027?</h3>
+      <p>Yes. Delegation transport — from arrival airports to team hotels, team hotels to training grounds and match venues — is available for participating national federations across all three host nations, with fleet-scale capacity for full 50-person delegation movements.</p>
+
+      <h3>Can NoirFleet combine AFCON 2027 tournament transport with safari extensions?</h3>
+      <p>Yes. Serengeti and Maasai Mara safari connections from Dar es Salaam and Nairobi, Zanzibar island transfers and Bwindi gorilla trekking connections from Kampala are all available through the same NoirFleet account, providing end-to-end coverage for premium hospitality packages that combine match attendance with East African wildlife experiences.</p>
+
+      <h3>What is the transfer time from Nairobi airport to the city centre during AFCON 2027?</h3>
+      <p>Approximately 30 to 60 minutes under normal conditions. Match days and tournament peak periods will extend this — departure timing advice based on specific match schedules is provided at the time of booking.</p>
+
+      <h3>Is AFCON 2027 the last Africa Cup of Nations before the tournament goes quadrennial?</h3>
+      <p>Yes. AFCON 2027 is the last edition to be held in an odd-numbered year. From 2028 onwards, the Africa Cup of Nations moves to a quadrennial format, aligning more closely with the FIFA World Cup cycle.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>AFCON 2027 is the most ambitious Africa Cup of Nations in the tournament's seven-decade history — three host nations, ten host cities, 24 competing teams and a 29-day tournament window that spans some of East Africa's most commercially dynamic cities. For the corporate sponsors, official delegations, football federations and luxury hospitality operators who will define the tournament's commercial landscape, ground transport across Kenya, Uganda and Tanzania is the operational thread that connects the entire programme. NoirFleet's East Africa network provides that thread — under a single account, at a consistent premium standard, across all three host nations, from the first delegation arrival at Nairobi airport in June 2027 to the last hospitality group departure from Dar es Salaam in July. The planning conversation should start now.</p>
+
+      <p>Ready to discuss AFCON 2027 transport for your delegation or hospitality programme? <a href="contact.html">Contact NoirFleet to begin planning</a> · <a href="fleet.html">View our fleet</a> · <a href="chauffeur-service-rwanda-tanzania-east-africa.html">East Africa chauffeur guide</a> · <a href="corporate-transportation-solutions-india.html">Corporate transportation solutions</a></p>
+    `
+  },
+
+   /* ─── MONACO YACHT SHOW 2026 — EVENT TRANSPORT GUIDE ─── */
+  {
+    slug: "monaco-yacht-show-2026-chauffeur-transfer-guide",
+    title: "Monaco Yacht Show 2026 — Chauffeur & Transfer Guide",
+    date: "July 22, 2026",
+    category: "Luxury Travel",
+    image: "sedan.jpg",
+    excerpt: "Monaco Yacht Show 2026, 23–26 September at Port Hercules — Nice Airport transfers, Riviera chauffeur and ground transport guide for MYS attendees.",
+    content: `
+      <p>The Monaco Yacht Show 2026 runs from 23 to 26 September at Port Hercules in the Principality of Monaco — the 35th edition of the world's most prestigious superyacht exhibition. Over 120 superyachts, approximately 60 luxury tenders and more than 560 exhibitors will occupy one of the most valuable stretches of waterfront on earth for four days. Yacht owners, charter brokers, family office executives, shipyard principals and the global luxury concierge industry converge on a principality that occupies two square kilometres and has no airport of its own.</p>
+
+      <p>That last detail — Monaco has no airport — defines the ground transport challenge for every MYS attendee arriving by air. The nearest international gateway is Nice Côte d'Azur Airport (NCE), approximately 30 kilometres from Port Hercules along the Riviera coastline. What happens between Nice Airport and Port Hercules during Monaco Yacht Show week is the difference between arriving composed and arriving frustrated — and during show week, when the Riviera carries tens of thousands of additional visitors simultaneously, the difference between a pre-booked professional transfer and an improvised arrangement is measured in hours, not minutes.</p>
+
+      <p>This guide covers everything that matters for ground transport at Monaco Yacht Show 2026: the transfer options from Nice Airport to Monaco, how to move across the Riviera during show week, what to book in advance and why, and how NoirFleet's chauffeur service on this corridor is structured around the specific demands of MYS attendees rather than standard airport transfers.</p>
+
+      <h2>Monaco Yacht Show 2026 — Key Details</h2>
+
+      <table>
+        <tr><th>Detail</th><th>Information</th></tr>
+        <tr><td>Dates</td><td>23–26 September 2026 (Wednesday to Saturday)</td></tr>
+        <tr><td>Location</td><td>Port Hercules, Monaco</td></tr>
+        <tr><td>Opening Hours</td><td>10:00–18:30 Wednesday to Friday · 10:00–18:00 Saturday</td></tr>
+        <tr><td>Expected Visitors</td><td>30,000+ over four days</td></tr>
+        <tr><td>Superyachts</td><td>120+ vessels, average 50 metres, multiple over 100 metres</td></tr>
+        <tr><td>Exhibitors</td><td>560+</td></tr>
+        <tr><td>Nearest Airport</td><td>Nice Côte d'Azur (NCE) — 30 km, 30–45 minutes by car</td></tr>
+        <tr><td>Helicopter Transfer</td><td>Nice Héliport to Monaco Héliport — approximately 7 minutes</td></tr>
+      </table>
+
+      <h2>The Ground Transport Reality of Monaco Yacht Show Week</h2>
+
+      <p>Monaco Yacht Show week creates a ground transport environment that is categorically different from the Riviera at any other time of year. The concentration of private aviation arrivals at Nice Côte d'Azur, the density of hotel occupancy across Monaco, Beausoleil, Cap-d'Ail, Menton and Nice, and the volume of evening events running simultaneously across the Principality combine to produce traffic conditions and vehicle availability pressures that are not solved by standard booking approaches.</p>
+
+      <p>The Riviera corniche roads — the Grande Corniche, the Moyenne Corniche and the Basse Corniche — are Monaco's three main road approaches from Nice. All three experience significant congestion during show week, particularly during the morning arrival window (09:00–11:00) and the evening departure window (18:30–21:00) when exhibitors, attendees and yacht crews move simultaneously between Monaco and the surrounding coast. A 30-kilometre journey from Nice Airport to Port Hercules that takes 35 minutes at 07:00 takes 75 minutes at 09:30 during show week. A pre-booked chauffeur who knows this accounts for it at departure time confirmation. An improvised transfer does not.</p>
+
+      <p>Vehicle availability during show week is equally constrained. The established luxury transfer operators on this corridor — those with the relationships, the route knowledge and the vehicles appropriate for MYS-level clients — are fully committed weeks before the show opens. The attendee who attempts to book a professional chauffeur from Nice Airport to Monaco during the week of 23 September 2026 on short notice will find that the appropriate operators are unavailable and the alternatives do not match the standard the occasion requires.</p>
+
+      <h2>Nice Airport to Monaco — Transfer Options</h2>
+
+      <h3>Private Chauffeur Transfer (Recommended)</h3>
+      <p>A pre-booked NoirFleet chauffeur from Nice Côte d'Azur Airport to Monaco Port Hercules is the standard transfer for MYS attendees arriving by commercial aviation or private jet who prefer road transport over helicopter. The journey covers approximately 30 kilometres along the Riviera coast — via the A8 autoroute and the Moyenne Corniche — taking 30 to 45 minutes under normal conditions and 45 to 70 minutes during show week peak hours.</p>
+
+      <p>The vehicle positioned at Nice arrivals is confirmed before departure. The chauffeur monitors the arriving flight and positions at the terminal exit at the confirmed moment — whether arriving on a commercial carrier at Terminal 1 or 2, or from the private aviation terminal at the Jet Aviation FBO. The fare is fixed at booking with no additions. And the vehicle — a Mercedes-Benz E-Class or S-Class depending on preference — arrives at Port Hercules in a condition consistent with the standard of the show being attended.</p>
+
+      <h3>Helicopter Transfer</h3>
+      <p>The helicopter from Nice Héliport (adjacent to Nice Airport) to Monaco Héliport covers the distance in approximately seven minutes — the fastest available transfer and the default choice for many private jet arrivals during show week. Helicopter availability during MYS week is constrained and must be booked significantly in advance. The coordination between private aviation arrival, terminal transfer to the héliport and helicopter departure requires a single operator managing all legs — not a passenger managing three separate arrangements from the Nice arrivals hall.</p>
+
+      <h3>What to Avoid</h3>
+      <p>Taxis from Nice Airport to Monaco during show week are subject to metered rates that run significantly higher than pre-booked fixed-fare transfers when Riviera traffic extends journey times. Platform-based ride-hailing apps in the Nice-Monaco corridor have inconsistent availability during peak periods and do not provide the vehicle standard or fare certainty appropriate for MYS-level travel. The Nice-to-Monaco train via Menton is inexpensive but deposits passengers at Monaco Monte-Carlo station, a 15-minute walk from Port Hercules with luggage and no direct connection to the show's entrance points.</p>
+
+      <h2>Riviera-Wide Transport During Show Week</h2>
+
+      <p>Monaco Yacht Show attendees typically stay across a 40-kilometre stretch of the Riviera — Monaco itself, Beausoleil, Cap-d'Ail, Èze, Beaulieu-sur-Mer, Villefranche-sur-Mer, Nice and Antibes — with many high-profile visitors based aboard yachts anchored in the surrounding bays rather than in hotel accommodation. The daily movement pattern for a serious MYS participant involves multiple transfers: hotel or tender to Port Hercules, quayside movements between exhibitor berths, lunch or dinner at a Monaco or Riviera restaurant, and return at the end of the evening.</p>
+
+      <p>A full-day hire arrangement — NoirFleet vehicle and chauffeur available from morning until the final transfer of the evening — absorbs all of this movement without a new booking at each leg. The chauffeur positioned outside Port Hercules' Boulevard Albert 1er entrance can collect the attendee at any point during the day for inter-venue movement, restaurant transfers and evening returns. The alternative — summoning a vehicle at each transfer point during show week — introduces exactly the availability and timing uncertainty that a professional attending a show of this significance should not be managing in real time.</p>
+
+      <h3>Key Destinations for Riviera Transfers During MYS Week</h3>
+
+      <table>
+        <tr><th>Origin</th><th>Destination</th><th>Drive Time</th><th>Notes</th></tr>
+        <tr><td>Nice Airport (NCE)</td><td>Port Hercules, Monaco</td><td>30–70 min</td><td>Varies significantly with show week traffic</td></tr>
+        <tr><td>Monaco</td><td>Nice City Centre</td><td>25–50 min</td><td>A8 or Corniche depending on congestion</td></tr>
+        <tr><td>Monaco</td><td>Cannes</td><td>45–75 min</td><td>A8 westbound — film industry and yacht broker offices</td></tr>
+        <tr><td>Monaco</td><td>Antibes / Juan-les-Pins</td><td>50–80 min</td><td>Marina Port Vauban — largest dry dock on the Med</td></tr>
+        <tr><td>Monaco</td><td>Cap Ferrat</td><td>15–25 min</td><td>Private villa and resort transfers</td></tr>
+        <tr><td>Monaco</td><td>Èze Village</td><td>15–20 min</td><td>Private dinners and Château de la Chèvre d'Or</td></tr>
+        <tr><td>Monaco</td><td>Nice Côte d'Azur Airport</td><td>30–70 min</td><td>Departure transfers — allow 90 min buffer during show week</td></tr>
+      </table>
+
+      <h2>Who Attends Monaco Yacht Show — And What They Need From Ground Transport</h2>
+
+      <h3>Yacht Charter Brokers</h3>
+      <p>Charter brokers attending MYS are conducting business across multiple vessels across four days — boarding yachts for client presentations, attending exhibitor meetings, hosting charter clients at quayside events and managing an evening programme of dinners and receptions across Monaco and the surrounding Riviera. Their ground transport requirement is maximum flexibility: a vehicle available on demand throughout each day, capable of absorbing a schedule that changes hourly without any transfer being more than a phone call away. Full-day hire is the only format that serves this requirement without friction.</p>
+
+      <h3>Family Office Executives and UHNW Principals</h3>
+      <p>Ultra-high-net-worth principals and their family office representatives attending MYS to evaluate acquisition or charter opportunities carry a specific transport requirement: discretion, consistency and the confidence that the vehicle waiting for them will be the correct standard regardless of the time of day or the complexity of the day's movements. A family office principal who has flown into Nice on a private aircraft should not be managing their ground transfer from the FBO. Their EA should have confirmed a NoirFleet vehicle and chauffeur before the aircraft departed, with the flight monitored and the vehicle at the FBO exit at arrival.</p>
+
+      <h3>Luxury Concierge Groups</h3>
+      <p>Concierge services and luxury travel operators managing groups of clients attending MYS require coordinated fleet logistics — multiple vehicles across multiple hotels, timed to the same show schedule, with a single point of contact managing all movements across the four-day programme. A concierge operator managing eight clients staying across three Monaco hotels and two Nice properties needs a transport partner who can run coordinated multi-vehicle pickups on a timed schedule, not a booking platform where each vehicle is a separate arrangement.</p>
+
+      <h3>Shipyard and Naval Architecture Delegations</h3>
+      <p>Shipyard delegations from Italy, the Netherlands, Germany and Turkey attending MYS to present new launches require airport transfers for multiple team members arriving on different flights across the days before the show opens. A single NoirFleet account covering all delegation arrivals at Nice Airport — with each flight tracked, each vehicle confirmed, each transfer handled without a call from the arriving team member — is the operational standard these delegations expect and should receive.</p>
+
+      <h2>The NoirFleet Riviera Network for Monaco Yacht Show 2026</h2>
+
+      <p>NoirFleet's coverage of the Nice–Monaco–Cannes corridor for Monaco Yacht Show week is built around the specific demands of the show's attendee profile. Route-familiar chauffeurs on this corridor know the Corniche roads, know the Port Hercules access points, know the private aviation FBO layout at Nice, and know the evening restaurant destinations across Monaco and the Cap Ferrat peninsula without requiring navigation. Vehicles are maintained to the standard appropriate for attendees of the world's premier superyacht show. Fares are fixed and confirmed before arrival — no Riviera traffic surcharge, no show-week premium applied at drop-off.</p>
+
+      <p>For concierge groups and corporate delegations requiring multi-vehicle coordination across the four show days, NoirFleet provides a dedicated account with a single operations contact managing all movements, all vehicle assignments and all schedule changes in real time — so that the concierge operator or delegation coordinator is not managing transport logistics while simultaneously managing their show programme.</p>
+
+      <h2>Booking for Monaco Yacht Show 2026 — What to Confirm Now</h2>
+
+      <p>Monaco Yacht Show week ground transport requires earlier booking than almost any other event on the European luxury calendar. The operators with the appropriate vehicle standard and route knowledge on the Nice–Monaco corridor are fully committed by early September. The following should be confirmed before the end of August for any MYS attendance in September 2026:</p>
+
+      <p><strong>Nice Airport arrival transfers</strong> — confirmed with flight details, terminal (commercial or private aviation FBO), party size and destination in Monaco or across the Riviera.</p>
+
+      <p><strong>Full-day hire arrangements</strong> — confirmed for each show day with the vehicle class, daily pickup point and the flexibility parameters that allow schedule changes without rebooking.</p>
+
+      <p><strong>Evening event transfers</strong> — confirmed for each evening's destination, with positioning timing aligned to the show's end-of-day schedule (18:30 Wednesday to Friday, 18:00 Saturday) and the evening's specific restaurant or yacht boarding location.</p>
+
+      <p><strong>Departure transfers</strong> — confirmed with a buffer that accounts for show week traffic between Monaco and Nice Airport. A 90-minute allowance from Port Hercules to NCE departures is the standard during MYS week, not the 45 minutes that is sufficient on a normal Riviera day.</p>
+
+      <h2>Why Choose NoirFleet for Monaco Yacht Show 2026</h2>
+
+      <p>The Monaco Yacht Show is the most commercially significant four days in the superyacht industry's calendar. The attendees — yacht owners, family office executives, charter brokers, shipyard principals — travel at a standard where every element of their visit is arranged professionally and in advance. Ground transport should hold that standard from Nice Airport arrivals through to departure. NoirFleet's Riviera service for MYS 2026 provides route-familiar chauffeurs, pre-confirmed vehicles, flight-tracked arrivals, fixed all-inclusive fares and 24/7 operations contact across the full four days — so that the transfer between Nice Airport and Port Hercules, and every movement across the Riviera during show week, holds the same standard as the show itself.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How far is Nice Airport from Monaco Yacht Show?</h3>
+      <p>Nice Côte d'Azur Airport (NCE) is approximately 30 kilometres from Port Hercules, Monaco. A chauffeur transfer takes 30 to 45 minutes under normal conditions and 45 to 70 minutes during Monaco Yacht Show week peak hours.</p>
+
+      <h3>Is there a helicopter transfer from Nice to Monaco during the Yacht Show?</h3>
+      <p>Yes. Héli Air Monaco and other operators run helicopter transfers from Nice Héliport (adjacent to the airport) to Monaco Héliport in approximately seven minutes. Helicopter availability during MYS week is highly constrained and must be booked well in advance.</p>
+
+      <h3>When should I book my Monaco Yacht Show chauffeur transfer?</h3>
+      <p>Before the end of August. Professional ground transport operators with appropriate vehicles and route knowledge on the Nice–Monaco corridor are fully committed by early September during MYS week. Last-minute arrangements on this corridor during show week consistently fail to meet the required standard.</p>
+
+      <h3>Can NoirFleet provide full-day chauffeur hire across the Riviera during MYS week?</h3>
+      <p>Yes. Full-day hire with a dedicated vehicle and chauffeur available from morning arrival through to the evening's final transfer is the recommended format for MYS attendees with multi-stop daily programmes across Monaco, Nice, Cannes, Antibes and Cap Ferrat.</p>
+
+      <h3>Does NoirFleet cover private aviation arrivals at Nice?</h3>
+      <p>Yes. Arrivals at the Jet Aviation FBO and other private aviation terminals at Nice Côte d'Azur are covered, with flight tracking applied to every private jet arrival and the vehicle positioned at the FBO exit at the confirmed arrival time.</p>
+
+      <h3>Can NoirFleet coordinate ground transport for a concierge group with multiple clients at Monaco Yacht Show?</h3>
+      <p>Yes. Multi-client, multi-vehicle coordination for concierge operators managing groups at MYS is available under a single account with a dedicated operations contact, timed vehicle assignments across multiple hotels and a single point of contact for all schedule changes across the four show days.</p>
+
+      <h3>What vehicle is recommended for a UHNW principal attending Monaco Yacht Show?</h3>
+      <p>A Mercedes-Benz S-Class for individual and couple transfers on this corridor, with a Toyota Vellfire for small groups or family arrivals requiring additional space. Vehicle selection is confirmed at booking based on party size and the specific standard appropriate to the occasion.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>Monaco Yacht Show 2026 is four days in late September when the world's superyacht industry concentrates in a principality with no airport, on roads that carry show week traffic unlike any other period of the Riviera calendar. The attendees — family office executives evaluating nine-figure acquisitions, charter brokers conducting the year's most significant business, luxury concierge groups managing ultra-high-net-worth clients — require ground transport that holds the standard of the occasion from the moment of arrival at Nice Airport to the moment of departure. NoirFleet's Riviera service for MYS 2026 is built specifically around that requirement: pre-confirmed, flight-tracked, route-familiar, all-inclusive and available on-demand throughout the show. Book before the end of August. The corridor is full by September.</p>
+
+      <p>Ready to arrange your Monaco Yacht Show 2026 transfers? <a href="contact.html">Contact NoirFleet to confirm your Riviera programme</a> · <a href="fleet.html">View our fleet</a> · <a href="ultra-premium-travel-india-private-jet-chauffeur-guide.html">Ultra-premium travel guide</a> · <a href="door-to-door-luxury-travel-experience-guide.html">Door-to-door luxury travel</a></p>
+    `
+  },
+
    /* ─── ULTRA PREMIUM TRAVEL INDIA — TOP 1% AUDIENCE ─── */
   {
     slug: "ultra-premium-travel-india-private-jet-chauffeur-guide",
