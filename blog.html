@@ -595,26 +595,6 @@
     render();
   })();
   </script>
-/* ═══════════════════════════════════════════════════════════════
-   NOIRFLEET — BLOG LINK FIXER
-   Add this script to the BOTTOM of your blog.html just before </body>
-   It automatically converts all article.html?slug=X links to X.html
-   ═══════════════════════════════════════════════════════════════ */
-<script>
-(function() {
-  // Find all links on the page that point to article.html?slug=
-  var links = document.querySelectorAll('a[href*="article.html?slug="]');
-  
-  links.forEach(function(link) {
-    var href = link.getAttribute('href');
-    // Extract the slug value
-    var slug = href.replace('article.html?slug=', '').split('&')[0];
-    // Replace with clean static URL
-    link.setAttribute('href', slug + '.html');
-  });
 
-  console.log('NoirFleet: Fixed ' + links.length + ' article links to static HTML format.');
-})();
-</script>
 </body>
 </html>
