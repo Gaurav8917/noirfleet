@@ -156,13 +156,11 @@
         '<nav class="main-nav" id="mainNav">' + navLinks() + '</nav>' +
         '<div class="header-cta">' +
           '<div class="contact-box">' +
-            '<a href="' + WHATSAPP_US + '" class="contact-item">📞 ' + PHONE_US + '</a>' +
-            '<div class="contact-extra">' +
-              '<span class="divider">|</span>' +
-              '<a href="' + WHATSAPP_IN + '" class="contact-item">📞 ' + PHONE_IN + '</a>' +
-              '<span class="divider">|</span>' +
-              '<a href="mailto:' + EMAIL + '" class="contact-item">✉ ' + EMAIL + '</a>' +
-            '</div>' +
+'<a href="' + WHATSAPP_US + '" class="contact-item">📞 ' + PHONE_US + '</a>' +
+'<div class="contact-extra">' +
+  '<span class="divider">|</span>' +
+  '<a href="mailto:' + EMAIL + '" class="contact-item">✉ ' + EMAIL + '</a>' +
+'</div>' +
           '</div>' +
           '<button id="menuToggle" class="hamburger" aria-label="Open menu" aria-expanded="false">' +
             '<span></span><span></span><span></span>' +
