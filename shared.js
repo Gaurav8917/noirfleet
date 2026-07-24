@@ -393,7 +393,7 @@
     ].join('');
     document.head.appendChild(waStyle);
 
-    var waUrl = WHATSAPP_US + '?text=' + encodeURIComponent('Hello NoirFleet, I would like to book a premium chauffeur service.');
+    var waUrl = WHATSAPP_IN + '?text=' + encodeURIComponent('Hello NoirFleet, I would like to book a premium chauffeur service.');
     var wa = document.createElement('a');
     wa.id = 'nf-wa';
     wa.href = waUrl;
