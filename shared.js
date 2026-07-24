@@ -157,10 +157,8 @@
         '<div class="header-cta">' +
           '<div class="contact-box">' +
 '<a href="' + WHATSAPP_US + '" class="contact-item">📞 ' + PHONE_US + '</a>' +
-'<div class="contact-extra">' +
-  '<span class="divider">|</span>' +
-  '<a href="mailto:' + EMAIL + '" class="contact-item">✉ ' + EMAIL + '</a>' +
-'</div>' +
+'<span class="divider">|</span>' +
+'<a href="mailto:' + EMAIL + '" class="contact-item">✉ ' + EMAIL + '</a>' +
           '</div>' +
           '<button id="menuToggle" class="hamburger" aria-label="Open menu" aria-expanded="false">' +
             '<span></span><span></span><span></span>' +
@@ -171,8 +169,7 @@
         navLinks() +
         '<div class="mnav-contact">' +
           '<a href="' + WHATSAPP_US + '">📞 ' + PHONE_US + ' (Worldwide)</a>' +
-          '<a href="' + WHATSAPP_IN + '">📞 ' + PHONE_IN + ' (India)</a>' +
-          '<a href="mailto:' + EMAIL + '">✉ ' + EMAIL + '</a>' +
+                    '<a href="mailto:' + EMAIL + '">✉ ' + EMAIL + '</a>' +
         '</div>' +
       '</div>' +
     '</header>';
