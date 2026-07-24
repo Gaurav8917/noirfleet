@@ -185,9 +185,10 @@
           '<strong class="footer-name">NoirFleet</strong>' +
           '<p class="muted">Premium Ground Transport — Worldwide</p>' +
           '<div class="footer-links-inline">' +
-            '<a href="' + WHATSAPP_US + '">WhatsApp (Worldwide)</a>' +
-            '<a href="' + WHATSAPP_IN + '">WhatsApp (India)</a>' +
-            '<a href="mailto:' + EMAIL + '">Email Us</a>' +
+'<a href="luxury-chauffeur-service-india.html">Luxury Chauffeur</a>' +
+'<a href="corporate-transportation-solutions-india.html">Corporate Travel</a>' +
+'<a href="services.html">Airport Transfers</a>' +
+'<a href="events.html">Event Transportation</a>' +
           '</div>' +
         '</div>' +
         '<div class="footer-nav-cols">' +
