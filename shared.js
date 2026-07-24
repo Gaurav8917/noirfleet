@@ -184,6 +184,8 @@
         '<div class="footer-brand">' +
           '<strong class="footer-name">NoirFleet</strong>' +
           '<p class="muted">Premium Ground Transport — Worldwide</p>' +
+'<p class="muted"><a href="tel:+917203070345" style="color:inherit;text-decoration:none;">+91-7203070345</a> &nbsp;·&nbsp; <a href="tel:+13502381309" style="color:inherit;text-decoration:none;">+1-350-238-1309</a></p>' +
+'<p class="muted"><a href="mailto:' + EMAIL + '" style="color:inherit;text-decoration:none;">' + EMAIL + '</a></p>' +
           '<div class="footer-links-inline">' +
 '<a href="luxury-chauffeur-service-india.html">Luxury Chauffeur</a>' +
 '<a href="corporate-transportation-solutions-india.html">Corporate Travel</a>' +
