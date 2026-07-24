@@ -215,10 +215,12 @@
           '</div>' +
           '<div class="fn-col">' +
             '<strong>Contact</strong>' +
-            '<a href="' + WHATSAPP_US + '">' + PHONE_US + ' (Worldwide)</a>' +
-            '<a href="' + WHATSAPP_IN + '">' + PHONE_IN + ' (India)</a>' +
-            '<a href="mailto:' + EMAIL + '">' + EMAIL + '</a>' +
-            '<span class="muted">Worldwide · Available 24/7</span>' +
+'<a href="luxury-chauffeur-service-india.html">Luxury Chauffeur</a>' +
+'<a href="corporate-transportation-solutions-india.html">Corporate Travel</a>' +
+'<a href="services.html">Airport Transfers</a>' +
+'<a href="events.html">Event Transportation</a>' +
+'<a href="mailto:' + EMAIL + '">' + EMAIL + '</a>' +
+'<span class="muted">Connect with us 24/7 · 365 Days</span>' +
           '</div>' +
         '</div>' +
       '</div>' +
