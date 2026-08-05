@@ -22,6 +22,133 @@
 
 const NF_ARTICLES = [
 
+   /* ═══════════════════════════════════════════════════════════════════════
+   DAY 11 INSERT — PASTE THIS AT THE TOP OF NF_ARTICLES (right after the
+   line: "const NF_ARTICLES = [")
+   THEN save as articles.js replacing your current file.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ─── DAY 11 — FIFA U-17 WOMEN'S WORLD CUP MOROCCO 2026 (Event Transport Guide) ─── */
+  {
+    slug: "fifa-u17-womens-world-cup-morocco-2026-chauffeur-guide",
+    title: "FIFA U-17 Women's World Cup Morocco 2026 | NoirFleet",
+    date: "August 6, 2026",
+    category: "FIFA 2026",
+    image: "event.jpg",
+    excerpt: "FIFA U-17 Women's World Cup Morocco 2026, 17 October – 7 November in Rabat — chauffeur service, airport transfers and fan travel guide.",
+    content: `
+      <p>The FIFA U-17 Women's World Cup Morocco 2026 runs from 17 October to 7 November, the second of five consecutive editions Morocco will host through 2029 — the first African nation to hold a FIFA women's youth tournament on a recurring annual basis. Twenty-four national teams from six confederations arrive in the Moroccan capital, Rabat, for a tournament that has quickly become one of the most significant fixtures on the global women's football calendar. For the families, federations, sponsors and travelling supporters making the trip, the question that rarely gets addressed in tournament previews is the one that shapes the actual experience on the ground: how do you move reliably between Rabat–Salé Airport, the team hotels, and the match venues across four weeks of group-stage, knockout and final fixtures.</p>
+
+      <p>This guide covers the ground transport reality of the tournament — the airport, the stadiums, the city, and why a pre-booked chauffeur is the difference between a smooth tournament visit and a frustrating one in a city that, however well organised, was not built around 24 simultaneous national delegations.</p>
+
+      <h2>FIFA U-17 Women's World Cup Morocco 2026 — Key Facts</h2>
+
+      <table>
+        <tr><th>Detail</th><th>Information</th></tr>
+        <tr><td>Tournament</td><td>FIFA U-17 Women's World Cup Morocco 2026 (10th edition)</td></tr>
+        <tr><td>Host City</td><td>Rabat — Morocco's capital, hosting for the second consecutive year</td></tr>
+        <tr><td>Dates</td><td>17 October – 7 November 2026</td></tr>
+        <tr><td>Teams</td><td>24 national teams from 6 confederations</td></tr>
+        <tr><td>Defending Champions</td><td>Korea DPR (record 4th title, won at the 2025 edition in Rabat)</td></tr>
+        <tr><td>Debut Nations</td><td>Argentina, Australia, Puerto Rico</td></tr>
+        <tr><td>Primary Venue</td><td>Olympic Stadium of Rabat — host of the 2025 final and opening fixture</td></tr>
+        <tr><td>Host Rights</td><td>Morocco holds hosting rights for five consecutive editions, 2025–2029</td></tr>
+      </table>
+
+      <h2>Why Rabat, and Why It Matters for Ground Transport</h2>
+
+      <p>Unlike the senior men's or women's World Cup, the U-17 Women's World Cup in Morocco is concentrated almost entirely in a single metropolitan area rather than spread across multiple host cities. The 2025 edition — the tournament's first in Morocco — was played across two venues within the Rabat metropolitan area: the newly rebuilt Olympic Stadium of Rabat and the Moulay El Hassan Stadium (also referred to as Al Barid Stadium), both purpose-upgraded as part of Morocco's broader infrastructure push ahead of the 2025 Africa Cup of Nations and its now-confirmed role as a co-host of the FIFA World Cup 2030. The 2026 edition follows the same Rabat-centred format, with final venue confirmation expected closer to the group-stage draw.</p>
+
+      <p>This concentration is, in one sense, a convenience — visiting families and delegations are not required to fly between host cities as they would be for a full World Cup. But it also means that every match day compresses an enormous amount of movement into one city: 24 delegations, their federations, broadcast crews, sponsor hospitality groups and supporter travel all converging on Rabat's road network simultaneously, sometimes for two or three fixtures in the same 24-hour window during the group stage.</p>
+
+      <h2>Rabat–Salé Airport — Arrival and Transfer Guide</h2>
+
+      <p>Rabat–Salé Airport (RBA) is the primary gateway for international visitors attending the tournament, though a meaningful proportion of travellers — particularly those combining the tournament with a broader Morocco visit — will land at Casablanca's Mohammed V International Airport (CMN), Morocco's largest and best-connected international hub, before continuing to Rabat by road.</p>
+
+      <h3>Rabat–Salé Airport (RBA) to City Centre</h3>
+      <p>RBA sits approximately 10 kilometres northeast of central Rabat, with a transfer to the city centre or the Olympic Stadium area typically taking 20 to 35 minutes under normal conditions. During tournament weeks, with delegation and supporter arrivals concentrated around specific match windows, this can extend meaningfully — a pre-booked, flight-tracked chauffeur transfer removes the uncertainty of arriving into an unfamiliar airport with no confirmed onward vehicle.</p>
+
+      <h3>Casablanca (CMN) to Rabat</h3>
+      <p>For international visitors arriving on long-haul flights via Casablanca — the more common routing for travellers from India, the Gulf, Europe and the Americas — the transfer from Mohammed V International Airport to Rabat covers approximately 90 kilometres, typically 60 to 90 minutes by road via the A3 motorway. This is the single most important transfer to have confirmed before departure: it is a genuine intercity drive, not a short airport hop, and arriving at Casablanca after a long international flight to then negotiate an unfamiliar intercity taxi or shared transfer is precisely the kind of friction a pre-booked chauffeur eliminates entirely.</p>
+
+      <table>
+        <tr><th>Route</th><th>Distance</th><th>Drive Time</th><th>Notes</th></tr>
+        <tr><td>RBA (Rabat–Salé) → Rabat city centre</td><td>~10 km</td><td>20–35 min</td><td>Primary tournament arrival airport</td></tr>
+        <tr><td>RBA → Olympic Stadium of Rabat</td><td>~12 km</td><td>20–35 min</td><td>Match-day traffic extends this on fixture days</td></tr>
+        <tr><td>CMN (Casablanca) → Rabat</td><td>~90 km</td><td>60–90 min</td><td>Standard routing for long-haul international arrivals</td></tr>
+        <tr><td>CMN → Casablanca city centre</td><td>~30 km</td><td>35–50 min</td><td>For visitors combining the tournament with a Casablanca stay</td></tr>
+        <tr><td>Rabat → Marrakech</td><td>~330 km</td><td>3.5–4.5 hours</td><td>Popular leisure extension for travelling families</td></tr>
+      </table>
+
+      <h2>Who Needs Ground Transport at the U-17 Women's World Cup</h2>
+
+      <p><strong>National delegations and federations</strong> — each of the 24 competing nations arrives with players, coaching staff, medical teams and federation officials requiring coordinated airport transfers and reliable daily movement between the team hotel, training grounds and the match venue across a tournament that runs more than three weeks.</p>
+
+      <p><strong>Travelling families and supporter groups</strong> — a defining feature of youth World Cups is the volume of family travel: parents, siblings and extended family following a daughter or granddaughter through the tournament, often combining the trip with their first visit to Morocco. These groups need dependable, English or French-speaking ground transport that removes the stress of navigating an unfamiliar country during an emotionally significant few weeks.</p>
+
+      <p><strong>Sponsors, broadcasters and international media</strong> — FIFA's global broadcast partners and the tournament's commercial sponsors send production crews and hospitality teams who require daily transport between hotels and the stadium precinct, often on tight, non-negotiable broadcast schedules.</p>
+
+      <p><strong>Football federation officials and confederation representatives</strong> — CAF, UEFA, CONMEBOL, AFC, CONCACAF and OFC all send observers and technical delegates to a tournament of this significance, typically arriving and departing on schedules independent of any single team's fixture list.</p>
+
+      <h2>Match-Day Transport — What Actually Happens in Rabat</h2>
+
+      <p>Rabat is not a city built for the specific traffic pattern a major football tournament creates. The roads around the Olympic Stadium and the Moulay El Hassan Stadium carry standard city traffic for most of the year; during U-17 Women's World Cup match windows, particularly for fixtures involving Morocco or drawing strong regional interest, that traffic multiplies. A hotel-to-stadium transfer that takes 20 minutes on a normal Tuesday can extend well beyond that on a match day with kickoff-adjacent road restrictions in effect around the stadium perimeter.</p>
+
+      <p>A pre-booked NoirFleet chauffeur, briefed on the specific match schedule and the approved drop-off and pickup points around each venue, removes this uncertainty entirely. The vehicle is positioned to depart the hotel at the correct time accounting for that day's specific traffic conditions — not a generic estimate — and the post-match pickup is coordinated to a confirmed point away from the general exit crush, rather than leaving the passenger to find transport amid tens of thousands of departing spectators.</p>
+
+      <h2>Combining the Tournament with a Morocco Visit</h2>
+
+      <p>Morocco's appeal as a destination extends well beyond Rabat, and a significant proportion of international visitors attending the U-17 Women's World Cup — particularly families and supporter groups making the long journey from outside Africa — extend their trip into a broader Moroccan itinerary. The souks of Marrakech, the Atlantic coastline at Casablanca, and Rabat's own historic Kasbah des Oudaias and Chellah necropolis are all natural additions to a tournament visit.</p>
+
+      <p>For travellers extending in this way, the same NoirFleet account that covers the Rabat tournament transfers extends to the Marrakech leg (approximately 330 km, 3.5 to 4.5 hours by road) and to Casablanca city exploration, meaning the ground transport for the football and the ground transport for the holiday are managed under one continuous booking relationship rather than two separate arrangements pieced together on arrival.</p>
+
+      <h2>The Language and Navigation Reality</h2>
+
+      <p>Morocco's official languages are Arabic and French, and while English is spoken in tourist-facing hospitality settings in Rabat and Marrakech, it is considerably less consistent among general taxi drivers and in the practical business of negotiating an unfamiliar route during a high-demand tournament period. For an international family arriving for the first time — often with a language barrier compounding the stress of an unfamiliar city — a pre-booked, English-briefed chauffeur removes a layer of friction that matters more during a tournament of this emotional significance than it would on an ordinary holiday.</p>
+
+      <h2>Why NoirFleet for the FIFA U-17 Women's World Cup Morocco 2026</h2>
+
+      <p>NoirFleet's Morocco coverage is built around the same principle that defines our service at every major sporting event globally: confirm everything before you travel. The Casablanca or Rabat–Salé airport pickup is confirmed and flight-tracked before departure. The match-day hotel-to-stadium transfer accounts for that specific day's road conditions, not a generic estimate. The post-match pickup is positioned at a confirmed point, not left to chance amid a departing crowd. And for families, federations or sponsor groups extending their visit beyond Rabat, the same account and the same standard of vehicle and chauffeur cover the Marrakech or Casablanca leg of the trip.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>When is the FIFA U-17 Women's World Cup Morocco 2026 and where is it held?</h3>
+      <p>The tournament runs from 17 October to 7 November 2026, hosted in the Rabat metropolitan area — the second of five consecutive editions Morocco will host through 2029.</p>
+
+      <h3>Which airport should I fly into for the tournament?</h3>
+      <p>Rabat–Salé Airport (RBA) is the closest airport to the tournament venues, roughly 20 to 35 minutes from central Rabat. Many long-haul international travellers instead route through Casablanca's Mohammed V International Airport (CMN), followed by a 60 to 90 minute road transfer to Rabat.</p>
+
+      <h3>How many teams are competing and who are the defending champions?</h3>
+      <p>Twenty-four national teams from six confederations compete. Korea DPR are the defending champions, having won a record fourth title at the 2025 edition, also hosted in Rabat.</p>
+
+      <h3>Can NoirFleet arrange transfers from Casablanca Airport to Rabat for the tournament?</h3>
+      <p>Yes. The Casablanca (CMN) to Rabat transfer, approximately 90 km and 60 to 90 minutes by road, is a standard NoirFleet booking, flight-tracked and confirmed before departure from your origin country.</p>
+
+      <h3>Does NoirFleet provide match-day transport to the Olympic Stadium of Rabat?</h3>
+      <p>Yes. Hotel-to-stadium transfers on match days are timed around the specific fixture schedule and known road restrictions around the venue, with post-match pickup coordinated to a confirmed point rather than a general exit area.</p>
+
+      <h3>Can I combine my U-17 Women's World Cup trip with a visit to Marrakech or Casablanca?</h3>
+      <p>Yes. The same NoirFleet account covering your Rabat tournament transfers extends to Marrakech (roughly 3.5 to 4.5 hours by road) and Casablanca city transport, allowing the football and leisure legs of your trip to be managed under one booking relationship.</p>
+
+      <h3>Is English spoken by NoirFleet chauffeurs in Morocco?</h3>
+      <p>Yes. NoirFleet chauffeurs assigned to international visitor bookings in Morocco are briefed and English-capable, addressing the language gap that many first-time visitors encounter with general taxi services in Rabat.</p>
+
+      <h3>How far in advance should I book ground transport for the tournament?</h3>
+      <p>As early as possible once your itinerary is confirmed. With 24 national delegations, federations, sponsor groups and travelling families all requiring transport across the same three-and-a-half-week window, professional vehicle availability in Rabat tightens considerably as the tournament approaches.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>The FIFA U-17 Women's World Cup Morocco 2026 is a landmark moment for African women's football and for a growing generation of players whose national federations, families and supporters will travel considerable distances to be there. Rabat's concentration of the tournament into a single metropolitan area is a convenience relative to a full-scale World Cup, but it does not remove the ground transport challenge — it compresses it. NoirFleet's Morocco coverage is built to absorb that compression: confirmed airport transfers, match-day timing that accounts for real road conditions, and a single account that extends as naturally to a Marrakech extension as it does to the stadium gate in Rabat.</p>
+
+      <p>Ready to arrange your FIFA U-17 Women's World Cup Morocco 2026 transfers? <a href="contact.html">Contact NoirFleet to plan your trip</a> · <a href="fleet.html">View our fleet</a> · <a href="fifa.html">Explore our FIFA event transport services</a> · <a href="sports-tourism-chauffeur-service-worldwide-events-guide.html">Sports tourism chauffeur guide</a> · <a href="afcon-2027-chauffeur-transport-guide-kenya-tanzania-uganda.html">AFCON 2027 transport guide</a></p>
+    `
+  },
+
+/* ══════════════════════════════════════════════════════════════════════
+   ↑ DAY 11 INSERT ENDS HERE
+   Paste your existing NF_ARTICLES content (Days 1–10) below this line
+   ══════════════════════════════════════════════════════════════════════ */
+
    /* ─── SPORTS TOURISM COMPLETE KEYWORD COVERAGE ─── */
   {
     slug: "sports-tourism-chauffeur-service-worldwide-events-guide",
