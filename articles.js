@@ -21,6 +21,122 @@
    ════════════════════════════════════════════════════════════════════ */
 
 const NF_ARTICLES = [
+   /* ═══════════════════════════════════════════════════════════════════════
+   DAY 13 INSERT — RYAN GARCIA VS CONOR BENN DEDICATED EVENT PAGE
+   PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
+   THEN save as articles.js replacing your current file.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ─── DAY 13 — RYAN GARCIA VS CONOR BENN LAS VEGAS FIGHT WEEKEND (Dedicated Event Guide) ─── */
+  {
+    slug: "ryan-garcia-vs-conor-benn-las-vegas-vip-transportation",
+    title: "Ryan Garcia vs Conor Benn | Vegas VIP Transportation",
+    date: "August 6, 2026",
+    category: "FIFA 2026",
+    image: "event.jpg",
+    excerpt: "Ryan Garcia vs Conor Benn, September 12, T-Mobile Arena — VIP limo service, airport transfers and fight weekend transportation for the busiest weekend on the Strip.",
+    content: `
+      <p>Ryan Garcia defends his WBC welterweight title against Conor Benn on Saturday, September 12, at T-Mobile Arena in Las Vegas — and the date matters as much as the fight itself. This is Mexican Independence Day weekend, traditionally the single busiest weekend of the year on the Las Vegas Strip, a date usually reserved for Canelo Álvarez that opened up this year when Canelo's own bout moved to October. Garcia (25-2, 20 KOs), the reigning WBC champion after his February win over Mario Barrios in the same arena, defends against Conor Benn (25-1, 14 KOs), the Essex-born contender making his first world title challenge after a decisive win over Regis Prograis in his Zuffa Boxing debut. Dana White has billed it simply: "USA vs UK." The card streams globally on Paramount+, with Jai Opetaia vs Noel Mikaelyan in the co-main event.</p>
+
+      <p>What almost no fight-week guide addresses directly is what happens the moment you land in Las Vegas that weekend. Mexican Independence Day weekend and a Garcia headline card landing on the same Saturday means Harry Reid International Airport, the Strip corridor, and every resort within walking distance of T-Mobile Arena will be operating at genuine capacity simultaneously. This guide covers exactly what that means for ground transport — and how to arrive, move, and leave without losing your weekend to it.</p>
+
+      <h2>Garcia vs Benn — Fight Weekend Key Facts</h2>
+
+      <table>
+        <tr><th>Detail</th><th>Information</th></tr>
+        <tr><td>Date</td><td>Saturday, September 12, 2026</td></tr>
+        <tr><td>Venue</td><td>T-Mobile Arena, 3780 S Las Vegas Blvd, Las Vegas, NV 89158</td></tr>
+        <tr><td>Main Card</td><td>9:00 PM ET / 6:00 PM Las Vegas local time</td></tr>
+        <tr><td>Title on the Line</td><td>WBC Welterweight Championship — Garcia's first defense</td></tr>
+        <tr><td>Co-Main Event</td><td>Jai Opetaia vs Noel Mikaelyan</td></tr>
+        <tr><td>Broadcast</td><td>Paramount+ worldwide (excluding UK and Ireland); DAZN in the UK and Ireland</td></tr>
+        <tr><td>Significance</td><td>Falls on Mexican Independence Day weekend — traditionally boxing's busiest Las Vegas date of the year</td></tr>
+        <tr><td>Airport</td><td>Harry Reid International Airport (LAS)</td></tr>
+      </table>
+
+      <h2>Why Mexican Independence Day Weekend Changes Everything</h2>
+
+      <p>Mexican Independence Day weekend is, on an ordinary year, already the most congested weekend the Las Vegas Strip sees — hotel occupancy runs near capacity across every major resort, restaurant reservations book out weeks in advance, and Strip traffic between Mandalay Bay and the Wynn slows to a crawl from Friday afternoon through Sunday night. Garcia has said openly that fighting on this date, usually held for Canelo Álvarez, is "an honor." For anyone attending Garcia vs Benn, that honor comes with a practical reality: you are not just navigating fight night, you are navigating the single heaviest tourism weekend of the Las Vegas calendar layered directly on top of it.</p>
+
+      <p>This compounding effect is the single biggest thing standard fight-week planning misses. A visitor booking a rideshare for a Tuesday night fight in Las Vegas faces one kind of demand. A visitor doing the same thing on Mexican Independence Day weekend, with a Garcia-headlined card pulling in fight fans from across the US, UK and Mexico simultaneously, faces surge pricing and pickup delays on a different order of magnitude entirely.</p>
+
+      <h2>Harry Reid International Airport (LAS) — Fight Weekend Arrivals</h2>
+
+      <p>LAS will see one of its highest single-weekend arrival volumes of the year. Fight fans flying in from the UK following Benn, US fans flying in for Garcia, and the broader Mexican Independence Day weekend tourism wave all converge on the same terminals across the same 48 to 72 hours. Rideshare pickup zones at LAS are already a documented bottleneck on ordinary weekends — on this one, waits of 45 minutes or more from the terminal to a confirmed vehicle are realistic without a pre-booked transfer.</p>
+
+      <p><strong>Garcia vs Benn airport transportation</strong> from LAS should be flight-tracked and confirmed before departure from your origin city, not arranged after landing. A chauffeur monitoring your actual flight — not the scheduled arrival time — adjusts automatically for the kind of delays that are common when the entire air traffic corridor into Las Vegas is running above normal capacity for the weekend.</p>
+
+      <p>For private aviation arrivals — a genuine and growing share of fight weekend traffic given the high-roller and celebrity crowd this kind of card attracts — LAS's private terminal and the Signature Aviation FBO see their own surge in demand. A vehicle positioned at the FBO exit rather than the commercial terminal is standard for this segment and should be confirmed as part of the same booking.</p>
+
+      <h2>T-Mobile Arena — Getting There and Getting Out</h2>
+
+      <p>T-Mobile Arena sits behind New York-New York and Park MGM, tucked into The Park entertainment district just off the Strip — walkable from a cluster of major resorts including MGM Grand, Aria, Vdara and Bellagio, but a genuine vehicle transfer from anywhere further up the Strip toward the Wynn, Venetian or Fontainebleau end. On an ordinary fight night, the arena's road access already compresses significantly in the two hours before the main card. On Mexican Independence Day weekend, with the surrounding resort corridor already running at peak tourist density, that compression starts earlier and lasts longer.</p>
+
+      <p>This is precisely the pattern that catches most fight-night VIP guests off guard: they book a car for their hotel, not realizing that the pickup radius around T-Mobile Arena itself will be under active traffic management well before the walkout, and that the post-fight exit — with tens of thousands of fans leaving simultaneously into an already saturated Strip corridor — is where most fight-night transport plans actually fail.</p>
+
+      <p><strong>NoirFleet's T-Mobile Arena service for Garcia vs Benn</strong> includes confirmed drop-off positioning ahead of the main card, and — more importantly — a confirmed post-fight pickup point briefed to your chauffeur in advance, away from the general arena exit crush. The vehicle knows where to wait before the final bell rings, not after.</p>
+
+      <h2>VIP and High-Roller Transportation for Fight Weekend</h2>
+
+      <p>A championship boxing card on Mexican Independence Day weekend pulls a genuinely different crowd from a standard Vegas weekend — high-roller casino guests, sponsor hospitality groups, UK travelling fans following Benn, and a significant celebrity and industry presence around a Dana White and Turki Alalshikh co-promoted event. For this segment, a single point-to-point airport transfer rarely covers the actual shape of the weekend.</p>
+
+      <p><strong>What fight weekend VIP transport actually needs to cover:</strong></p>
+
+      <p><strong>Weigh-in day movement.</strong> The official weigh-in, typically held the day before the fight and open to the public at many Las Vegas cards, draws its own crowd and its own resort-to-venue transfer demand — often overlooked in fight weekend planning that focuses only on fight night itself.</p>
+
+      <p><strong>Resort-to-resort and dinner transfers.</strong> Fight weekend in Las Vegas is rarely a single-venue trip. Guests move between their hotel, dinner reservations at Strip restaurants booked weeks in advance, and pre-fight parties across multiple resorts — all of which benefit from a dedicated vehicle on standby rather than a new booking for every leg.</p>
+
+      <p><strong>Fight night — arrival and the confirmed exit.</strong> The single booking that matters most: drop-off ahead of the main card, and a chauffeur already briefed on exactly where to be positioned when the fight ends, regardless of how the card runs long or short.</p>
+
+      <p><strong>The after-party circuit.</strong> Championship fight nights in Las Vegas routinely extend into nightclub and lounge appearances well past midnight — MGM Grand's Hakkasan, Zouk at Resorts World, and similar venues see significant post-fight traffic. A vehicle held on standby for the full night, rather than released after the arena drop, is the standard format serious fight weekend guests use.</p>
+
+      <h2>Booking Timeline — Why Five Weeks Out Matters</h2>
+
+      <p>September 12 is now roughly five weeks away, and this is precisely the window where professional Las Vegas ground transport operators with the vehicle standard and Strip-specific route knowledge this weekend demands begin locking in their fleet. Mexican Independence Day weekend alone typically sells out premium Las Vegas transportation capacity well in advance of any individual fight announcement — layering a championship card with global broadcast reach on top of that means the realistic booking window is now, not fight week itself.</p>
+
+      <p>NoirFleet's approach to Garcia vs Benn weekend follows the same principle we apply to every major fight card and championship event: confirm the airport transfer and flight-track it before you travel, confirm the T-Mobile Arena drop-off and the exact post-fight pickup point in advance, and hold the vehicle on standby for the full weekend rather than releasing it after a single leg.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>When and where is Ryan Garcia vs Conor Benn?</h3>
+      <p>Saturday, September 12, 2026, at T-Mobile Arena in Las Vegas. The main card begins at 9:00 PM ET / 6:00 PM Las Vegas local time, streaming globally on Paramount+.</p>
+
+      <h3>Why does Mexican Independence Day weekend matter for fight weekend transportation?</h3>
+      <p>It is traditionally the busiest single weekend of the year on the Las Vegas Strip, with hotel occupancy, restaurant demand and ground transport demand all near capacity independent of any single fight. A Garcia-headlined title fight landing on this exact weekend compounds an already saturated transport environment.</p>
+
+      <h3>What airport should I fly into for Garcia vs Benn?</h3>
+      <p>Harry Reid International Airport (LAS). Given the combined volume of fight fans and Mexican Independence Day weekend tourism, a flight-tracked, pre-booked pickup is strongly recommended over arranging transport after landing.</p>
+
+      <h3>How close is T-Mobile Arena to the main Strip resorts?</h3>
+      <p>T-Mobile Arena sits behind New York-New York and Park MGM in The Park district, walkable from MGM Grand, Aria, Vdara and Bellagio, but a genuine vehicle transfer from resorts further up the Strip toward the Wynn, Venetian or Fontainebleau.</p>
+
+      <h3>What time should I plan to leave for T-Mobile Arena on fight night?</h3>
+      <p>Traffic management around the arena typically begins well before the main card walkout, and Mexican Independence Day weekend crowd density compounds this earlier than a standard fight night. Departing your hotel at least 90 minutes before the scheduled main card start is a reasonable buffer.</p>
+
+      <h3>Does NoirFleet cover the post-fight exit from T-Mobile Arena?</h3>
+      <p>Yes. Chauffeurs are briefed in advance on a confirmed pickup point away from the general arena exit crush, positioned before the final bell rather than summoned afterward.</p>
+
+      <h3>Can I book a vehicle for the full fight weekend, not just fight night?</h3>
+      <p>Yes. Weigh-in day transfers, resort-to-resort and dinner transfers, the fight night arrival and exit, and the post-fight after-party circuit are all covered under a single standing booking for guests who want one vehicle available throughout the weekend.</p>
+
+      <h3>Is private aviation transfer available for Garcia vs Benn weekend?</h3>
+      <p>Yes. LAS's private terminal and Signature Aviation FBO transfers are available and should be confirmed as part of the same booking, given the significant private aviation traffic this kind of fight weekend attracts.</p>
+
+      <h3>How far in advance should I book transportation for this fight?</h3>
+      <p>As soon as possible. Mexican Independence Day weekend alone typically sells out premium Las Vegas transport capacity well ahead of any individual fight announcement, and September 12 is now roughly five weeks out.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>Garcia vs Benn is a genuine championship-level fight card landing on the single busiest tourism weekend of the Las Vegas year — and that combination is exactly why ground transport planning for this weekend cannot be treated like an ordinary Saturday night in the city. NoirFleet's Las Vegas coverage for fight weekend is built around the two moments that actually determine whether the trip goes smoothly: a flight-tracked arrival that adjusts automatically for a weekend when LAS is running above capacity, and a confirmed T-Mobile Arena pickup point briefed to your chauffeur before the final bell rings — not after.</p>
+
+      <p>Ready to arrange your Garcia vs Benn fight weekend transportation? <a href="contact.html">Contact NoirFleet to book your weekend</a> · <a href="fleet.html">View our fleet</a> · <a href="vip-player-transportation-trending-sports-events-2026.html">All five trending events guide</a> · <a href="sports-tourism-chauffeur-service-worldwide-events-guide.html">Sports tourism chauffeur guide</a></p>
+    `
+  },
+
+/* ══════════════════════════════════════════════════════════════════════
+   ↑ DAY 13 INSERT ENDS HERE
+   Paste your existing NF_ARTICLES content (Days 1–12) below this line
+   ══════════════════════════════════════════════════════════════════════ */
 
    /* ═══════════════════════════════════════════════════════════════════════
    DAY 12 INSERT — FLAGSHIP TRENDING EVENTS ARTICLE
