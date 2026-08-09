@@ -21,6 +21,113 @@
    ════════════════════════════════════════════════════════════════════ */
 
 const NF_ARTICLES = [
+
+   /* ═══════════════════════════════════════════════════════════════════════
+   DAY 14 INSERT — WWE MONEY IN THE BANK NEW ORLEANS DEDICATED EVENT PAGE
+   PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
+   THEN save as articles.js replacing your current file.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ─── DAY 14 — WWE MONEY IN THE BANK NEW ORLEANS (Dedicated Event Guide) ─── */
+  {
+    slug: "wwe-money-in-the-bank-new-orleans-vip-transportation",
+    title: "WWE Money in the Bank New Orleans | VIP Transportation",
+    date: "August 6, 2026",
+    category: "FIFA 2026",
+    image: "event.jpg",
+    excerpt: "WWE Money in the Bank, October 10 at Smoothie King Center — airport transfers, arena transport and French Quarter weekend chauffeur service in New Orleans.",
+    content: `
+      <p>WWE's Money in the Bank lands at the Smoothie King Center in New Orleans on Saturday, October 10 — the 17th annual edition of the event built around the ladder match that hands the winner a guaranteed championship opportunity anytime within the following year. The date has moved twice since it was first announced, most recently shifting a month later than originally planned, which means fans, hospitality guests and travelling superstars alike are working with a booking window that has already been squeezed once. The card features WWE's Raw and SmackDown rosters, with Priority Pass hospitality packages sold through WWE's official partner offering premium seating and Superstar appearances.</p>
+
+      <p>New Orleans is not a city where fans simply attend an arena event and go home. The Smoothie King Center sits just over a mile from the French Quarter, in the middle of a Central Business District built around Bourbon Street nightlife, and Money in the Bank weekend draws a fan base that treats the show as the anchor of a full weekend in one of America's most walkable, most car-dependent-in-the-wrong-way downtown cores simultaneously. This guide covers exactly what that means for getting in, getting to the arena, and getting home.</p>
+
+      <h2>Money in the Bank 2026 — Key Facts</h2>
+
+      <table>
+        <tr><th>Detail</th><th>Information</th></tr>
+        <tr><td>Date</td><td>Saturday, October 10, 2026</td></tr>
+        <tr><td>Venue</td><td>Smoothie King Center, 1501 Dave Dixon Drive, New Orleans, LA 70113</td></tr>
+        <tr><td>Location</td><td>Central Business District, adjacent to the Caesars Superdome</td></tr>
+        <tr><td>Airport</td><td>Louis Armstrong New Orleans International (MSY)</td></tr>
+        <tr><td>Format</td><td>17th annual Money in the Bank, featuring WWE's Raw and SmackDown rosters</td></tr>
+        <tr><td>Hospitality</td><td>Official Priority Pass packages available through WWE's designated hospitality partner</td></tr>
+        <tr><td>Broader Significance</td><td>Part of a wider agreement bringing a future WrestleMania to New Orleans</td></tr>
+      </table>
+
+      <h2>Louis Armstrong New Orleans International (MSY) — Airport Transfers</h2>
+
+      <p>MSY sits roughly 12 to 13 miles from the Smoothie King Center, a drive that takes 15 to 20 minutes under normal conditions and meaningfully longer once event-weekend traffic builds through the Central Business District. For a Saturday night show that draws both a national WWE fan base and New Orleans' own weekend tourism traffic, arrival volumes at MSY compound the same way they do at every major event city on the calendar — the difference here is that New Orleans' downtown road network is more compact and more easily saturated than a sprawling market like Los Angeles or Dallas.</p>
+
+      <p><strong>Money in the Bank airport transportation</strong> from MSY should be flight-tracked and confirmed before you leave your origin city. A chauffeur monitoring the actual flight — not the scheduled time — adjusts automatically if arrivals run behind, which matters considerably more on a Saturday when the airport is handling both event traffic and the city's regular weekend tourism volume simultaneously.</p>
+
+      <h2>Smoothie King Center — Getting There and Getting Out</h2>
+
+      <p>The Smoothie King Center is surrounded by seven parking garages and two surface lots accommodating roughly 7,000 vehicles combined — a number that sounds substantial until you account for the fact that the venue operates as a fully cashless facility, garages fill on a first-come basis, and the venue itself explicitly advises guests to arrive early and secure parking in advance given how quickly availability disappears on major event nights. For fans and VIP guests who would rather not gamble on garage availability at all, a pre-booked chauffeur drop-off removes the parking question from the equation entirely.</p>
+
+      <p>The venue's Central Business District location — a mile or so from the French Quarter, immediately adjacent to the Caesars Superdome — means road access compresses meaningfully in the hour before the show and again immediately after. This is the pattern that catches most fans off guard: they assume a downtown arena means everything is walkable and simple, but a sold-out Money in the Bank crowd exiting simultaneously into the same CBD streets that are also carrying Saturday night French Quarter traffic creates exactly the kind of bottleneck a confirmed pickup point avoids.</p>
+
+      <p><strong>NoirFleet's Smoothie King Center service for Money in the Bank</strong> includes confirmed drop-off positioning ahead of the show and a chauffeur briefed in advance on exactly where to be for the post-event pickup — not relying on venue parking, and not competing with the general rideshare queue that forms the moment the main event ends.</p>
+
+      <h2>Building a Full Weekend Around the Show</h2>
+
+      <p>Money in the Bank fans arriving in New Orleans are, in most cases, not simply flying in for one night. The city's French Quarter and Warehouse District hospitality scene — restaurants, live music venues, and Bourbon Street itself — means most visiting fans build a genuine weekend trip around the Saturday night show, arriving Thursday or Friday and departing Sunday or Monday.</p>
+
+      <p><strong>What a full Money in the Bank weekend transport plan typically covers:</strong></p>
+
+      <p><strong>Arrival and hotel check-in.</strong> A flight-tracked MSY pickup that delivers guests directly to their French Quarter or Warehouse District hotel, rather than navigating an unfamiliar downtown for the first time on foot with luggage.</p>
+
+      <p><strong>Pre-show dinner and entertainment transfers.</strong> New Orleans' restaurant and live music scene is a genuine draw in its own right, and guests moving between their hotel, dinner reservations and Bourbon Street or Frenchmen Street venues in the lead-up to Saturday's show benefit from a vehicle on standby rather than booking each leg separately.</p>
+
+      <p><strong>Show night — arrival and the confirmed exit.</strong> The single most important booking of the weekend: drop-off ahead of the card, and a chauffeur already positioned at a confirmed point for the pickup once the main event concludes.</p>
+
+      <p><strong>Departure.</strong> A flight-tracked return transfer to MSY that accounts for Sunday morning New Orleans traffic patterns, which can differ meaningfully from a weekday departure.</p>
+
+      <h2>Why the Rescheduled Date Matters for Booking</h2>
+
+      <p>Money in the Bank's date has already moved once since its original announcement, shifting from an earlier September date to the current October 10 booking. For anyone who had provisionally planned around the original date, this is worth flagging directly: confirm your ground transport against the current October 10 date specifically, not an earlier hold. Professional New Orleans ground transport operators with the vehicle standard and downtown route knowledge this kind of event demands are typically committed well before a Saturday night show of this profile, and a rescheduled date compresses that booking window further rather than extending it.</p>
+
+      <h2>Booking Ahead</h2>
+
+      <p>NoirFleet's approach to Money in the Bank weekend follows the same principle we apply to every major event on the calendar: confirm the MSY airport transfer and flight-track it before departure, confirm the Smoothie King Center drop-off and the exact post-show pickup point in advance, and hold the vehicle on standby for the full weekend rather than releasing it after a single leg — so that the French Quarter dinner, the Saturday night show, and the Sunday departure are all covered under one continuous booking.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>When and where is WWE Money in the Bank 2026?</h3>
+      <p>Saturday, October 10, 2026, at the Smoothie King Center in New Orleans, Louisiana. This is the confirmed date after the event was rescheduled from its original September announcement.</p>
+
+      <h3>What airport should I fly into for Money in the Bank?</h3>
+      <p>Louis Armstrong New Orleans International Airport (MSY), roughly 12 to 13 miles and a 15 to 20 minute drive from the Smoothie King Center under normal conditions.</p>
+
+      <h3>Is parking available at the Smoothie King Center?</h3>
+      <p>Yes, across seven garages and two surface lots accommodating approximately 7,000 vehicles, but the venue itself advises arriving early and securing parking in advance as availability fills quickly on major event nights. The facility is cashless.</p>
+
+      <h3>How far is the Smoothie King Center from the French Quarter?</h3>
+      <p>Just over a mile, and immediately adjacent to the Caesars Superdome in New Orleans' Central Business District — walkable in principle, but a genuine vehicle transfer once you factor in event-night crowd density.</p>
+
+      <h3>Does NoirFleet cover the post-show exit from the Smoothie King Center?</h3>
+      <p>Yes. Chauffeurs are briefed in advance on a confirmed pickup point rather than relying on venue parking or the general rideshare queue that forms once the main event ends.</p>
+
+      <h3>Can I book transportation for a full weekend trip, not just the show?</h3>
+      <p>Yes. Airport arrival, hotel check-in, pre-show dinner and French Quarter transfers, the show night arrival and exit, and the return departure to MSY are all covered under a single standing booking for guests building a full weekend around the event.</p>
+
+      <h3>Why did the Money in the Bank date change?</h3>
+      <p>The event was originally scheduled for early September before being moved to October 10. Anyone who had provisionally planned around the earlier date should confirm their transport booking against the current October 10 date specifically.</p>
+
+      <h3>How far in advance should I book transportation for this event?</h3>
+      <p>As soon as possible. Professional New Orleans ground transport operators with the downtown route knowledge this event demands are typically committed well ahead of a major Saturday night show, and the rescheduled date has compressed the booking window further.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>Money in the Bank in New Orleans is as much a French Quarter weekend as it is an arena show, and the ground transport plan should reflect that. NoirFleet's coverage for October 10 is built around the two moments that actually determine whether the trip goes smoothly: a flight-tracked MSY arrival that adjusts automatically for a Saturday running above normal capacity, and a confirmed Smoothie King Center pickup point briefed to your chauffeur before the main event ends — not left to the venue's cashless parking garages or a rideshare queue on Poydras Street.</p>
+
+      <p>Ready to arrange your Money in the Bank weekend transportation? <a href="contact.html">Contact NoirFleet to book your weekend</a> · <a href="fleet.html">View our fleet</a> · <a href="vip-player-transportation-trending-sports-events-2026.html">All 5 trending events</a> · <a href="ryan-garcia-vs-conor-benn-las-vegas-vip-transportation.html">Garcia vs Benn Vegas guide</a></p>
+    `
+  },
+
+/* ══════════════════════════════════════════════════════════════════════
+   ↑ DAY 14 INSERT ENDS HERE
+   Paste your existing NF_ARTICLES content (Days 1–13) below this line
+   ══════════════════════════════════════════════════════════════════════ */
    /* ═══════════════════════════════════════════════════════════════════════
    DAY 13 INSERT — RYAN GARCIA VS CONOR BENN DEDICATED EVENT PAGE
    PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
