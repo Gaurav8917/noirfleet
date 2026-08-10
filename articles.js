@@ -23,6 +23,134 @@
 const NF_ARTICLES = [
 
    /* ═══════════════════════════════════════════════════════════════════════
+   DAY 16 INSERT — SUPER BOWL LXI LOS ANGELES DEDICATED EVENT PAGE
+   PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
+   THEN save as articles.js replacing your current file.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ─── DAY 16 — SUPER BOWL LXI LOS ANGELES (Dedicated Event Guide) ─── */
+  {
+    slug: "super-bowl-lxi-los-angeles-vip-transportation",
+    title: "Super Bowl LXI Los Angeles | VIP Transportation Guide",
+    date: "August 6, 2026",
+    category: "FIFA 2026",
+    image: "event.jpg",
+    excerpt: "Super Bowl LXI, February 14, 2027 at SoFi Stadium — VIP chauffeur service, airport transfers and Super Bowl Week transportation across Los Angeles.",
+    content: `
+      <p>Super Bowl LXI returns to SoFi Stadium in Inglewood on February 14, 2027 — the ninth Super Bowl hosted in the greater Los Angeles region and the second at SoFi Stadium in five years, following the Rams' home win at Super Bowl LVI in 2022. The Los Angeles Super Bowl Host Committee, led by the Los Angeles Sports & Entertainment Commission, has already confirmed a full Super Bowl Week program across the region: NFL Honors, the Super Bowl Experience fan festival, Super Bowl Opening Night, and a broader community program spread across multiple LA venues in the days leading up to the game itself. On Location, the NFL's official hospitality partner, is handling Priority Access packages for fans and corporate hospitality groups, with Rams Suite Owners and Stadium Suite License holders receiving priority access to Super Bowl packages.</p>
+
+      <p>What almost no Super Bowl preview mentions is the sheer scale of what Los Angeles is about to host in a three-year stretch: the FIFA World Cup in 2026, Super Bowl LXI in 2027, and the LA28 Olympic and Paralympic Games in 2028 — three consecutive years of the world's biggest sporting events, largely at the same cluster of Inglewood and Downtown LA venues. Anyone attending Super Bowl LXI is arriving in a city that is mid-way through the most concentrated run of mega-events any American region has hosted in modern history, and the ground transport infrastructure — while extensive — is genuinely being tested across all three. This guide covers exactly what Super Bowl LXI ground transport looks like, and how to plan around it.</p>
+
+      <h2>Super Bowl LXI — Key Facts</h2>
+
+      <table>
+        <tr><th>Detail</th><th>Information</th></tr>
+        <tr><td>Date</td><td>Sunday, February 14, 2027</td></tr>
+        <tr><td>Venue</td><td>SoFi Stadium, Inglewood, CA</td></tr>
+        <tr><td>Host</td><td>Los Angeles Rams and the Los Angeles Super Bowl Host Committee</td></tr>
+        <tr><td>Super Bowl Week Events</td><td>NFL Honors, Super Bowl Experience, Super Bowl Opening Night, community programming across the LA region</td></tr>
+        <tr><td>Official Hospitality Partner</td><td>On Location — Priority Access packages for fans and corporate groups</td></tr>
+        <tr><td>Airports</td><td>LAX, Hollywood Burbank (BUR), Long Beach (LGB), John Wayne/Orange County (SNA), Van Nuys (VNY) for private aviation</td></tr>
+        <tr><td>Regional Context</td><td>Third of three consecutive mega-events hosted by LA: FIFA World Cup 2026, Super Bowl LXI 2027, LA28 Olympics 2028</td></tr>
+      </table>
+
+      <h2>Why This Super Bowl Is Different From Any Before It</h2>
+
+      <p>Every Super Bowl creates the same basic transport crisis in whatever city hosts it — tens of thousands of high-spending visitors converging on one stadium precinct, surge pricing that regularly runs $100 to $200 above standard rideshare rates in the hours after the final whistle, and waits that stretch well past an hour for anyone without a pre-booked vehicle. Los Angeles adds a layer most host cities don't carry: this is the second of three consecutive years the region hosts a genuinely global event at largely the same venues, and the local infrastructure, hospitality workforce and ground transport supply are being drawn on repeatedly rather than for a single isolated weekend. Professional chauffeur operators, hotel staffing, and event-day road management in Inglewood and the surrounding SoFi Stadium precinct have effectively been in a multi-year dress rehearsal since the FIFA World Cup passed through in 2026 — which is a genuine advantage for visitors who book with an operator who already knows the terrain, and a genuine risk for anyone assuming last-minute availability will simply be there.</p>
+
+      <h2>Getting to Los Angeles — Airport-by-Airport Guide</h2>
+
+      <p>Los Angeles is served by five realistic gateway airports for Super Bowl LXI, and choosing the right one for your hotel location matters considerably more during Super Bowl Week than on an ordinary LA visit.</p>
+
+      <p><strong>LAX (Los Angeles International)</strong> — the primary gateway for the large majority of Super Bowl visitors, roughly 20 to 30 minutes from SoFi Stadium under normal conditions and considerably longer during Super Bowl Week peak arrival windows. LAX will carry the highest concentration of Super Bowl-related international and domestic arrivals of any LA airport.</p>
+
+      <p><strong>Hollywood Burbank (BUR)</strong> — a genuinely useful alternative for visitors staying in Hollywood, the Valley, or Downtown LA, often with less congestion than LAX during peak periods, at the cost of a longer drive to SoFi Stadium itself, roughly 35 to 55 minutes depending on route and traffic.</p>
+
+      <p><strong>Long Beach (LGB)</strong> — a smaller, frequently overlooked option that can offer meaningfully faster processing during Super Bowl Week's highest-volume arrival windows, with a drive to SoFi Stadium of roughly 25 to 40 minutes.</p>
+
+      <p><strong>John Wayne/Orange County (SNA)</strong> — the right choice for visitors combining Super Bowl LXI with an Orange County stay, though the drive to Inglewood — 45 to 70 minutes depending on traffic — is the longest of the commercial options.</p>
+
+      <p><strong>Van Nuys (VNY)</strong> — Southern California's primary general aviation and private jet hub, and the airport that sees the single largest private aviation surge of the entire Super Bowl Week given the concentration of corporate, celebrity and high-net-worth travel this event attracts. A vehicle positioned at the FBO exit, confirmed in advance rather than arranged after landing, is standard practice for this segment.</p>
+
+      <p><strong>Super Bowl LXI airport transportation</strong> from any of these five gateways should be flight-tracked and confirmed before departure from your origin city. With five distinct airports, each drawing a different mix of Super Bowl Week traffic, a driver who already knows which airport you're arriving at, which terminal, and the fastest current route to your specific hotel cluster is a meaningfully different experience from an on-arrival rideshare booking competing with tens of thousands of other Super Bowl visitors for the same pool of vehicles.</p>
+
+      <h2>SoFi Stadium — Getting There and Getting Out</h2>
+
+      <p>SoFi Stadium sits in Inglewood, a genuine drive from every major LA hotel cluster — 25 to 50 minutes from Downtown LA or Hollywood under normal conditions, and considerably longer during the pre-game arrival window and, especially, the post-game exit, when tens of thousands of vehicles attempt to clear the stadium perimeter simultaneously. Independent reporting on recent Super Bowls has documented post-game rideshare fares climbing from a standard rate to $100 to $200 in high-demand zones, with waits stretching well past an hour for visitors without a pre-arranged vehicle.</p>
+
+      <p><strong>NoirFleet's SoFi Stadium service for Super Bowl LXI</strong> includes confirmed drop-off positioning ahead of kickoff, and — the detail that matters most — a confirmed post-game pickup point briefed to your chauffeur in advance, away from the general stadium exit crush. The vehicle is positioned before the final whistle, not summoned after it.</p>
+
+      <h2>VIP and Corporate Hospitality Transportation</h2>
+
+      <p>Super Bowl LXI's confirmed Super Bowl Week program — NFL Honors, Super Bowl Experience, Super Bowl Opening Night, and the region's broader community programming — spreads high-value transport demand across multiple LA venues over several days, not just game day itself. For corporate hospitality groups, sponsors, and On Location Priority Access guests, this means the transportation plan needs to cover considerably more than a single stadium transfer.</p>
+
+      <p><strong>What Super Bowl Week VIP transport typically covers:</strong></p>
+
+      <p><strong>Super Bowl Opening Night.</strong> The traditional first major media and fan event of Super Bowl Week, drawing significant hospitality and sponsor traffic to its own dedicated venue, separate from SoFi Stadium.</p>
+
+      <p><strong>NFL Honors.</strong> The league's annual awards ceremony, typically the most formal and highest-profile single event of Super Bowl Week outside the game itself, with a guest list and dress-code standard that calls for a vehicle to match.</p>
+
+      <p><strong>Super Bowl Experience.</strong> The NFL's interactive fan festival, running across multiple days at a convention-style venue and drawing sustained daily hospitality group traffic throughout the week.</p>
+
+      <p><strong>Sponsor activations and private parties.</strong> Super Bowl Week's unofficial calendar — private parties, brand activations and client entertainment events across Beverly Hills, Hollywood and Downtown LA — routinely extends well past midnight and moves guests between multiple venues in a single evening.</p>
+
+      <p><strong>Game day — arrival and the confirmed exit.</strong> The single booking that matters most of all: drop-off ahead of kickoff, and a chauffeur already positioned for pickup at a confirmed point once the game ends, regardless of overtime.</p>
+
+      <p>For corporate sponsors running a multi-day hospitality programme across several of these events, a single NoirFleet account with a dedicated operations contact — rather than a new booking for each leg — is the standard format, covering everything from the Tuesday Opening Night transfer through the Sunday night post-game departure.</p>
+
+      <h2>Where to Stay and What It Means for Your Transfer</h2>
+
+      <p>Super Bowl LXI hotel demand spreads across Downtown LA, Santa Monica, Beverly Hills, Hollywood and Inglewood itself, each with a meaningfully different transfer profile to SoFi Stadium. Inglewood and the immediate SoFi Stadium precinct offer the shortest game-day transfer but the least to do during the rest of Super Bowl Week. Downtown LA and Hollywood put visitors closer to NFL Honors, Super Bowl Experience and the broader hospitality circuit, at the cost of a longer game-day drive. Beverly Hills and Santa Monica sit at the premium end of the accommodation market and typically the longest transfer to SoFi Stadium, which is precisely why guests staying in this cluster benefit most from a confirmed, flight-tracked and stadium-briefed chauffeur rather than an on-demand booking during peak traffic windows.</p>
+
+      <h2>Booking Ahead — Why the Window Is Already Open</h2>
+
+      <p>Super Bowl LXI is roughly six months out at the time of writing, and this is precisely the window where professional Los Angeles ground transport operators with the vehicle standard and SoFi Stadium-specific route knowledge this event demands begin locking in fleet commitments. Given Los Angeles's back-to-back run of the FIFA World Cup, Super Bowl LXI and the LA28 Olympics, premium vehicle availability across the region is under sustained, multi-year pressure rather than a single isolated spike — meaning the realistic booking window for Super Bowl LXI is now, considerably earlier than a standard single-event host city would require.</p>
+
+      <p>NoirFleet's approach to Super Bowl LXI follows the same principle we apply to every major event on the calendar: confirm the airport transfer and flight-track it before you travel, confirm the SoFi Stadium drop-off and the exact post-game pickup point in advance, and hold the vehicle on standby across the full Super Bowl Week programme rather than releasing it after a single leg.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>When and where is Super Bowl LXI?</h3>
+      <p>Sunday, February 14, 2027, at SoFi Stadium in Inglewood, California — the ninth Super Bowl hosted in the greater Los Angeles region and the second at SoFi Stadium since 2022.</p>
+
+      <h3>Which airport should I fly into for Super Bowl LXI?</h3>
+      <p>LAX is the primary gateway and closest to SoFi Stadium. Hollywood Burbank, Long Beach and John Wayne/Orange County are viable alternatives depending on your hotel location, and Van Nuys (VNY) serves private aviation arrivals.</p>
+
+      <h3>What events happen during Super Bowl Week besides the game itself?</h3>
+      <p>NFL Honors, the Super Bowl Experience fan festival, Super Bowl Opening Night, and a broader community programme, all confirmed by the Los Angeles Super Bowl Host Committee and spread across multiple LA venues in the days leading up to the game.</p>
+
+      <h3>Does NoirFleet cover the post-game exit from SoFi Stadium?</h3>
+      <p>Yes. Chauffeurs are briefed in advance on a confirmed pickup point away from the general stadium exit crush, positioned before the final whistle rather than summoned afterward.</p>
+
+      <h3>How does Los Angeles hosting three consecutive mega-events affect Super Bowl LXI transportation?</h3>
+      <p>The FIFA World Cup (2026), Super Bowl LXI (2027) and LA28 Olympics (2028) place sustained, multi-year pressure on the region's premium ground transport supply rather than a single isolated spike, meaning professional vehicle availability should be booked earlier than a standard one-off host city would require.</p>
+
+      <h3>Can I book a vehicle for the full Super Bowl Week, not just game day?</h3>
+      <p>Yes. Opening Night, NFL Honors, Super Bowl Experience, sponsor activations and the game day arrival and exit are all covered under a single standing booking for guests attending the full week's programme.</p>
+
+      <h3>Where should I stay for the shortest transfer to SoFi Stadium?</h3>
+      <p>Inglewood and the immediate stadium precinct offer the shortest game-day transfer. Downtown LA and Hollywood put you closer to the week's other events at the cost of a longer game-day drive; Beverly Hills and Santa Monica are the longest transfers and benefit most from a pre-confirmed chauffeur.</p>
+
+      <h3>Is private aviation transfer available for Super Bowl LXI?</h3>
+      <p>Yes. Van Nuys Airport (VNY) is Southern California's primary private aviation hub and sees the largest private jet surge of Super Bowl Week; FBO transfers should be confirmed as part of the same booking.</p>
+
+      <h3>How far in advance should I book transportation for Super Bowl LXI?</h3>
+      <p>As early as possible. With Los Angeles hosting three consecutive global mega-events across 2026 to 2028, premium ground transport capacity is under sustained pressure well ahead of any single event date.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>Super Bowl LXI arrives in a Los Angeles that is mid-way through the most concentrated run of mega-events any American region has ever hosted — the FIFA World Cup behind it, the LA28 Olympics ahead of it, and Super Bowl LXI sitting directly between the two. NoirFleet's coverage for February 14, 2027 is built around the two moments that determine whether the trip goes smoothly: a flight-tracked arrival at whichever of Los Angeles's five gateway airports you land at, and a confirmed SoFi Stadium pickup point briefed to your chauffeur before the final whistle — not left to a rideshare surge in the Inglewood exit crush.</p>
+
+      <p>Ready to arrange your Super Bowl LXI transportation? <a href="contact.html">Contact NoirFleet to book your Super Bowl Week</a> · <a href="fleet.html">View our fleet</a> · <a href="vip-player-transportation-trending-sports-events-2026.html">All 5 trending events</a> · <a href="chauffeur-service-complete-guide.html">The complete chauffeur service guide</a></p>
+    `
+  },
+
+/* ══════════════════════════════════════════════════════════════════════
+   ↑ DAY 16 INSERT ENDS HERE
+   Paste your existing NF_ARTICLES content (Days 1–15) below this line
+   ══════════════════════════════════════════════════════════════════════ */
+
+   /* ═══════════════════════════════════════════════════════════════════════
    DAY 15 INSERT — FLAGSHIP "CHAUFFEUR SERVICE" PILLAR PAGE
    PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
    THEN save as articles.js replacing your current file.
