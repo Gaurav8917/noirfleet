@@ -23,6 +23,120 @@
 const NF_ARTICLES = [
 
    /* ═══════════════════════════════════════════════════════════════════════
+   DAY 17 INSERT — US OPEN TENNIS 2026 NEW YORK DEDICATED EVENT PAGE
+   PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
+   THEN save as articles.js replacing your current file.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ─── DAY 17 — US OPEN TENNIS 2026 NEW YORK (Dedicated Event Guide) ─── */
+  {
+    slug: "us-open-tennis-2026-new-york-vip-transportation",
+    title: "US Open Tennis 2026 New York | VIP Transportation",
+    date: "August 11, 2026",
+    category: "FIFA 2026",
+    image: "event.jpg",
+    excerpt: "US Open Tennis 2026, August 23 – September 13 at Flushing Meadows — VIP chauffeur service, JFK/LGA airport transfers and daily transportation for the year's final Grand Slam.",
+    content: `
+      <p>The US Open — the final Grand Slam of the tennis calendar and the only one played on American soil — returns to the USTA Billie Jean King National Tennis Center in Flushing Meadows, Queens, from August 23 through September 13, 2026. Fan Week and qualifying open the grounds a week ahead of the main draw, which begins August 30, making 2026 the largest event calendar in the tournament's near 150-year history: twenty-two straight days of tennis, entertainment and hospitality programming at the site that has hosted the Open every year since 1978.</p>
+
+      <p>That duration is the detail almost every US Open transport guide misses. This is not a single-night event like a championship fight or a wrestling pay-per-view — it is three full weeks of daily sessions, day and evening, drawing a rotating cast of corporate hospitality groups, international visitors, and New Yorkers making repeat trips to Flushing Meadows across the entire fortnight and beyond. The transport requirement is sustained, not a single spike, and planning around it looks meaningfully different as a result. This guide covers exactly what that means.</p>
+
+      <h2>US Open 2026 — Key Facts</h2>
+
+      <table>
+        <tr><th>Detail</th><th>Information</th></tr>
+        <tr><td>Dates</td><td>August 23 – September 13, 2026 (Fan Week and qualifying from Aug 23; main draw from Aug 30)</td></tr>
+        <tr><td>Venue</td><td>USTA Billie Jean King National Tennis Center, Flushing Meadows Corona Park, Queens, NY</td></tr>
+        <tr><td>Main Stadium</td><td>Arthur Ashe Stadium, alongside Louis Armstrong Stadium and the Grandstand</td></tr>
+        <tr><td>Significance</td><td>146th edition; 56th consecutive year at the Flushing Meadows site; the only Grand Slam played in the US</td></tr>
+        <tr><td>Quarterfinals</td><td>September 8–9, 2026</td></tr>
+        <tr><td>Semifinals</td><td>Women's semifinals September 10, 2026</td></tr>
+        <tr><td>Session Format</td><td>Day and night sessions across the grounds, with Arthur Ashe Stadium's night sessions considered a distinct atmosphere from day play</td></tr>
+        <tr><td>Airports</td><td>John F. Kennedy International (JFK), LaGuardia (LGA), Newark Liberty (EWR)</td></tr>
+      </table>
+
+      <h2>Getting to Flushing Meadows — Airport-by-Airport</h2>
+
+      <p>Three major airports serve the US Open, and which one you land at meaningfully changes your transfer time and route into Queens.</p>
+
+      <p><strong>John F. Kennedy International (JFK)</strong> — the closest of the three to the USTA Billie Jean King National Tennis Center, with a transfer typically running 20 to 35 minutes under normal conditions via the Van Wyck Expressway. This is the natural gateway for most international visitors and the airport where flight-tracked pickup matters most, given JFK's consistently high volume of long-haul arrivals throughout the tournament's three-week window.</p>
+
+      <p><strong>LaGuardia (LGA)</strong> — also close to Flushing Meadows, generally a 20 to 30 minute transfer, and the more common choice for domestic visitors connecting through other US cities. LGA's smaller footprint can mean a faster curbside process than JFK during peak periods, though this varies by time of day and terminal.</p>
+
+      <p><strong>Newark Liberty (EWR)</strong> — the furthest of the three from Flushing Meadows, typically 45 to 70 minutes depending on the crossing into Queens, but frequently the airport with the widest range of international flight options and, at times, the most manageable arrivals experience for visitors flying from Europe or further afield.</p>
+
+      <p><strong>US Open airport transportation</strong> should be flight-tracked and confirmed before departure regardless of which of the three airports you land at. Given the tournament spans three full weeks rather than a single weekend, arrival volumes stay elevated for a sustained period rather than concentrating into one predictable surge window — meaning the value of a pre-confirmed, flight-tracked pickup holds consistently across the full fortnight, not just on marquee days like the final.</p>
+
+      <h2>Midtown Manhattan to Flushing Meadows — The Daily Transfer</h2>
+
+      <p>Most US Open visitors are not staying in Queens — the large majority base themselves in Midtown Manhattan, Times Square or the Upper East Side, making the daily hotel-to-grounds transfer the single most repeated journey of the entire trip. The drive from Midtown to Flushing Meadows takes 25 to 45 minutes via the Van Wyck Expressway or the Long Island Expressway depending on traffic and time of day, with evening session transfers generally faster than the daytime commuter-hour crossing.</p>
+
+      <p>For corporate hospitality guests attending the US Open across multiple sessions — a common pattern given many companies hold suite access for the full tournament rather than a single day — the daily nature of this transfer is precisely where a standing chauffeur arrangement outperforms booking a new car each morning. A NoirFleet vehicle from a Midtown or Upper East Side hotel to the Arthur Ashe Stadium entrance, timed to the specific day or evening session start, and positioned for the return once play concludes, is the standard format for guests attending more than a single day.</p>
+
+      <h2>VIP and Corporate Hospitality Transportation</h2>
+
+      <p>The US Open's corporate hospitality programme is one of the largest and longest-running of any Grand Slam, and 2026's expanded Fan Week format means hospitality demand now extends beyond the traditional two-week main draw window. Suite and club-level access at Arthur Ashe Stadium, courtside packages, and reserved hospitality with dedicated on-site concierge service are all standard offerings through the tournament's official hospitality partners — and the ground transport that bookends that experience needs to hold the same standard.</p>
+
+      <p><strong>What US Open VIP transport typically covers:</strong></p>
+
+      <p><strong>Fan Week arrivals.</strong> The week ahead of the main draw now carries its own programming and its own hospitality demand, a detail 2026's expanded calendar makes more relevant than in previous editions.</p>
+
+      <p><strong>Daily session transfers.</strong> Hotel to Arthur Ashe Stadium ahead of day or evening play, timed to the specific session, with the vehicle positioned for a confirmed return once matches conclude.</p>
+
+      <p><strong>Marquee day arrivals — quarterfinals through the final.</strong> September 8 through 13 carries the tournament's highest single-day demand, when grounds attendance and evening session crowds peak simultaneously.</p>
+
+      <p><strong>Evening entertainment and dinner transfers.</strong> US Open hospitality extends well beyond the grounds themselves — client dinners, sponsor events and the broader New York entertainment circuit that fills the evenings between day and night sessions.</p>
+
+      <p>For corporate accounts with suite access across the full tournament, a single NoirFleet account with a dedicated operations contact — rather than a new booking for each session — is the standard format, covering the full run from Fan Week through the final.</p>
+
+      <h2>Why the Three-Week Format Changes the Booking Approach</h2>
+
+      <p>Most major sporting events on this list create a single, predictable demand spike — one night, one exit crush, one booking to get right. The US Open is structurally different: with sessions running daily for over three weeks, the transport requirement is sustained rather than concentrated, and the risk profile shifts accordingly. A missed pickup on day three of the tournament is just as disruptive to a corporate guest's schedule as one on final Saturday, even though day three carries none of the marquee-day attention. This is precisely why a standing account — confirmed once for the full tournament window rather than re-booked session by session — is the more reliable format for anyone attending more than a single day.</p>
+
+      <h2>Booking Ahead</h2>
+
+      <p>NoirFleet's approach to the US Open follows the same principle we apply to every major event on the calendar: confirm the JFK, LGA or EWR airport transfer and flight-track it before you travel, confirm the daily Arthur Ashe Stadium transfer timed to your specific sessions, and hold the vehicle on standby across the full tournament window rather than booking fresh for each visit — particularly valuable given how many US Open guests return to Flushing Meadows multiple times across the fortnight.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>When and where is the US Open Tennis Championships 2026?</h3>
+      <p>August 23 through September 13, 2026, at the USTA Billie Jean King National Tennis Center in Flushing Meadows, Queens. Fan Week and qualifying open the grounds from August 23, with the main draw beginning August 30.</p>
+
+      <h3>Which airport should I fly into for the US Open?</h3>
+      <p>JFK is the closest airport to Flushing Meadows, typically 20 to 35 minutes away. LaGuardia is similarly close and common for domestic connections. Newark is the furthest at 45 to 70 minutes but often offers the widest range of international flights.</p>
+
+      <h3>How long does the transfer from Midtown Manhattan to the US Open take?</h3>
+      <p>25 to 45 minutes via the Van Wyck Expressway or Long Island Expressway, depending on traffic and time of day. Evening session transfers are generally faster than daytime commuter-hour crossings.</p>
+
+      <h3>Why does the US Open need a different transport approach than a single-day event?</h3>
+      <p>The tournament runs 22 consecutive days in 2026, creating sustained daily transport demand rather than a single predictable spike. A standing chauffeur account confirmed for the full window is more reliable than booking fresh transport for each individual session.</p>
+
+      <h3>Does NoirFleet cover daily session transfers throughout the tournament?</h3>
+      <p>Yes. Hotel-to-Arthur Ashe Stadium transfers timed to specific day or evening sessions, with a confirmed return once play concludes, are available as standing bookings across the full three-week window.</p>
+
+      <h3>When is the busiest period of the 2026 US Open?</h3>
+      <p>Quarterfinals fall on September 8 and 9, with the women's semifinals on September 10, leading into the final on September 13 — this closing stretch typically carries the tournament's highest single-day demand.</p>
+
+      <h3>Can NoirFleet manage transport for a corporate account with suite access across the full tournament?</h3>
+      <p>Yes. A single account with a dedicated operations contact covers Fan Week arrivals, daily session transfers, marquee-day transport and evening hospitality events under one continuous booking relationship.</p>
+
+      <h3>How far in advance should I book transportation for the US Open?</h3>
+      <p>As early as possible, particularly for the quarterfinal-through-final stretch in early-to-mid September, when both grounds attendance and evening session demand peak simultaneously across a city already carrying its normal daily traffic volume.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>The US Open is the longest single sporting event on the trending calendar covered in this guide — 22 days of tennis at Flushing Meadows, drawing a rotating wave of corporate hospitality guests, international visitors and New Yorkers back to the grounds again and again rather than for one single night. NoirFleet's coverage is built around that reality: flight-tracked arrivals at whichever of New York's three airports you land at, and a standing daily transfer arrangement between your Manhattan hotel and Arthur Ashe Stadium that holds the same standard on day three of the tournament as it does on final Saturday.</p>
+
+      <p>Ready to arrange your US Open 2026 transportation? <a href="contact.html">Contact NoirFleet to book your tournament transport</a> · <a href="fleet.html">View our fleet</a> · <a href="vip-player-transportation-trending-sports-events-2026.html">All trending events</a> · <a href="chauffeur-service-complete-guide.html">The complete chauffeur service guide</a></p>
+    `
+  },
+
+/* ══════════════════════════════════════════════════════════════════════
+   ↑ DAY 17 INSERT ENDS HERE
+   Paste your existing NF_ARTICLES content (Days 1–16) below this line
+   ══════════════════════════════════════════════════════════════════════ */
+
+   /* ═══════════════════════════════════════════════════════════════════════
    DAY 16 INSERT — SUPER BOWL LXI LOS ANGELES DEDICATED EVENT PAGE
    PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
    THEN save as articles.js replacing your current file.
