@@ -23,6 +23,141 @@
 const NF_ARTICLES = [
 
    /* ═══════════════════════════════════════════════════════════════════════
+   DAY 18 INSERT — FIFA U-17 WOMEN'S WORLD CUP MOROCCO 2026 COMPLETE GUIDE
+   PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
+   THEN save as articles.js replacing your current file.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ─── DAY 18 — FIFA U-17 WOMEN'S WORLD CUP MOROCCO 2026: COMPLETE GUIDE (Teams, Groups, Schedule & Travel) ─── */
+  {
+    slug: "fifa-u17-womens-world-cup-morocco-2026-complete-guide",
+    title: "FIFA U-17 Women's World Cup Morocco 2026 | Complete Guide",
+    date: "August 11, 2026",
+    category: "FIFA 2026",
+    image: "event.jpg",
+    excerpt: "FIFA U-17 Women's World Cup Morocco 2026 — full groups, all 24 teams, schedule, defending champions, venues, tickets and fan travel guide for the tournament in Rabat.",
+    content: `
+      <p>The FIFA U-17 Women's World Cup Morocco 2026 kicks off on October 17 and runs through November 7 — the tenth edition of the tournament and the second consecutive year Morocco has hosted it, following its landmark 2025 staging that made Morocco the first African nation to host a FIFA women's youth World Cup. Twenty-four national teams from six confederations now have their full group-stage lineup confirmed, with debutants Argentina, Australia and Puerto Rico joining a field that includes defending champions Korea DPR, five-time contender Japan, reigning European champions Spain, and hosts Morocco.</p>
+
+      <p>This guide covers everything a fan, federation official, sponsor or travelling family needs before the tournament: the complete group-stage draw, every qualified team, the format, the venue, and what fan travel to Rabat actually involves. For a dedicated breakdown of airport transfers, match-day transport and chauffeur service in Rabat, see our companion <a href="fifa-u17-womens-world-cup-morocco-2026-chauffeur-guide.html">FIFA U-17 Women's World Cup Morocco 2026 chauffeur and transfer guide</a>.</p>
+
+      <h2>Tournament Overview — Key Facts</h2>
+
+      <table>
+        <tr><th>Detail</th><th>Information</th></tr>
+        <tr><td>Tournament</td><td>FIFA U-17 Women's World Cup Morocco 2026 (10th edition)</td></tr>
+        <tr><td>Dates</td><td>17 October – 7 November 2026</td></tr>
+        <tr><td>Host</td><td>Morocco — Rabat (Morocco holds hosting rights for five consecutive editions, 2025–2029)</td></tr>
+        <tr><td>Teams</td><td>24 national teams from 6 confederations</td></tr>
+        <tr><td>Format</td><td>Six groups of four; second edition of the tournament played with 24 teams</td></tr>
+        <tr><td>Defending Champions</td><td>Korea DPR — won a record 4th title at the 2025 edition, defeating the Netherlands in the final</td></tr>
+        <tr><td>Debut Nations</td><td>Argentina, Australia, Puerto Rico</td></tr>
+        <tr><td>Eligibility</td><td>Players born on or after 1 January 2009</td></tr>
+      </table>
+
+      <h2>Full Groups and All 24 Qualified Teams</h2>
+
+      <p>The complete FIFA U-17 Women's World Cup Morocco 2026 group-stage draw is confirmed, with the final African qualifying spots — Ghana, Kenya, Nigeria and Zambia — completing the 24-team field. Zambia joins Group D alongside France, Japan and Venezuela.</p>
+
+      <table>
+        <tr><th>Group</th><th>Teams</th></tr>
+        <tr><td>Group A</td><td>Morocco (host), New Zealand, Germany, Argentina</td></tr>
+        <tr><td>Group B</td><td>Korea DPR, Puerto Rico, Poland, plus a CAF qualifier</td></tr>
+        <tr><td>Group C</td><td>Canada, Brazil, Norway, plus a CAF qualifier</td></tr>
+        <tr><td>Group D</td><td>Japan, France, Venezuela, Zambia</td></tr>
+        <tr><td>Group E</td><td>USA, Samoa, China PR, plus a CAF qualifier</td></tr>
+        <tr><td>Group F</td><td>Spain, Mexico, Australia, Chile</td></tr>
+      </table>
+
+      <p>The full 24-team roster: Argentina, Australia, Brazil, Canada, Chile, China PR, France, Germany, Ghana, Japan, Kenya, Korea DPR, Mexico, Morocco (host), New Zealand, Nigeria, Norway, Poland, Puerto Rico, Samoa, Spain, USA, Venezuela and Zambia — drawn from the AFC (4 teams), CAF (5, including hosts Morocco), Concacaf (4), CONMEBOL (4), OFC (2) and UEFA (5).</p>
+
+      <h2>Group A — Host Nation's Group</h2>
+
+      <p>Morocco opens its title defense as host in a demanding Group A alongside New Zealand, Germany and Argentina. Germany brings a strong European youth football pedigree, New Zealand returns after a run of consecutive qualifications, and Argentina makes its tournament debut. As hosts, Morocco carries the weight of home support across every fixture in Rabat.</p>
+
+      <h2>Group B — Defending Champions' Group</h2>
+
+      <p>Korea DPR enter Group B as defending champions, having won a record fourth U-17 Women's World Cup title in 2025 with a squad built around a dominant attacking core. Poland and Puerto Rico — the latter making its tournament debut — join Korea DPR alongside a CAF qualifying nation in one of the tournament's most closely watched groups given the champions' presence.</p>
+
+      <h2>Group C — Canada, Brazil and Norway</h2>
+
+      <p>Group C brings together three federations with deep women's football investment: Canada, Brazil and Norway, alongside a CAF qualifying nation. Brazil's U-17 women's programme has consistently produced senior national team talent, making this group a genuine talent showcase alongside the competitive stakes.</p>
+
+      <h2>Group D — Japan, France, Venezuela and Zambia</h2>
+
+      <p>Japan, one of the tournament's most consistent performers across multiple editions, headlines Group D alongside France, Venezuela and Zambia — the African qualifier confirmed to complete this group. Japan's technical style of play has historically made it one of the tournament's most dangerous sides regardless of seeding.</p>
+
+      <h2>Group E — USA's Group</h2>
+
+      <p>The United States enters Group E against Samoa, China PR and a CAF qualifying nation. US Soccer's youth women's programme is among the most heavily scouted in the world, and American fans and sponsors following the team through this tournament represent one of the largest travelling and viewing audiences of any single nation in the competition.</p>
+
+      <h2>Group F — Spain, Mexico, Australia and Chile</h2>
+
+      <p>Spain, the reigning European champions at U-17 level, headline Group F against Mexico, debutant Australia and Chile. Spain's recent dominance of European youth women's football makes this group one of the tournament's genuine form guides.</p>
+
+      <h2>Where the Tournament Is Played — Rabat, Morocco</h2>
+
+      <p>The tournament is hosted in the Moroccan capital, Rabat, with the Olympic Stadium of Rabat serving as the primary venue — the same stadium that hosted the 2025 final between Korea DPR and the Netherlands. Morocco's hosting rights run through five consecutive editions from 2025 to 2029, making Rabat the most established host city in the tournament's modern history and giving Morocco a level of tournament-hosting infrastructure and experience unmatched by any previous single-edition host.</p>
+
+      <h2>How the Tournament Works</h2>
+
+      <p>The 24 teams are split into six groups of four for the group stage, with the top teams from each group and the best-ranked third-place finishers advancing to the knockout rounds. This is only the second edition of the tournament played with a 24-team format, following the expansion introduced at the 2025 tournament, and the 2025 edition set the template for what to expect: 52 matches played, over 175 goals scored, and an average attendance of nearly 1,400 per match across the tournament.</p>
+
+      <h2>Fan Travel to Rabat — What to Expect</h2>
+
+      <p>International fans, travelling families and sponsor delegations attending FIFA U-17 Women's World Cup Morocco 2026 will most commonly arrive via Rabat–Salé Airport (RBA) or Casablanca's Mohammed V International Airport (CMN), followed by a road transfer to Rabat. Given the tournament runs more than three weeks and concentrates almost entirely within the Rabat metropolitan area, match-day transport around the Olympic Stadium of Rabat compresses meaningfully during group-stage windows involving Morocco or high-interest fixtures, and considerably more so approaching the knockout rounds and final in early November.</p>
+
+      <p>For the complete breakdown of airport transfers, match-day transport, and how to combine your tournament trip with a wider Morocco visit to Marrakech or Casablanca, see our dedicated <a href="fifa-u17-womens-world-cup-morocco-2026-chauffeur-guide.html">FIFA U-17 Women's World Cup Morocco 2026 chauffeur and airport transfer guide</a>.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>When is the FIFA U-17 Women's World Cup Morocco 2026?</h3>
+      <p>17 October to 7 November 2026, hosted in Rabat, Morocco.</p>
+
+      <h3>How many teams are competing and who qualified?</h3>
+      <p>24 teams: Argentina, Australia, Brazil, Canada, Chile, China PR, France, Germany, Ghana, Japan, Kenya, Korea DPR, Mexico, Morocco (host), New Zealand, Nigeria, Norway, Poland, Puerto Rico, Samoa, Spain, USA, Venezuela and Zambia.</p>
+
+      <h3>Who are the defending champions?</h3>
+      <p>Korea DPR, who won a record fourth U-17 Women's World Cup title in 2025, defeating the Netherlands in the final at the Olympic Stadium of Rabat.</p>
+
+      <h3>Which teams are making their tournament debut in 2026?</h3>
+      <p>Argentina, Australia and Puerto Rico are all making their first appearance at the FIFA U-17 Women's World Cup.</p>
+
+      <h3>What group is the USA in?</h3>
+      <p>Group E, alongside Samoa, China PR and a CAF qualifying nation.</p>
+
+      <h3>What group is Morocco, the host nation, in?</h3>
+      <p>Group A, alongside New Zealand, Germany and Argentina.</p>
+
+      <h3>Where are the matches being played?</h3>
+      <p>In Rabat, Morocco, with the Olympic Stadium of Rabat as the primary venue — the same stadium that hosted the 2025 final.</p>
+
+      <h3>How is the tournament structured?</h3>
+      <p>24 teams are split into six groups of four for the group stage, with the top finishers and the best third-place teams advancing to the knockout rounds, following the 24-team format introduced at the 2025 edition.</p>
+
+      <h3>How do I get to Rabat for the tournament?</h3>
+      <p>Most international visitors fly into Casablanca's Mohammed V International Airport (CMN) and continue to Rabat by road (approximately 90 km, 60–90 minutes), or fly directly into Rabat–Salé Airport (RBA), roughly 20–35 minutes from the city centre.</p>
+
+      <h3>Which nations are eligible to play and what is the age cutoff?</h3>
+      <p>Players born on or after 1 January 2009 are eligible to compete in the 2026 edition.</p>
+
+      <h3>How many editions has Morocco hosted?</h3>
+      <p>Morocco is hosting for the second consecutive year, having staged the 2025 edition as the first African nation to host a FIFA women's youth World Cup. Morocco holds hosting rights through five consecutive editions, 2025 to 2029.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>The FIFA U-17 Women's World Cup Morocco 2026 brings together the strongest 24-team field the tournament has fielded — defending champions Korea DPR, reigning European champions Spain, host nation Morocco, and debutants Argentina, Australia and Puerto Rico, all converging on Rabat for three weeks of football from mid-October through early November. Whether you're following a specific team through the group stage, planning a federation delegation visit, or building a fan trip around the tournament, the two things worth locking in early are your group-stage fixture schedule and your ground transport in Rabat — both of which are covered across this guide and our companion transport piece.</p>
+
+      <p>Planning your trip to FIFA U-17 Women's World Cup Morocco 2026? <a href="fifa-u17-womens-world-cup-morocco-2026-chauffeur-guide.html">Read our full Rabat transport and airport transfer guide</a> · <a href="contact.html">Contact NoirFleet to arrange your transfers</a> · <a href="fleet.html">View our fleet</a> · <a href="chauffeur-service-complete-guide.html">The complete chauffeur service guide</a></p>
+    `
+  },
+
+/* ══════════════════════════════════════════════════════════════════════
+   ↑ DAY 18 INSERT ENDS HERE
+   Paste your existing NF_ARTICLES content (Days 1–17) below this line
+   ══════════════════════════════════════════════════════════════════════ */
+
+   /* ═══════════════════════════════════════════════════════════════════════
    DAY 17 INSERT — US OPEN TENNIS 2026 NEW YORK DEDICATED EVENT PAGE
    PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
    THEN save as articles.js replacing your current file.
