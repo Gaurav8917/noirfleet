@@ -23,6 +23,129 @@
 const NF_ARTICLES = [
 
    /* ═══════════════════════════════════════════════════════════════════════
+   DAY 19 INSERT — MYRTLE BEACH WORLD AMATEUR GOLF 2026 DEDICATED EVENT PAGE
+   PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
+   THEN save as articles.js replacing your current file.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ─── DAY 19 — MYRTLE BEACH WORLD AMATEUR GOLF 2026 (Dedicated Event Guide) ─── */
+  {
+    slug: "myrtle-beach-world-amateur-golf-2026-vip-transportation",
+    title: "Myrtle Beach World Amateur Golf 2026 | VIP Transportation",
+    date: "August 13, 2026",
+    category: "FIFA 2026",
+    image: "event.jpg",
+    excerpt: "Myrtle Beach World Amateur, August 31 – September 4 — plus your complete guide to Myrtle Beach golf trip transportation, golf packages and car service in the Golf Capital of the World.",
+    content: `
+      <p>The Play Golf Myrtle Beach World Amateur Handicap Championship — known simply as the World Am — returns for its 43rd consecutive year from August 31 through September 4, 2026, with tournament check-in on August 29 and 30. Described by its own organisers as "the largest, most fun, and most valuable golf tournament on the planet," the World Am is the world's largest single-site amateur golf tournament: more than 3,000 golfers from all 50 US states and upwards of 20 countries competing across 72 holes of net stroke play, spread over more than 50 courses along the Grand Strand, with the field capped at 3,000 entries and registration typically selling out well before the event.</p>
+
+      <p>What makes the World Am's ground transport reality genuinely unlike any other event covered in this series is a single structural fact: every player plays a different golf course on a different day. Four tournament rounds, four different courses — Barefoot Resort, Caledonia Golf and Fish Club, Tidewater, Grande Dunes, TPC Myrtle Beach, Pawleys Plantation and dozens more — plus a nightly gathering at the World's Largest 19th Hole party at the Myrtle Beach Convention Center. This is not a single-venue event with one arrival and one exit. It is five consecutive days of moving between a different point on the Grand Strand every single morning and every single evening, and getting that logistics chain wrong on any one of those days costs a golfer their tee time, not just an inconvenient wait.</p>
+
+      <h2>World Am 2026 — Key Facts</h2>
+
+      <table>
+        <tr><th>Detail</th><th>Information</th></tr>
+        <tr><td>Check-In</td><td>August 29–30, 2026, at the PGA TOUR Superstore near Broadway at the Beach</td></tr>
+        <tr><td>Welcome Party</td><td>August 30, 6–9 PM</td></tr>
+        <tr><td>Tournament Rounds</td><td>August 31 – September 3, 2026 (four rounds, net stroke play, tee times 7:30–9:30 AM daily)</td></tr>
+        <tr><td>Championship Playoff</td><td>Friday, September 4, 2026 — flight winners and ties</td></tr>
+        <tr><td>Field</td><td>Capped at 3,000 golfers; typically drawn from all 50 US states and 17–20+ countries</td></tr>
+        <tr><td>Courses</td><td>50+ Grand Strand courses including Barefoot Resort, Caledonia, Tidewater, Grande Dunes, TPC Myrtle Beach, Pawleys Plantation and Legends</td></tr>
+        <tr><td>Nightly Event</td><td>The World's Largest 19th Hole — Myrtle Beach Convention Center, 2101 North Oak Street</td></tr>
+        <tr><td>Airport</td><td>Myrtle Beach International Airport (MYR)</td></tr>
+      </table>
+
+      <h2>Why This Event's Transport Problem Is Structurally Different</h2>
+
+      <p>Every other event covered in this series — a fight, a Super Bowl, a tennis final, a wrestling pay-per-view — has one venue and one exit crush to plan around. The World Am has none of that. A golfer competing across the full field plays Caledonia Golf and Fish Club or Pawleys Plantation in Pawleys Island one morning, then a Barefoot Resort course in North Myrtle Beach the next — courses that can sit 25 to 40 minutes apart from each other along a Grand Strand corridor that stretches roughly 60 miles from Little River to Pawleys Island. A hotel booked in one part of the Strand for convenience on day one can become a genuinely long morning transfer by day three, depending entirely on which course that day's tee sheet assigns.</p>
+
+      <p>This is the detail almost no golf travel guide addresses directly: the World Am is not a "book one transfer" event. It is a five-day rotating logistics problem where the transport plan has to be built around the daily course assignment, not a fixed venue address — and where a missed or late tee time, unlike a missed kickoff, cannot simply be caught up on by walking in after the crowd thins.</p>
+
+      <h2>Myrtle Beach International Airport (MYR) — Arrival</h2>
+
+      <p>Myrtle Beach International Airport sits close to the central Grand Strand and handles the large majority of tournament week arrivals, with direct and connecting service from major US hub cities and a smaller number of international connections. Given the World Am draws a genuinely international field — 17 to 20-plus countries in recent editions — arrival volumes at MYR climb meaningfully in the days immediately before check-in on August 29 and 30, and again around the September 4 departure wave following the Championship Playoff.</p>
+
+      <p><strong>World Am airport transportation</strong> from MYR should be flight-tracked and confirmed before departure from your origin city, with particular attention to golf bag and equipment handling — a detail standard rideshare and taxi services at smaller regional airports like MYR are frequently not equipped to manage smoothly during a high-volume tournament week.</p>
+
+      <h2>The Daily Course Rotation — What Actually Needs Planning</h2>
+
+      <p>The single most important planning decision for any World Am participant, group, or accompanying family is this: confirm your daily course assignment as early as possible and build the day's transport around it specifically, rather than assuming a single standing arrangement will cover all four tournament days equally well.</p>
+
+      <p><strong>Check-in and Welcome Party (August 29–30).</strong> Transfers to the PGA TOUR Superstore near Broadway at the Beach for registration, and to the Welcome Party that evening — the first of five consecutive nights requiring reliable evening transport.</p>
+
+      <p><strong>Daily tournament rounds (August 31–September 3).</strong> A different course each morning, with tee times beginning between 7:30 and 9:30 AM. Given how spread out Grand Strand courses genuinely are — a Pawleys Island course and a North Myrtle Beach course can sit close to an hour apart — the drive time for any given morning depends entirely on that day's specific course assignment and cannot be assumed constant across the week.</p>
+
+      <p><strong>Nightly nineteenth hole.</strong> Every evening throughout tournament week, the World's Largest 19th Hole at the Myrtle Beach Convention Center draws the bulk of the 3,000-strong field back to a single central point for food, drink and entertainment — meaning a hotel-to-Convention-Center transfer is a genuine nightly requirement regardless of which course was played that day.</p>
+
+      <p><strong>Championship Playoff (September 4).</strong> Flight winners and ties return for the one-day shootout that crowns the World Champion, typically at a single marquee course rather than the rotating format of the main tournament.</p>
+
+      <p>A NoirFleet chauffeur booked for the full World Am week is briefed daily on the specific course assignment rather than a single fixed address, with the vehicle adjusting its pickup timing and route each morning to match that day's actual tee sheet — the single detail that separates a workable World Am transport plan from a generic multi-day booking.</p>
+
+      <h2>Group and Corporate Golf Travel</h2>
+
+      <p>The World Am is overwhelmingly a group event — guys golf trips, golf buddies trips, corporate outings, club delegations and multi-generational family groups travelling together and frequently splitting across different flights on the same days depending on handicap divisions. For groups of four to eight travelling together, a single larger vehicle with genuine golf bag capacity — rather than splitting across multiple standard sedans — is both more practical and considerably more sociable for a week built around shared tee times and shared evenings at the 19th Hole.</p>
+
+      <p>For corporate groups using the World Am as a client entertainment or team event — a genuine and growing segment of the tournament's field — a single NoirFleet account covering the full group's airport arrivals, daily course transfers and nightly Convention Center transport removes the coordination burden from whoever on the team is otherwise stuck managing five separate days of logistics for everyone else.</p>
+
+      <h2>Myrtle Beach — The Golf Capital of the World, Year-Round</h2>
+
+      <p>The World Am is the biggest single week on the Myrtle Beach golf calendar, but it sits inside a much larger, year-round golf travel destination that markets itself, accurately, as the Golf Capital of the World. With close to 90 golf courses across the Grand Strand — spanning Myrtle Beach proper, North Myrtle Beach, Surfside Beach, Murrells Inlet and Pawleys Island — the region draws Myrtle Beach golf trips, guys golf weekends and organised Myrtle Beach golf packages every month of the year, not just during World Am week. Anyone searching for a Myrtle Beach golf vacation, a Myrtle Beach golf package, or simply reliable Myrtle Beach car service for a golf trip is searching for exactly the same ground transport problem the World Am creates at a smaller, more frequent scale: multiple courses, a rotating daily schedule, and golf bags that need somewhere to actually fit.</p>
+
+      <p><strong>North Myrtle Beach</strong> in particular is worth treating as its own destination rather than an extension of Myrtle Beach proper — its course cluster (including the Barefoot Resort courses) and its own hotel and vacation rental market mean a North Myrtle Beach golf trip often has a meaningfully different transfer profile from a stay further south toward Murrells Inlet or Pawleys Island. A NoirFleet booking confirmed against your actual lodging location — North Myrtle Beach, the Market Common area, or further south along the Strand — accounts for this rather than assuming one standard transfer time fits the whole destination.</p>
+
+      <p>Whether your trip is built around the World Am, a self-organised guys golf trip, a golf buddies weekend, or a fully packaged Myrtle Beach golf vacation booked through a local golf travel operator, the same NoirFleet standard applies: Myrtle Beach International Airport pickup, flight-tracked and confirmed in advance; a vehicle sized for golf bags and group luggage, not a standard sedan; and daily course transfers built around your actual tee sheet rather than a single fixed hotel-to-golf-course assumption.</p>
+
+      <h2>Booking Ahead — The Window Is Closing Fast</h2>
+
+      <p>The 2026 World Am begins in roughly two and a half weeks from today, with check-in on August 29 and tournament rounds starting August 31. This is a considerably tighter booking window than most of the events covered elsewhere in this series, and it compounds a genuine local capacity constraint: Myrtle Beach's transport and hospitality infrastructure, while well developed for its size, is a smaller market than Los Angeles, Las Vegas or New York, meaning the pool of professional chauffeur operators capable of running a genuinely course-rotation-aware, multi-day booking is considerably smaller relative to tournament-week demand.</p>
+
+      <p>NoirFleet's approach to World Am week follows the same principle we apply to every major event on the calendar, adapted to this tournament's specific structure: confirm the MYR airport transfer and flight-track it before you travel, confirm each day's course transfer against the actual tee sheet rather than a fixed address, and hold the vehicle on standby for the nightly 19th Hole run and the full week's programme rather than booking fresh for each individual day.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>When is the Myrtle Beach World Amateur 2026?</h3>
+      <p>Check-in runs August 29–30, 2026, with four tournament rounds from August 31 through September 3, and the Championship Playoff on September 4.</p>
+
+      <h3>Why does the World Am need a different transport approach than other tournaments?</h3>
+      <p>Players compete on a different golf course each day across more than 50 courses spread along the Grand Strand, rather than returning to a single fixed venue — meaning the transport plan has to be rebuilt around each day's specific course assignment rather than one standing address.</p>
+
+      <h3>What airport should I fly into for the World Am?</h3>
+      <p>Myrtle Beach International Airport (MYR), which handles the large majority of tournament week arrivals with direct and connecting service from major US hub cities.</p>
+
+      <h3>How far apart are the Grand Strand golf courses used in the tournament?</h3>
+      <p>The Grand Strand stretches roughly 60 miles from Little River to Pawleys Island, and courses used across the tournament can sit 25 to 40 minutes or more apart from each other depending on which end of the Strand each is located.</p>
+
+      <h3>Does NoirFleet cover the nightly 19th Hole transfers?</h3>
+      <p>Yes. Hotel-to-Myrtle Beach Convention Center transfers for the World's Largest 19th Hole are covered as a standing nightly booking throughout tournament week.</p>
+
+      <h3>Can NoirFleet handle golf bag and equipment transport?</h3>
+      <p>Yes. Vehicles with genuine golf bag capacity are recommended and available for both individual players and groups, a detail standard airport taxi and rideshare services are not always equipped to manage smoothly during peak tournament week volume.</p>
+
+      <h3>Is group transportation available for golf buddy trips or corporate outings?</h3>
+      <p>Yes. Groups of four to eight travelling together are the tournament's dominant travel pattern, and a single larger vehicle or coordinated small fleet under one account is the standard format for airport arrivals, daily course transfers and nightly Convention Center transport.</p>
+
+      <h3>How far in advance should I book transportation for the World Am?</h3>
+      <p>As soon as possible. With the 2026 tournament roughly two and a half weeks away and Myrtle Beach a considerably smaller transport market than a major metropolitan host city, professional vehicle availability for a genuinely course-rotation-aware multi-day booking should be confirmed well ahead of check-in.</p>
+
+      <h3>Does NoirFleet provide transportation for Myrtle Beach golf trips outside World Am week?</h3>
+      <p>Yes. Myrtle Beach car service for guys golf trips, golf buddies weekends, and packaged Myrtle Beach golf vacations is available year-round, with the same airport transfer, golf bag capacity and multi-course transfer standard applied to any Grand Strand golf trip, not just tournament week.</p>
+
+      <h3>What is the difference between Myrtle Beach and North Myrtle Beach for golf trip planning?</h3>
+      <p>North Myrtle Beach is a distinct destination with its own course cluster, including the Barefoot Resort courses, and its own lodging market, separate from Myrtle Beach proper and the courses further south toward Murrells Inlet and Pawleys Island. Transfer times vary meaningfully depending on which part of the Grand Strand your trip is based in.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>The Myrtle Beach World Amateur is unlike every other event in this series in one specific and important way: there is no single venue to plan around. It is five consecutive days of moving between a different golf course each morning and the same Convention Center each night, across a Grand Strand corridor that spans 60 miles of coastline. NoirFleet's approach to World Am week is built around exactly that structure — a chauffeur briefed daily on the actual tee sheet rather than a fixed address, and a standing vehicle for the nightly 19th Hole run, so that the only thing a player, group or family needs to think about all week is the golf itself.</p>
+
+      <p>Ready to arrange your Myrtle Beach World Amateur transportation? <a href="contact.html">Contact NoirFleet to book your tournament week</a> · <a href="fleet.html">View our fleet</a> · <a href="vip-player-transportation-trending-sports-events-2026.html">All trending events</a> · <a href="chauffeur-service-complete-guide.html">The complete chauffeur service guide</a></p>
+    `
+  },
+
+/* ══════════════════════════════════════════════════════════════════════
+   ↑ DAY 19 INSERT ENDS HERE
+   Paste your existing NF_ARTICLES content (Days 1–18) below this line
+   ══════════════════════════════════════════════════════════════════════ */
+   /* ═══════════════════════════════════════════════════════════════════════
    DAY 18 INSERT — FIFA U-17 WOMEN'S WORLD CUP MOROCCO 2026 COMPLETE GUIDE
    PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
    THEN save as articles.js replacing your current file.
