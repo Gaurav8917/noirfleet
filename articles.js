@@ -21,6 +21,76 @@
    ════════════════════════════════════════════════════════════════════ */
 
 const NF_ARTICLES = [
+   /* ═══════════════════════════════════════════════════════════════════════
+   DAY 20 INSERT — 5 THINGS TO CHECK BEFORE BOOKING AN AIRPORT CHAUFFEUR
+   PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
+   THEN save as articles.js replacing your current file.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ─── DAY 20 — 5 THINGS TO CHECK BEFORE BOOKING AN AIRPORT CHAUFFEUR (Evergreen / Travel Tips) ─── */
+  {
+    slug: "5-things-to-check-before-booking-airport-chauffeur",
+    title: "5 Things to Check Before Booking an Airport Chauffeur",
+    date: "August 13, 2026",
+    category: "Travel Tips",
+    image: "airport_rides.jpg",
+    excerpt: "Before you book an airport transfer, check these five things — flight tracking, fixed fares, terminal confirmation, driver verification and cabin condition — or risk arriving to nothing.",
+    content: `
+      <p>Most people book an airport chauffeur the same way they book a rideshare — a few taps, a confirmation screen, done. The problem is that an airport transfer and a rideshare are not the same product wearing different branding, and the gap between them only becomes visible at the exact moment it costs you: standing at arrivals with no driver, no name board, and a booking confirmation that turns out to have promised considerably more than the operator can deliver. Here are the five things worth checking before you book any airport chauffeur service, anywhere, so you find out beforehand rather than at the terminal.</p>
+
+      <h2>1. Does It Actually Track Your Flight?</h2>
+
+      <p>This is the single most important feature of a genuine airport transfer service, and the one most frequently claimed without actually being delivered. Flight tracking means the operator monitors your specific flight from departure, not from its scheduled arrival time — so if you land two hours late, or three hours early, the pickup adjusts automatically without you needing to call anyone. A service that only tracks the scheduled time on the booking form is not flight tracking. Ask directly: "do you track the actual flight, or the time I entered at booking?" The answer tells you everything about whether you're dealing with a genuine chauffeur service or a taxi with a nicer app.</p>
+
+      <h2>2. Is the Fare Genuinely Fixed?</h2>
+
+      <p>A fixed fare should mean exactly that — the number confirmed at booking is the number you pay at drop-off, regardless of traffic, time of day, or how long the drive actually takes. What to watch for: operators who quote a fare but list tolls, waiting time, or a "surcharge" as separate line items only revealed at the end of the trip. Before booking, ask specifically whether tolls, driver allowance and standard waiting time are included in the quoted number — if the answer requires a follow-up explanation, that's a fare that isn't actually fixed.</p>
+
+      <h2>3. Is the Terminal Confirmed, Not Assumed?</h2>
+
+      <p>Major airports routinely have multiple terminals, and a driver briefed on the wrong one has not failed at their job — the booking failed at the planning stage. This is a small detail that causes a disproportionate number of missed pickups. When booking, confirm the operator has recorded your specific terminal, not just the airport name, and that this detail is visible on your confirmation. If your flight or airline changes terminal assignment close to departure, a genuine chauffeur service should be tracking that too.</p>
+
+      <h2>4. Are Drivers Actually Vetted?</h2>
+
+      <p>"Licensed and insured" is a phrase every operator uses. What it should actually mean is a documented background verification process for every driver, not just a general company license. This matters most for solo travellers, late-night arrivals, and anyone landing in an unfamiliar city for the first time. A legitimate operator can tell you, specifically, what their driver vetting process involves — background checks, driving record review, and ongoing conduct standards — rather than offering a vague assurance.</p>
+
+      <h2>5. What Condition Will the Vehicle Actually Be In?</h2>
+
+      <p>A vehicle that has simply been "cleaned since the last passenger" is a different product from one genuinely prepared for you specifically — climate set before arrival, no trace of a previous occupant, water positioned correctly. This is the detail that separates an ordinary premium cab from a genuine chauffeur experience, and it's worth asking about directly if the vehicle photos on a booking site look more aspirational than accurate.</p>
+
+      <h2>The One Question That Covers All Five</h2>
+
+      <p>If you only have time to ask one thing before booking an airport chauffeur, ask this: "what happens if my flight is delayed by three hours?" A genuine chauffeur service answers immediately and specifically — the flight is tracked, the pickup adjusts automatically, the fare doesn't change. An operator who hesitates, or who explains a process involving you calling them to update the time, has just told you which of the five things above they don't actually do.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How do I know if an airport transfer service actually tracks flights?</h3>
+      <p>Ask directly whether they track your specific flight number from departure or only the scheduled arrival time entered at booking. A genuine service adjusts pickup timing automatically for delays without requiring you to call.</p>
+
+      <h3>What should be included in a fixed airport transfer fare?</h3>
+      <p>Tolls, driver allowance and standard waiting time should all be included in the quoted fare at booking, with no additional charges revealed at drop-off.</p>
+
+      <h3>Why does terminal confirmation matter for airport pickups?</h3>
+      <p>Major airports often have multiple terminals, and a driver positioned at the wrong one is the single most common cause of a missed pickup — a failure of booking accuracy, not driver reliability.</p>
+
+      <h3>What does driver vetting actually involve for a legitimate chauffeur service?</h3>
+      <p>Documented background checks, driving record review, and ongoing professional conduct standards — not just a general company operating license.</p>
+
+      <h3>How can I check a vehicle's condition before it arrives?</h3>
+      <p>Ask the operator directly how vehicles are prepared between bookings, and be cautious of listings where the photos look considerably more polished than the described fleet standard.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>None of these five checks take more than a minute to ask about, and any legitimate chauffeur service will have specific, immediate answers to all of them. The operators who hesitate, generalise, or need to "check and get back to you" are telling you something important before you've even booked. NoirFleet applies all five as standard on every airport transfer, everywhere we operate — not as a premium upgrade, but as the baseline.</p>
+
+      <p>Ready to book an airport transfer that gets all five right? <a href="contact.html">Contact NoirFleet</a> · <a href="fleet.html">View our fleet</a> · <a href="luxury-airport-transfer-worldwide-guide.html">Read our full airport transfer guide</a> · <a href="chauffeur-service-complete-guide.html">The complete chauffeur service guide</a></p>
+    `
+  },
+
+/* ══════════════════════════════════════════════════════════════════════
+   ↑ DAY 20 INSERT ENDS HERE
+   Paste your existing NF_ARTICLES content (Days 1–19) below this line
+   ══════════════════════════════════════════════════════════════════════ */
 
    /* ═══════════════════════════════════════════════════════════════════════
    DAY 19 INSERT — MYRTLE BEACH WORLD AMATEUR GOLF 2026 DEDICATED EVENT PAGE
