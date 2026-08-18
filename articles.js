@@ -21,6 +21,141 @@
    ════════════════════════════════════════════════════════════════════ */
 
 const NF_ARTICLES = [
+
+   /* ═══════════════════════════════════════════════════════════════════════
+   DAY 21 INSERT — MOROCCO COMPLETE TRAVEL GUIDE (FLAGSHIP MOROCCO HUB)
+   PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
+   THEN save as articles.js replacing your current file.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ─── DAY 21 — MOROCCO TRAVEL GUIDE 2026: FIFA U-17 WOMEN'S WORLD CUP, SPORTS TOURISM & CHAUFFEUR SERVICE (Flagship Morocco Hub) ─── */
+  {
+    slug: "morocco-travel-guide-2026-fifa-sports-tourism-chauffeur-service",
+    title: "Morocco Travel Guide 2026 | NoirFleet Chauffeur Service",
+    date: "August 14, 2026",
+    category: "FIFA 2026",
+    image: "event.jpg",
+    excerpt: "Morocco travel guide 2026 — FIFA U-17 Women's World Cup Rabat, Marrakech, Fes, Chefchaouen, the Sahara, Casablanca, best time to visit, and chauffeur service across the country.",
+    content: `
+      <p>Morocco in 2026 is having a genuine moment. The FIFA U-17 Women's World Cup returns to Rabat from 17 October to 7 November, drawing 24 national teams, their federations, sponsors and travelling families into a country that was already one of the world's fastest-growing tourism destinations before a single ball was kicked. Whether you're arriving specifically for the tournament, planning a broader Moroccan holiday around it, or simply researching a Morocco trip with no connection to football at all, the practical questions are largely the same: where to go, when to go, how to get between destinations, and how to actually move around a country that is, geographically, twice the size of Germany.</p>
+
+      <p>This guide covers all of it — the tournament in Rabat, Morocco's essential destinations from Marrakech to the Sahara, the practical planning details every visitor needs, and the chauffeur and ground transport reality of moving through a country where distances between highlights are considerably longer than most first-time visitors expect.</p>
+
+      <h2>FIFA U-17 Women's World Cup Morocco 2026 — Rabat</h2>
+
+      <p>The tenth edition of the tournament runs 17 October to 7 November 2026, hosted in Rabat for the second consecutive year following Morocco's landmark 2025 staging — the first time an African nation has hosted a FIFA women's youth World Cup. Twenty-four teams compete across six groups, with defending champions Korea DPR, reigning European champions Spain, and host nation Morocco all in the field, alongside tournament debutants Argentina, Australia and Puerto Rico. Matches are played at the Olympic Stadium of Rabat, the same venue that hosted the 2025 final.</p>
+
+      <p>For the complete breakdown of every group, every qualified team and the tournament format, see our dedicated <a href="fifa-u17-womens-world-cup-morocco-2026-complete-guide.html">FIFA U-17 Women's World Cup Morocco 2026 complete guide</a>. For Rabat-specific airport transfers, match-day transport and chauffeur service, see our <a href="fifa-u17-womens-world-cup-morocco-2026-chauffeur-guide.html">Rabat transport and airport transfer guide</a>.</p>
+
+      <h2>Morocco — Practical Planning Essentials</h2>
+
+      <table>
+        <tr><th>Detail</th><th>Information</th></tr>
+        <tr><td>Currency</td><td>Moroccan Dirham (MAD) — a closed currency; exchange on arrival rather than before departure</td></tr>
+        <tr><td>Best Time to Visit</td><td>Spring (March–May) and autumn (September–November) — pleasant temperatures across most regions and the classic peak-season window</td></tr>
+        <tr><td>Peak Season</td><td>Mid-May to mid-October draws the largest crowds; book accommodation and desert excursions well in advance during this window</td></tr>
+        <tr><td>Recommended Trip Length</td><td>7–10 days minimum for a meaningful multi-region itinerary; Morocco's attractions are considerably further apart than first-time visitors expect</td></tr>
+        <tr><td>Main International Gateways</td><td>Casablanca (Mohammed V International, CMN), Marrakech Menara (RAK), Rabat–Salé (RBA)</td></tr>
+        <tr><td>Languages</td><td>Arabic and French are official; English is spoken in tourist-facing hospitality but considerably less so with general taxi drivers</td></tr>
+      </table>
+
+      <h2>Morocco's Essential Destinations</h2>
+
+      <h3>Marrakech — The Red City</h3>
+      <p>Marrakech is Morocco's most visited city and, for most international travellers, the natural starting point for a Moroccan itinerary. The bustling Djemaa el-Fna square, the historic medina, the tranquil Jardin Majorelle and the palaces of the old city define the Marrakech experience — a genuinely different atmosphere from the capital's more formal character. Marrakech Menara Airport connects directly to major European, Gulf and increasingly Indian and Asian gateways, making it the most common entry point for leisure travellers whose trip is not specifically tournament-related.</p>
+
+      <h3>Casablanca — Morocco's Economic Capital</h3>
+      <p>Casablanca is Morocco's largest city and its principal international aviation gateway via Mohammed V International Airport. The Hassan II Mosque — one of the largest mosques in the world, built partially over the Atlantic Ocean and one of the few mosques in Morocco open to non-Muslims — dominates the coastline and is the city's essential visit. Casablanca's Art Deco architecture from the French colonial period, its Corniche waterfront, and its role as Morocco's commercial and financial centre make it a genuinely different city experience from Marrakech or Fes.</p>
+
+      <h3>Rabat — The Capital</h3>
+      <p>Rabat, the tournament host city and Morocco's political capital, blends modern administration with a historic core along the Bouregreg River and the Atlantic coast. The Kasbah des Oudaias, the Hassan Tower and Mausoleum of Mohammed V, and the Chellah necropolis are Rabat's essential sights beyond the football itself — worth building into any tournament trip rather than treating the city purely as a match-day stopover.</p>
+
+      <h3>Fes (Fez) — The Oldest Imperial City</h3>
+      <p>Fes is home to the world's oldest continuously operating university and one of the most extraordinary medieval medinas anywhere in the world — a UNESCO World Heritage Site and, reportedly, the largest car-free urban area on the planet. For travellers seeking the most historically immersive Moroccan city experience, Fes is frequently rated above Marrakech.</p>
+
+      <h3>Chefchaouen — The Blue Pearl</h3>
+      <p>Chefchaouen, nestled in the Rif Mountains in northern Morocco, is known worldwide for its striking blue-painted streets and buildings — one of the most photographed towns in Africa. It offers a genuinely different pace from Morocco's larger cities and is a common addition to itineraries that include the country's northern regions.</p>
+
+      <h3>The Sahara Desert — Merzouga and Erg Chebbi</h3>
+      <p>No Moroccan itinerary is considered complete without a Sahara Desert excursion. The towering dunes of Erg Chebbi near Merzouga are Morocco's most accessible major desert destination, offering camel treks at sunset, traditional Berber music, and overnight stays in desert camps beneath famously dark, star-filled skies. The more remote Erg Chigaga dunes offer a less-visited alternative for travellers seeking greater isolation. Desert camps typically close during the peak summer heat, making spring and autumn the ideal windows for this leg of a trip.</p>
+
+      <h3>Atlas Mountains</h3>
+      <p>The Atlas Mountains — Morocco's highest peaks, stretching across North Africa — offer some of the country's best trekking and hiking, alongside Berber villages and landscapes that provide a genuine contrast to the coastal cities and desert plains. Most itineraries pass through the High Atlas en route between Marrakech and the Sahara via Ouarzazate.</p>
+
+      <h3>Essaouira and the Atlantic Coast</h3>
+      <p>Essaouira, on Morocco's Atlantic coast, offers a relaxed alternative to Marrakech's intensity — fresh seafood, consistent trade winds that draw windsurfers and kitesurfers, and a coastal medina with its own distinct character.</p>
+
+      <h3>Ouarzazate and Ait Benhaddou</h3>
+      <p>Ouarzazate, known as the gateway to the Sahara, sits at the crossroads between the Atlas Mountains and the desert, and is the access point for Ait Benhaddou — the UNESCO-listed fortified ksar that has served as a filming backdrop for numerous major productions and remains one of Morocco's most visually striking heritage sites.</p>
+
+      <h2>How to Move Around Morocco — The Ground Transport Reality</h2>
+
+      <p>Morocco's attractions are genuinely far apart, and this is the single detail most first-time visitors underestimate when planning their own itinerary. The country's road network has improved substantially, but travel times between highlights — Marrakech to the Sahara, Rabat to Chefchaouen, Casablanca to Fes — routinely run four to eight hours by road, and a rushed, over-packed itinerary attempting to see too much in too little time is the most common planning mistake visitors make.</p>
+
+      <p><strong>Casablanca to Rabat</strong> — approximately 90 km, roughly 60–90 minutes by road, the standard routing for tournament visitors arriving on long-haul international flights via Casablanca before continuing to Rabat.</p>
+
+      <p><strong>Casablanca to Marrakech</strong> — approximately 240 km, roughly 3 hours by road, one of Morocco's most travelled intercity corridors.</p>
+
+      <p><strong>Marrakech to the Sahara (Merzouga)</strong> — approximately 560 km via Ouarzazate and the High Atlas, typically split across two days with an overnight stop, given the mountain roads and the distance involved.</p>
+
+      <p><strong>Rabat to Chefchaouen</strong> — approximately 230 km, roughly 3.5–4 hours by road.</p>
+
+      <p><strong>Marrakech to Fes</strong> — approximately 480 km, roughly 7–8 hours by road, or a shorter domestic flight option for travellers on a tighter schedule.</p>
+
+      <p>For international visitors — particularly those combining the FIFA U-17 Women's World Cup with a broader Moroccan holiday — a pre-booked, English-briefed chauffeur removes two genuine friction points that self-drive and standard taxi options do not: the language gap (Arabic and French are the working languages, with English considerably less consistent among general taxi drivers), and the navigational complexity of Morocco's intercity road network, particularly through the Atlas Mountains corridor toward the Sahara.</p>
+
+      <h2>Morocco Sports Tourism Beyond the World Cup</h2>
+
+      <p>The FIFA U-17 Women's World Cup is Morocco's highest-profile sporting event in 2026, but it sits within a broader sports tourism trajectory for the country — Morocco has hosted the Africa Cup of Nations, holds hosting rights for this tournament through five consecutive editions to 2029, and is a confirmed co-host of the FIFA World Cup 2030 alongside Spain and Portugal. For sponsors, federations and travelling fans, Morocco's sports tourism infrastructure — venues, hospitality, and ground transport — is being built out with a multi-year, multi-tournament trajectory in mind, not a single isolated event.</p>
+
+      <p>For a broader view of how NoirFleet approaches sports tourism transport globally, see our <a href="sports-tourism-chauffeur-service-worldwide-events-guide.html">worldwide sports tourism chauffeur service guide</a> and our <a href="vip-player-transportation-trending-sports-events-2026.html">guide to VIP transportation for 2026's biggest events</a>.</p>
+
+      <h2>Why Choose NoirFleet for Morocco</h2>
+
+      <p>NoirFleet's Morocco coverage is built around the same standard we apply to every market we operate in: confirmed, flight-tracked airport transfers from Casablanca, Rabat and Marrakech; English-briefed chauffeurs who remove the language gap that affects most first-time visitors; and route-familiar drivers on the long intercity corridors — Marrakech to the Sahara via Ouarzazate, Rabat to Chefchaouen, Casablanca to Fes — where local road knowledge genuinely changes the quality of the journey. Whether your trip is built entirely around the FIFA U-17 Women's World Cup in Rabat, a broader Moroccan holiday combining the Sahara and the Atlas Mountains, or both, the same NoirFleet account covers the full itinerary.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What is the best time to visit Morocco in 2026?</h3>
+      <p>Spring (March–May) and autumn (September–November) offer the most pleasant weather across most regions and align with the FIFA U-17 Women's World Cup window in Rabat (17 October–7 November).</p>
+
+      <h3>How many days do I need for a Morocco trip?</h3>
+      <p>A minimum of 7–10 days is recommended for a meaningful multi-region itinerary, given how far apart Morocco's major destinations genuinely are.</p>
+
+      <h3>What currency does Morocco use?</h3>
+      <p>The Moroccan Dirham (MAD), a closed currency — it is not available for exchange outside Morocco, so currency exchange should be arranged on arrival.</p>
+
+      <h3>Which airport should I fly into for a Morocco trip?</h3>
+      <p>Casablanca's Mohammed V International Airport (CMN) is Morocco's principal international gateway. Marrakech Menara (RAK) and Rabat–Salé (RBA) are also well connected, with the right choice depending on your itinerary's starting point.</p>
+
+      <h3>How far is it from Marrakech to the Sahara Desert?</h3>
+      <p>Approximately 560 km via Ouarzazate and the High Atlas Mountains, typically split across two days with an overnight stop given the mountain driving involved.</p>
+
+      <h3>Is English widely spoken in Morocco?</h3>
+      <p>Arabic and French are the official languages. English is common in tourist-facing hospitality but considerably less consistent among general taxi drivers, which is why a pre-booked English-briefed chauffeur is valuable for first-time visitors.</p>
+
+      <h3>Can I combine the FIFA U-17 Women's World Cup with a broader Morocco holiday?</h3>
+      <p>Yes. Rabat connects well to Casablanca, Chefchaouen, Fes and, with more travel time, Marrakech and the Sahara — a common pattern for international visitors extending their tournament trip into a wider Moroccan itinerary.</p>
+
+      <h3>What are Morocco's must-see destinations beyond the World Cup host city?</h3>
+      <p>Marrakech, Fes, Chefchaouen, the Sahara Desert (Merzouga/Erg Chebbi), the Atlas Mountains, Casablanca's Hassan II Mosque, Essaouira, and Ouarzazate/Ait Benhaddou are the destinations most consistently recommended across Morocco travel guides.</p>
+
+      <h3>Does NoirFleet provide chauffeur service across all of Morocco, not just Rabat?</h3>
+      <p>Yes. NoirFleet's Morocco network covers Casablanca, Rabat and Marrakech airport transfers, and route-familiar chauffeurs for the country's major intercity corridors, including the Marrakech-to-Sahara route via Ouarzazate.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>Morocco in 2026 offers a genuinely rare combination: a major international sporting event in Rabat, and one of the world's most rewarding, diverse travel destinations spread across the rest of the country. Whether your trip begins and ends with the FIFA U-17 Women's World Cup, or the tournament is simply the reason you finally booked the broader Moroccan holiday you'd been considering, the two things worth planning properly are the same either way: enough time to actually experience the distances between Morocco's highlights, and ground transport that removes the language and navigation friction most first-time visitors encounter.</p>
+
+      <p>Planning your Morocco trip? <a href="fifa-u17-womens-world-cup-morocco-2026-complete-guide.html">Read our full FIFA U-17 Women's World Cup guide</a> · <a href="fifa-u17-womens-world-cup-morocco-2026-chauffeur-guide.html">Rabat transport and airport transfer guide</a> · <a href="contact.html">Contact NoirFleet to arrange your transfers</a> · <a href="fleet.html">View our fleet</a> · <a href="chauffeur-service-complete-guide.html">The complete chauffeur service guide</a></p>
+    `
+  },
+
+/* ══════════════════════════════════════════════════════════════════════
+   ↑ DAY 21 INSERT ENDS HERE
+   Paste your existing NF_ARTICLES content (Days 1–20) below this line
+   ══════════════════════════════════════════════════════════════════════ */
+   
    /* ═══════════════════════════════════════════════════════════════════════
    DAY 20 INSERT — 5 THINGS TO CHECK BEFORE BOOKING AN AIRPORT CHAUFFEUR
    PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
