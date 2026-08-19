@@ -23,6 +23,77 @@
 const NF_ARTICLES = [
 
    /* ═══════════════════════════════════════════════════════════════════════
+   DAY 22 INSERT — HOW MUCH DOES A CHAUFFEUR SERVICE ACTUALLY COST (2026 PRICING GUIDE)
+   PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
+   THEN save as articles.js replacing your current file.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ─── DAY 22 — HOW MUCH DOES A CHAUFFEUR SERVICE ACTUALLY COST (Evergreen / Travel Tips) ─── */
+  {
+    slug: "how-much-does-a-chauffeur-service-cost-2026-pricing-guide",
+    title: "How Much Does a Chauffeur Service Cost? | 2026 Guide",
+    date: "August 19, 2026",
+    category: "Travel Tips",
+    image: "sedan.jpg",
+    excerpt: "What actually goes into a chauffeur service fare — vehicle class, journey type, tolls and waiting time — and how it really compares to a taxi or rideshare once the hidden costs are counted.",
+    content: `
+      <p>"How much does a chauffeur service cost" is one of the most searched questions in this entire industry, and one of the least honestly answered. Most pricing pages either quote a single number that turns out to be a starting rate with a dozen conditions attached, or avoid numbers entirely and ask you to "request a quote." Neither approach actually tells you what determines your fare, or why two seemingly identical bookings can cost meaningfully different amounts. Here is what genuinely goes into a chauffeur service fare, and how the real cost compares to the alternatives once everything is actually counted.</p>
+
+      <h2>The Four Things That Actually Determine Your Fare</h2>
+
+      <p><strong>Vehicle class.</strong> A standard executive sedan costs less than a flagship sedan (Mercedes-Benz S-Class, BMW 7 Series), which costs less than a premium SUV or MPV for groups. This is the most obvious variable and the one most pricing pages lead with — but it's rarely the only one that matters.</p>
+
+      <p><strong>Journey type.</strong> A point-to-point airport transfer, hourly or full-day hire, and a long-distance outstation route are priced on entirely different structures. Point-to-point is typically the simplest and most predictable. Hourly hire bundles a vehicle and chauffeur for a block of time regardless of how many stops you make. Outstation and intercity routes are priced by distance and duration combined, often with a different rate for a one-way drop versus a round trip where the vehicle waits.</p>
+
+      <p><strong>Distance and duration.</strong> For point-to-point and outstation bookings, the actual kilometres and expected drive time form the core of the calculation — though a genuinely fixed-fare service confirms this number at booking rather than adjusting it based on how traffic actually plays out.</p>
+
+      <p><strong>What's included versus added later.</strong> This is where fares that look similar at first glance diverge the most. Tolls, driver allowance, waiting time and airport parking fees should all be built into the quoted fare from a legitimate operator. When they're not, the number you see at booking and the number you actually pay can differ by a meaningful margin — and this is the single most common source of "hidden cost" complaints in this industry.</p>
+
+      <h2>What a Fixed Fare Should Actually Mean</h2>
+
+      <p>A genuinely fixed fare has no meter, no surge multiplier, and no toll dispute at drop-off. The number confirmed when you book is the number you pay, regardless of traffic, time of day, or how long the journey actually takes compared to the estimate. If an operator's "fixed fare" changes based on any of those factors, it isn't actually fixed — it's an estimate with a fixed-sounding name.</p>
+
+      <h2>Chauffeur Service vs Taxi vs Rideshare — The Real Cost Comparison</h2>
+
+      <p>On paper, a metered taxi or a rideshare app often looks cheaper than a pre-booked chauffeur. In practice, the comparison depends heavily on when and how you're travelling. A rideshare booked during normal daytime hours in light traffic can genuinely be the more affordable option for a short trip. The picture changes considerably at an airport during a delayed flight, during a major event when surge pricing regularly runs two to five times the standard rate, or on any journey where a toll dispute or a waiting-time charge gets added at the end. Once those realistic scenarios are factored in — not the best-case scenario, but the one that actually happens often enough to matter — a fixed-fare chauffeur service is frequently comparable in cost and considerably more predictable in outcome.</p>
+
+      <p>The honest way to think about it: you're not paying extra for the vehicle badge. You're paying for certainty — a fare that doesn't move, a driver who's already confirmed, and a pickup that adjusts automatically if your flight is delayed. Whether that certainty is worth a modest premium depends entirely on how much a missed pickup or an unpredictable fare would actually cost you in a worse scenario.</p>
+
+      <h2>Why Two Quotes for the "Same" Trip Can Differ</h2>
+
+      <p>When two chauffeur service quotes for what looks like an identical booking come back at different prices, the difference is almost always one of these: one operator has priced tolls and waiting time into the fare and the other hasn't; one has quoted a smaller vehicle class than you actually need for your luggage or group size; or one operator is a genuine chauffeur service with vetted drivers and maintained vehicles, and the other is closer to an informal taxi operation using "chauffeur service" as a label rather than a standard. Before comparing two quotes on price alone, confirm they're actually quoting the same thing.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What factors determine the cost of a chauffeur service?</h3>
+      <p>Vehicle class, journey type (point-to-point, hourly, or outstation), distance and duration, and whether tolls, driver allowance and waiting time are included in the quoted fare rather than added afterward.</p>
+
+      <h3>Is a chauffeur service more expensive than a taxi?</h3>
+      <p>Not always. During normal conditions a taxi or rideshare can be cheaper for a short trip, but once surge pricing, toll disputes and waiting-time charges are factored into realistic scenarios — airport delays, major events, peak hours — a fixed-fare chauffeur service is frequently comparable and considerably more predictable.</p>
+
+      <h3>What should be included in a genuinely fixed chauffeur fare?</h3>
+      <p>Tolls, driver allowance and standard waiting time should all be included in the quoted number at booking, with nothing added at drop-off.</p>
+
+      <h3>Why do two chauffeur service quotes for the same trip sometimes differ significantly?</h3>
+      <p>Usually because one operator has priced in tolls and waiting time and the other hasn't, one has quoted a different vehicle class than actually needed, or the two operators aren't offering the same underlying standard of service.</p>
+
+      <h3>Does hourly hire cost more than a point-to-point transfer?</h3>
+      <p>It depends on how many stops and how much total time you need. For a single trip, point-to-point is usually more economical. For a day with multiple stops, hourly hire often works out more cost-effective than several separate point-to-point bookings.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>The honest answer to "how much does a chauffeur service cost" is that it depends on vehicle class, journey type, and — most importantly — whether the quote you're looking at actually includes everything or is missing the tolls and waiting time that show up later. A legitimate operator can explain all of this clearly before you book, not after. NoirFleet's fares are fixed and all-inclusive across every vehicle class and journey type, confirmed at booking with nothing added at drop-off.</p>
+
+      <p>Ready for a fare that doesn't change on you? <a href="contact.html">Contact NoirFleet for a quote</a> · <a href="fleet.html">View our fleet</a> · <a href="chauffeur-service-complete-guide.html">The complete chauffeur service guide</a></p>
+    `
+  },
+
+/* ══════════════════════════════════════════════════════════════════════
+   ↑ DAY 22 INSERT ENDS HERE
+   Paste your existing NF_ARTICLES content (Days 1–21) below this line
+   ══════════════════════════════════════════════════════════════════════ */
+
+   /* ═══════════════════════════════════════════════════════════════════════
    DAY 21 INSERT — MOROCCO COMPLETE TRAVEL GUIDE (FLAGSHIP MOROCCO HUB)
    PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
    THEN save as articles.js replacing your current file.
