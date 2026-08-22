@@ -23,6 +23,75 @@
 const NF_ARTICLES = [
 
    /* ═══════════════════════════════════════════════════════════════════════
+   DAY 24 INSERT — FIFA U-17 WOMEN'S WORLD CUP MOROCCO 2026: TICKETS, HOSPITALITY & WHERE TO STAY
+   PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
+   THEN save as articles.js replacing your current file.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ─── DAY 24 — FIFA U-17 WOMEN'S WORLD CUP MOROCCO 2026: TICKETS, HOSPITALITY & WHERE TO STAY IN RABAT ─── */
+  {
+    slug: "fifa-u17-womens-world-cup-morocco-2026-tickets-hospitality-where-to-stay",
+    title: "FIFA U-17 Women's World Cup 2026 | Tickets & Where to Stay",
+    date: "August 22, 2026",
+    category: "FIFA 2026",
+    image: "event.jpg",
+    excerpt: "Tickets, corporate hospitality and where to stay in Rabat for FIFA U-17 Women's World Cup Morocco 2026 — a practical planning guide for the three-week tournament window.",
+    content: `
+      <p>Once you know the dates and the groups for FIFA U-17 Women's World Cup Morocco 2026, two practical questions remain: how do tickets and hospitality actually work, and where should you base yourself in Rabat for a tournament that runs 17 October to 7 November. This guide covers both — the ticket and hospitality landscape typical of a FIFA youth tournament, and the accommodation strategy that makes the most sense given Rabat's geography relative to the Olympic Stadium.</p>
+
+      <p>For the full team and group breakdown, see our <a href="fifa-u17-womens-world-cup-morocco-2026-complete-guide.html">complete tournament guide</a>. For airport transfers and match-day transport specifics, see our <a href="fifa-u17-womens-world-cup-morocco-2026-chauffeur-guide.html">Rabat transport guide</a>. For the broader Morocco trip-planning picture, see our <a href="morocco-travel-guide-2026-fifa-sports-tourism-chauffeur-service.html">Morocco travel guide</a>.</p>
+
+      <h2>Tickets and Hospitality — What to Expect</h2>
+
+      <p>FIFA tournaments typically release tickets through the official FIFA ticketing portal well ahead of the group-stage draw, with pricing tiers that scale from affordable general admission — reflecting the tournament's youth and grassroots football character — up through category-based seating for higher-demand fixtures such as the host nation's matches and the knockout rounds. Corporate hospitality and premium packages, where offered, are typically distributed through FIFA's official hospitality partners rather than the general ticketing portal, and usually bundle padium or club-level seating with match-day catering and, at larger venues, dedicated entrance access.</p>
+
+      <p>Given Morocco's hosting rights run through five consecutive editions to 2029, and the tournament sits within a broader national sports infrastructure build-out that includes AFCON hosting and the FIFA World Cup 2030 co-hosting role, sponsors and corporate groups planning multi-year Morocco sports tourism programmes should expect Rabat's hospitality offering to mature considerably across successive editions — 2026 sits early in that trajectory.</p>
+
+      <h2>Where to Stay in Rabat — Three Practical Zones</h2>
+
+      <p><strong>Near the Olympic Stadium (Hay Riad / Agdal area).</strong> Staying close to the stadium minimises match-day transfer time — genuinely valuable across a three-week tournament window with match days spread throughout, rather than concentrated into a single weekend. The tradeoff is fewer restaurant, retail and evening entertainment options immediately at hand compared to central Rabat.</p>
+
+      <p><strong>Central Rabat (near the Kasbah des Oudaias and the historic medina).</strong> This puts visitors closer to Rabat's own sightseeing — the Kasbah, the Hassan Tower, the Chellah necropolis — and a stronger evening dining and hospitality scene, at the cost of a longer daily transfer to the stadium, typically 20 to 35 minutes depending on the exact match schedule and traffic.</p>
+
+      <p><strong>Along the Bouregreg River / Salé side.</strong> An emerging accommodation cluster with river views and a quieter base than central Rabat, worth considering for longer stays given the tournament's three-week span, with transfer times to the stadium broadly comparable to the central Rabat option.</p>
+
+      <p>Given the tournament runs considerably longer than a typical single-weekend sporting event, the accommodation decision matters more than it would for a shorter trip — a hotel chosen purely for stadium proximity can feel isolating across three weeks, while one chosen purely for the historic centre's atmosphere adds meaningful cumulative transfer time across repeated match-day trips. A standing chauffeur account, rather than a fresh booking for every trip to the stadium, is the practical way to neutralise this tradeoff regardless of which zone you choose.</p>
+
+      <h2>Planning for the Length of the Tournament</h2>
+
+      <p>At three weeks, FIFA U-17 Women's World Cup Morocco 2026 is a considerably longer commitment than most single-event sports trips. Federation officials, sponsors and travelling families following a team through the group stage and, potentially, into the knockout rounds should plan around a trip that may extend well beyond a single week — which changes the calculus on accommodation (a longer-stay rate or serviced apartment may suit better than a standard hotel booking), and reinforces the value of a single standing transport account over the tournament's full duration rather than booking transfers piecemeal as the schedule unfolds.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Where can I buy tickets for FIFA U-17 Women's World Cup Morocco 2026?</h3>
+      <p>Tickets for FIFA tournaments are distributed through the official FIFA ticketing portal, typically released ahead of the group-stage draw, with corporate hospitality packages generally available through FIFA's designated hospitality partners separately from general ticket sales.</p>
+
+      <h3>Where is the best area to stay in Rabat for the tournament?</h3>
+      <p>It depends on your priority — staying near the Olympic Stadium (Hay Riad/Agdal) minimises match-day transfer time, while central Rabat near the Kasbah des Oudaias offers a stronger dining and sightseeing base at the cost of a slightly longer daily transfer.</p>
+
+      <h3>How long should I plan to stay for the tournament?</h3>
+      <p>Given the tournament runs 17 October to 7 November, federation officials, sponsors and families following a specific team should plan for a trip that may extend well beyond a single week, particularly if the team advances through the group stage.</p>
+
+      <h3>Is corporate hospitality available for this tournament?</h3>
+      <p>FIFA tournaments typically offer corporate hospitality and premium packages through official hospitality partners, generally bundling premium seating with match-day catering, separate from standard ticket sales.</p>
+
+      <h3>Does NoirFleet offer standing transport accounts for the full tournament duration?</h3>
+      <p>Yes. Given the tournament's three-week span, a single NoirFleet account covering the full duration — rather than booking each transfer individually — is the standard format for federations, sponsors and families attending multiple match days.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>FIFA U-17 Women's World Cup Morocco 2026 rewards planning that accounts for its actual length — three weeks of football, not a single weekend. Choosing the right base in Rabat, understanding how tickets and hospitality are typically structured, and setting up transport for the full duration rather than trip by trip are the three practical decisions worth making early, well before the tournament's 17 October opening.</p>
+
+      <p>Planning your FIFA U-17 Women's World Cup trip? <a href="fifa-u17-womens-world-cup-morocco-2026-complete-guide.html">Read the full tournament guide</a> · <a href="fifa-u17-womens-world-cup-morocco-2026-chauffeur-guide.html">Rabat transport guide</a> · <a href="contact.html">Contact NoirFleet</a> · <a href="chauffeur-service-complete-guide.html">The complete chauffeur service guide</a></p>
+    `
+  },
+
+/* ══════════════════════════════════════════════════════════════════════
+   ↑ DAY 24 INSERT ENDS HERE
+   Paste your existing NF_ARTICLES content (Days 1–23) below this line
+   ══════════════════════════════════════════════════════════════════════ */
+
+   /* ═══════════════════════════════════════════════════════════════════════
    DAY 22 INSERT — HOW MUCH DOES A CHAUFFEUR SERVICE ACTUALLY COST (2026 PRICING GUIDE)
    PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
    THEN save as articles.js replacing your current file.
