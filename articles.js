@@ -23,6 +23,118 @@
 const NF_ARTICLES = [
 
    /* ═══════════════════════════════════════════════════════════════════════
+   DAY 25 INSERT — RYDER CUP 2027 ADARE MANOR IRELAND DEDICATED EVENT PAGE
+   PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
+   THEN save as articles.js replacing your current file.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ─── DAY 25 — RYDER CUP 2027 ADARE MANOR IRELAND (Dedicated Event Guide) ─── */
+  {
+    slug: "ryder-cup-2027-adare-manor-ireland-vip-transportation",
+    title: "Ryder Cup 2027 Adare Manor | VIP Transportation Guide",
+    date: "August 27, 2026",
+    category: "FIFA 2026",
+    image: "event.jpg",
+    excerpt: "Ryder Cup 2027, September 13–19 at Adare Manor — the 100th edition, Ireland's first Ryder Cup since 2006. Shannon and Dublin airport transfers, VIP hospitality and chauffeur service.",
+    content: `
+      <p>The Ryder Cup returns to Ireland in 2027 for the first time since The K Club hosted in 2006, and this edition carries extra significance: it marks the 100th year of the competition since its inception, and the first time Adare Manor in County Limerick has hosted golf's most fiercely contested team event. Team Europe defends the trophy against Team USA from 13 to 19 September 2027, with practice rounds running Monday through Thursday ahead of Friday-to-Sunday competition. Unlike every other event covered in this series, the Ryder Cup is not staged in a major city — Adare Manor sits in rural County Limerick, and that single fact reshapes every transport decision a visitor needs to make.</p>
+
+      <p>This guide covers exactly what that means: which airport to fly into, how the official shuttle system compares to a private chauffeur, where to base yourself for the week, and how VIP and corporate hospitality groups typically plan around a tournament week that runs considerably longer than the four competition days themselves.</p>
+
+      <h2>Ryder Cup 2027 — Key Facts</h2>
+
+      <table>
+        <tr><th>Detail</th><th>Information</th></tr>
+        <tr><td>Dates</td><td>13–19 September 2027 (practice rounds Mon–Thu, competition Fri–Sun)</td></tr>
+        <tr><td>Venue</td><td>Adare Manor, County Limerick, Ireland</td></tr>
+        <tr><td>Significance</td><td>100th year of the Ryder Cup; Ireland's first Ryder Cup since The K Club in 2006</td></tr>
+        <tr><td>Format</td><td>Team Europe (defending) vs Team USA — foursomes, fourballs and Sunday singles</td></tr>
+        <tr><td>Airports</td><td>Shannon International (SNN) — closest; Dublin (DUB) and Cork (ORK) as alternatives</td></tr>
+        <tr><td>Official Transport Hub</td><td>Limerick Colbert Station — shared shuttle transfers to Adare Manor, roughly 30–40 minutes each way</td></tr>
+      </table>
+
+      <h2>Getting to Adare Manor — Airport-by-Airport</h2>
+
+      <p><strong>Shannon International Airport (SNN)</strong> — the closest airport to Adare Manor by a considerable margin, roughly 30 to 45 minutes by road under normal conditions. For most international visitors, particularly those flying from the UK, mainland Europe or connecting via a transatlantic route, Shannon is the natural gateway for Ryder Cup week and the single most valuable transfer to have confirmed before departure.</p>
+
+      <p><strong>Dublin Airport (DUB)</strong> — Ireland's principal international hub and the more common long-haul arrival point for visitors connecting from outside Europe, given its considerably wider route network. The tradeoff is distance: Dublin to Adare Manor is roughly two hours by road, a genuine intercity drive rather than a short airport hop, and one worth having pre-booked and flight-tracked rather than negotiated after a long-haul flight.</p>
+
+      <p><strong>Cork Airport (ORK)</strong> — a secondary option worth considering for visitors also planning time in Ireland's south coast, with a broadly comparable drive time to Adare Manor as Shannon.</p>
+
+      <p><strong>Ryder Cup 2027 airport transportation</strong> should be flight-tracked and confirmed before departure regardless of which of the three airports you land at. Given the tournament draws international visitors across a full week of practice rounds and competition, arrival volumes at all three airports climb meaningfully throughout the week, not just on the Friday competition start.</p>
+
+      <h2>Official Shuttle vs Private Chauffeur — What Actually Works Best</h2>
+
+      <p>Official ticket-holder transport for the Ryder Cup typically runs through the Limerick Colbert Station transport hub, with shared shuttle transfers to Adare Manor taking roughly 30 to 40 minutes each way. This system works well for general admission ticket holders on a fixed schedule, but it leaves a real gap for corporate hospitality guests, sponsors and VIPs whose day does not run on a shuttle timetable — a client dinner that runs late, an early departure ahead of the crowd, or a group that wants to leave the course the moment their group's round finishes rather than waiting for the next scheduled shuttle.</p>
+
+      <p><strong>Ryder Cup 2027 VIP transportation</strong> — a private, point-to-point chauffeur rather than the shared shuttle system — is the standard choice for corporate hospitality groups, sponsors and any visitor whose schedule needs flexibility the official shuttle system cannot offer. For guests staying in Killarney or along the wider Shannon-Limerick corridor, daily chauffeur transfers to Adare Manor are considerably more practical than a shuttle system built around the general ticket-holder base staying closer to Limerick itself.</p>
+
+      <h2>Where to Stay for Ryder Cup Week</h2>
+
+      <p>Adare Manor itself and the immediate village offer the shortest possible transfer, but availability during Ryder Cup week is extremely limited and typically committed well over a year in advance. Limerick city, roughly 25 minutes from Adare Manor, offers the widest range of accommodation and the most practical base for most visitors. Killarney, further afield but a genuinely appealing base for guests extending their trip into a broader southwest Ireland visit, adds meaningfully to the daily transfer time and is best paired with a standing chauffeur arrangement rather than a fresh booking each day.</p>
+
+      <h2>VIP and Corporate Hospitality Transportation</h2>
+
+      <p>The Ryder Cup is one of golf's most valuable corporate hospitality properties, and 2027's return to Ireland after more than two decades — combined with the tournament's 100th anniversary significance — is expected to draw exceptional sponsor and hospitality demand. <strong>What Ryder Cup hospitality transport typically covers:</strong></p>
+
+      <p><strong>Practice round days (Monday–Thursday).</strong> Lower-intensity days relative to the weekend, but still requiring daily transfers for hospitality guests and sponsors attending practice rounds and pro-am events.</p>
+
+      <p><strong>Opening Ceremony.</strong> A significant standalone event ahead of Friday's competition start, typically drawing its own transport demand separate from the golf itself.</p>
+
+      <p><strong>Competition days (Friday–Sunday).</strong> The tournament's highest-demand period, with foursomes and fourballs across Friday and Saturday building to Sunday's singles matches — the day that decides the Cup and draws the tournament's largest single-day crowd.</p>
+
+      <p><strong>Evening hospitality and sponsor events.</strong> Ryder Cup week traditionally extends well beyond the course itself, with sponsor dinners and hospitality events across Limerick and the wider region each evening throughout the week.</p>
+
+      <p>For corporate accounts running a hospitality programme across the full week, a single NoirFleet account with a dedicated operations contact — rather than a new booking for each day — is the standard format, covering the complete run from Monday practice rounds through Sunday's singles.</p>
+
+      <h2>Extending the Trip — Ireland's Wider Golf Circuit</h2>
+
+      <p>Ryder Cup visitors making the trip to Ireland frequently extend beyond tournament week into the country's broader golf circuit — Ballybunion and Lahinch, both within reach of the Shannon-Limerick corridor, are among the world's most celebrated links courses and a natural addition for golf travellers already in the region. A NoirFleet account covering Ryder Cup week transport extends equally to this broader circuit, keeping the same standing chauffeur relationship in place for guests turning a tournament trip into a longer Irish golf holiday.</p>
+
+      <h2>Booking Ahead — Why This Window Matters</h2>
+
+      <p>Ryder Cup 2027 is over a year away at the time of writing, which is precisely the right moment to begin securing accommodation and transport for a tournament of this scale returning to Ireland for the first time in over two decades. Adare Manor and Limerick-area accommodation for Ryder Cup week typically commits well over a year in advance, and professional chauffeur operators with the vehicle standard and route knowledge this event demands follow a similar timeline.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>When and where is the Ryder Cup 2027?</h3>
+      <p>13–19 September 2027, at Adare Manor in County Limerick, Ireland — practice rounds Monday to Thursday, competition Friday to Sunday.</p>
+
+      <h3>Why is the 2027 Ryder Cup significant?</h3>
+      <p>It marks the 100th year of the Ryder Cup and is Ireland's first time hosting since The K Club in 2006.</p>
+
+      <h3>What is the closest airport to Adare Manor?</h3>
+      <p>Shannon International Airport (SNN), roughly 30 to 45 minutes away by road. Dublin Airport (DUB) is the more common long-haul gateway but is approximately two hours away.</p>
+
+      <h3>Is there official shuttle transport to Adare Manor?</h3>
+      <p>Yes, an official shuttle system runs from the Limerick Colbert Station transport hub, taking 30 to 40 minutes each way. Corporate hospitality guests and VIPs who need flexible, point-to-point transport typically book a private chauffeur instead.</p>
+
+      <h3>Where should I stay for Ryder Cup week?</h3>
+      <p>Limerick city offers the widest accommodation options roughly 25 minutes from Adare Manor. Killarney is a popular alternative for visitors extending their trip, though it adds to the daily transfer time.</p>
+
+      <h3>Can I combine the Ryder Cup with other golf courses in Ireland?</h3>
+      <p>Yes. Ballybunion and Lahinch, both within reach of the Shannon-Limerick corridor, are popular additions for golf travellers extending their Ryder Cup trip into a broader Irish golf circuit.</p>
+
+      <h3>How far in advance should I book transportation for Ryder Cup 2027?</h3>
+      <p>As early as possible. Given the tournament's return to Ireland after more than two decades and its 100th anniversary significance, accommodation and professional transport in the Adare Manor and Limerick area are expected to commit well over a year in advance.</p>
+
+      <h3>Does NoirFleet cover the full Ryder Cup week, not just competition days?</h3>
+      <p>Yes. A single NoirFleet account covers practice rounds, the Opening Ceremony, competition days and evening hospitality events across the full week under one continuous booking.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>The Ryder Cup's return to Ireland in 2027 is a genuinely rare occasion — the 100th edition of the competition, the country's first hosting since 2006, at a venue that has never staged the tournament before. Adare Manor's rural County Limerick setting means the transport plan looks meaningfully different from every other event covered in this series: an airport choice between Shannon and Dublin, an official shuttle system that works for general admission but not for flexible hospitality schedules, and a genuine opportunity to extend the trip into Ireland's wider golf circuit. NoirFleet's Ireland coverage is built around all of it — flight-tracked airport transfers, daily Adare Manor transport as a private alternative to the shuttle system, and a standing account for the full week from practice rounds through Sunday singles.</p>
+
+      <p>Ready to arrange your Ryder Cup 2027 transportation? <a href="contact.html">Contact NoirFleet to book your tournament week</a> · <a href="fleet.html">View our fleet</a> · <a href="vip-player-transportation-trending-sports-events-2026.html">All trending events</a> · <a href="chauffeur-service-complete-guide.html">The complete chauffeur service guide</a></p>
+    `
+  },
+
+/* ══════════════════════════════════════════════════════════════════════
+   ↑ DAY 25 INSERT ENDS HERE
+   Paste your existing NF_ARTICLES content (Days 1–24) below this line
+   ══════════════════════════════════════════════════════════════════════ */
+
+   /* ═══════════════════════════════════════════════════════════════════════
    DAY 24 INSERT — FIFA U-17 WOMEN'S WORLD CUP MOROCCO 2026: TICKETS, HOSPITALITY & WHERE TO STAY
    PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
    THEN save as articles.js replacing your current file.
