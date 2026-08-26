@@ -22,6 +22,142 @@
 
 const NF_ARTICLES = [
 
+   /* ─── DAY 27 — SPORTS TOURISM LIMITED × NOIR FLEET PARTNERSHIP ─── */
+{
+  slug: "noir-fleet-sports-tourism-limited-partnership-africa",
+  title: "Noir Fleet & Sports Tourism Limited | Connecting Sports, Travel & Mobility in Africa",
+  date: "August 27, 2026",
+  category: "Sports Tourism",
+  image: "noir-fleet-sports-tourism-limited-partnership-africa.png",
+  excerpt: "Noir Fleet and Sports Tourism Limited join forces to connect sports travel, ground transportation, mobility and destination experiences across Africa and international sporting destinations.",
+  content: `
+    <p>Sports travel is no longer simply about getting from an airport to a stadium. As international sporting events continue to bring athletes, teams, officials, sponsors, corporate groups, media and supporters across borders, the journey surrounding the event has become an increasingly important part of the overall experience.</p>
+
+    <p>Recognising this changing landscape, <strong>Noir Fleet</strong> and <strong>Sports Tourism Limited</strong> have entered into a Strategic Partnership and Collaboration Memorandum of Understanding (MoU), bringing together sports tourism expertise and professional ground transportation capabilities to develop more connected sports travel and mobility solutions across Africa and international sporting destinations.</p>
+
+    <h2>More Than Transportation</h2>
+
+    <p>At Noir Fleet, transportation is not viewed simply as a vehicle and a driver. In the world of international sports, mobility is part of a much larger operational journey involving schedules, venues, accommodation, airports, training facilities, match-day movements, hospitality programmes and destination experiences.</p>
+
+    <p>The partnership with Sports Tourism Limited is built around that broader perspective — connecting <strong>sports, travel, mobility and destinations</strong> into a more seamless experience for people travelling around sporting events.</p>
+
+    <p>Speaking about the partnership, <strong>Paul Mutua</strong>, Founder &amp; Director, Strategy &amp; Partnerships at <strong>Sports Tourism Limited</strong>, said:</p>
+
+    <blockquote>
+      “Sports tourism is no longer simply about getting to a match. It is about creating a seamless journey around the sporting experience, from planning and travel to accommodation, mobility, match-day access and the destination itself.”
+    </blockquote>
+
+    <h2>Connecting the Complete Sports Travel Journey</h2>
+
+    <p>A successful sports travel programme involves far more than match-day transportation. Teams, federations, officials, sponsors, corporate groups and fans can each have different requirements throughout their journey.</p>
+
+    <p>The collaboration brings together capabilities across areas including:</p>
+
+    <ul>
+      <li>Sports team and delegation transportation</li>
+      <li>Airport transfers and arrival management</li>
+      <li>Hotel and venue transportation</li>
+      <li>Match-day mobility</li>
+      <li>VIP and executive transportation</li>
+      <li>Corporate and sponsor movements</li>
+      <li>Fan and supporter transportation</li>
+      <li>Sports event logistics</li>
+      <li>Hospitality-related mobility</li>
+      <li>Destination transportation and travel experiences</li>
+    </ul>
+
+    <p>The objective is to look at the entire journey rather than treating every transfer as an isolated booking.</p>
+
+    <h2>Why Ground Transportation Matters in Sports Tourism</h2>
+
+    <p>For a travelling sports delegation, a tournament itinerary can involve multiple airports, hotels, training grounds, stadiums, hospitality venues and official functions within a short period.</p>
+
+    <p>When dozens of people are travelling together, small transportation delays can quickly become operational problems. A delayed airport transfer can affect a training session. A poorly coordinated stadium departure can disrupt an entire delegation. An unclear meeting point can create unnecessary pressure for athletes, officials or VIP guests.</p>
+
+    <p>Professional sports transportation therefore requires more than simply arranging vehicles. It requires <strong>planning, coordination, communication, timing and operational control</strong>.</p>
+
+    <p>This is where professional ground transportation becomes an important part of sports tourism infrastructure.</p>
+
+    <h2>Supporting Africa's Growing Sports Tourism Opportunity</h2>
+
+    <p>Africa continues to develop as an important destination for international sporting events, tournaments, training programmes and sports travel.</p>
+
+    <p>Major competitions create movement not only for athletes and teams, but also for officials, sponsors, media, corporate guests and international supporters. Each group contributes to the wider sports tourism ecosystem surrounding an event.</p>
+
+    <p>For destinations across Africa, this creates an opportunity to connect sporting events with accommodation, hospitality, transportation and destination experiences.</p>
+
+    <p>The Noir Fleet and Sports Tourism Limited collaboration is intended to contribute to that wider ecosystem by combining sports tourism knowledge with professional mobility capabilities.</p>
+
+    <h2>From Kenya to International Sporting Destinations</h2>
+
+    <p>Sports travel is inherently international.</p>
+
+    <p>A team may travel from one country to another for a tournament. Supporters may cross continents to follow their national team. Corporate sponsors may host guests at an event thousands of kilometres from their headquarters. A federation may require coordinated transportation for athletes, coaches, officials and support staff across an entire tournament schedule.</p>
+
+    <p>That makes international mobility an important component of the modern sports travel experience.</p>
+
+    <p>Through the partnership, Sports Tourism Limited and Noir Fleet aim to create a more connected proposition linking <strong>Kenya, Africa and international sporting destinations</strong>, while supporting the different mobility requirements that arise around major sporting programmes.</p>
+
+    <h2>Built Around Teams, Delegations, VIPs and Fans</h2>
+
+    <p>Different sports travellers have different priorities.</p>
+
+    <p>For athletes and teams, punctuality and operational reliability are critical.</p>
+
+    <p>For officials and federations, coordination and schedule management can be equally important.</p>
+
+    <p>For sponsors and corporate groups, the transportation experience forms part of their wider hospitality programme.</p>
+
+    <p>For VIP guests, privacy, professionalism and discretion become particularly important.</p>
+
+    <p>For travelling fans, convenience and the ability to move confidently around an unfamiliar destination can significantly influence the overall experience.</p>
+
+    <p>A comprehensive sports transportation strategy therefore needs to account for each passenger group rather than applying a single solution to everyone.</p>
+
+    <h2>Where Noir Fleet Fits Into the Partnership</h2>
+
+    <p>Noir Fleet brings experience in <strong>luxury chauffeur-driven ground transportation, sports and event logistics, corporate travel, VIP movements and international mobility</strong> to the collaboration.</p>
+
+    <p>Our approach combines professional chauffeur services with operational systems designed to support complex movements, including reservation management, dispatch coordination, flight tracking, chauffeur assignment and live trip monitoring.</p>
+
+    <p>For sports programmes, this means transportation can be planned around the event schedule rather than simply around individual journeys.</p>
+
+    <p>The result is a mobility approach designed to help teams, organisers, sponsors and travellers focus on the event itself while their transportation requirements are professionally coordinated in the background.</p>
+
+    <h2>More Than Moving People</h2>
+
+    <p>The future of sports tourism will increasingly depend on how well the different parts of the journey connect.</p>
+
+    <p>Accommodation cannot operate independently of transportation. Match-day mobility cannot operate independently of venue planning. Hospitality cannot operate independently of guest movements. Destination experiences cannot operate independently of how visitors arrive and move around a city.</p>
+
+    <p>When these elements are connected, transportation becomes more than a support service.</p>
+
+    <p>It becomes part of the <strong>sports travel experience itself</strong>.</p>
+
+    <h2>Looking Ahead</h2>
+
+    <p>The Strategic Partnership and Collaboration between Sports Tourism Limited and Noir Fleet represents a shared ambition to build more connected sports travel and mobility solutions across Africa and beyond.</p>
+
+    <p>As sporting events become increasingly international, the people surrounding those events will continue to travel further, stay longer and expect a higher standard of organisation throughout their journey.</p>
+
+    <p>That creates an opportunity to bring sports tourism, hospitality, mobility and destination experiences closer together.</p>
+
+    <p>For Noir Fleet, this partnership is another step towards supporting the movement of <strong>teams, delegations, officials, sponsors, corporate guests, VIPs and fans</strong> wherever sport takes them.</p>
+
+    <p><strong>Sport connects destinations. Travel connects people. Mobility connects the experience.</strong></p>
+
+    <p>That is the opportunity ahead.</p>
+
+    <h2>Explore Noir Fleet's Sports Transportation Capabilities</h2>
+
+    <p>For a broader look at professional ground transportation around international sporting events, explore our <a href="sports-tourism-chauffeur-service-worldwide-events-guide.html">worldwide sports tourism chauffeur service guide</a> and our <a href="global-sports-tourism-ground-transport-guide-2026.html">global sports tourism ground transport guide</a>.</p>
+
+    <p>For VIP movements around major sporting events, see our <a href="vip-player-transportation-trending-sports-events-2026.html">VIP transportation guide for 2026's biggest sporting events</a>.</p>
+
+    <p>Ready to discuss sports team, delegation, VIP or event transportation? <a href="contact.html">Contact Noir Fleet</a> · <a href="fleet.html">View our fleet</a> · <a href="services.html">Explore our services</a></p>
+  `
+},
+
    /* ═══════════════════════════════════════════════════════════════════════
    DAY 25 INSERT — RYDER CUP 2027 ADARE MANOR IRELAND DEDICATED EVENT PAGE
    PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
