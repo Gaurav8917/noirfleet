@@ -22,6 +22,77 @@
 
 const NF_ARTICLES = [
 
+   /* ═══════════════════════════════════════════════════════════════════════
+   DAY 27 INSERT — NOIRFLEET x SPORTS TOURISM LIMITED PARTNERSHIP ANNOUNCEMENT
+   PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
+   THEN save as articles.js replacing your current file.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ─── DAY 27 — NOIRFLEET PARTNERS WITH SPORTS TOURISM LIMITED (Partnership Announcement) ─── */
+  {
+    slug: "noirfleet-sports-tourism-limited-strategic-partnership-africa",
+    title: "NoirFleet Partners with Sports Tourism Limited | Africa",
+    date: "August 26, 2026",
+    category: "Corporate Travel",
+    image: "event.jpg",
+    excerpt: "NoirFleet signs a Strategic Partnership and MoU with Sports Tourism Limited to deliver integrated ground transportation and sports logistics across Kenya, Africa and international sporting destinations.",
+    content: `
+      <p>NoirFleet has signed a Strategic Partnership and Collaboration Memorandum of Understanding with Sports Tourism Limited (STL), a Kenya-based sports tourism and destination development company, to deliver integrated ground transportation and sports logistics solutions across Kenya, Africa and international sporting destinations. The partnership brings together STL's expertise in sports tourism, team logistics, accommodation and destination services with NoirFleet's international mobility network — built around a shared idea both companies have adopted as the defining line of the collaboration: more than transport, we drive experiences.</p>
+
+      <h2>What the Partnership Covers</h2>
+
+      <p>Through the collaboration, NoirFleet and Sports Tourism Limited will work together to deliver reliable, professional and integrated ground transportation and sports logistics solutions across a full range of sports travel touchpoints: sports teams and delegations, federations and sporting organisations, fans and supporter groups, accommodation and hospitality, airport transfers and team mobility, match-day and event transportation, ticketing and event access, sponsors and corporate groups, VIP and executive mobility, and destination experiences.</p>
+
+      <p>The partnership's stated vision extends well beyond point-to-point transfers, framing the sports travel journey as a single connected experience: plan, travel, arrive, move, experience, compete, explore. That means transport, accommodation, hospitality, match-day mobility, fan travel and destination experiences working together as one coordinated offering rather than a series of separately booked services.</p>
+
+      <h2>Morocco 2026 — The First Commercial Showcase</h2>
+
+      <p>The FIFA U-17 Women's World Cup Morocco 2026 provides the first opportunity for NoirFleet and Sports Tourism Limited to put this integrated model into practice, developing team logistics, accommodation, mobility and supporter solutions around Kenya's Junior Starlets — covering the full journey from accommodation through airport transfers, team mobility, training, match-day and fan travel to hospitality. For the complete tournament details, see our <a href="fifa-u17-womens-world-cup-morocco-2026-complete-guide.html">FIFA U-17 Women's World Cup Morocco 2026 guide</a> and our <a href="fifa-u17-womens-world-cup-morocco-2026-chauffeur-guide.html">Rabat transport and airport transfer guide</a>.</p>
+
+      <h2>Looking Ahead — AFCON 2027 and Beyond</h2>
+
+      <p>With major competitions bringing increasing numbers of teams, athletes, officials, fans, sponsors and corporate guests across the continent, both companies see professional sports travel infrastructure becoming an essential part of the sporting experience in Africa. AFCON 2027, co-hosted by Kenya, Uganda and Tanzania, sits at the centre of that opportunity, alongside a growing calendar of tournaments, leagues, training camps, friendlies and sporting events across the region. See our dedicated <a href="afcon-2027-chauffeur-transport-guide-kenya-tanzania-uganda.html">AFCON 2027 transport guide</a> and our broader <a href="chauffeur-service-rwanda-tanzania-east-africa.html">East Africa chauffeur service guide</a> for what NoirFleet's existing regional coverage looks like ahead of the tournament.</p>
+
+      <h2>A Shared Vision</h2>
+
+      <p>Speaking about the partnership, Abhinav, Vice President at NoirFleet, said: "Our partnership with Sports Tourism Limited is built around a shared vision: making sports travel and mobility more connected, seamless and commercially valuable. At NoirFleet, we see enormous potential in combining our mobility expertise with Sports Tourism Limited's sports tourism ecosystem to create better experiences for teams, fans, federations and other stakeholders. Together, we are looking beyond transportation — we are building an integrated sports travel experience that can connect Morocco, Kenya, Africa and the wider global sports community."</p>
+
+      <p>Paul Mutua, Founder and Director of Strategy and Partnerships at Sports Tourism Limited, framed the shared vision behind the collaboration: sports tourism is no longer simply about getting to a match, but about creating a seamless journey around the entire sporting experience — from planning and travel through accommodation, mobility, match-day access and the destination itself.</p>
+
+      <h2>Who This Partnership Is For</h2>
+
+      <p>NoirFleet and Sports Tourism Limited are now inviting sports federations, clubs, event organisers, sponsors, corporate partners, travel groups and fan communities planning sporting travel in Africa to explore the partnership. Whether the requirement is moving a national team delegation, fifty travelling supporters, or a corporate hospitality group, the two companies are developing solutions designed around each specific need — matching NoirFleet's existing global standard of flight-tracked transfers, vetted chauffeurs and consistent multi-country account structure with STL's on-the-ground sports tourism and destination expertise across Kenya and East Africa.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What is the NoirFleet and Sports Tourism Limited partnership?</h3>
+      <p>A Strategic Partnership and Collaboration Memorandum of Understanding between NoirFleet and Kenya-based Sports Tourism Limited, combining sports tourism expertise with international mobility capabilities to deliver integrated sports travel and logistics solutions across Africa.</p>
+
+      <h3>What is the first event this partnership will support?</h3>
+      <p>The FIFA U-17 Women's World Cup Morocco 2026, with integrated team logistics, accommodation, mobility and supporter solutions developed around Kenya's Junior Starlets.</p>
+
+      <h3>What future events does this partnership plan to cover?</h3>
+      <p>AFCON 2027, co-hosted by Kenya, Uganda and Tanzania, along with a growing calendar of tournaments, leagues, training camps, friendlies and sporting events across Africa.</p>
+
+      <h3>Who can this partnership serve?</h3>
+      <p>Sports federations, clubs, event organisers, sponsors, corporate partners, travel groups and fan communities planning sporting travel in Africa — from national team delegations to travelling supporter groups to corporate hospitality programmes.</p>
+
+      <h3>What services does the partnership cover?</h3>
+      <p>Sports teams and delegations, federations and sporting organisations, fans and supporter groups, accommodation and hospitality, airport transfers and team mobility, match-day and event transportation, ticketing and event access, sponsors and corporate groups, VIP and executive mobility, and destination experiences.</p>
+
+      <h2>Conclusion</h2>
+
+      <p>Africa is becoming a major global sporting destination, and the ground transport and logistics infrastructure supporting that growth needs to scale alongside it. NoirFleet's partnership with Sports Tourism Limited combines two complementary strengths — STL's deep sports tourism and destination expertise across Kenya and East Africa, and NoirFleet's international mobility network — into a single, integrated offering for teams, federations, sponsors and fans travelling across the continent. Morocco 2026 is the starting point. AFCON 2027 and the broader African sporting calendar are next.</p>
+
+      <p>Planning sports travel across Kenya, East Africa or the wider continent? <a href="contact.html">Contact NoirFleet</a> · <a href="chauffeur-service-rwanda-tanzania-east-africa.html">East Africa chauffeur guide</a> · <a href="afcon-2027-chauffeur-transport-guide-kenya-tanzania-uganda.html">AFCON 2027 transport guide</a> · <a href="fifa-u17-womens-world-cup-morocco-2026-complete-guide.html">FIFA U-17 Women's World Cup Morocco 2026 guide</a></p>
+    `
+  },
+
+/* ══════════════════════════════════════════════════════════════════════
+   ↑ DAY 27 INSERT ENDS HERE
+   Paste your existing NF_ARTICLES content (Days 1–26) below this line
+   ══════════════════════════════════════════════════════════════════════ */
+
    /* ─── DAY 27 — SPORTS TOURISM LIMITED × NOIR FLEET PARTNERSHIP ─── */
 {
   slug: "noir-fleet-sports-tourism-limited-partnership-africa",
