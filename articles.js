@@ -28,7 +28,7 @@ const NF_ARTICLES = [
     title: "Sports Tourism Ground Transportation: Why 2026–27 Is a Global Opportunity",
     date: "September 1, 2026",
     category: "Sports Tourism",
-    image: "sports-tourism-ground-transportation-global-2026-27.png",
+    image: "noir-fleet-sports-tourism-limited-partnership-africa.png",
     excerpt: "Sports tourism is becoming a major global travel driver. Discover why ground transportation, team logistics, VIP mobility and destination services matter for major sporting events in 2026–27.",
     content: `
       <p>Sports tourism is no longer simply about travelling to watch a match.</p>
