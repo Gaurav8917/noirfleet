@@ -22,6 +22,187 @@
 
 const NF_ARTICLES = [
 
+     /* ─── NEW ARTICLE — SPORTS TOURISM GROUND TRANSPORTATION ─── */
+  {
+    slug: "sports-tourism-ground-transportation-global-opportunity-2026-27",
+    title: "Sports Tourism Ground Transportation: Why 2026–27 Is a Global Opportunity",
+    date: "September 1, 2026",
+    category: "Sports Tourism",
+    image: "sports-tourism-ground-transportation-global-2026-27.png",
+    excerpt: "Sports tourism is becoming a major global travel driver. Discover why ground transportation, team logistics, VIP mobility and destination services matter for major sporting events in 2026–27.",
+    content: `
+      <p>Sports tourism is no longer simply about travelling to watch a match.</p>
+
+      <p>For teams, athletes, officials, sponsors, corporate guests and international fans, the journey around a sporting event has become part of the experience itself. Flights, hotels, destination experiences, airport transfers, team movements, VIP transportation and event-day mobility all need to work together.</p>
+
+      <p>That is creating a growing opportunity for professional <strong>sports tourism ground transportation</strong> providers.</p>
+
+      <p>And as the global sporting calendar becomes increasingly international, the importance of reliable mobility between airports, hotels, training facilities, stadiums, venues and destinations is becoming impossible to ignore.</p>
+
+      <h2>Sports tourism is becoming a global travel force</h2>
+
+      <p>The growth of sports tourism is being driven by the increasing willingness of fans and travellers to cross borders for sporting events.</p>
+
+      <p>A 2026 World Economic Forum report identified the acceleration of sports tourism as one of the major drivers shaping the future sports economy. Research from YouGov similarly found that nearly a quarter of consumers across 17 international markets planned to travel for a sporting event in the following 12 months.</p>
+
+      <p>The implication is straightforward: more people travelling for sport means more complex transportation requirements around sport.</p>
+
+      <h2>What does sports tourism ground transportation actually involve?</h2>
+
+      <p>A major sporting event can involve hundreds or thousands of individual transportation movements.</p>
+
+      <ul>
+        <li>Airport transfers for teams and delegations</li>
+        <li>Athlete and player transportation</li>
+        <li>VIP and executive transportation</li>
+        <li>Hotel-to-venue movements</li>
+        <li>Training-ground transportation</li>
+        <li>Match-day transportation</li>
+        <li>Sponsor and corporate hospitality movements</li>
+        <li>Media and production transportation</li>
+        <li>Officials and federation movements</li>
+        <li>Intercity transportation</li>
+        <li>Group and delegation transfers</li>
+        <li>Meet-and-greet services</li>
+        <li>Chauffeur-driven executive vehicles</li>
+        <li>Vans, minibuses and motor coaches</li>
+        <li>Real-time flight and movement monitoring</li>
+      </ul>
+
+      <p>This is why sports event transportation is fundamentally different from ordinary point-to-point transportation.</p>
+
+      <p>The vehicle is only one part of the operation. The real challenge is coordinating people, vehicles, timing, locations and changing event schedules.</p>
+
+      <h2>The rise of multi-city and multi-country sporting events</h2>
+
+      <p>One of the biggest developments in sports tourism is the increasing number of events that involve multiple destinations.</p>
+
+      <p>A particularly relevant example is the <strong>TotalEnergies CAF Africa Cup of Nations PAMOJA 2027</strong>.</p>
+
+      <p>Kenya, Tanzania and Uganda will jointly host AFCON 2027, making it the first edition of the Africa Cup of Nations to be hosted by three countries.</p>
+
+      <p>CAF has scheduled the opening match for 19 June 2027 and the final for 17 July 2027.</p>
+
+      <p>This creates a fundamentally different transportation challenge from a tournament concentrated in one city.</p>
+
+      <p>Teams, officials, commercial partners and travelling supporters may need to move between airports, hotels, training facilities and match locations while operating across national borders.</p>
+
+      <p>CAF has also issued a request for proposals specifically for an <strong>integrated transport service</strong> for AFCON 2027.</p>
+
+      <h2>Transportation is becoming part of the destination experience</h2>
+
+      <p>Sports tourism also creates an opportunity that goes beyond logistics.</p>
+
+      <p>A visitor travelling for a major sporting event may arrive several days before a match and stay after the competition.</p>
+
+      <p>They may combine the event with safari, cultural experiences, city tours, business meetings, luxury hospitality, corporate entertainment or regional travel.</p>
+
+      <p>This means sports tourism transportation increasingly connects the sporting event with the destination itself.</p>
+
+      <h2>Why professional ground transportation matters</h2>
+
+      <p>For a normal leisure trip, a delayed vehicle may be inconvenient. For a professional sporting delegation, the consequences can be very different.</p>
+
+      <p>A late airport pickup can affect a training schedule. A missed movement window can disrupt a team's itinerary. An incorrect vehicle allocation can create problems for equipment, luggage or group movements.</p>
+
+      <p>That is why professional sports transportation requires more than a fleet of cars. It requires planning, dispatch, communication, flight monitoring, chauffeur coordination, live movement visibility and contingency planning.</p>
+
+      <h2>The importance of discreet VIP and player transportation</h2>
+
+      <p>Not every passenger at a sporting event should be treated in the same way.</p>
+
+      <p>Athletes, coaches, executives, federation officials, sponsors and high-profile guests can have different security, privacy and scheduling requirements.</p>
+
+      <p>For these passengers, discreet chauffeur-driven transportation can be particularly important.</p>
+
+      <p>The objective is not to make the movement visible. It is to make it seamless.</p>
+
+      <h2>Sports tourism is creating opportunities beyond the stadium</h2>
+
+      <p>The biggest opportunity may not actually be inside the stadium. It is everything that happens around it.</p>
+
+      <p>An international sports traveller needs a complete journey: airport, hotel, training, event, dining, experiences and airport.</p>
+
+      <p>For teams and delegations, the journey can be considerably more complex.</p>
+
+      <h2>The Africa opportunity</h2>
+
+      <p>Africa is particularly interesting for the next phase of sports tourism.</p>
+
+      <p>Major international competitions are increasingly bringing global audiences to African destinations, while governments, tourism organisations and private-sector businesses are looking at sport as a catalyst for broader economic activity.</p>
+
+      <p>AFCON 2027 is an excellent example. Kenya, Tanzania and Uganda will have the opportunity to showcase not only football, but also their tourism infrastructure, hospitality, culture and destinations to an international audience.</p>
+
+      <p>That means transportation providers will increasingly need to think beyond the match.</p>
+
+      <h2>Partnerships will become increasingly important</h2>
+
+      <p>The complexity of sports tourism also means no single company needs to do everything itself.</p>
+
+      <p>Successful sports travel programmes can bring together sports tourism organisations, ground transportation companies, hotels, destination management companies, airlines, private aviation providers, event organisers, tourism boards and local operators.</p>
+
+      <p>This is where strategic partnerships become important.</p>
+
+      <p>NoirFleet's partnership with <strong>Sports Tourism Limited</strong> is built around this broader connection between sport, travel, mobility and destinations.</p>
+
+      <blockquote>“Sports tourism is no longer simply about getting to a match. It is about creating a seamless journey around the sporting experience, from planning and travel to accommodation, mobility, match-day access and the destination itself.”</blockquote>
+
+      <h2>What sports event organisers should look for in a transportation partner</h2>
+
+      <h3>Can the provider operate across multiple destinations?</h3>
+
+      <p>International tournaments rarely fit into a single-city transportation model.</p>
+
+      <h3>Does the provider have central coordination?</h3>
+
+      <p>A central operations and dispatch structure can make large movement programmes easier to manage.</p>
+
+      <h3>Can flights and passenger movements be monitored?</h3>
+
+      <p>Flight tracking and live movement monitoring can help operations teams respond to changes.</p>
+
+      <h3>Can the provider handle different passenger categories?</h3>
+
+      <p>Teams, VIPs, officials, sponsors, media and general delegates may all require different transportation solutions.</p>
+
+      <h3>Does the provider have contingency capability?</h3>
+
+      <p>Sporting-event schedules can change. Transportation plans need flexibility.</p>
+
+      <h3>Can the provider coordinate with local partners?</h3>
+
+      <p>International operations often require strong local execution supported by central planning.</p>
+
+      <h2>The future of sports tourism transportation</h2>
+
+      <p>The next generation of sports tourism will increasingly be about connected journeys.</p>
+
+      <p>Fans will travel internationally for major events. Teams will cross borders. Corporate groups will combine sporting events with hospitality and business travel. Destinations will package sport with tourism experiences.</p>
+
+      <p>And event organisers will expect transportation to operate as part of the wider event infrastructure.</p>
+
+      <p>That means the future of sports event transportation will not be defined simply by how many vehicles a company owns. It will be defined by how effectively it can plan, coordinate and execute complex movements around the entire sporting experience.</p>
+
+      <h2>From transportation to experience</h2>
+
+      <p>Sports tourism is entering a more sophisticated phase.</p>
+
+      <p>The opportunity is no longer simply: <strong>How do we get the passenger to the stadium?</strong></p>
+
+      <p>The better question is: <strong>How do we create a seamless journey around the entire sporting experience?</strong></p>
+
+      <p>That includes the airport, hotel, training ground, venue, destination and everything in between.</p>
+
+      <p>For destinations preparing for major tournaments in 2026 and 2027, that distinction could become increasingly important.</p>
+
+      <p>At NoirFleet, we see ground transportation as one part of a much larger travel ecosystem — connecting corporate travel, VIP mobility, sports events and international destinations through professionally coordinated ground transportation.</p>
+
+      <p><strong>Because in modern sports tourism, the journey is part of the event.</strong></p>
+
+      <p><strong>Planning transportation for an upcoming sporting event?</strong> NoirFleet supports corporate groups, sports delegations, VIP movements and international event transportation through coordinated chauffeur-driven ground transportation solutions.</p>
+    `
+  },
+
    /* ═══════════════════════════════════════════════════════════════════════
    DAY 27 INSERT — NOIRFLEET x SPORTS TOURISM LIMITED PARTNERSHIP ANNOUNCEMENT
    PASTE THIS AT THE TOP OF NF_ARTICLES (right after: "const NF_ARTICLES = [")
