@@ -11,7 +11,11 @@
     { id: 'home',     label: 'Home',     href: 'index.html'    },
     { id: 'fleet',    label: 'Fleet',    href: 'fleet.html'    },
     { id: 'global',   label: 'Global',   href: 'global.html'   },
-    { id: 'events',   label: 'Events',   href: 'events.html'   },
+    { id: 'events',   label: 'Events',   href: 'events.html',
+      children: [
+        { id: 'sports-tourism', label: 'Sports Tourism', href: 'sports-tourism.html' }
+      ]
+    },
     { id: 'partners', label: 'Partners', href: 'partners.html' },
     { id: 'services', label: 'Services', href: 'services.html' },
     { id: 'reviews',  label: 'Reviews',  href: 'reviews.html'  },
@@ -28,13 +32,56 @@
 
   var current = document.body.getAttribute('data-page') || 'home';
 
-  /* ---- helper: build nav links ---- */
-  function navLinks(cls) {
+  /* ---- inject dropdown nav CSS (same pattern as splash/WhatsApp styles) ---- */
+  (function () {
+    var navStyle = document.createElement('style');
+    navStyle.textContent = [
+      '.nav-dropdown{position:relative;display:inline-block;}',
+      '.nav-dropdown>a{display:inline-flex;align-items:center;gap:4px;}',
+      '.nav-caret{font-size:9px;opacity:.55;transition:transform .2s ease;position:relative;top:1px;}',
+      '.nav-dropdown:hover .nav-caret{transform:rotate(180deg);}',
+      '.nav-dropdown-menu{position:absolute;top:100%;left:0;margin-top:14px;background:#0e0e10;border:1px solid rgba(255,209,102,.18);border-radius:8px;min-width:200px;padding:8px 0;opacity:0;visibility:hidden;transform:translateY(-6px);transition:opacity .2s ease,transform .2s ease,visibility .2s ease;box-shadow:0 12px 32px rgba(0,0,0,.45);z-index:60;}',
+      '.nav-dropdown-menu::before{content:"";position:absolute;top:-14px;left:0;right:0;height:14px;}',
+      '.nav-dropdown:hover .nav-dropdown-menu{opacity:1;visibility:visible;transform:translateY(0);}',
+      '.nav-dropdown-menu a{display:block;padding:9px 18px;font-size:13px;color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;transition:color .15s ease,background .15s ease;}',
+      '.nav-dropdown-menu a:hover{color:#ffd166;background:rgba(255,209,102,.06);}',
+      '.nav-dropdown-menu a.active{color:#ffd166;}',
+      '.mnav-sublink{display:block;padding-left:30px !important;font-size:13.5px !important;opacity:.7;}'
+    ].join('');
+    document.head.appendChild(navStyle);
+  })();
+
+  /* ---- helper: build nav links (isMobile controls dropdown vs indented list) ---- */
+  function navLinks(cls, isMobile) {
     return NAV.map(function (n) {
-      var active = n.id === current ? ' class="active"' : (cls ? ' class="' + cls + '"' : '');
       var classList = [];
       if (cls) classList.push(cls);
       if (n.id === current) classList.push('active');
+
+      if (n.children && n.children.length) {
+        var childActive = n.children.some(function (c) { return c.id === current; });
+        var parentClasses = classList.slice();
+        if (childActive) parentClasses.push('active');
+        var parentAttr = parentClasses.length ? ' class="' + parentClasses.join(' ') + '"' : '';
+
+        if (isMobile) {
+          var subLinksHtml = n.children.map(function (c) {
+            var subCls = 'mnav-sublink' + (c.id === current ? ' active' : '');
+            return '<a href="' + c.href + '" class="' + subCls + '">' + c.label + '</a>';
+          }).join('');
+          return '<a href="' + n.href + '"' + parentAttr + '>' + n.label + '</a>' + subLinksHtml;
+        }
+
+        var menuLinksHtml = n.children.map(function (c) {
+          var subAttr = c.id === current ? ' class="active"' : '';
+          return '<a href="' + c.href + '"' + subAttr + '>' + c.label + '</a>';
+        }).join('');
+        return '<div class="nav-dropdown">' +
+                 '<a href="' + n.href + '"' + parentAttr + '>' + n.label + ' <span class="nav-caret">&#9662;</span></a>' +
+                 '<div class="nav-dropdown-menu">' + menuLinksHtml + '</div>' +
+               '</div>';
+      }
+
       var attr = classList.length ? ' class="' + classList.join(' ') + '"' : '';
       return '<a href="' + n.href + '"' + attr + '>' + n.label + '</a>';
     }).join('');
@@ -153,7 +200,7 @@
             '<img src="logo.jpg" alt="NoirFleet Logo" class="logo" />' +
           '</a>' +
         '</div>' +
-        '<nav class="main-nav" id="mainNav">' + navLinks() + '</nav>' +
+        '<nav class="main-nav" id="mainNav">' + navLinks(null, false) + '</nav>' +
         '<div class="header-cta">' +
           '<div class="contact-box">' +
 '<a href="' + WHATSAPP_US + '" class="contact-item">📞 ' + PHONE_US + '</a>' +
@@ -166,7 +213,7 @@
         '</div>' +
       '</div>' +
       '<div id="mobileNav" class="mobile-nav" aria-hidden="true">' +
-        navLinks() +
+        navLinks(null, true) +
         '<div class="mnav-contact">' +
           '<a href="' + WHATSAPP_US + '">📞 ' + PHONE_US + ' (Worldwide)</a>' +
                     '<a href="mailto:' + EMAIL + '">✉ ' + EMAIL + '</a>' +
