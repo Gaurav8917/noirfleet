@@ -148,11 +148,37 @@ main { padding-top: 90px; }
 /* ────────────────────────────────────────
    HERO
 ──────────────────────────────────────── */
-.hero-section { position: relative; width: 100%; min-height: 560px; overflow: hidden; }
-.banner-image { width: 100%; height: 100%; min-height: 560px; object-fit: cover; display: block; filter: brightness(0.35); }
+.hero-section {
+  position: relative; width: 100%; height: 560px; min-height: 560px;
+  overflow: hidden; background: #050505; isolation: isolate;
+}
+.banner-image {
+  position: absolute; inset: -6%; width: 112%; height: 112%; max-width: none;
+  object-fit: cover; object-position: center; display: block;
+  filter: brightness(0.38) contrast(1.08) saturate(0.92);
+  transform-origin: center center;
+  transform: translate3d(-1%, 0, 0) scale(1.08);
+  animation: noirFleetHero3D 14s ease-in-out infinite alternate;
+  will-change: transform; z-index: 0;
+}
+.hero-section::before {
+  content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none;
+  background: radial-gradient(circle at 72% 48%, rgba(255,209,102,0.08), transparent 38%);
+}
+.hero-section::after {
+  content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none;
+  background: linear-gradient(90deg, rgba(0,0,0,0.62) 0%, rgba(0,0,0,0.14) 70%, rgba(0,0,0,0.02) 100%);
+}
 .hero-overlay {
-  position: absolute; inset: 0; display: flex; align-items: center; padding: 40px;
-  background: linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.1) 70%, transparent 100%);
+  position: absolute; inset: 0; z-index: 3; display: flex; align-items: center; padding: 40px;
+  background: transparent;
+}
+@keyframes noirFleetHero3D {
+  0% { transform: translate3d(-1.5%, 0.3%, 0) scale(1.08) rotateZ(-0.15deg); }
+  25% { transform: translate3d(-0.5%, -0.2%, 0) scale(1.10) rotateZ(0deg); }
+  50% { transform: translate3d(0.7%, 0, 0) scale(1.12) rotateZ(0.12deg); }
+  75% { transform: translate3d(1.2%, -0.3%, 0) scale(1.10) rotateZ(0.05deg); }
+  100% { transform: translate3d(1.8%, 0.2%, 0) scale(1.08) rotateZ(-0.08deg); }
 }
 .hero-content { max-width: 620px; width: 100%; }
 .hero-eyebrow { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; opacity: 0.9; }
@@ -609,8 +635,8 @@ main { padding-top: 90px; }
   .event-card { height: 300px; }
   .why-grid { grid-template-columns: 1fr 1fr; }
   .footer-nav-cols { gap: 20px; }
-  .hero-section { min-height: 480px; }
-  .banner-image { min-height: 480px; }
+  .hero-section { height: 480px; min-height: 480px; }
+  .banner-image { inset: -5%; width: 110%; height: 110%; min-height: 0; animation-duration: 16s; }
 }
 @media (max-width: 600px) {
   main { padding-top: 72px; }
