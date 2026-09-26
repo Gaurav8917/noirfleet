@@ -1,5 +1,166 @@
 <!doctype html>
 <html lang="en">
+  <style>
+/* =========================================
+   NOIR FLEET — CINEMATIC 3D HERO
+   ========================================= */
+
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  perspective: 1400px;
+  background: #050505;
+  isolation: isolate;
+}
+
+/* Main hero image */
+.hero-section .banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+
+  /* Creates depth */
+  transform:
+    scale(1.08)
+    translateZ(0);
+
+  filter:
+    contrast(1.08)
+    saturate(0.92)
+    brightness(0.82);
+
+  animation: noirHeroDepth 16s ease-in-out infinite alternate;
+
+  will-change: transform;
+}
+
+/* Cinematic lighting over the image */
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      ellipse at 50% 45%,
+      rgba(255,255,255,0.05) 0%,
+      rgba(0,0,0,0.08) 38%,
+      rgba(0,0,0,0.65) 100%
+    );
+
+  mix-blend-mode: normal;
+}
+
+/* Luxury black/gold cinematic gradient */
+.hero-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(0,0,0,0.72) 0%,
+      rgba(0,0,0,0.42) 38%,
+      rgba(0,0,0,0.12) 72%,
+      rgba(0,0,0,0.35) 100%
+    );
+
+  box-shadow:
+    inset 0 0 120px rgba(0,0,0,0.75);
+}
+
+/* Keep your existing text/buttons above the effects */
+.hero-section .hero-overlay {
+  position: relative;
+  z-index: 3;
+}
+
+/* Very slow cinematic movement */
+@keyframes noirHeroDepth {
+  0% {
+    transform:
+      scale(1.08)
+      translate3d(-0.4%, 0, 0);
+  }
+
+  50% {
+    transform:
+      scale(1.11)
+      translate3d(0%, -0.3%, 0);
+  }
+
+  100% {
+    transform:
+      scale(1.08)
+      translate3d(0.4%, 0.2%, 0);
+  }
+}
+
+/* Give the hero text slightly more separation */
+.hero-section .hero-content {
+  text-shadow:
+    0 3px 18px rgba(0,0,0,0.75);
+}
+
+/* Gold heading gets subtle dimensionality */
+.hero-section .hero-gold {
+  text-shadow:
+    0 0 18px rgba(212,175,55,0.22),
+    0 3px 12px rgba(0,0,0,0.75);
+}
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 768px) {
+
+  .hero-section .banner-image {
+    object-position: center center;
+    transform: scale(1.05);
+    animation: noirHeroMobile 18s ease-in-out infinite alternate;
+  }
+
+  .hero-section::after {
+    background:
+      linear-gradient(
+        180deg,
+        rgba(0,0,0,0.30) 0%,
+        rgba(0,0,0,0.48) 50%,
+        rgba(0,0,0,0.78) 100%
+      );
+  }
+}
+
+@keyframes noirHeroMobile {
+  0% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1.09);
+  }
+}
+
+/* =========================================
+   ACCESSIBILITY
+   ========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .hero-section .banner-image {
+    animation: none;
+    transform: scale(1.05);
+  }
+}
+</style>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
