@@ -154,6 +154,80 @@
       </div>
     </section>
 
+
+    <!-- GLOBAL NETWORK EXPERIENCE -->
+    <section class="nf-global-network" aria-labelledby="nf-global-title">
+      <div class="nf-network-inner">
+        <div class="nf-network-copy">
+          <span class="section-eyebrow">Noir Fleet Global Network</span>
+          <h2 id="nf-global-title">One World.<br><span>One Network.</span></h2>
+          <p>From dedicated fleet operations in key markets to trusted local partners worldwide, Noir Fleet coordinates premium ground transportation across borders.</p>
+          <div class="nf-network-facts">
+            <div><strong>Worldwide</strong><span>Partner network</span></div>
+            <div><strong>24/7</strong><span>Reservation coordination</span></div>
+          </div>
+          <a class="btn primary" href="global.html">Explore Our Global Presence</a>
+        </div>
+        <div class="nf-globe-stage">
+          <div class="nf-globe-halo"></div>
+          <div class="nf-globe" id="nfGlobe" role="img" aria-label="Stylised rotating globe showing selected Noir Fleet network locations">
+            <div class="nf-globe-sphere">
+              <svg class="nf-globe-map" viewBox="0 0 520 520" aria-hidden="true">
+                <defs>
+                  <radialGradient id="nfOcean" cx="36%" cy="30%" r="75%">
+                    <stop offset="0%" stop-color="#263544"/>
+                    <stop offset="58%" stop-color="#101c29"/>
+                    <stop offset="100%" stop-color="#05090f"/>
+                  </radialGradient>
+                  <linearGradient id="nfLand" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#cba34c" stop-opacity=".9"/>
+                    <stop offset="100%" stop-color="#80652f" stop-opacity=".55"/>
+                  </linearGradient>
+                  <clipPath id="nfGlobeClip"><circle cx="260" cy="260" r="224"/></clipPath>
+                </defs>
+                <circle cx="260" cy="260" r="224" fill="url(#nfOcean)" stroke="#d7ae58" stroke-opacity=".8" stroke-width="2"/>
+                <g clip-path="url(#nfGlobeClip)" fill="none" stroke="#d9b45e" stroke-opacity=".22">
+                  <ellipse cx="260" cy="260" rx="224" ry="70"/>
+                  <ellipse cx="260" cy="260" rx="224" ry="140"/>
+                  <ellipse cx="260" cy="260" rx="224" ry="194"/>
+                  <ellipse cx="260" cy="260" rx="75" ry="224"/>
+                  <ellipse cx="260" cy="260" rx="145" ry="224"/>
+                  <path d="M36 260H484M55 150H465M55 370H465"/>
+                </g>
+                <g clip-path="url(#nfGlobeClip)" fill="url(#nfLand)" stroke="#f0cc78" stroke-opacity=".45" stroke-width="1.2">
+                  <path d="M94 127l22-26 39-12 30 13 17 28-14 23-31 7-12 23-27-4-19-22-24-4z"/>
+                  <path d="M178 193l30-15 31 14 18 33-7 42-20 34-9 47-21 42-17-12-9-43-17-35 2-42-17-31z"/>
+                  <path d="M245 104l34-19 43 8 25 24 42-3 35 24-8 23-37 10-21 28-38-3-22 18-28-20-37-2-19-25-2-32z"/>
+                  <path d="M291 222l28-18 43 8 25 27-8 36-30 19-9 42-24 32-19-20-4-43-20-37z"/>
+                  <path d="M385 330l28-8 24 17-12 23-29 6-19-17z"/>
+                  <path d="M80 365l29-12 28 13-8 24-33 10-20-15z"/>
+                </g>
+                <g clip-path="url(#nfGlobeClip)" fill="none" stroke="#ffd166" stroke-width="2" stroke-opacity=".55">
+                  <path d="M160 205 Q245 110 326 185 T420 235"/>
+                  <path d="M170 210 Q205 300 290 270 T390 240" stroke-opacity=".32"/>
+                  <path d="M260 260 Q290 180 326 185" stroke-opacity=".75"/>
+                </g>
+                <circle cx="260" cy="260" r="224" fill="none" stroke="#ffd166" stroke-opacity=".2" stroke-width="9"/>
+              </svg>
+              <button class="nf-city-dot nf-city-delhi" data-city="Delhi NCR" aria-label="Delhi NCR network information"><i></i><span>Delhi NCR</span></button>
+              <button class="nf-city-dot nf-city-mumbai" data-city="Mumbai" aria-label="Mumbai network information"><i></i><span>Mumbai</span></button>
+              <button class="nf-city-dot nf-city-gujarat" data-city="Gujarat" aria-label="Gujarat network information"><i></i><span>Gujarat</span></button>
+              <button class="nf-city-dot nf-city-toronto" data-city="Toronto" aria-label="Toronto network information"><i></i><span>Toronto</span></button>
+              <button class="nf-city-dot nf-city-vancouver" data-city="Vancouver" aria-label="Vancouver network information"><i></i><span>Vancouver</span></button>
+            </div>
+          </div>
+          <div class="nf-globe-controls">
+            <button type="button" id="nfGlobeToggle" aria-pressed="false">Pause rotation</button>
+            <span>SELECT A CITY TO EXPLORE</span>
+          </div>
+          <div class="nf-city-info" id="nfCityInfo" aria-live="polite">
+            <strong>Our network, connected</strong>
+            <span>Choose a highlighted city to learn about local service availability.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- CLOCKS BAR -->
     <section class="clocks-bar">
       <div class="clocks-inner">
@@ -304,6 +378,38 @@
     }
     tick();
     setInterval(tick, 1000);
+  })();
+  </script>
+
+
+  <script>
+  /* Noir Fleet globe: lightweight CSS/SVG interaction, no external libraries */
+  (function () {
+    var globe = document.getElementById('nfGlobe');
+    var toggle = document.getElementById('nfGlobeToggle');
+    var info = document.getElementById('nfCityInfo');
+    if (!globe || !toggle || !info) return;
+    var details = {
+      'Delhi NCR': 'Noir Fleet owned-fleet operations. Airport transfers, executive travel and corporate chauffeur services.',
+      'Mumbai': 'Noir Fleet owned-fleet operations. Airport transfers, business travel and event transportation.',
+      'Gujarat': 'Noir Fleet owned-fleet operations. Chauffeur-driven travel and corporate transportation.',
+      'Toronto': 'Noir Fleet leased-fleet presence for selected requirements. Advance confirmation is recommended.',
+      'Vancouver': 'Noir Fleet leased-fleet presence for selected requirements. Advance confirmation is recommended.'
+    };
+    toggle.addEventListener('click', function () {
+      var paused = globe.classList.toggle('is-paused');
+      toggle.textContent = paused ? 'Resume rotation' : 'Pause rotation';
+      toggle.setAttribute('aria-pressed', paused ? 'true' : 'false');
+    });
+    globe.querySelectorAll('.nf-city-dot').forEach(function (dot) {
+      dot.addEventListener('click', function () {
+        globe.querySelectorAll('.nf-city-dot').forEach(function (item) { item.classList.remove('is-selected'); });
+        dot.classList.add('is-selected');
+        var city = dot.getAttribute('data-city');
+        info.innerHTML = '<strong>' + city.replace(/&/g, '&amp;').replace(/</g, '&lt;') +
+          '</strong><span>' + details[city] + ' Contact our team to confirm vehicle availability and arrangements.</span>';
+      });
+    });
   })();
   </script>
 
