@@ -21,6 +21,82 @@
    ════════════════════════════════════════════════════════════════════ */
 
 const NF_ARTICLES = [
+     /* GITEX AI ASIA 2027 + INDIA CORPORATE TRANSPORTATION */
+  {
+    slug: "india-chauffeur-transportation-gitex-ai-asia-2027",
+    title: "India Chauffeur & Corporate Transportation Guide for GITEX AI ASIA 2027",
+    date: "November 22, 2026",
+    category: "Corporate Travel",
+    image: "banner.png",
+    excerpt: "Planning business travel around GITEX AI ASIA 2027? Explore executive chauffeur services, airport transfers, corporate car hire and ground transportation in India with Noir Fleet.",
+    content: `
+      <p>India's technology, startup and business communities are closely connected to global innovation platforms. <strong>GITEX AI ASIA 2027</strong> takes place on <strong>29–30 April 2027 at Marina Bay Sands, Singapore</strong>. Founders, investors, technology leaders, exhibitors and corporate teams will be planning international meetings and business itineraries around this event. Visit the <a href="https://gitexasia.com/" target="_blank" rel="noopener noreferrer">official GITEX AI ASIA website</a> for event updates.</p>
+      <p>For many organisations, business travel does not begin at the conference venue. It begins with airport transfers, office visits, client meetings, hotel movements and intercity journeys in India. Reliable ground transportation helps executives, visiting delegations and business travellers manage these journeys with greater confidence.</p>
+      <p>This guide covers <strong>chauffeur service in India, corporate transportation, airport transfers, executive car hire, private car rental with driver and intercity travel</strong>—for companies attending GITEX AI ASIA 2027, hosting international visitors or arranging business travel in India.</p>
+
+      <h2>GITEX AI ASIA 2027: Event Details</h2>
+      <ul><li><strong>Event:</strong> GITEX AI ASIA 2027</li><li><strong>Dates:</strong> 29–30 April 2027</li><li><strong>Venue:</strong> Marina Bay Sands, Singapore</li><li><strong>Official website:</strong> <a href="https://gitexasia.com/" target="_blank" rel="noopener noreferrer">gitexasia.com</a></li></ul>
+      <p>GITEX AI ASIA connects enterprises, technology leaders, governments, startups and investors, with themes including artificial intelligence, cybersecurity, cloud, fintech, quantum technology, data centres and digital innovation. For Indian companies attending, planning the India-based part of a business itinerary can be just as important as planning the conference visit.</p>
+
+      <h2>Corporate Transportation in India for Business Travellers</h2>
+      <p>Business travel in India can involve several destinations in one day: an airport arrival, hotel check-in, office visit, client meeting and evening engagement. A pre-arranged chauffeur-driven vehicle can provide a coordinated travel plan across those movements.</p>
+      <p>When choosing a corporate transportation provider, consider vehicle suitability, chauffeur professionalism, punctuality, booking support, trip monitoring, billing requirements and the ability to coordinate itinerary changes.</p>
+
+      <h2>Chauffeur Service in India: What Can Be Arranged?</h2>
+      <p>Depending on the city, vehicle availability and itinerary, Noir Fleet can assist with enquiries for:</p>
+      <ul>
+        <li><strong>Airport transfers:</strong> Pre-arranged pickups for executives, clients, speakers and visiting business guests.</li>
+        <li><strong>Corporate car rental with driver:</strong> Chauffeur-driven vehicles for office visits, meetings, roadshows and appointments.</li>
+        <li><strong>Hourly and full-day chauffeur service:</strong> Flexible arrangements for multi-stop schedules and extended business days.</li>
+        <li><strong>Intercity transportation:</strong> Private chauffeur-driven journeys between cities, subject to route and vehicle availability.</li>
+        <li><strong>Executive and VIP transportation:</strong> Premium vehicle arrangements with professional coordination.</li>
+        <li><strong>Group transportation:</strong> Cars, SUVs, executive vans and larger vehicles for teams and delegations, subject to availability.</li>
+        <li><strong>Event transportation:</strong> Planned guest movements, venue transfers and multi-vehicle coordination.</li>
+      </ul>
+
+      <h2>Key Indian Cities for Executive and Corporate Travel</h2>
+      <p>Noir Fleet's core India transportation enquiries include <strong>Delhi NCR, Mumbai, Bengaluru and Gujarat</strong>. Requirements in other Indian cities can also be discussed, with service confirmation depending on destination, vehicle category, dates and local operating arrangements.</p>
+      <h3>Delhi NCR</h3><p>Corporate airport transfers, executive car service, hotel-to-office journeys, business meetings and intercity travel from Delhi, Gurugram and Noida.</p>
+      <h3>Mumbai</h3><p>Business transportation for airport arrivals, corporate offices, financial district meetings, hotels, events and outstation journeys.</p>
+      <h3>Bengaluru</h3><p>Chauffeur-driven transportation for technology companies, business visitors, airport transfers, office visits and multi-stop corporate itineraries.</p>
+      <h3>Gujarat</h3><p>Business and executive transportation enquiries for Ahmedabad, Gandhinagar and other destinations, subject to itinerary and vehicle availability.</p>
+
+      <h2>Airport Transfer Service in India</h2>
+      <p>Airport transfers are often the first and last journeys in a business itinerary. A confirmed pickup plan, clear meeting instructions and a suitable vehicle can make an executive's arrival more straightforward.</p>
+      <p>When requesting an airport transfer, share the airport, airline and flight number, arrival date and time, passenger count, luggage requirements, destination address and a reachable contact number. Confirm the pickup procedure, waiting-time terms and how flight delays are handled.</p>
+
+      <h2>Choosing the Right Vehicle for Corporate Travel</h2>
+      <p>Premium sedans such as the Mercedes-Benz E-Class or BMW 5 Series may suit individual executives and point-to-point journeys. Luxury SUVs offer additional space, while premium MPVs such as the Mercedes-Benz V-Class or Toyota Vellfire may suit small groups and delegations. Larger groups may require executive vans, Sprinters, minibuses or coaches.</p>
+      <p>Always confirm the exact vehicle category, passenger capacity, luggage capacity and availability before booking.</p>
+
+      <h2>Planning an India Business Itinerary Around GITEX AI ASIA</h2>
+      <p>If your team is travelling from India to Singapore for GITEX AI ASIA 2027, organise the full business itinerary in advance. This may include domestic airport transfers, office and client visits before departure, transportation for colleagues arriving on different flights, and return airport transfers after the event.</p>
+      <p>For international attendees visiting India before or after the Singapore event, a central transportation coordinator can help bring airport, hotel, office and intercity movements into one plan. International destination services should always be confirmed separately for the relevant city and dates.</p>
+
+      <h2>What to Share When Requesting a Corporate Transportation Quote</h2>
+      <ul><li>Travel dates and city or cities required</li><li>Pickup and drop-off addresses</li><li>Flight details for airport transfers</li><li>Number of passengers and luggage quantity</li><li>Preferred vehicle category</li><li>Hourly, full-day, point-to-point or intercity requirements</li><li>Meeting schedule and expected waiting time</li><li>Corporate billing and invoice requirements</li><li>On-ground contact person</li></ul>
+
+      <h2>Why Businesses Choose a Coordinated Chauffeur Service</h2>
+      <p>A professional ground transportation arrangement is about more than the vehicle. It brings together reservations, dispatch, chauffeur communication, trip monitoring and support when plans change. For companies managing senior executives, visiting clients or event delegations, a coordinated service can reduce the administrative burden of arranging each journey separately.</p>
+      <p>Ask providers about their local operating model, vehicle sourcing, chauffeur standards, insurance and licensing, service coverage, escalation process and invoicing terms. Confirm the details that matter to your organisation before travel begins.</p>
+
+      <h2>Noir Fleet: Corporate, Executive and Event Transportation in India</h2>
+      <p><strong>Noir Fleet</strong> is a luxury ground transportation company supporting corporate travel, executive mobility, VIP movements and event transportation. Our service model combines professional chauffeurs, reservation and dispatch coordination, trip monitoring and access to a wider international affiliate network.</p>
+      <p>For India-based requirements, businesses can enquire about airport transfers, executive chauffeur service, corporate car hire with driver, hourly and full-day bookings, intercity journeys and group transportation. Core enquiries include Delhi NCR, Mumbai, Bengaluru and Gujarat; other destinations can be reviewed individually. All bookings and vehicle categories are subject to confirmation.</p>
+      <p>If you are attending GITEX AI ASIA 2027, hosting international visitors, or arranging executive travel in India, contact Noir Fleet with your itinerary to discuss a suitable transportation plan.</p>
+      <p><strong>Presence begins before arrival.</strong></p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>When is GITEX AI ASIA 2027?</h3><p>GITEX AI ASIA 2027 is scheduled for 29–30 April 2027 at Marina Bay Sands, Singapore. Check the official event website for updates.</p>
+      <h3>Does Noir Fleet provide chauffeur service in India?</h3><p>Noir Fleet accepts enquiries for chauffeur-driven transportation in India, including corporate travel, airport transfers, executive journeys, intercity travel and event movements. Availability depends on city, date, route and vehicle requirement.</p>
+      <h3>Which cities in India can I enquire about?</h3><p>Core India enquiries include Delhi NCR, Mumbai, Bengaluru and Gujarat. Other cities can be discussed individually, subject to local arrangements and confirmation.</p>
+      <h3>Can I book a corporate car with driver in India?</h3><p>You can enquire about chauffeur-driven sedans, SUVs and premium MPVs for meetings, office visits, roadshows, airport transfers and full-day corporate itineraries.</p>
+      <h3>Can Noir Fleet arrange airport transfers for international executives?</h3><p>You can enquire about pre-arranged airport pickups and drop-offs. Provide the flight number, arrival time, passenger details and destination so the requirements can be reviewed.</p>
+      <h3>Can transportation be arranged for a group or delegation?</h3><p>Group transportation can be discussed for teams, corporate delegations and event guests. Vehicle selection and availability depend on group size, luggage and itinerary.</p>
+      <h3>Does this article mean Noir Fleet provides transport in Singapore?</h3><p>No. This guide focuses on India-based transportation planning for businesses and travellers connected with GITEX AI ASIA 2027. Singapore services must be requested and confirmed separately.</p>
+    `
+  },
+
      /* ─── OCTOBER 27, 2026 — WEB SUMMIT LISBON 2026 ─── */
   {
     slug: "web-summit-lisbon-2026-transportation-guide",
